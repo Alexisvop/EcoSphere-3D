@@ -1,0 +1,1314 @@
+{
+  "blender": "5.2.3 LTS",
+  "models": [
+    {
+      "model_id": "CYCLE-001",
+      "name": "Plataforma industrial EcoCycle",
+      "category": "infraestructura",
+      "educational_function": "Organiza cuatro etapas sobre 48x48 m; sin colisiones fisicas",
+      "dimensions_m": [
+        48.0,
+        0.5099999979138374,
+        48.0
+      ],
+      "triangles": 348,
+      "materials": [
+        "ground",
+        "green",
+        "orange",
+        "stone",
+        "yellow"
+      ],
+      "bytes": 28816,
+      "bounds": [
+        [
+          -24.0,
+          -0.4399999976158142,
+          -24.0
+        ],
+        [
+          24.0,
+          0.07000000029802322,
+          24.0
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "73ecaa31dffe75482b7c9c01d92774eb79220ab4011190c99365a70fe229533c",
+      "geometry_signature": "32ddca493c1f47da21c6132aa10da940d9f658e93fa867bb7733e190bede4d01"
+    },
+    {
+      "model_id": "CYCLE-002",
+      "name": "Portal de flechas circulares",
+      "category": "infraestructura",
+      "educational_function": "Entrada a reducir reparar reutilizar y reciclar",
+      "dimensions_m": [
+        6.400000095367432,
+        3.873119831085205,
+        0.8999999761581421
+      ],
+      "triangles": 408,
+      "materials": [
+        "green",
+        "steel",
+        "blue",
+        "letters",
+        "yellow"
+      ],
+      "bytes": 33304,
+      "bounds": [
+        [
+          -3.200000047683716,
+          0.0,
+          -0.44999998807907104
+        ],
+        [
+          3.200000047683716,
+          3.873119831085205,
+          0.44999998807907104
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "bc8b0446fc528eababfd37940a2c9e8b8a383aeb8058e0d3ba01f344fc1150b3",
+      "geometry_signature": "d60b99b2e2e742b51b21e8d34f34c27f043b3c46f040d84071af528da9d2f577"
+    },
+    {
+      "model_id": "CYCLE-003",
+      "name": "Sendero de losas recuperadas",
+      "category": "infraestructura",
+      "educational_function": "Circulacion con losas y guias de material recuperado",
+      "dimensions_m": [
+        4.159999847412109,
+        0.07999999821186066,
+        10.0
+      ],
+      "triangles": 264,
+      "materials": [
+        "stone",
+        "green",
+        "orange"
+      ],
+      "bytes": 21516,
+      "bounds": [
+        [
+          -2.0799999237060547,
+          0.0,
+          -5.0
+        ],
+        [
+          2.0799999237060547,
+          0.07999999821186066,
+          5.0
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "f26a2b586326874f0f6d0eabf63028087aa8e74287fa2696776ffcef24942918",
+      "geometry_signature": "192e8f984d7f76eca58596571669572b9b07b41cf2805cf7ed8796a69ee18c5f"
+    },
+    {
+      "model_id": "CYCLE-004",
+      "name": "Quiosco de economia circular",
+      "category": "educacion",
+      "educational_function": "Priorizar reducir y reparar; reciclar depende de diseno y sistemas locales",
+      "dimensions_m": [
+        3.799999952316284,
+        2.740000009536743,
+        1.7000001072883606
+      ],
+      "triangles": 2196,
+      "materials": [
+        "wood",
+        "green",
+        "stone",
+        "orange",
+        "signboard",
+        "turquoise",
+        "letters",
+        "steel"
+      ],
+      "bytes": 158344,
+      "bounds": [
+        [
+          -1.899999976158142,
+          0.0,
+          -1.0500000715255737
+        ],
+        [
+          1.899999976158142,
+          2.740000009536743,
+          0.6500000357627869
+        ]
+      ],
+      "signs": [
+        {
+          "title": "CICLO CIRCULAR",
+          "lines": [
+            "REDUCIR Y REPARAR",
+            "RECICLAR NO ES TODO"
+          ],
+          "center": [
+            0,
+            1.6,
+            0.45
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -1.9,
+              0.9900000000000001,
+              0.39
+            ],
+            [
+              1.9,
+              2.21,
+              0.55
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.899999976158142,
+          0.0,
+          -1.0500000715255737
+        ],
+        [
+          1.899999976158142,
+          2.740000009536743,
+          0.6500000357627869
+        ]
+      ],
+      "sha256": "9c8d5bf434257bd2f1912a00c0668472334d071f4982ce414b368f2c16c5d5f9",
+      "geometry_signature": "888596ff64f01ceeacd24d4f912cf975a21fd47eacc098269180cfb6b6ae2313"
+    },
+    {
+      "model_id": "CYCLE-005",
+      "name": "Estacion de separacion de residuos",
+      "category": "clasificacion",
+      "educational_function": "Separar papel plastico vidrio y metales; verificar aceptacion local",
+      "dimensions_m": [
+        7.350000023841858,
+        2.1100001335144043,
+        1.399999976158142
+      ],
+      "triangles": 2148,
+      "materials": [
+        "paper",
+        "charcoal",
+        "steel",
+        "white",
+        "blue",
+        "glass",
+        "yellow",
+        "stone",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 159320,
+      "bounds": [
+        [
+          -5.5,
+          0.0,
+          -0.699999988079071
+        ],
+        [
+          1.850000023841858,
+          2.1100001335144043,
+          0.699999988079071
+        ]
+      ],
+      "signs": [
+        {
+          "title": "SEPARAR",
+          "lines": [
+            "PAPEL VIDRIO METAL",
+            "REVISAR REGLAS LOCALES"
+          ],
+          "center": [
+            -3.6,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.5,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.7000000000000002,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.850000023841858,
+          0.0,
+          -0.699999988079071
+        ],
+        [
+          1.850000023841858,
+          1.4600000381469727,
+          0.699999988079071
+        ]
+      ],
+      "sha256": "683b26e6e33bb5fe6aefd069e675c95751173c38e67d0af217296564a783ad26",
+      "geometry_signature": "f2b91dcf2a7f55a2a98ccabe7fb565054e8cfd5a4b24efc444c4b3da956168c3"
+    },
+    {
+      "model_id": "CYCLE-006",
+      "name": "Alimentador vibratorio",
+      "category": "clasificacion",
+      "educational_function": "Dosificar residuos mediante vibracion ilustrativa; no calcula transporte",
+      "dimensions_m": [
+        7.0,
+        2.8399999141693115,
+        3.4000000953674316
+      ],
+      "triangles": 2952,
+      "materials": [
+        "steel",
+        "yellow",
+        "orange",
+        "blue",
+        "paper",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 201528,
+      "bounds": [
+        [
+          -5.5,
+          0.0,
+          -1.7000000476837158
+        ],
+        [
+          1.5,
+          2.8399999141693115,
+          1.7000000476837158
+        ]
+      ],
+      "signs": [
+        {
+          "title": "ALIMENTAR",
+          "lines": [
+            "DOSIFICAR RESIDUOS",
+            "VIBRACION ILUSTRADA"
+          ],
+          "center": [
+            -3.6,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.5,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.7000000000000002,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.5,
+          0.0,
+          -1.7000000476837158
+        ],
+        [
+          1.5,
+          2.8399999141693115,
+          1.7000000476837158
+        ]
+      ],
+      "sha256": "9ec3f44f273e9aa437b650183965ef18213ef22c79e618872d71edd81550e3c2",
+      "geometry_signature": "9da1f3d9f2c277a8f6675a3802d7e9c7e88eafa5d58de03c6eb80b0a8bfb15f7"
+    },
+    {
+      "model_id": "CYCLE-007",
+      "name": "Bastidor de cinta transportadora",
+      "category": "procesamiento",
+      "educational_function": "Trasladar materiales y sostener rodillo y tambor ferroso",
+      "dimensions_m": [
+        7.149999976158142,
+        2.1100001335144043,
+        5.099999904632568
+      ],
+      "triangles": 2148,
+      "materials": [
+        "charcoal",
+        "blue",
+        "steel",
+        "yellow",
+        "green",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 157400,
+      "bounds": [
+        [
+          -5.5,
+          0.0,
+          -2.549999952316284
+        ],
+        [
+          1.649999976158142,
+          2.1100001335144043,
+          2.549999952316284
+        ]
+      ],
+      "signs": [
+        {
+          "title": "SEPARACION",
+          "lines": [
+            "IMAN PARA FERROSOS",
+            "NO TODOS LOS METALES"
+          ],
+          "center": [
+            -3.6,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.5,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.7000000000000002,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.649999976158142,
+          0.0,
+          -2.549999952316284
+        ],
+        [
+          1.649999976158142,
+          2.0,
+          2.549999952316284
+        ]
+      ],
+      "sha256": "6c4807cc790046ac07eafeb825b8063b3c337b63fb9ee4202aaeae6f71c185af",
+      "geometry_signature": "b72d0865204549ee91d461c39a35072a006a0117fe4278e5e01d5d75b922dc8e"
+    },
+    {
+      "model_id": "CYCLE-008",
+      "name": "Rodillo helicoidal",
+      "category": "procesamiento",
+      "educational_function": "Giro de rodillo; la banda no simula flujo de residuos",
+      "dimensions_m": [
+        3.08,
+        0.5299999713897705,
+        0.5226010084152222
+      ],
+      "triangles": 252,
+      "materials": [
+        "steel",
+        "blue",
+        "orange"
+      ],
+      "bytes": 19220,
+      "bounds": [
+        [
+          -1.54,
+          -0.26499998569488525,
+          -0.2613005042076111
+        ],
+        [
+          1.54,
+          0.26499998569488525,
+          0.2613005042076111
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "fcf8c7f4f26bad6f441ed98b57819affcc32fdcfa303c61bff7caf2e3e2fba9d",
+      "geometry_signature": "1b29a52cc005a4f6dd476322bc7700e41fe13e2e4e06fcafa58150b55371bd3f"
+    },
+    {
+      "model_id": "CYCLE-009",
+      "name": "Sensor optico demostrativo",
+      "category": "clasificacion",
+      "educational_function": "Barrido de sensor conceptual; no identifica materiales opticamente",
+      "dimensions_m": [
+        1.0499999523162842,
+        0.64,
+        0.550000011920929
+      ],
+      "triangles": 264,
+      "materials": [
+        "blue",
+        "charcoal",
+        "lens",
+        "steel"
+      ],
+      "bytes": 19896,
+      "bounds": [
+        [
+          -0.5249999761581421,
+          -0.31,
+          -0.2750000059604645
+        ],
+        [
+          0.5249999761581421,
+          0.33,
+          0.2750000059604645
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "23a3c1a6ef0c7ad0397feabc5beaec9e266d95689349fd63a8a6c30e1e0a07f5",
+      "geometry_signature": "39b9ab63313101c29ea60be77c67205029b8fcf1fcf882b3d4a37ddcb515c55b"
+    },
+    {
+      "model_id": "CYCLE-010",
+      "name": "Compuerta de desvio",
+      "category": "clasificacion",
+      "educational_function": "Desvio cinematico por compuerta; no clasifica objetos reales",
+      "dimensions_m": [
+        1.229999966621399,
+        0.65,
+        0.1415739516703124
+      ],
+      "triangles": 84,
+      "materials": [
+        "steel",
+        "yellow",
+        "orange"
+      ],
+      "bytes": 8584,
+      "bounds": [
+        [
+          -0.07,
+          -0.325,
+          -0.06657395614066076
+        ],
+        [
+          1.159999966621399,
+          0.325,
+          0.07499999552965163
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "ee819212019dc85cd8ba2a313cfda6df12db5102c4e02c86bb2b61219f943039",
+      "geometry_signature": "421ca349953a3aef2a48cf85bca4e8c0ea171b78a0d9c8d0763a49a96d302196"
+    },
+    {
+      "model_id": "CYCLE-011",
+      "name": "Tambor magnetico",
+      "category": "procesamiento",
+      "educational_function": "Atraccion magnetica ilustrada solo para materiales ferromagneticos",
+      "dimensions_m": [
+        3.09,
+        1.3199999928474426,
+        1.2999999523162842
+      ],
+      "triangles": 208,
+      "materials": [
+        "steel",
+        "yellow",
+        "blue",
+        "orange"
+      ],
+      "bytes": 16800,
+      "bounds": [
+        [
+          -1.545,
+          -0.6499999761581421,
+          -0.6499999761581421
+        ],
+        [
+          1.545,
+          0.6700000166893005,
+          0.6499999761581421
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "f7b83148b28c1cc3afda10b6e18e4254dc6be8064f93f47b1ed1217ffb6c56c1",
+      "geometry_signature": "d2ca25664ed67ab0e84a08b73a8eb2f37c7af689653bea628716ff31a55e6a4a"
+    },
+    {
+      "model_id": "CYCLE-012",
+      "name": "Bastidor de prensa de papel",
+      "category": "papel",
+      "educational_function": "Compactar papel separado para acopio; no elimina contaminacion",
+      "dimensions_m": [
+        7.499999761581421,
+        3.75,
+        2.799999952316284
+      ],
+      "triangles": 2264,
+      "materials": [
+        "stone",
+        "green",
+        "steel",
+        "orange",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 164400,
+      "bounds": [
+        [
+          -5.699999809265137,
+          0.0,
+          -1.399999976158142
+        ],
+        [
+          1.7999999523162842,
+          3.75,
+          1.399999976158142
+        ]
+      ],
+      "signs": [
+        {
+          "title": "PRENSAR PAPEL",
+          "lines": [
+            "COMPACTAR PARA ACOPIO",
+            "NO LIMPIA LAS FIBRAS"
+          ],
+          "center": [
+            -3.8,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.699999999999999,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.9,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.7999999523162842,
+          0.0,
+          -1.399999976158142
+        ],
+        [
+          1.7999999523162842,
+          3.75,
+          1.399999976158142
+        ]
+      ],
+      "sha256": "056d7d03c3191feec3faa9001408636849e0eecc3c0407779424aab42d3a1ffa",
+      "geometry_signature": "34c744c563a4bc57a95ed8c7541a53c64b66f78b6bdc04565227b58d61bf29e8"
+    },
+    {
+      "model_id": "CYCLE-013",
+      "name": "Embolo de compactacion",
+      "category": "papel",
+      "educational_function": "Carrera del embolo de compactacion ilustrativa sin fuerza calculada",
+      "dimensions_m": [
+        2.0,
+        0.8800000011920929,
+        1.600000023841858
+      ],
+      "triangles": 68,
+      "materials": [
+        "steel",
+        "orange",
+        "charcoal"
+      ],
+      "bytes": 7080,
+      "bounds": [
+        [
+          -1.0,
+          -0.2800000011920929,
+          -0.800000011920929
+        ],
+        [
+          1.0,
+          0.6,
+          0.800000011920929
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "f17cac9ec0ca8b0c55685f7b43c847532f01cb4edbbf88bd9ede68868e9e494f",
+      "geometry_signature": "e111970e9a93083f0dd9988c22202b59328e2eef93c73a4ae84fcb13b7120e8c"
+    },
+    {
+      "model_id": "CYCLE-014",
+      "name": "Fardo de papel recuperado",
+      "category": "papel",
+      "educational_function": "Fardo recuperado con fibras y flejes; la calidad depende de limpieza",
+      "dimensions_m": [
+        1.399999976158142,
+        1.0475000143051147,
+        1.1624999642372131
+      ],
+      "triangles": 108,
+      "materials": [
+        "paper",
+        "wood",
+        "blue"
+      ],
+      "bytes": 10140,
+      "bounds": [
+        [
+          -0.699999988079071,
+          -0.009999990463256836,
+          -0.574999988079071
+        ],
+        [
+          0.699999988079071,
+          1.037500023841858,
+          0.5874999761581421
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "7be077ff2877013152ca7ae839818aa010b10fd24e07e4f6554ec0018ba4f81b",
+      "geometry_signature": "d49701a584dba0c6c8bbef19082d66fd8bd5e47a0dd93a69d966c5dd4a5935a5"
+    },
+    {
+      "model_id": "CYCLE-015",
+      "name": "Carcasa de trituradora",
+      "category": "plastico",
+      "educational_function": "Reduccion de tamano; separar polimeros y proteger al operador",
+      "dimensions_m": [
+        6.599999904632568,
+        2.875,
+        2.5518558025360107
+      ],
+      "triangles": 1908,
+      "materials": [
+        "steel",
+        "orange",
+        "blue",
+        "yellow",
+        "charcoal",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 140860,
+      "bounds": [
+        [
+          -1.5,
+          0.0,
+          -1.2000000476837158
+        ],
+        [
+          5.099999904632568,
+          2.875,
+          1.351855754852295
+        ]
+      ],
+      "signs": [
+        {
+          "title": "TRITURAR",
+          "lines": [
+            "REDUCIR EL TAMANO",
+            "NO MEZCLAR POLIMEROS"
+          ],
+          "center": [
+            3.2,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              1.3000000000000003,
+              0.89,
+              -0.06
+            ],
+            [
+              5.1,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.5,
+          0.0,
+          -1.2000000476837158
+        ],
+        [
+          1.5,
+          2.875,
+          1.351855754852295
+        ]
+      ],
+      "sha256": "0080a708f4a9771a7ebaa82494e5bd4e383764d45c949155256411fab4ca91f8",
+      "geometry_signature": "18ad420b2cfaaad6be89b858d42d4c2fe210fd402afb9b39375685cafefe94ab"
+    },
+    {
+      "model_id": "CYCLE-016",
+      "name": "Rotor de cuchillas",
+      "category": "plastico",
+      "educational_function": "Rotor dentado de trituracion; no fragmenta geometria",
+      "dimensions_m": [
+        2.3,
+        1.1100144982337952,
+        1.1101012229919434
+      ],
+      "triangles": 404,
+      "materials": [
+        "steel",
+        "charcoal",
+        "blue"
+      ],
+      "bytes": 30120,
+      "bounds": [
+        [
+          -1.15,
+          -0.55500727891922,
+          -0.5550506114959717
+        ],
+        [
+          1.15,
+          0.5550072193145752,
+          0.5550506114959717
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "b80c9dbf409639e2ee2eb16ba0704caf82e276e2f427d58e4f98222f0e0dc6dd",
+      "geometry_signature": "21b56df7ada1adcb98f4824591e51bacd72ad0c8d9f7c62e32597e732c12fc13"
+    },
+    {
+      "model_id": "CYCLE-017",
+      "name": "Tanque de lavado",
+      "category": "plastico",
+      "educational_function": "Lavado requiere tratamiento del agua usada; sin eficiencia inventada",
+      "dimensions_m": [
+        7.200000047683716,
+        2.1100001335144043,
+        2.799999952316284
+      ],
+      "triangles": 2168,
+      "materials": [
+        "stone",
+        "steel",
+        "green",
+        "water",
+        "blue",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 160048,
+      "bounds": [
+        [
+          -1.7000000476837158,
+          0.0,
+          -1.399999976158142
+        ],
+        [
+          5.5,
+          2.1100001335144043,
+          1.399999976158142
+        ]
+      ],
+      "signs": [
+        {
+          "title": "LAVAR PLASTICO",
+          "lines": [
+            "RETIRAR SUCIEDAD",
+            "TRATAR EL AGUA USADA"
+          ],
+          "center": [
+            3.6,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              1.7000000000000002,
+              0.89,
+              -0.06
+            ],
+            [
+              5.5,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.7000000476837158,
+          0.0,
+          -1.399999976158142
+        ],
+        [
+          1.7000000476837158,
+          1.8700000047683716,
+          1.399999976158142
+        ]
+      ],
+      "sha256": "246fa06681c21b4db76faf14f77942b29ce9da8b58aa99e1e52c3abc5086cda5",
+      "geometry_signature": "4c0b0b739eab24ad16c75ad32c1ad55b2b2af205fddfdd8411fcc32960bedb15"
+    },
+    {
+      "model_id": "CYCLE-018",
+      "name": "Extrusora seccionada",
+      "category": "plastico",
+      "educational_function": "Conformado mediante calor y husillo; sin temperatura o caudal simulado",
+      "dimensions_m": [
+        8.75,
+        2.4499999999999997,
+        2.0
+      ],
+      "triangles": 2308,
+      "materials": [
+        "green",
+        "steel",
+        "orange",
+        "yellow",
+        "blue",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 165364,
+      "bounds": [
+        [
+          -2.6500000953674316,
+          0.0,
+          -1.0
+        ],
+        [
+          6.099999904632568,
+          2.4499999999999997,
+          1.0
+        ]
+      ],
+      "signs": [
+        {
+          "title": "EXTRUSION",
+          "lines": [
+            "CALOR Y CONFORMADO",
+            "CONTROLAR EL MATERIAL"
+          ],
+          "center": [
+            4.2,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              2.3000000000000003,
+              0.89,
+              -0.06
+            ],
+            [
+              6.1,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -2.6500000953674316,
+          0.0,
+          -1.0
+        ],
+        [
+          2.6500000953674316,
+          2.4499999999999997,
+          1.0
+        ]
+      ],
+      "sha256": "071b4d3d75bc76cb78cd76b6384e884d3c71d10a07bb9d5f0b56e57f17717e74",
+      "geometry_signature": "aa769e36cbbfac205d93a3f50f053c28b8aea72e1e8b3354f941b59d9a03af98"
+    },
+    {
+      "model_id": "CYCLE-019",
+      "name": "Bobina de filamento",
+      "category": "plastico",
+      "educational_function": "Filamento recuperado sujeto a calidad y compatibilidad de polimero",
+      "dimensions_m": [
+        1.56,
+        1.63,
+        1.2999999523162842
+      ],
+      "triangles": 1040,
+      "materials": [
+        "orange",
+        "green",
+        "blue",
+        "stone"
+      ],
+      "bytes": 60956,
+      "bounds": [
+        [
+          -0.78,
+          0.0,
+          -0.6499999761581421
+        ],
+        [
+          0.78,
+          1.63,
+          0.6499999761581421
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "a70f93be25eb212893f9bc974d973761eedf9f0739b9964c538748d7f82c96a4",
+      "geometry_signature": "5cc761d4d94a17402ee73db6c18d2f865309a705233938d8bc71db17597aa059"
+    },
+    {
+      "model_id": "CYCLE-020",
+      "name": "Trituradora de vidrio",
+      "category": "vidrio",
+      "educational_function": "Reduccion mecanica de vidrio clasificado; evitar mezclas incompatibles",
+      "dimensions_m": [
+        6.950000047683716,
+        2.4499999999999997,
+        2.595980167388916
+      ],
+      "triangles": 2316,
+      "materials": [
+        "blue",
+        "steel",
+        "green",
+        "orange",
+        "charcoal",
+        "yellow",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 169000,
+      "bounds": [
+        [
+          -5.5,
+          0.0,
+          -1.2000000476837158
+        ],
+        [
+          1.4500000476837158,
+          2.4499999999999997,
+          1.3959801197052002
+        ]
+      ],
+      "signs": [
+        {
+          "title": "RECUPERAR VIDRIO",
+          "lines": [
+            "SEPARAR POR TIPO",
+            "EVITAR CONTAMINANTES"
+          ],
+          "center": [
+            -3.6,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.5,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.7000000000000002,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.4500000476837158,
+          0.0,
+          -1.2000000476837158
+        ],
+        [
+          1.4500000476837158,
+          2.4499999999999997,
+          1.3959801197052002
+        ]
+      ],
+      "sha256": "82c40170610ea92736f70e23fbee2d9f563b2be54e5c7eec1e2fcb096b65326b",
+      "geometry_signature": "1caf76b95726fb7e10b2d515b272256c9e153e49b75e62c888067ad0bcde8d2e"
+    },
+    {
+      "model_id": "CYCLE-021",
+      "name": "Cajon de vidrio recuperado",
+      "category": "vidrio",
+      "educational_function": "Fragmentos recuperados; contaminantes afectan calidad del material",
+      "dimensions_m": [
+        2.700000047683716,
+        1.100000023841858,
+        2.0
+      ],
+      "triangles": 276,
+      "materials": [
+        "wood",
+        "steel",
+        "glass"
+      ],
+      "bytes": 22348,
+      "bounds": [
+        [
+          -1.350000023841858,
+          0.0,
+          -1.0
+        ],
+        [
+          1.350000023841858,
+          1.100000023841858,
+          1.0
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "ac5acf3828773d215d0b9435d4731cc16e6975d4af60887564d072cfa6ee3b89",
+      "geometry_signature": "64cb49db6b1478aeaecb868792ee85976b647f5a4603aff6e1aeb144d1b45d0e"
+    },
+    {
+      "model_id": "CYCLE-022",
+      "name": "Compostador rotativo",
+      "category": "reutilizacion",
+      "educational_function": "Compostaje de organicos necesita aire humedad y manejo; no tiempo simulado",
+      "dimensions_m": [
+        2.4,
+        1.9200000000000002,
+        2.4
+      ],
+      "triangles": 736,
+      "materials": [
+        "stone",
+        "wood",
+        "green",
+        "steel",
+        "orange"
+      ],
+      "bytes": 47748,
+      "bounds": [
+        [
+          -1.2,
+          0.0,
+          -1.2
+        ],
+        [
+          1.2,
+          1.9200000000000002,
+          1.2
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "1fc9f6382611934ef01c43e0784ec851db11a925a777012ac48eee54c047a102",
+      "geometry_signature": "5ada3025a054e6029c0547fad19f0bcb7245f0c855a2c1a0ab47e925fd70e6d0"
+    },
+    {
+      "model_id": "CYCLE-023",
+      "name": "Banco de reparacion",
+      "category": "reutilizacion",
+      "educational_function": "Reparacion prolonga uso; evaluar seguridad y piezas recuperables",
+      "dimensions_m": [
+        7.299999952316284,
+        2.325000047683716,
+        1.600000023841858
+      ],
+      "triangles": 2040,
+      "materials": [
+        "wood",
+        "green",
+        "steel",
+        "orange",
+        "yellow",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 149572,
+      "bounds": [
+        [
+          -1.7000000476837158,
+          0.0,
+          -0.800000011920929
+        ],
+        [
+          5.599999904632568,
+          2.325000047683716,
+          0.800000011920929
+        ]
+      ],
+      "signs": [
+        {
+          "title": "REPARAR",
+          "lines": [
+            "ALARGAR VIDA UTIL",
+            "COMPOSTAR ORGANICOS"
+          ],
+          "center": [
+            3.7,
+            1.5,
+            0
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              1.8000000000000003,
+              0.89,
+              -0.06
+            ],
+            [
+              5.6,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.7000000476837158,
+          0.0,
+          -0.800000011920929
+        ],
+        [
+          1.7000000476837158,
+          2.325000047683716,
+          0.800000011920929
+        ]
+      ],
+      "sha256": "2faf604d9269690f110d77f2d31831fad914679087351b372749cb1521ae0d28",
+      "geometry_signature": "30ea1f8ea696af876144f50604bcdd0f5880c77adfb8e213c49e82d5b8baccb6"
+    },
+    {
+      "model_id": "CYCLE-024",
+      "name": "Silla de listones recuperados",
+      "category": "reutilizacion",
+      "educational_function": "Mueble de listones reutilizados; valorar integridad antes de usar",
+      "dimensions_m": [
+        1.5499999523162842,
+        2.0799999237060547,
+        1.3849999904632568
+      ],
+      "triangles": 168,
+      "materials": [
+        "steel",
+        "wood",
+        "green",
+        "yellow"
+      ],
+      "bytes": 15720,
+      "bounds": [
+        [
+          -0.7749999761581421,
+          0.0,
+          -0.7249999642372131
+        ],
+        [
+          0.7749999761581421,
+          2.0799999237060547,
+          0.6600000262260437
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "b09bc9a1a1b20388224f61f8ffe1471653a2ba0252d7a065328c69d770fc2f7d",
+      "geometry_signature": "dc578bd7281a36b13eaa9fc19e363f136e335260117bef07ba94a98a9ae5c59a"
+    }
+  ]
+}

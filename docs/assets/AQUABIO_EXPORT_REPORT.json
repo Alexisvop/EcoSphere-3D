@@ -1,0 +1,1576 @@
+{
+  "blender": "5.2.3 LTS",
+  "models": [
+    {
+      "model_id": "AQUA-001",
+      "name": "Plataforma de cuenca AquaBio",
+      "category": "arquitectura",
+      "educational_function": "Organiza el recorrido desde la captacion hasta la conservacion",
+      "dimensions_m": [
+        48.0,
+        0.4599999934434891,
+        48.0
+      ],
+      "triangles": 120,
+      "materials": [
+        "earth",
+        "stone",
+        "turquoise",
+        "blue",
+        "sand"
+      ],
+      "bytes": 12684,
+      "bounds": [
+        [
+          -24.0,
+          -0.3799999952316284,
+          -24.0
+        ],
+        [
+          24.0,
+          0.07999999821186066,
+          24.0
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "0c716eb610b6c405925a04ba5e680d5aa079324f34a3afdd8b949e90ac4724be",
+      "geometry_signature": "bbf5dd38320e5010cb2683c4fad3d04b057d4399612d770d574186e1c3fbe9d6"
+    },
+    {
+      "model_id": "AQUA-002",
+      "name": "Portico de gotas y ondas",
+      "category": "arquitectura",
+      "educational_function": "Identifica el ingreso y el uso responsable del agua",
+      "dimensions_m": [
+        6.1000000000000005,
+        3.9697177410125732,
+        0.9
+      ],
+      "triangles": 2324,
+      "materials": [
+        "stone",
+        "blue",
+        "turquoise",
+        "slate",
+        "letters",
+        "steel"
+      ],
+      "bytes": 172264,
+      "bounds": [
+        [
+          -3.0500000000000003,
+          0.0,
+          -0.45
+        ],
+        [
+          3.0500000000000003,
+          3.9697177410125732,
+          0.45
+        ]
+      ],
+      "signs": [
+        {
+          "title": "AQUABIO",
+          "lines": [
+            "CAPTAR TRATAR CONSERVAR",
+            "CADA GOTA CUENTA"
+          ],
+          "center": [
+            0,
+            2.9,
+            0.1
+          ],
+          "width": 4.5,
+          "height": 1.22,
+          "letter_heights": [
+            0.17,
+            0.17,
+            0.17
+          ],
+          "bounds": [
+            [
+              -2.25,
+              2.29,
+              0.04000000000000001
+            ],
+            [
+              2.25,
+              3.51,
+              0.2
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -3.0500000000000003,
+          0.0,
+          -0.45
+        ],
+        [
+          3.0500000000000003,
+          3.9697177410125732,
+          0.45
+        ]
+      ],
+      "sha256": "8bc7a266049c1d5a686ee72089602a4ce173778b154c856ab14cccccd5f77217",
+      "geometry_signature": "bcedda945db1a44ad4cb98b8b4ec0d03214c073b675483cfbd53c5609c065c54"
+    },
+    {
+      "model_id": "AQUA-003",
+      "name": "Sendero con drenaje lateral",
+      "category": "arquitectura",
+      "educational_function": "Distingue circulacion peatonal de escorrentia superficial",
+      "dimensions_m": [
+        3.120000123977661,
+        0.06350000202655792,
+        8.0
+      ],
+      "triangles": 288,
+      "materials": [
+        "stone",
+        "sand",
+        "blue",
+        "steel"
+      ],
+      "bytes": 24064,
+      "bounds": [
+        [
+          -1.5600000619888306,
+          0.0,
+          -4.0
+        ],
+        [
+          1.5600000619888306,
+          0.06350000202655792,
+          4.0
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "2b50af3fc53fcf34961c83bfc94181ba1737b807354f9f70da1f42ea17ea7c41",
+      "geometry_signature": "ab3f8a5bb6b5a19df06c8239e1b895756ca802bee37e22c62a8a9f13a0a409be"
+    },
+    {
+      "model_id": "AQUA-004",
+      "name": "Cubierta recolectora de lluvia",
+      "category": "captacion",
+      "educational_function": "Interception de lluvia y conduccion por pendiente hacia canaleta",
+      "dimensions_m": [
+        7.3999998569488525,
+        3.398057222366333,
+        3.8099998235702515
+      ],
+      "triangles": 1724,
+      "materials": [
+        "steel",
+        "blue",
+        "turquoise",
+        "signboard",
+        "letters"
+      ],
+      "bytes": 125068,
+      "bounds": [
+        [
+          -5.199999809265137,
+          0.0,
+          -2.0999999046325684
+        ],
+        [
+          2.200000047683716,
+          3.398057222366333,
+          1.709999918937683
+        ]
+      ],
+      "signs": [
+        {
+          "title": "LLUVIA",
+          "lines": [
+            "CAPTAR LA LLUVIA",
+            "DESVIAR PRIMER LAVADO"
+          ],
+          "center": [
+            -3.6,
+            1.5,
+            0.5
+          ],
+          "width": 3.2,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.1713124274099884
+          ],
+          "bounds": [
+            [
+              -5.2,
+              0.89,
+              0.44
+            ],
+            [
+              -2.0,
+              2.11,
+              0.6
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -2.200000047683716,
+          0.0,
+          -2.0999999046325684
+        ],
+        [
+          2.200000047683716,
+          3.398057222366333,
+          1.709999918937683
+        ]
+      ],
+      "sha256": "defdfcfb05c67d4bf374d22c0aa31022365df57fe31888f4572320eacdde0008",
+      "geometry_signature": "482986b6a584b20b4e91bf13cae31a9fb840654a8c15bfc2344f7c2e7aedbc63"
+    },
+    {
+      "model_id": "AQUA-005",
+      "name": "Canaleta basculante",
+      "category": "captacion",
+      "educational_function": "Ilustra el ajuste de pendiente de un canal abierto",
+      "dimensions_m": [
+        3.7899999618530273,
+        0.6849999874830246,
+        0.5399999618530273
+      ],
+      "triangles": 272,
+      "materials": [
+        "turquoise",
+        "steel",
+        "blue"
+      ],
+      "bytes": 19812,
+      "bounds": [
+        [
+          -1.75,
+          -0.5199999809265137,
+          -0.26999998092651367
+        ],
+        [
+          2.0399999618530273,
+          0.16500000655651093,
+          0.26999998092651367
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "a01c966d3c54e2fd15d012301dc5fa23ffb19689a5cc19f3c9d72db1cd13dd37",
+      "geometry_signature": "2c346175724dcdc060a6f26394359894a4e250fd8e3a0e744b6a3b83786ef7f2"
+    },
+    {
+      "model_id": "AQUA-006",
+      "name": "Cisterna seccionada",
+      "category": "almacenamiento",
+      "educational_function": "Almacena lluvia con tapa rebose y primer desvio ilustrativo",
+      "dimensions_m": [
+        6.0000001907348635,
+        2.36,
+        2.4
+      ],
+      "triangles": 2632,
+      "materials": [
+        "stone",
+        "blue",
+        "steel",
+        "water",
+        "turquoise",
+        "signboard",
+        "letters"
+      ],
+      "bytes": 178728,
+      "bounds": [
+        [
+          -4.800000190734863,
+          0.0,
+          -1.2
+        ],
+        [
+          1.2000000000000002,
+          2.36,
+          1.2
+        ]
+      ],
+      "signs": [
+        {
+          "title": "CISTERNA",
+          "lines": [
+            "NO POTABILIZA",
+            "TAPA REBOSE LIMPIEZA"
+          ],
+          "center": [
+            -3.2,
+            1.5,
+            0
+          ],
+          "width": 3.2,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.17987804878048785
+          ],
+          "bounds": [
+            [
+              -4.800000000000001,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.6,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.465000033378601,
+          0.0,
+          -1.2
+        ],
+        [
+          1.2,
+          2.36,
+          1.2
+        ]
+      ],
+      "sha256": "ad9269fff95d27166ac7753aec3098ae68d3d85f60aeb43f60889f8a735c5593",
+      "geometry_signature": "e4f079cd3e50d244770a46e899a7f1d20e35a84902b17fb52c4ef49c55bc99dd"
+    },
+    {
+      "model_id": "AQUA-007",
+      "name": "Rejilla de captacion",
+      "category": "captacion",
+      "educational_function": "Retiene residuos gruesos antes del almacenamiento",
+      "dimensions_m": [
+        1.7999999523162842,
+        0.38499999046325684,
+        1.2000000476837158
+      ],
+      "triangles": 236,
+      "materials": [
+        "stone",
+        "steel",
+        "earth"
+      ],
+      "bytes": 20356,
+      "bounds": [
+        [
+          -0.8999999761581421,
+          0.0,
+          -0.6000000238418579
+        ],
+        [
+          0.8999999761581421,
+          0.38499999046325684,
+          0.6000000238418579
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "049a21e2b3ffb23742c939dc54fd565a3cafd8b2dffd6c0b090d80133f99f332",
+      "geometry_signature": "cd78419db02b97e5c16d5626c3612d8c7ce65e1715dd36c15d81cbbc489cdc77"
+    },
+    {
+      "model_id": "AQUA-008",
+      "name": "Carcasa de bomba en voluta",
+      "category": "bombeo",
+      "educational_function": "Muestra aspiracion axial e impulsion tangencial",
+      "dimensions_m": [
+        5.340000190734863,
+        2.1100001335144043,
+        1.25
+      ],
+      "triangles": 1972,
+      "materials": [
+        "stone",
+        "blue",
+        "steel",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 139320,
+      "bounds": [
+        [
+          -4.300000190734863,
+          0.0,
+          -0.625
+        ],
+        [
+          1.04,
+          2.1100001335144043,
+          0.625
+        ]
+      ],
+      "signs": [
+        {
+          "title": "BOMBA",
+          "lines": [
+            "GIRO A IMPULSION",
+            "SIN CAUDAL REAL"
+          ],
+          "center": [
+            -3,
+            1.5,
+            -0.2
+          ],
+          "width": 2.6,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.1791158536585366,
+            0.18
+          ],
+          "bounds": [
+            [
+              -4.3,
+              0.89,
+              -0.26
+            ],
+            [
+              -1.7,
+              2.11,
+              -0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -0.8500000238418579,
+          0.0,
+          -0.625
+        ],
+        [
+          1.04,
+          1.85,
+          0.625
+        ]
+      ],
+      "sha256": "bba2118729ba05a222da60ea079f7fab18f77b64e35efdc79df3e88126238bb1",
+      "geometry_signature": "960ef6270471ec6126411c7e38ec9d4b74a4991fb2dda576247cffaacf783793"
+    },
+    {
+      "model_id": "AQUA-009",
+      "name": "Impulsor centrifugo",
+      "category": "bombeo",
+      "educational_function": "Transfiere energia mecanica al agua; giro cinematico",
+      "dimensions_m": [
+        0.86,
+        0.86,
+        0.24000000000000002
+      ],
+      "triangles": 312,
+      "materials": [
+        "steel",
+        "turquoise"
+      ],
+      "bytes": 24792,
+      "bounds": [
+        [
+          -0.43,
+          -0.43,
+          -0.04
+        ],
+        [
+          0.43,
+          0.43,
+          0.2
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "9dac7a645c131f84675d39109265851d3147eec4d2197a39af49b677639c4974",
+      "geometry_signature": "f45189a7c9f7111fb594dffa322639287fa037694a5ee9a9c65fdf259deccaf2"
+    },
+    {
+      "model_id": "AQUA-010",
+      "name": "Tanque sedimentador seccionado",
+      "category": "tratamiento",
+      "educational_function": "Separa parte de los solidos suspendidos por gravedad",
+      "dimensions_m": [
+        7.450000190734864,
+        2.1100001335144043,
+        3.3
+      ],
+      "triangles": 2836,
+      "materials": [
+        "stone",
+        "sand",
+        "earth",
+        "water",
+        "blue",
+        "steel",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 195580,
+      "bounds": [
+        [
+          -5.800000190734863,
+          0.0,
+          -1.65
+        ],
+        [
+          1.6500000000000004,
+          2.1100001335144043,
+          1.65
+        ]
+      ],
+      "signs": [
+        {
+          "title": "SEDIMENTACION",
+          "lines": [
+            "SEPARA SOLIDOS",
+            "NO ELIMINA RIESGOS"
+          ],
+          "center": [
+            -4,
+            1.5,
+            0
+          ],
+          "width": 3.6,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.8,
+              0.89,
+              -0.06
+            ],
+            [
+              -2.2,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -2.0,
+          0.0,
+          -1.65
+        ],
+        [
+          1.65,
+          1.72,
+          1.65
+        ]
+      ],
+      "sha256": "d0bf234ff2cf7b9b39f6c0d4b32da86f03ed024d9156be25104eb8ce2f0a52f3",
+      "geometry_signature": "326e6e9eebed325bdadd2e6a9c31510127a64eff36b40c6c7c5f1d1854b3e434"
+    },
+    {
+      "model_id": "AQUA-011",
+      "name": "Barredor radial de sedimentos",
+      "category": "tratamiento",
+      "educational_function": "Representa recoleccion lenta de lodos depositados",
+      "dimensions_m": [
+        2.56000018119812,
+        0.4999999928474426,
+        0.2800000011920929
+      ],
+      "triangles": 172,
+      "materials": [
+        "steel",
+        "turquoise"
+      ],
+      "bytes": 13216,
+      "bounds": [
+        [
+          -1.28000009059906,
+          -0.3199999928474426,
+          -0.14000000059604645
+        ],
+        [
+          1.28000009059906,
+          0.18,
+          0.14000000059604645
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "2deef6d6212f2a22e2a256da90a276e0075475b8b547bd2eb2b18e1af450646e",
+      "geometry_signature": "e2d94280df561748ed8a0874237571b48a90f0a262b3b296fc3665ef74a6a50a"
+    },
+    {
+      "model_id": "AQUA-012",
+      "name": "Filtro de arena estratificado",
+      "category": "tratamiento",
+      "educational_function": "Retencion de particulas en un lecho granular",
+      "dimensions_m": [
+        4.675000071525574,
+        2.1100001335144043,
+        1.3
+      ],
+      "triangles": 2204,
+      "materials": [
+        "stone",
+        "steel",
+        "blue",
+        "gravel",
+        "sand",
+        "fine_sand",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 151424,
+      "bounds": [
+        [
+          -3.950000047683716,
+          0.0,
+          -0.65
+        ],
+        [
+          0.7250000238418579,
+          2.1100001335144043,
+          0.65
+        ]
+      ],
+      "signs": [
+        {
+          "title": "ARENA",
+          "lines": [
+            "RETIENE PARTICULAS",
+            "LAVAR Y MANTENER"
+          ],
+          "center": [
+            -2.5,
+            1.5,
+            0
+          ],
+          "width": 2.9,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.17953929539295393,
+            0.18
+          ],
+          "bounds": [
+            [
+              -3.95,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.05,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -0.7250000238418579,
+          0.0,
+          -0.65
+        ],
+        [
+          0.7250000238418579,
+          1.9600000000000002,
+          0.65
+        ]
+      ],
+      "sha256": "434d6b6d4a7a1886653b310b7f9cd27de04e9869a7898488b23210ad04aea16e",
+      "geometry_signature": "946bf7fb7d669019087a258bda427d04e4dfe4eb105bc28b9b328385482c38fc"
+    },
+    {
+      "model_id": "AQUA-013",
+      "name": "Columna de carbon activado",
+      "category": "tratamiento",
+      "educational_function": "Adsorcion de algunos compuestos; requiere mantenimiento",
+      "dimensions_m": [
+        4.8750001192092896,
+        2.1100001335144043,
+        1.2999999523162842
+      ],
+      "triangles": 3628,
+      "materials": [
+        "stone",
+        "steel",
+        "blue",
+        "carbon",
+        "turquoise",
+        "signboard",
+        "letters"
+      ],
+      "bytes": 262484,
+      "bounds": [
+        [
+          -4.150000095367432,
+          0.0,
+          -0.6499999761581421
+        ],
+        [
+          0.7250000238418579,
+          2.1100001335144043,
+          0.6499999761581421
+        ]
+      ],
+      "signs": [
+        {
+          "title": "CARBON ACTIVADO",
+          "lines": [
+            "ADSORBE COMPUESTOS",
+            "NO DESINFECTA TODO"
+          ],
+          "center": [
+            -2.5,
+            1.5,
+            0
+          ],
+          "width": 3.3,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -4.15,
+              0.89,
+              -0.06
+            ],
+            [
+              -0.8500000000000001,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -0.7250000238418579,
+          0.0,
+          -0.6499999761581421
+        ],
+        [
+          0.7250000238418579,
+          2.055,
+          0.6499999761581421
+        ]
+      ],
+      "sha256": "1a2d800260d6bcf6c82c24720fd9122534b1f633031167d4470f1f52ac91fe0e",
+      "geometry_signature": "c64f055e42bc9806a64a3e6de1ddc8a1726b95fd9ca40d42749336ca9e0caf4a"
+    },
+    {
+      "model_id": "AQUA-014",
+      "name": "Cartucho filtrante plisado",
+      "category": "tratamiento",
+      "educational_function": "Elemento desmontable para inspeccion y recambio",
+      "dimensions_m": [
+        0.54,
+        1.0638463497161865,
+        0.54
+      ],
+      "triangles": 552,
+      "materials": [
+        "white",
+        "fine_sand",
+        "turquoise",
+        "steel"
+      ],
+      "bytes": 38812,
+      "bounds": [
+        [
+          -0.27,
+          0.0,
+          -0.27
+        ],
+        [
+          0.27,
+          1.0638463497161865,
+          0.27
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "afd1986092a58d1b9de922d6a62b965c96765764e3394a2ab839005d50533cf4",
+      "geometry_signature": "e57e5887e04a12dafb326ac11608a4f3f75f326b0f85109cf8979b48e3ee1583"
+    },
+    {
+      "model_id": "AQUA-015",
+      "name": "Camara UV seccionada",
+      "category": "tratamiento",
+      "educational_function": "Desinfeccion requiere dosis caudal y transmitancia controlados",
+      "dimensions_m": [
+        5.499999940395355,
+        2.1100001335144043,
+        1.6
+      ],
+      "triangles": 2592,
+      "materials": [
+        "blue",
+        "steel",
+        "uv",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 179284,
+      "bounds": [
+        [
+          -0.9000000357627869,
+          0.0,
+          -0.8
+        ],
+        [
+          4.599999904632568,
+          2.1100001335144043,
+          0.8
+        ]
+      ],
+      "signs": [
+        {
+          "title": "DESINFECCION UV",
+          "lines": [
+            "CONTROLAR DOSIS",
+            "NO CERTIFICA POTABLE"
+          ],
+          "center": [
+            2.8,
+            1.5,
+            -0.4
+          ],
+          "width": 3.6,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              0.9999999999999998,
+              0.89,
+              -0.46
+            ],
+            [
+              4.6,
+              2.11,
+              -0.30000000000000004
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -0.9000000357627869,
+          0.0,
+          -0.8
+        ],
+        [
+          0.9000000357627869,
+          1.24,
+          0.8
+        ]
+      ],
+      "sha256": "076f6d62415f5a4e0cc07a3402db03c1cc767827eb3b490ee00f8b6ed03e72aa",
+      "geometry_signature": "f776bd1e9e6ce49d4a22869e6d4fb790208b25577f026b7265aba2639e965f0f"
+    },
+    {
+      "model_id": "AQUA-016",
+      "name": "Deposito de agua tratada",
+      "category": "almacenamiento",
+      "educational_function": "Evita recontaminacion; tratada no implica potable",
+      "dimensions_m": [
+        6.599999904632568,
+        2.52,
+        2.0999999046325684
+      ],
+      "triangles": 2000,
+      "materials": [
+        "stone",
+        "turquoise",
+        "steel",
+        "blue",
+        "signboard",
+        "letters"
+      ],
+      "bytes": 144956,
+      "bounds": [
+        [
+          -5.349999904632568,
+          0.0,
+          -1.0499999523162842
+        ],
+        [
+          1.25,
+          2.52,
+          1.0499999523162842
+        ]
+      ],
+      "signs": [
+        {
+          "title": "AGUA TRATADA",
+          "lines": [
+            "EVITAR CONTAMINAR",
+            "NO CERTIFICA POTABLE"
+          ],
+          "center": [
+            -3.5,
+            1.5,
+            0
+          ],
+          "width": 3.7,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -5.35,
+              0.89,
+              -0.06
+            ],
+            [
+              -1.65,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.25,
+          0.0,
+          -1.0499999523162842
+        ],
+        [
+          1.25,
+          2.52,
+          1.0499999523162842
+        ]
+      ],
+      "sha256": "35a2fe333646d187019c47af3f233794978fa254618b98d3cc69b2673123aa42",
+      "geometry_signature": "cfffd5baec1256356a1f1c73c5e0379e4055b7a4cdeeb5ef2240efe74fcff9e1"
+    },
+    {
+      "model_id": "AQUA-017",
+      "name": "Colector de tuberias",
+      "category": "conduccion",
+      "educational_function": "Distribucion mediante codos derivaciones y bridas",
+      "dimensions_m": [
+        3.200000047683716,
+        0.83,
+        1.0108398008346557
+      ],
+      "triangles": 536,
+      "materials": [
+        "steel",
+        "blue",
+        "stone"
+      ],
+      "bytes": 37392,
+      "bounds": [
+        [
+          -1.600000023841858,
+          0.0,
+          -0.7808398008346558
+        ],
+        [
+          1.600000023841858,
+          0.83,
+          0.22999999999999998
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "239455cc78828f34730bd95c2ea23c00206f7bd094a23f5766ff069f3cf8ff9e",
+      "geometry_signature": "76c701fdfc1bf8859d0b45a118f4ccd06b3b78c674c65fd90b2e4c1ea5b7737c"
+    },
+    {
+      "model_id": "AQUA-018",
+      "name": "Valvula de volante manual",
+      "category": "conduccion",
+      "educational_function": "Identifica un elemento de regulacion sin simular caudal",
+      "dimensions_m": [
+        0.83,
+        0.84,
+        0.72
+      ],
+      "triangles": 568,
+      "materials": [
+        "steel",
+        "blue",
+        "turquoise"
+      ],
+      "bytes": 34924,
+      "bounds": [
+        [
+          -0.415,
+          0.0,
+          -0.36
+        ],
+        [
+          0.415,
+          0.84,
+          0.36
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "4756d13fe0f0dd1811777bcbe2ba81b10b33bf303e379aa3fb1224a49288026a",
+      "geometry_signature": "af8c0f71faf390f0fb41ec784cd763f3a2ac06ea0dac8c8812cb829ac3682dc5"
+    },
+    {
+      "model_id": "AQUA-019",
+      "name": "Medidor de flujo con indicador",
+      "category": "medicion",
+      "educational_function": "Representa un indicador rotativo sin lecturas reales",
+      "dimensions_m": [
+        0.74,
+        0.74,
+        0.15
+      ],
+      "triangles": 436,
+      "materials": [
+        "steel",
+        "slate",
+        "letters",
+        "turquoise",
+        "white"
+      ],
+      "bytes": 30684,
+      "bounds": [
+        [
+          -0.37,
+          -0.37,
+          -0.06
+        ],
+        [
+          0.37,
+          0.37,
+          0.09
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "2d099f48182dc449324fa971684c3f1e709ab050201c2824f8b4b96866c58df2",
+      "geometry_signature": "36e3649f35a601ddd089aa5de714a626caae451b9d993a740c50f3cc9025c9a8"
+    },
+    {
+      "model_id": "AQUA-020",
+      "name": "Estacion de muestreo",
+      "category": "medicion",
+      "educational_function": "Necesidad de controles microbiologicos y quimicos",
+      "dimensions_m": [
+        6.074999570846558,
+        2.1100001335144043,
+        1.0
+      ],
+      "triangles": 2184,
+      "materials": [
+        "steel",
+        "blue",
+        "glass",
+        "turquoise",
+        "signboard",
+        "letters"
+      ],
+      "bytes": 155916,
+      "bounds": [
+        [
+          -1.1749999523162842,
+          0.0,
+          -0.5
+        ],
+        [
+          4.899999618530273,
+          2.1100001335144043,
+          0.5
+        ]
+      ],
+      "signs": [
+        {
+          "title": "MUESTREO",
+          "lines": [
+            "ANALIZAR MICROBIOS",
+            "Y QUIMICA SIN DATOS"
+          ],
+          "center": [
+            3.1,
+            1.5,
+            0
+          ],
+          "width": 3.6,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              1.3,
+              0.89,
+              -0.06
+            ],
+            [
+              4.9,
+              2.11,
+              0.1
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -1.1749999523162842,
+          0.0,
+          -0.5
+        ],
+        [
+          1.1749999523162842,
+          1.4349999999999998,
+          0.5
+        ]
+      ],
+      "sha256": "daa2222971458906854287ec77a670aafb53010a256d9e2ff5cfc71e5bcff86e",
+      "geometry_signature": "d4a8b9d86b571107bbbb83bfd82b1ca9a5a40970d1401d319d6382695d7b75f0"
+    },
+    {
+      "model_id": "AQUA-021",
+      "name": "Rueda del ciclo hidrologico",
+      "category": "ciclo",
+      "educational_function": "Conecta evaporacion condensacion precipitacion e infiltracion",
+      "dimensions_m": [
+        2.9607033729553223,
+        2.9607033729553223,
+        0.2800000011920929
+      ],
+      "triangles": 668,
+      "materials": [
+        "turquoise",
+        "blue",
+        "steel",
+        "water",
+        "white",
+        "sand",
+        "green"
+      ],
+      "bytes": 49660,
+      "bounds": [
+        [
+          -1.4803516864776611,
+          -1.4803516864776611,
+          -0.14000000059604645
+        ],
+        [
+          1.4803516864776611,
+          1.4803516864776611,
+          0.14000000059604645
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "5b1cb64947c2b29ad2ee020bce9ed705a0d800d3c8080191898c65ff8780970f",
+      "geometry_signature": "63416c582a09200688ee6a9020543ba394756930599bea1c89bacfd4bb336ef7"
+    },
+    {
+      "model_id": "AQUA-022",
+      "name": "Nube con precipitacion",
+      "category": "ciclo",
+      "educational_function": "Representacion conceptual de gotas y almacenamiento",
+      "dimensions_m": [
+        8.300000071525574,
+        4.052499771118164,
+        1.7513200044631958
+      ],
+      "triangles": 2576,
+      "materials": [
+        "stone",
+        "steel",
+        "white",
+        "water",
+        "signboard",
+        "turquoise",
+        "letters"
+      ],
+      "bytes": 191384,
+      "bounds": [
+        [
+          -6.400000095367432,
+          0.0,
+          -0.8500000238418579
+        ],
+        [
+          1.899999976158142,
+          4.052499771118164,
+          0.9013199806213379
+        ]
+      ],
+      "signs": [
+        {
+          "title": "CICLO DEL AGUA",
+          "lines": [
+            "EVAPORAR Y LLOVER",
+            "INFILTRAR ALMACENAR"
+          ],
+          "center": [
+            0,
+            1.5,
+            0.8
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -1.9,
+              0.89,
+              0.74
+            ],
+            [
+              1.9,
+              2.11,
+              0.9
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -6.400000095367432,
+          0.0,
+          -0.8500000238418579
+        ],
+        [
+          1.899999976158142,
+          4.052499771118164,
+          0.8500000238418579
+        ]
+      ],
+      "sha256": "046eafc360907da2c2000c33a3d6cebecdea6815d1b79132ac3040ac7b923d64",
+      "geometry_signature": "aaf25946e0d27de969e88f86193a945006bee386ec2f9e7fa8c455c0286e238f"
+    },
+    {
+      "model_id": "AQUA-023",
+      "name": "Cuenca de humedal con sustratos",
+      "category": "biodiversidad",
+      "educational_function": "Habitat y retencion de agua; no garantiza potabilidad",
+      "dimensions_m": [
+        11.600000143051147,
+        2.2600001394748688,
+        6.0
+      ],
+      "triangles": 2376,
+      "materials": [
+        "earth",
+        "stone",
+        "sand",
+        "water",
+        "gravel",
+        "signboard",
+        "turquoise",
+        "letters",
+        "steel"
+      ],
+      "bytes": 178608,
+      "bounds": [
+        [
+          -7.800000190734863,
+          -0.15000000596046448,
+          -3.0
+        ],
+        [
+          3.799999952316284,
+          2.1100001335144043,
+          3.0
+        ]
+      ],
+      "signs": [
+        {
+          "title": "HUMEDAL",
+          "lines": [
+            "HABITAT Y RETENCION",
+            "CUIDAR BIODIVERSIDAD"
+          ],
+          "center": [
+            -5.9,
+            1.5,
+            -1.8
+          ],
+          "width": 3.8,
+          "height": 1.22,
+          "letter_heights": [
+            0.24,
+            0.18,
+            0.18
+          ],
+          "bounds": [
+            [
+              -7.800000000000001,
+              0.89,
+              -1.86
+            ],
+            [
+              -4.0,
+              2.11,
+              -1.7
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -3.799999952316284,
+          -0.15000000596046448,
+          -3.0
+        ],
+        [
+          3.799999952316284,
+          0.5750000476837158,
+          3.0
+        ]
+      ],
+      "sha256": "5ecda2e982d74e4cea82b854eb8f8dc3836e356378e78e7c3e549de5ade5bb2d",
+      "geometry_signature": "563188b760cca44f8f163d79727ecf36b7442b671801a484893dca497c949a5f"
+    },
+    {
+      "model_id": "AQUA-024",
+      "name": "Roseta flotante de hojas",
+      "category": "biodiversidad",
+      "educational_function": "Cobertura vegetal y habitat superficial; oscilacion ilustrativa",
+      "dimensions_m": [
+        1.462368130683899,
+        0.552771121263504,
+        1.100945234298706
+      ],
+      "triangles": 464,
+      "materials": [
+        "green",
+        "flower",
+        "earth"
+      ],
+      "bytes": 39340,
+      "bounds": [
+        [
+          -0.7123681306838989,
+          -0.352771133184433,
+          -0.550472617149353
+        ],
+        [
+          0.75,
+          0.19999998807907104,
+          0.550472617149353
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "cd84b4af4dafc76cff2c97bb6be7ee4ad1872273f1491b64a117a53c219a7ba7",
+      "geometry_signature": "7c0a98b00f241771141b9d75252810c3d35711c26b511b5d06a423ea4486cfa2"
+    },
+    {
+      "model_id": "AQUA-025",
+      "name": "Macolla de juncos",
+      "category": "biodiversidad",
+      "educational_function": "Raices y tallos ofrecen refugio y protegen orillas",
+      "dimensions_m": [
+        0.8122571015357971,
+        1.6619601562526078,
+        0.6264224211286898
+      ],
+      "triangles": 532,
+      "materials": [
+        "green",
+        "earth",
+        "reed"
+      ],
+      "bytes": 40264,
+      "bounds": [
+        [
+          -0.4472571015357971,
+          -0.001960156252607703,
+          -0.23430962959045132
+        ],
+        [
+          0.365,
+          1.6600000000000001,
+          0.3921127915382385
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "05c375281f0885ef38eba1df03244dd1b8e808ad6a48311d18d2c8444352f3df",
+      "geometry_signature": "fcd6abe3218956cc308da0bacf25eaab4acac2a1c81c5dac1882a4747a5a780e"
+    },
+    {
+      "model_id": "AQUA-026",
+      "name": "Arbol de ribera",
+      "category": "biodiversidad",
+      "educational_function": "Sombra conectividad y estabilizacion de ribera; especie no identificada",
+      "dimensions_m": [
+        2.975805878639221,
+        3.6157505232840776,
+        1.861250877380371
+      ],
+      "triangles": 390,
+      "materials": [
+        "earth",
+        "bark",
+        "reed"
+      ],
+      "bytes": 31696,
+      "bounds": [
+        [
+          -1.5149606466293335,
+          -0.015750618651509285,
+          -0.8056254386901855
+        ],
+        [
+          1.4608452320098877,
+          3.5999999046325684,
+          1.0556254386901855
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "cd12db5b5dd4f977d4a89171fe1a9d2b76f4e40811c49abd639a07e109468dc4",
+      "geometry_signature": "11816257fc757265ec9d8946e69e76e87b0b8f78b19032a07dfebbcd13beb313"
+    },
+    {
+      "model_id": "AQUA-027",
+      "name": "Refugio de polinizadores",
+      "category": "biodiversidad",
+      "educational_function": "Cavidades de refugio junto a vegetacion de ribera",
+      "dimensions_m": [
+        2.9000000953674316,
+        2.3243961427360773,
+        0.971560001373291
+      ],
+      "triangles": 3240,
+      "materials": [
+        "bark",
+        "sand",
+        "blue",
+        "slate",
+        "turquoise",
+        "letters",
+        "steel"
+      ],
+      "bytes": 221156,
+      "bounds": [
+        [
+          -1.4500000476837158,
+          -0.009999999776482582,
+          -0.375
+        ],
+        [
+          1.4500000476837158,
+          2.3143961429595947,
+          0.596560001373291
+        ]
+      ],
+      "signs": [
+        {
+          "title": "POLINIZADORES",
+          "lines": [
+            "REFUGIO Y CONECTIVIDAD",
+            "PROTEGER LAS RIBERAS"
+          ],
+          "center": [
+            0,
+            0.6,
+            0.5
+          ],
+          "width": 2.9,
+          "height": 1.22,
+          "letter_heights": [
+            0.17,
+            0.1468957871396896,
+            0.16158536585365854
+          ],
+          "bounds": [
+            [
+              -1.45,
+              -0.010000000000000009,
+              0.44
+            ],
+            [
+              1.45,
+              1.21,
+              0.6
+            ]
+          ]
+        }
+      ],
+      "mechanism_bounds": [
+        [
+          -0.8470531702041626,
+          0.0,
+          -0.375
+        ],
+        [
+          0.8470531702041626,
+          2.3143961429595947,
+          0.42
+        ]
+      ],
+      "sha256": "258b20d2a5fceb2121403c1500f65785012d48023833e6bcb13649858d67bf26",
+      "geometry_signature": "7a701648ee734a391137096375b05fe7d4ff6f490ec4ca568e612cd673423a9a"
+    },
+    {
+      "model_id": "AQUA-028",
+      "name": "Pez educativo",
+      "category": "biodiversidad",
+      "educational_function": "Fauna dependiente de habitat oxigenacion y calidad del agua",
+      "dimensions_m": [
+        1.4299999761581421,
+        0.5899999976158142,
+        0.4399999976158142
+      ],
+      "triangles": 258,
+      "materials": [
+        "fish",
+        "turquoise",
+        "blue",
+        "carbon"
+      ],
+      "bytes": 24740,
+      "bounds": [
+        [
+          -0.78,
+          0.06000000238418579,
+          -0.2199999988079071
+        ],
+        [
+          0.6499999761581421,
+          0.65,
+          0.2199999988079071
+        ]
+      ],
+      "signs": [],
+      "mechanism_bounds": null,
+      "sha256": "511758259939c69fbee3d382c0a702b2d865ec81bfad7cba2596c77cf671c926",
+      "geometry_signature": "5d773cfd5d045d47ad180f814a0280e1af39308a8f5868c5bc3d31f6d7a144ad"
+    }
+  ]
+}

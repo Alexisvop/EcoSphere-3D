@@ -1,0 +1,7 @@
+*.glb binary
+*.blend binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+third_party/** whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

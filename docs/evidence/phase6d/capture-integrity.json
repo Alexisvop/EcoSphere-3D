@@ -1,0 +1,180 @@
+{
+  "method": "actual OpenGL PPM framebuffer; lossless PNG conversion with RGB byte equality checked",
+  "converted_pngs": 29,
+  "captures": [
+    {
+      "file": "shared/aquabio-SHARED-001.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/aquabio-SHARED-001.ppm",
+      "sha256": "cc4816f8b33fa26ea3d564056db87e785b1c4081b949b63c4010821f5cdb4cac",
+      "rgb_sha256": "61a19089e5565c24e111f9e80ca01e7be509d57b956686ce3c286727bb6e206e"
+    },
+    {
+      "file": "shared/aquabio-SHARED-002.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/aquabio-SHARED-002.ppm",
+      "sha256": "eff90133f795bea833d66a3ee0df64c56a80bbe58eada032db128b93b2d8552d",
+      "rgb_sha256": "6894a9c1cc5d309277de2faff2464ad1abccaa417422509748dd6d86f2506635"
+    },
+    {
+      "file": "shared/aquabio-SHARED-003.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/aquabio-SHARED-003.ppm",
+      "sha256": "b36baf7a7b476c25e27eb4120046a251181e18d4e53f12ab8a80f3b60aeb0031",
+      "rgb_sha256": "8c8a8e3942a260cf2a044fe75a7ae24e6c95f9681fbdb9d631a1c84aca12885f"
+    },
+    {
+      "file": "shared/ecocycle-SHARED-001.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecocycle-SHARED-001.ppm",
+      "sha256": "8f4a7aaff267e65ee2a14a49b7a71e8c3eba2b5a9ba4ab1c088ae1816ccf8d73",
+      "rgb_sha256": "a0cbe9b2315e3d4ec0ad0e86327671d5d0a7848c42b86470c3b81e56fc6c3de0"
+    },
+    {
+      "file": "shared/ecocycle-SHARED-002.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecocycle-SHARED-002.ppm",
+      "sha256": "46745efceab0ec5e09487db4fffb9af4dff53912e590914d834f08e0d15bff21",
+      "rgb_sha256": "a63bb23d4ed7bff79c6d7da1172fcc281011b5b61c6782795561394d0438073c"
+    },
+    {
+      "file": "shared/ecocycle-SHARED-004.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecocycle-SHARED-004.ppm",
+      "sha256": "fb40d83c349b5b0e1a1a14e023e4fbc5b4e5d028c869920091b9508203470892",
+      "rgb_sha256": "329b89f26ff0a33ff2e8a1083229cac4f3bb6d535c8adfeb3f51063f1cfee9fb"
+    },
+    {
+      "file": "shared/ecocycle-SHARED-005.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecocycle-SHARED-005.ppm",
+      "sha256": "dfdb2fc6d4cde98eee84e60635ebabbf6794b119c68d89d6cc49a4321b19f474",
+      "rgb_sha256": "081c3dfc0d9107fba16bccc4d17784006451792fed9c418a3d519a9722395def"
+    },
+    {
+      "file": "shared/ecoenergy-SHARED-001.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecoenergy-SHARED-001.ppm",
+      "sha256": "a3426e577640ce944bf7724fafd90bddc93ddf1199939420fa152a80e5478093",
+      "rgb_sha256": "997e7a4b65a3b7900b55669169405f253bf165e6285cea8e4801b60ca0549707"
+    },
+    {
+      "file": "shared/ecoenergy-SHARED-003.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecoenergy-SHARED-003.ppm",
+      "sha256": "9f1e67dfeaee67a2a55386e0421a9df95170362253aa61b95068709951c49dba",
+      "rgb_sha256": "0f02d401cc2fdcc2702a4c8d83df7ce83fb38e06f18875bf140213743783b8f3"
+    },
+    {
+      "file": "shared/ecoenergy-SHARED-005.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/ecoenergy-SHARED-005.ppm",
+      "sha256": "a92ad2ecfdbeac30788a83da91475ab03f28f91024a7031cd212c281e373e597",
+      "rgb_sha256": "9ddd0ea3baa86ee2f5dcaf938006ba760fe84266266a079fb80524ffdf4bc21f"
+    },
+    {
+      "file": "shared/hub-SHARED-001.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/hub-SHARED-001.ppm",
+      "sha256": "d45b1d9376ace23280c28315ec50b1344690c650f1c41b6549e9496f3c28e463",
+      "rgb_sha256": "f14cc2f4fc5e0cf0ba764258d168dcb6c38c6049948bdc047a51ef8574c51931"
+    },
+    {
+      "file": "shared/hub-SHARED-004.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/shared/hub-SHARED-004.ppm",
+      "sha256": "a9fd3e22e699420340b02e62c563f1cbdd0aef04b677f41a1b4e7a56faaab443",
+      "rgb_sha256": "7a284031ce341bdf9b5aab37d93d387e9eb89bc55ba04958e320b07cd5f4190f"
+    },
+    {
+      "file": "comparison/before/hub.png",
+      "source_ppm": "build/gpu-validation/phase6d/baseline-vsync-real/hub-overview.ppm",
+      "sha256": "ea141f9d7feffcee5fe31b3821d6d1a8d4663542ba8d016b22c7865c95db6ba7",
+      "rgb_sha256": "e38a3c508087dbdcad22993735e0d979f8fc786ea3f9f1c0ff84c029e4ebbe5f"
+    },
+    {
+      "file": "comparison/before/ecoenergy.png",
+      "source_ppm": "build/gpu-validation/phase6d/baseline-vsync-real/ecoenergy-inside.ppm",
+      "sha256": "85cab042a00f07510c4336635de5d2026e103162fa23b3cb05ba058c84081795",
+      "rgb_sha256": "d3905dadda92b757b18c196d6f8d54a5b10562798c8060e8282c11696e674c16"
+    },
+    {
+      "file": "comparison/before/aquabio.png",
+      "source_ppm": "build/gpu-validation/phase6d/baseline-vsync-real/aquabio-inside.ppm",
+      "sha256": "3f9c34ef4b09a7448381244395ee3b0ebd494830073099c7e5b79a2df9734464",
+      "rgb_sha256": "187dbc07ed8cd85058cacb67b204c905b3a6dac675c3e10f2ff4895998addf20"
+    },
+    {
+      "file": "comparison/before/ecocycle.png",
+      "source_ppm": "build/gpu-validation/phase6d/baseline-vsync-real/ecocycle-inside.ppm",
+      "sha256": "0c1eab29bf5bfbc4068cf0440ab28aeb14754c587103fd06959153f98d8eab27",
+      "rgb_sha256": "ee310d1bde08a1fb25bbab128518f5959b4bc2ee11825e3dc1ba4eec77294e71"
+    },
+    {
+      "file": "comparison/after/hub.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/hub-overview.ppm",
+      "sha256": "66d48c7fbb54f09cd80f3c4bafa3715c5a7e59378c3e5ffe84fb66cb6ed69df2",
+      "rgb_sha256": "65ff46b18db485012ce31f1c8f84530afb421c339404a9fe1c8d8abc21e6c19b"
+    },
+    {
+      "file": "comparison/after/ecoenergy.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/ecoenergy-inside.ppm",
+      "sha256": "7d83b10d54d4e0d83ae172522ef10859ef073ebf577c2203e12cebfaa8513d57",
+      "rgb_sha256": "d3905dadda92b757b18c196d6f8d54a5b10562798c8060e8282c11696e674c16"
+    },
+    {
+      "file": "comparison/after/aquabio.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/aquabio-inside.ppm",
+      "sha256": "0cf72674b0fbe671ab31210e2bbc29d7e4673bc32394c2b442ae197e8dd6df83",
+      "rgb_sha256": "187dbc07ed8cd85058cacb67b204c905b3a6dac675c3e10f2ff4895998addf20"
+    },
+    {
+      "file": "comparison/after/ecocycle.png",
+      "source_ppm": "build/gpu-validation/phase6d/final-vsync/ecocycle-inside.ppm",
+      "sha256": "ee70d5fbe82e3c1a48dbb6cb8460e41900aabf320f9655f2a4915c1d5b07ae76",
+      "rgb_sha256": "74773f3d373e6acdb9857231d032735928616a1074e7b6849e1ee02dcd9d19a1"
+    },
+    {
+      "file": "regressions/content-aquabio.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/content-aquabio/manipulated.ppm",
+      "sha256": "9420367096c28cb7d0bc9f5a5a0e60664688348b48b0becf13de120731b32061",
+      "rgb_sha256": "50795b1e17339f33b8221c2ae994a65d5f8e26747a51b3a9a9924400c85d4430"
+    },
+    {
+      "file": "regressions/content-ecocycle.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/content-ecocycle/manipulated.ppm",
+      "sha256": "76eaff77bc82480afb987a9c9d4a2e616bf50efbd807c3674103d5571111f49d",
+      "rgb_sha256": "e95aa7906d2bad4e2d86f383f9465f2c7ec7e5d5bb54d374946dc7aa62c8e6f9"
+    },
+    {
+      "file": "regressions/content-ecoenergy.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/content-ecoenergy/manipulated.ppm",
+      "sha256": "80c8fd3bdd88e7af615903a7c893fbdc414327fd0c1b706fb84c85db9c8149b2",
+      "rgb_sha256": "779fd33116dbdb079dbe54d9e9b93998e5600b70e7d6616a1b5d06303cb4285f"
+    },
+    {
+      "file": "regressions/interaction.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/interaction/manipulated.ppm",
+      "sha256": "edbc275803b55b23c87e36e4da0cec7f7ce2a94350fae66e3018118308810617",
+      "rgb_sha256": "9078de1a7b31689d198d475f9e6fa06f393ea84c08ab40d43dd43742fe1f6c54"
+    },
+    {
+      "file": "regressions/legacy-aquabio.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/legacy-aquabio/frame.ppm",
+      "sha256": "9d72b86ee91937f8040a24e42943909599d04ab6d5565df738177a0a84dd3f5c",
+      "rgb_sha256": "cf1914286ecc76cd11162802cd6a4641a12cdc787a26e290e8056184b70aa58a"
+    },
+    {
+      "file": "regressions/legacy-ecocycle.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/legacy-ecocycle/frame.ppm",
+      "sha256": "8518ae9581d6ff5c3b1bd5be2ef37ab0d1288c3711fef0f768ebe65984bb320d",
+      "rgb_sha256": "7fa01eae746304cb8bf2c005ff96cf2d0a9ef4de5fea13bd9aa3bb3ed6c9705f"
+    },
+    {
+      "file": "regressions/legacy-ecoenergy.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/legacy-ecoenergy/frame.ppm",
+      "sha256": "f3b1f179e033da8447d01d3ced9b6ed9810f6ef14cff74b67de34a8b60a6d33c",
+      "rgb_sha256": "f8749dc28994e0c2484dddcbd33761a03f092be09fee1adf628be888171b8cf6"
+    },
+    {
+      "file": "regressions/lighting.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/lighting/combined.ppm",
+      "sha256": "2b6dec8ad89cdcd33df7e6c2b057a9174db8eb92ca874c13dee03e6d56eb7f27",
+      "rgb_sha256": "c91e28227477165f17d88dcd23e32f76a78d27d844756c78966cab646cb62a88"
+    },
+    {
+      "file": "regressions/plaza.png",
+      "source_ppm": "build/gpu-validation/phase6d/regressions/plaza/overview.ppm",
+      "sha256": "66b2d74451e0fba4846b8971c60476f8004e382c3d937a2b49dc175e8ecba734",
+      "rgb_sha256": "4e7b367e0a6cb5f3c89e6b33be62db66f3a4294b836ce6b900313d008a4e9cd5"
+    }
+  ]
+}

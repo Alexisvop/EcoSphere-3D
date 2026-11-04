@@ -1,0 +1,491 @@
+{
+  "blender": "5.2.3 LTS",
+  "models": [
+    {
+      "model_id": "PLAZA-001",
+      "name": "Pavimento circular principal",
+      "triangles": 2204,
+      "vertices_blender": 1152,
+      "dimensions_m": [
+        21.0,
+        0.20400000020861625,
+        21.0
+      ],
+      "materials": [
+        "stone",
+        "sand",
+        "joint"
+      ],
+      "bytes": 130164,
+      "sha256": "92b3fa1e9ec9100f07409172200e13e7c29e33e615ff301dc34476d914051bd2",
+      "geometry_signature": "e2b4b462968a145f40dc7d3c4e1e5afe8f30fbbb388adb9c08e3d8b9cec7b066"
+    },
+    {
+      "model_id": "PLAZA-002",
+      "name": "Pavimento periferico",
+      "triangles": 2044,
+      "vertices_blender": 1024,
+      "dimensions_m": [
+        45.0,
+        0.35,
+        45.0
+      ],
+      "materials": [
+        "lawn",
+        "sand",
+        "stone"
+      ],
+      "bytes": 114492,
+      "sha256": "f7a2cdae3a8e59cf0cd23a46ee55fed35018d92f4b8e2848abe9e7992b08cb49",
+      "geometry_signature": "6d400443067e13ab13d7de5e65b181e0bb438fa275ba9cdd261891bba7d76257"
+    },
+    {
+      "model_id": "PLAZA-003",
+      "name": "Camino de conexion modular",
+      "triangles": 120,
+      "vertices_blender": 80,
+      "dimensions_m": [
+        3.6,
+        0.155,
+        8.0
+      ],
+      "materials": [
+        "stone",
+        "sand",
+        "joint"
+      ],
+      "bytes": 11388,
+      "sha256": "e1b6f6412d8b4fb9618acb0ba912db43dd03c9a5b39a6144d346bea4f38c230f",
+      "geometry_signature": "367e8361c494fca2c405fad43b1f740bd6d58116fb9ec43b214b0f1fe83d1600"
+    },
+    {
+      "model_id": "PLAZA-004",
+      "name": "Pedestal de la escultura central",
+      "triangles": 1192,
+      "vertices_blender": 672,
+      "dimensions_m": [
+        2.44,
+        0.93,
+        2.44
+      ],
+      "materials": [
+        "stone",
+        "sand",
+        "metal",
+        "green"
+      ],
+      "bytes": 75656,
+      "sha256": "bdb9b41963d8d97336faf8d2c2b6c124b387db8ce69f14350adf1a0dc893088a",
+      "geometry_signature": "4312e80fcb115b8323a1ec8aff69e95ddda791611e1df9dfe4b3a27dbdf30a14"
+    },
+    {
+      "model_id": "PLAZA-005",
+      "name": "Escultura del globo EcoSphere",
+      "triangles": 2036,
+      "vertices_blender": 1063,
+      "dimensions_m": [
+        2.9000000953674316,
+        3.323310038074851,
+        2.2221904364619043
+      ],
+      "materials": [
+        "ocean",
+        "green",
+        "mint",
+        "metal"
+      ],
+      "bytes": 168300,
+      "sha256": "500ca0a33fc18cad76e7ccb87614408bbf8af9f30265de6c9e97db5791aad750",
+      "geometry_signature": "cc38ccb325bbab0274df4aaa9c7c12d158288e2e3f84cb5089d6d607cdfb8443"
+    },
+    {
+      "model_id": "PLAZA-006",
+      "name": "Cuenco de la fuente",
+      "triangles": 1788,
+      "vertices_blender": 896,
+      "dimensions_m": [
+        6.2,
+        0.7,
+        6.2
+      ],
+      "materials": [
+        "stone",
+        "sand",
+        "mint",
+        "water"
+      ],
+      "bytes": 101184,
+      "sha256": "86aca19ae6e40e8937ac911cbabe4e17df31c8c8d4aa82dd4839f1d52060263c",
+      "geometry_signature": "98b31f8e8176467a4d1e22275c5e6e9aabf6bb7e771d3bb57fb7fda95c4db6a5"
+    },
+    {
+      "model_id": "PLAZA-007",
+      "name": "Conjunto escultorico de chorros de agua",
+      "triangles": 1984,
+      "vertices_blender": 1024,
+      "dimensions_m": [
+        4.77,
+        0.9430000066757203,
+        4.77
+      ],
+      "materials": [
+        "metal",
+        "water"
+      ],
+      "bytes": 182604,
+      "sha256": "6ade88c1a9940a382282da24bee0b7a0e416a702c764e607f1e32ce65464b686",
+      "geometry_signature": "abfadffbbdcd480305b82badc8905e0b572318163873e69007f591dd530a15e0"
+    },
+    {
+      "model_id": "PLAZA-008",
+      "name": "Arco arquitectonico de acceso",
+      "triangles": 1103,
+      "vertices_blender": 636,
+      "dimensions_m": [
+        5.25,
+        4.210000038146973,
+        0.65
+      ],
+      "materials": [
+        "amber",
+        "stone",
+        "screen",
+        "white"
+      ],
+      "bytes": 71532,
+      "sha256": "d762cf5a3563ec986675c20f4ef22889166da239809b42f53f5bbfd9e6971427",
+      "geometry_signature": "bf8fcea457150a119a936bdc21744e31e123ee1fea58080b0f4370039607b99d",
+      "base_model_id": "PLAZA-008",
+      "glb_file": "PLAZA-008.glb"
+    },
+    {
+      "model_id": "PLAZA-009",
+      "name": "Plataforma de acceso a instalaciones",
+      "triangles": 88,
+      "vertices_blender": 56,
+      "dimensions_m": [
+        5.3,
+        0.1399999986588955,
+        3.0
+      ],
+      "materials": [
+        "sand",
+        "mint",
+        "joint"
+      ],
+      "bytes": 9952,
+      "sha256": "971af9b2fc4601d99d78a24e65ed59b5d8047c4d2632fed9a4b29e128ea66504",
+      "geometry_signature": "fa15e3aef46c7589cdaf46b29d1b24754a15d74c42f256f64625333c3a1fd852"
+    },
+    {
+      "model_id": "PLAZA-010",
+      "name": "Pergola sustentable",
+      "triangles": 188,
+      "vertices_blender": 126,
+      "dimensions_m": [
+        4.2,
+        3.09,
+        3.8
+      ],
+      "materials": [
+        "wood",
+        "green"
+      ],
+      "bytes": 15556,
+      "sha256": "71fed43534786f24fcadf97d2811d676a9d84b14ef4901f4fcb8d5298ba533a7",
+      "geometry_signature": "bc0eed4023e0b55f0a972154987cc0a21da66f7bc0260c40eb292f39c4340aa2"
+    },
+    {
+      "model_id": "PLAZA-011",
+      "name": "Marquesina solar",
+      "triangles": 84,
+      "vertices_blender": 56,
+      "dimensions_m": [
+        4.8,
+        3.2899999999999996,
+        3.1
+      ],
+      "materials": [
+        "metal",
+        "solar",
+        "white"
+      ],
+      "bytes": 9692,
+      "sha256": "7975091f60c208ccda2c413b158d275d8bb3c5a46d93847d81287da0ab9a951c",
+      "geometry_signature": "3b00840fa87e829f681a3f0db8f7be06720fd99decc0cd357830e932d2dd5b5e"
+    },
+    {
+      "model_id": "PLAZA-012",
+      "name": "Totem de orientacion",
+      "triangles": 1220,
+      "vertices_blender": 800,
+      "dimensions_m": [
+        3.5,
+        3.3,
+        1.0
+      ],
+      "materials": [
+        "metal",
+        "screen",
+        "white",
+        "stone"
+      ],
+      "bytes": 68308,
+      "sha256": "0f035549f6957b6a88f219e3d3388e51900f5fea419945ac0b0418ea0a8839cd",
+      "geometry_signature": "c7f3a8fad962fd92d7800a2622f90d25f69cac19da40c3f378be6815339a9211",
+      "base_model_id": "PLAZA-012",
+      "glb_file": "PLAZA-012.glb"
+    },
+    {
+      "model_id": "PLAZA-013",
+      "name": "Quiosco informativo interactivo",
+      "triangles": 828,
+      "vertices_blender": 200,
+      "dimensions_m": [
+        2.8,
+        2.87,
+        1.3
+      ],
+      "materials": [
+        "stone",
+        "green",
+        "screen",
+        "white",
+        "metal",
+        "mint",
+        "wood"
+      ],
+      "bytes": 48668,
+      "sha256": "110dd8b1adca49b2a3e4754b87f880100ae6c55cd356285a36cb675a552ebb36",
+      "geometry_signature": "e80904cb7f4570709c9d130e274376a980400bd3c3d7635be590a4e342604572",
+      "base_model_id": "PLAZA-013",
+      "glb_file": "PLAZA-013.glb"
+    },
+    {
+      "model_id": "PLAZA-014",
+      "name": "Panel educativo",
+      "triangles": 1020,
+      "vertices_blender": 1008,
+      "dimensions_m": [
+        3.0,
+        2.375,
+        0.24210000216960909
+      ],
+      "materials": [
+        "metal",
+        "wood",
+        "screen",
+        "white"
+      ],
+      "bytes": 58444,
+      "sha256": "cd8426b881da58a285beb4d42b015e0116df6c4660e9856682a71d4fd2722e12",
+      "geometry_signature": "62c7fb0586220cd5515cdea595a5adc533399f6cf4d5f8cb5da29c90ec79419d",
+      "base_model_id": "PLAZA-014",
+      "glb_file": "PLAZA-014.glb"
+    },
+    {
+      "model_id": "PLAZA-015",
+      "name": "Banca de parque",
+      "triangles": 120,
+      "vertices_blender": 80,
+      "dimensions_m": [
+        2.25,
+        1.1,
+        0.76
+      ],
+      "materials": [
+        "metal",
+        "wood"
+      ],
+      "bytes": 10532,
+      "sha256": "a3eb87e0225f3ee77873737dd0a9b81e6e1db2f1bcb9a71a17f35f0d75622835",
+      "geometry_signature": "500a5b730370b135a49e09dc1e986bd8c30d858de3241a237e8286fb6697b080"
+    },
+    {
+      "model_id": "PLAZA-016",
+      "name": "Luminaria exterior",
+      "triangles": 188,
+      "vertices_blender": 104,
+      "dimensions_m": [
+        1.35,
+        3.559999942779541,
+        0.6
+      ],
+      "materials": [
+        "stone",
+        "metal",
+        "lamp"
+      ],
+      "bytes": 15584,
+      "sha256": "0d799818c9f5dd63b5fafc41304fc1f9ef47d62b7ca1495fdcec0525b08537ca",
+      "geometry_signature": "36a0d416e1bce5050aedd43cd9f42fe5efe7a1dd4425ba40f1cf472ddf831715"
+    },
+    {
+      "model_id": "PLAZA-017",
+      "name": "Estacionamiento para bicicletas",
+      "triangles": 392,
+      "vertices_blender": 208,
+      "dimensions_m": [
+        3.0,
+        0.9433678388595581,
+        1.04
+      ],
+      "materials": [
+        "metal"
+      ],
+      "bytes": 35836,
+      "sha256": "5c260c56685d5ea6adfa45c03bfeb04a011467599b06234aa210555f98c80505",
+      "geometry_signature": "9c0f7f5172d2f31cd0d14476d43fc4691a053395fa087151766eae9b12f9714c"
+    },
+    {
+      "model_id": "PLAZA-018",
+      "name": "Estacion de separacion de residuos",
+      "triangles": 264,
+      "vertices_blender": 176,
+      "dimensions_m": [
+        2.0999999999999996,
+        1.09,
+        0.75
+      ],
+      "materials": [
+        "ocean",
+        "metal",
+        "joint",
+        "white",
+        "green",
+        "sand"
+      ],
+      "bytes": 23416,
+      "sha256": "e2ff7e5c4e920d221b29a9c2321dcacfcefc8bb926dfa05fd77f34b44e1cae6d",
+      "geometry_signature": "c5f187920dec5a603032de0f8f81adee9ab87750bf37bf9f172a1df291de9bf8"
+    },
+    {
+      "model_id": "PLAZA-019",
+      "name": "Bebedero publico",
+      "triangles": 608,
+      "vertices_blender": 312,
+      "dimensions_m": [
+        0.8,
+        1.1806010007858276,
+        0.8
+      ],
+      "materials": [
+        "metal",
+        "white",
+        "stone"
+      ],
+      "bytes": 38792,
+      "sha256": "33342d110a6af927e67167807b3677e027ccbb31ab23d95f28326fb3607649ab",
+      "geometry_signature": "f9d031d51e687b0587ceba61c804fdf533a780d19ed98de12afb130d57ffa66e"
+    },
+    {
+      "model_id": "PLAZA-020",
+      "name": "Jardinera rectangular",
+      "triangles": 48,
+      "vertices_blender": 32,
+      "dimensions_m": [
+        2.4,
+        0.635,
+        0.9225000000000001
+      ],
+      "materials": [
+        "wood",
+        "soil",
+        "metal"
+      ],
+      "bytes": 6160,
+      "sha256": "2979492448c1057c6615690e8b823d6ab62fa5af43a014bb72c3e5912e80a940",
+      "geometry_signature": "d81f09780df317fc752bbcbe0de8374ebb621b86d922c0b58d52ed619a3d01f5"
+    },
+    {
+      "model_id": "PLAZA-021",
+      "name": "Arbol de copa amplia",
+      "triangles": 820,
+      "vertices_blender": 430,
+      "dimensions_m": [
+        4.900000095367432,
+        4.699999809265137,
+        4.800000190734863
+      ],
+      "materials": [
+        "bark",
+        "green",
+        "mint"
+      ],
+      "bytes": 66876,
+      "sha256": "08c1ecd2606314c342787cf199677a8886cc4823781c2d4dbdaa87b743652381",
+      "geometry_signature": "6d705db9248a9a876c20d3c94a21ade554b42c1907cb3a99ee8e37560c7ada8f"
+    },
+    {
+      "model_id": "PLAZA-022",
+      "name": "Arbol ornamental pequeno",
+      "triangles": 436,
+      "vertices_blender": 236,
+      "dimensions_m": [
+        2.0293099880218506,
+        3.0999999046325684,
+        1.835410237312317
+      ],
+      "materials": [
+        "bark",
+        "blossom"
+      ],
+      "bytes": 34312,
+      "sha256": "be39f6d06f6b0a91490007e8d95496c8f176f136a4c680e1d11f96a1eb0461ad",
+      "geometry_signature": "2afb8e96d7c44f980ddbac15626ef6637232fe14b02de9ef962a95d5578f92cd"
+    },
+    {
+      "model_id": "PLAZA-023",
+      "name": "Arbusto con flores",
+      "triangles": 1568,
+      "vertices_blender": 882,
+      "dimensions_m": [
+        1.616315484046936,
+        0.8100000023841858,
+        1.3475606441497803
+      ],
+      "materials": [
+        "green",
+        "flower",
+        "lamp"
+      ],
+      "bytes": 133444,
+      "sha256": "1a85e20ebe7157f94474b856a8859f678bdf14f34e687d1eaa6723c5a6e54c7c",
+      "geometry_signature": "ec49297a87f5840779edb133d3081462f34d5293dc455ecb6e808bb103d1e02c"
+    },
+    {
+      "model_id": "PLAZA-024",
+      "name": "Conjunto de pastos ornamentales",
+      "triangles": 108,
+      "vertices_blender": 180,
+      "dimensions_m": [
+        1.1399999856948853,
+        1.0499999523162842,
+        1.0399999916553497
+      ],
+      "materials": [
+        "grass"
+      ],
+      "bytes": 7676,
+      "sha256": "f9fb94ef52bc1e7bc6a6d2eae924d07e80baf35a7c0be0f3a67c91b40c62b361",
+      "geometry_signature": "61909776f29852c0674d493c942711cfe89a185887f0fe73c4b7744c810f3640"
+    },
+    {
+      "model_id": "PLAZA-025",
+      "name": "Conjunto de rocas decorativas",
+      "triangles": 126,
+      "vertices_blender": 69,
+      "dimensions_m": [
+        1.9356297254562378,
+        0.8000000417232513,
+        1.4774351716041565
+      ],
+      "materials": [
+        "rock"
+      ],
+      "bytes": 11620,
+      "sha256": "111e36a5cf6a3e159bd6d375392660163598e8405aa6503468242b94c349a5e6",
+      "geometry_signature": "71437fba04f1f6871560858e1d5e17e8ec80bdd1202c0b75ab9308d8e550656b"
+    }
+  ]
+}

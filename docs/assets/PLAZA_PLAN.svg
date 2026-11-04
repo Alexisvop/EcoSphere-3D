@@ -1,0 +1,368 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-270 -280 540 570">
+  <rect x="-270" y="-280" width="540" height="570" fill="#f4f7f5" />
+  <circle cx="0" cy="0" r="225" fill="#dce9d5" stroke="#739580" />
+  <circle cx="0" cy="0" r="120" fill="#ded9c4" />
+  <circle cx="0" cy="0" r="105" fill="#e7ece8" stroke="#8f9d93" />
+  <g transform="translate(0.000,0.000) rotate(-0.000)">
+    <title>PLAZA-001-main</title>
+  </g>
+  <g transform="translate(0.000,0.000) rotate(-0.000)">
+    <title>PLAZA-002-verge</title>
+  </g>
+  <g transform="translate(0.000,0.000) rotate(-0.000)">
+    <title>PLAZA-004-center</title>
+  </g>
+  <g transform="translate(0.000,0.000) rotate(-0.000)">
+    <title>PLAZA-005-sculpture</title>
+  </g>
+  <g transform="translate(0.000,0.000) rotate(-0.000)">
+    <title>PLAZA-006-fountain</title>
+  </g>
+  <g transform="translate(0.000,0.000) rotate(-0.000)">
+    <title>PLAZA-007-water</title>
+  </g>
+  <g transform="translate(0.000,140.000) rotate(-0.000)">
+    <title>PLAZA-003-entry</title>
+    <rect x="-18" y="-40" width="36" height="80" fill="#c9d5ce" stroke="#8c9990" />
+  </g>
+  <g transform="translate(-140.000,0.000) rotate(-90.000)">
+    <title>PLAZA-003-energy</title>
+    <rect x="-18" y="-40" width="36" height="80" fill="#c9d5ce" stroke="#8c9990" />
+  </g>
+  <g transform="translate(0.000,-140.000) rotate(-0.000)">
+    <title>PLAZA-003-water</title>
+    <rect x="-18" y="-40" width="36" height="80" fill="#c9d5ce" stroke="#8c9990" />
+  </g>
+  <g transform="translate(140.000,0.000) rotate(-90.000)">
+    <title>PLAZA-003-cycle</title>
+    <rect x="-18" y="-40" width="36" height="80" fill="#c9d5ce" stroke="#8c9990" />
+  </g>
+  <g transform="translate(-180.000,0.000) rotate(-90.000)">
+    <title>PLAZA-008-energy</title>
+    <rect x="-25" y="-4" width="50" height="8" fill="#d0a349" />
+  </g>
+  <g transform="translate(0.000,-180.000) rotate(-0.000)">
+    <title>PLAZA-008-water</title>
+    <rect x="-25" y="-4" width="50" height="8" fill="#5199bd" />
+  </g>
+  <g transform="translate(180.000,0.000) rotate(90.000)">
+    <title>PLAZA-008-cycle</title>
+    <rect x="-25" y="-4" width="50" height="8" fill="#4e9b67" />
+  </g>
+  <g transform="translate(-180.000,0.000) rotate(-90.000)">
+    <title>PLAZA-009-energy</title>
+  </g>
+  <g transform="translate(0.000,-180.000) rotate(-0.000)">
+    <title>PLAZA-009-water</title>
+  </g>
+  <g transform="translate(180.000,0.000) rotate(90.000)">
+    <title>PLAZA-009-cycle</title>
+  </g>
+  <g transform="translate(120.000,95.000) rotate(-0.000)">
+    <title>PLAZA-010-garden</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-120.000,95.000) rotate(-0.000)">
+    <title>PLAZA-011-energy</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-28.000,112.000) rotate(-0.000)">
+    <title>PLAZA-012-entry</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(38.000,95.000) rotate(-0.000)">
+    <title>PLAZA-013-information</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-50.000,65.000) rotate(-0.000)">
+    <title>PLAZA-014-water</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(63.000,-63.000) rotate(45.000)">
+    <title>PLAZA-014-cycle</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-60.000,54.000) rotate(-131.987)">
+    <title>PLAZA-015-bench-0</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(60.000,54.000) rotate(131.987)">
+    <title>PLAZA-015-bench-1</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-60.000,-54.000) rotate(-48.013)">
+    <title>PLAZA-015-bench-2</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(60.000,-54.000) rotate(48.013)">
+    <title>PLAZA-015-bench-3</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-80.000,0.000) rotate(-90.000)">
+    <title>PLAZA-015-bench-4</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(80.000,0.000) rotate(90.000)">
+    <title>PLAZA-015-bench-5</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(36.355,87.769) rotate(157.500)">
+    <title>PLAZA-016-lamp-0</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(87.769,36.355) rotate(112.500)">
+    <title>PLAZA-016-lamp-1</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(87.769,-36.355) rotate(67.500)">
+    <title>PLAZA-016-lamp-2</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(36.355,-87.769) rotate(22.500)">
+    <title>PLAZA-016-lamp-3</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-36.355,-87.769) rotate(-22.500)">
+    <title>PLAZA-016-lamp-4</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-87.769,-36.355) rotate(-67.500)">
+    <title>PLAZA-016-lamp-5</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-87.769,36.355) rotate(-112.500)">
+    <title>PLAZA-016-lamp-6</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-36.355,87.769) rotate(-157.500)">
+    <title>PLAZA-016-lamp-7</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-50.000,105.000) rotate(-0.000)">
+    <title>PLAZA-017-entry</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-45.000,100.000) rotate(-155.772)">
+    <title>PLAZA-018-station-0</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(47.000,100.000) rotate(154.826)">
+    <title>PLAZA-018-station-1</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(50.000,-100.000) rotate(26.565)">
+    <title>PLAZA-018-station-2</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-57.000,67.000) rotate(-0.000)">
+    <title>PLAZA-019-west</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(57.000,67.000) rotate(-0.000)">
+    <title>PLAZA-019-east</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-82.000,78.000) rotate(-0.000)">
+    <title>PLAZA-020-bed-0</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-88.200,78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-0-left</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-75.800,78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-0-right</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(82.000,78.000) rotate(-0.000)">
+    <title>PLAZA-020-bed-1</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(75.800,78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-1-left</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(88.200,78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-1-right</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-82.000,-78.000) rotate(-0.000)">
+    <title>PLAZA-020-bed-2</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(-88.200,-78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-2-left</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-75.800,-78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-2-right</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(82.000,-78.000) rotate(-0.000)">
+    <title>PLAZA-020-bed-3</title>
+    <rect x="-8" y="-4" width="16" height="8" fill="#8b6f50" stroke="#f3f0de" />
+  </g>
+  <g transform="translate(75.800,-78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-3-left</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(88.200,-78.000) rotate(-0.000)">
+    <title>PLAZA-023-bed-3-right</title>
+    <circle cx="0" cy="0" r="4" fill="#6e9e4c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(66.970,161.679) rotate(-0.000)">
+    <title>PLAZA-021-tree-0</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(161.679,66.970) rotate(-27.000)">
+    <title>PLAZA-021-tree-1</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(161.679,-66.970) rotate(-54.000)">
+    <title>PLAZA-021-tree-2</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(66.970,-161.679) rotate(-81.000)">
+    <title>PLAZA-021-tree-3</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-66.970,-161.679) rotate(-108.000)">
+    <title>PLAZA-021-tree-4</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-161.679,-66.970) rotate(-135.000)">
+    <title>PLAZA-021-tree-5</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-161.679,66.970) rotate(-162.000)">
+    <title>PLAZA-021-tree-6</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-66.970,161.679) rotate(171.000)">
+    <title>PLAZA-021-tree-7</title>
+    <circle cx="0" cy="0" r="13" fill="#438762" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-100.000,-130.000) rotate(-0.000)">
+    <title>PLAZA-022-ornamental-0</title>
+    <circle cx="0" cy="0" r="7" fill="#c98d9f" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(100.000,-130.000) rotate(-40.000)">
+    <title>PLAZA-022-ornamental-1</title>
+    <circle cx="0" cy="0" r="7" fill="#c98d9f" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-180.000,-100.000) rotate(-80.000)">
+    <title>PLAZA-022-ornamental-2</title>
+    <circle cx="0" cy="0" r="7" fill="#c98d9f" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(180.000,-100.000) rotate(-120.000)">
+    <title>PLAZA-022-ornamental-3</title>
+    <circle cx="0" cy="0" r="7" fill="#c98d9f" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(49.366,119.180) rotate(-0.000)">
+    <title>PLAZA-024-grass-0</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(124.724,-51.662) rotate(-31.000)">
+    <title>PLAZA-024-grass-1</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-49.366,-119.180) rotate(-62.000)">
+    <title>PLAZA-024-grass-2</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-124.724,51.662) rotate(-93.000)">
+    <title>PLAZA-024-grass-3</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(78.530,102.343) rotate(-124.000)">
+    <title>PLAZA-024-grass-4</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(107.103,-82.183) rotate(-155.000)">
+    <title>PLAZA-024-grass-5</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-78.530,-102.343) rotate(174.000)">
+    <title>PLAZA-024-grass-6</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-107.103,82.183) rotate(143.000)">
+    <title>PLAZA-024-grass-7</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(102.343,78.530) rotate(112.000)">
+    <title>PLAZA-024-grass-8</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(82.183,-107.103) rotate(81.000)">
+    <title>PLAZA-024-grass-9</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-102.343,-78.530) rotate(50.000)">
+    <title>PLAZA-024-grass-10</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-82.183,107.103) rotate(19.000)">
+    <title>PLAZA-024-grass-11</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(119.180,49.366) rotate(-12.000)">
+    <title>PLAZA-024-grass-12</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(51.662,-124.724) rotate(-43.000)">
+    <title>PLAZA-024-grass-13</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-119.180,-49.366) rotate(-74.000)">
+    <title>PLAZA-024-grass-14</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-51.662,124.724) rotate(-105.000)">
+    <title>PLAZA-024-grass-15</title>
+    <circle cx="0" cy="0" r="4" fill="#90ab5c" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(72.500,125.574) rotate(-0.000)">
+    <title>PLAZA-025-rocks-0</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(125.574,-72.500) rotate(-37.000)">
+    <title>PLAZA-025-rocks-1</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-72.500,-125.574) rotate(-74.000)">
+    <title>PLAZA-025-rocks-2</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-125.574,72.500) rotate(-111.000)">
+    <title>PLAZA-025-rocks-3</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(125.574,72.500) rotate(-148.000)">
+    <title>PLAZA-025-rocks-4</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(72.500,-125.574) rotate(175.000)">
+    <title>PLAZA-025-rocks-5</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-125.574,-72.500) rotate(138.000)">
+    <title>PLAZA-025-rocks-6</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <g transform="translate(-72.500,125.574) rotate(101.000)">
+    <title>PLAZA-025-rocks-7</title>
+    <circle cx="0" cy="0" r="4" fill="#9a9f98" stroke="#ffffff" stroke-width="0.7" />
+  </g>
+  <circle cx="0" cy="0" r="31" fill="#8bc5d0" stroke="#567f85" />
+  <circle cx="0" cy="0" r="12" fill="#4b9b80" />
+  <text x="0" y="-250" fill="#243d37" text-anchor="middle" font-family="sans-serif" font-size="11">AquaBio / Z negativo</text>
+  <text x="-183" y="20" fill="#243d37" text-anchor="middle" font-family="sans-serif" font-size="11">EcoEnergy</text>
+  <text x="183" y="20" fill="#243d37" text-anchor="middle" font-family="sans-serif" font-size="11">EcoCycle</text>
+  <text x="0" y="245" fill="#243d37" text-anchor="middle" font-family="sans-serif" font-size="11">Entrada / Z positivo</text>
+  <text x="0" y="280" fill="#243d37" text-anchor="middle" font-family="sans-serif" font-size="11">25 modelos unicos · 90 instancias · unidades: metros</text>
+  <path d="M -5 190 L 0 180 L 5 190 Z" fill="#274b9a" />
+  <text x="10" y="195" fill="#274b9a" font-family="sans-serif" font-size="9">Camara inicial</text>
+  <path d="M -245 -225 L -195 -225 M -245 -228 L -245 -222 M -195 -228 L -195 -222" stroke="#243d37" />
+  <text x="-220" y="-235" text-anchor="middle" font-size="10" font-family="sans-serif">5 m</text>
+</svg>

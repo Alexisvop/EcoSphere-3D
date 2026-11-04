@@ -1,0 +1,182 @@
+{
+  "blender": "5.2.3 LTS",
+  "production": "bpy/CLI",
+  "models": [
+    {
+      "model_id": "SHARED-001",
+      "name": "Reloj solar ecuatorial",
+      "educational_function": "Relacionar orientacion, sombra y tiempo solar; escala ilustrativa, sin hora geografica calibrada ni sombras solares calculadas.",
+      "dimensions_m": [
+        1.5,
+        1.720715524503021,
+        1.3042616844177246
+      ],
+      "bounds": [
+        [
+          -0.75,
+          0.0,
+          -0.6521308422088623
+        ],
+        [
+          0.75,
+          1.720715524503021,
+          0.6521308422088623
+        ]
+      ],
+      "triangles": 1888,
+      "materials": [
+        "ceramic",
+        "metal",
+        "yellow",
+        "dark",
+        "letters"
+      ],
+      "textures": 0,
+      "bytes": 129164,
+      "sha256": "c42c9d4e016ca30f3c8300b4a822f3c0fd4f83cd40e33c359f6437a0a0cfff0c",
+      "geometry_signature": "0230e22e129d977334e07e87a0345efd62a82060ee201e03362df53e42c884ef"
+    },
+    {
+      "model_id": "SHARED-002",
+      "name": "Disco Secchi en soporte",
+      "educational_function": "Interpretar transparencia del agua mediante disco; no medir turbidez ni certificar potabilidad. Relaciona tratamiento y agua de lavado.",
+      "dimensions_m": [
+        1.5,
+        2.130000114440918,
+        0.8500000238418579
+      ],
+      "bounds": [
+        [
+          -0.75,
+          0.0,
+          -0.42500001192092896
+        ],
+        [
+          0.75,
+          2.130000114440918,
+          0.42500001192092896
+        ]
+      ],
+      "triangles": 1500,
+      "materials": [
+        "metal",
+        "blue",
+        "white",
+        "dark",
+        "letters"
+      ],
+      "textures": 0,
+      "bytes": 105852,
+      "sha256": "d13cbe9f179c2a6ae5bfec37c9d5c7917ca71d482bbb8565c5e100fd36e48c4e",
+      "geometry_signature": "2c4ee1daee29db5c86cec7b92e00bc9b0979528edc79962840a3bfb90eba5a9c"
+    },
+    {
+      "model_id": "SHARED-003",
+      "name": "Pluviometro de balancin seccionado",
+      "educational_function": "Distinguir precipitacion de volumen almacenado; mecanismo estatico ilustrativo, sin datos meteorologicos ni animacion nueva.",
+      "dimensions_m": [
+        1.149999976158142,
+        2.25,
+        0.97
+      ],
+      "bounds": [
+        [
+          -0.574999988079071,
+          0.0,
+          -0.49
+        ],
+        [
+          0.574999988079071,
+          2.25,
+          0.48
+        ]
+      ],
+      "triangles": 1500,
+      "materials": [
+        "metal",
+        "blue",
+        "yellow",
+        "white",
+        "dark",
+        "letters"
+      ],
+      "textures": 0,
+      "bytes": 107600,
+      "sha256": "7c45e39e3ff4cc3f11a12340d4836a82941400e85b397c62e168dddc88757991",
+      "geometry_signature": "5970cec14ded40c94f52e54e66a9e7f6cd9e8e011df3640686e49a3f7da1f3d3"
+    },
+    {
+      "model_id": "SHARED-004",
+      "name": "Perfil edafico didactico",
+      "educational_function": "Relacionar horizontes, raices y materia organica con retencion de agua y compostaje; no simular infiltracion.",
+      "dimensions_m": [
+        1.7999999523162842,
+        1.6799999475479126,
+        0.7224799990653992
+      ],
+      "bounds": [
+        [
+          -0.8999999761581421,
+          0.0,
+          -0.3499999940395355
+        ],
+        [
+          0.8999999761581421,
+          1.6799999475479126,
+          0.37248000502586365
+        ]
+      ],
+      "triangles": 1520,
+      "materials": [
+        "sand",
+        "earth",
+        "wood",
+        "metal",
+        "green",
+        "ceramic",
+        "dark",
+        "letters"
+      ],
+      "textures": 0,
+      "bytes": 115472,
+      "sha256": "af39999fc0ebfbf39ad79ffc97c8efcf7772d3bf13935ef6b40e3202ff60f96e",
+      "geometry_signature": "92e40055271fb48a98afc60a9481ce4f604301b4bad9d846a214df662a208778"
+    },
+    {
+      "model_id": "SHARED-005",
+      "name": "Balanza de masas de materiales",
+      "educational_function": "Distinguir masa, volumen y seleccion de materiales en energia y circularidad; muestra estatica sin pesaje ni metrologia certificada.",
+      "dimensions_m": [
+        1.899999976158142,
+        1.940000057220459,
+        1.0024800300598145
+      ],
+      "bounds": [
+        [
+          -0.949999988079071,
+          0.0,
+          -0.5
+        ],
+        [
+          0.949999988079071,
+          1.940000057220459,
+          0.5024800300598145
+        ]
+      ],
+      "triangles": 1724,
+      "materials": [
+        "metal",
+        "blue",
+        "yellow",
+        "wood",
+        "ceramic",
+        "dark",
+        "letters"
+      ],
+      "textures": 0,
+      "bytes": 125936,
+      "sha256": "89ac49018cfc27035d8a0f83387abaf0064c605dee35116cd9c8d05b9623a66a",
+      "geometry_signature": "346b8eefd63aceb4d57af5a3fc40cb493d88dbf1c3a9a17ac88f3b28ec641d2d"
+    }
+  ]
+}
