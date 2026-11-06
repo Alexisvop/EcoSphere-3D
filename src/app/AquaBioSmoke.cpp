@@ -101,11 +101,11 @@ void checkAquaBioFramebuffer(const std::filesystem::path& directory,int width,in
     const std::array<View,10> stations{{
         {"overview",{35,27,39},{0,0,-2}}, {"overview-equivalent",{23,21,26},{0,0,-3}},
         {"entry-equivalent",{0,1.7f,6},{0,1.5f,-7}},
-        {"rain-capture",{-12,1.7f,13},{-18,1.6f,6}},
-        {"treatment",{-11,5,-9},{-12,1.3f,-18}},
-        {"treatment-visitor",{-12,1.7f,-11.2f},{-17,1.2f,-16}},
-        {"sampling",{12,1.7f,-2.5f},{15,1.3f,-7}},
-        {"water-cycle",{1,1.7f,-16},{2,1.8f,-22}},
+        {"rain-capture",{-8,1.7f,13},{-14,1.6f,6}},
+        {"treatment",{-7.5f,5,-6},{-8.5f,1.3f,-15}},
+        {"treatment-visitor",{-7.5f,1.7f,-10},{-13.5f,1.2f,-14}},
+        {"sampling",{10,1.7f,-2.5f},{13,1.3f,-7}},
+        {"water-cycle",{1,1.7f,-13},{2,1.8f,-19}},
         {"wetland",{8.3f,1.7f,9},{14,1,4}},
         {"biodiversity",{12.3f,1.7f,11},{18,1,14.5f}}
     }};
@@ -175,8 +175,8 @@ void checkAquaBioFramebuffer(const std::filesystem::path& directory,int width,in
     }
     animationCsv.close();views.close();
     // Medición de throughput presentada: simulación fija; las capturas quedan fuera.
-    const std::array<glm::vec3,8> route{{{0,1.7f,13},{-11.5f,1.7f,2.7f},{-11.5f,1.7f,-8},{0,1.7f,-10},{0,1.7f,-18},{0,1.7f,4},{8.3f,1.7f,8},{12.3f,1.7f,11}}};
-    const std::array<glm::vec3,8> targets{{{-5,1,9},{-17,1.5f,7},{-16,1.2f,-7},{-13,1.5f,-18},{2,1.8f,-22},{13,1,-4},{15,1,4},{18,1,14.5f}}};
+    const std::array<glm::vec3,8> route{{{0,1.7f,13},{-7.5f,1.7f,2.7f},{-7.5f,1.7f,-8},{0,1.7f,-10},{0,1.7f,-14},{0,1.7f,4},{8.3f,1.7f,8},{12.3f,1.7f,11}}};
+    const std::array<glm::vec3,8> targets{{{-5,1,9},{-13,1.5f,7},{-12,1.2f,-7},{-9,1.5f,-15},{2,1.8f,-19},{11,1,-4},{15,1,4},{18,1,14.5f}}};
     const auto move=[&](int frame) {
         const float p=static_cast<float>(frame)/599*7;
         const auto i=std::min(static_cast<std::size_t>(p),std::size_t{6});const float t=p-static_cast<float>(i);

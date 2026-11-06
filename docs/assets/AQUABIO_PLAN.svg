@@ -4,10 +4,10 @@
 <rect x="359.10" y="440.00" width="41.80" height="132.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
 <rect x="359.10" y="341.00" width="41.80" height="110.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
 <rect x="359.10" y="231.00" width="41.80" height="110.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
-<rect x="359.10" y="121.00" width="41.80" height="110.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
-<rect x="184.20" y="399.30" width="176.00" height="30.80" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
-<rect x="238.10" y="275.00" width="30.80" height="154.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
-<rect x="184.20" y="259.60" width="176.00" height="30.80" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
+<rect x="359.10" y="196.90" width="41.80" height="35.20" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
+<rect x="228.20" y="399.30" width="132.00" height="30.80" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
+<rect x="282.10" y="275.00" width="30.80" height="154.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
+<rect x="228.20" y="259.60" width="132.00" height="30.80" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
 <rect x="399.80" y="413.60" width="88.00" height="30.80" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
 <rect x="455.90" y="429.00" width="30.80" height="88.00" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
 <rect x="471.30" y="490.60" width="88.00" height="30.80" fill="#fffce6" stroke="#367780" stroke-width="0.8"/>
@@ -15,79 +15,79 @@
 <rect x="355.25" y="572.44" width="49.50" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
 <circle cx="380.00" cy="572.00" r="2.8" fill="#ad5d24"><title>AQUA-002-entry</title></circle>
 <text x="384.00" y="567.00" font-family="sans-serif" font-size="11" fill="#123c49">002</text>
-<rect x="168.80" y="438.90" width="48.40" height="41.91" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="135.80" y="466.84" width="35.20" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="462.00" r="2.8" fill="#ad5d24"><title>AQUA-004-collector</title></circle>
-<text x="197.00" y="457.00" font-family="sans-serif" font-size="11" fill="#123c49">004</text>
-<rect x="173.64" y="436.81" width="41.32" height="5.94" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="439.78" r="2.8" fill="#ad5d24"><title>AQUA-005-adjustable</title></circle>
-<text x="197.00" y="434.78" font-family="sans-serif" font-size="11" fill="#123c49">005</text>
-<rect x="176.88" y="366.30" width="29.32" height="26.40" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="140.20" y="378.84" width="35.20" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="379.50" r="2.8" fill="#ad5d24"><title>AQUA-006-cistern</title></circle>
-<text x="197.00" y="374.50" font-family="sans-serif" font-size="11" fill="#123c49">006</text>
-<rect x="184.20" y="433.18" width="19.80" height="13.20" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="194.10" cy="439.78" r="2.8" fill="#ad5d24"><title>AQUA-007-inlet</title></circle>
-<text x="198.10" y="434.78" font-family="sans-serif" font-size="11" fill="#123c49">007</text>
-<rect x="194.65" y="301.12" width="20.79" height="13.75" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="156.70" y="305.14" width="28.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="204.00" cy="308.00" r="2.8" fill="#ad5d24"><title>AQUA-008-housing</title></circle>
-<text x="208.00" y="303.00" font-family="sans-serif" font-size="11" fill="#123c49">008</text>
-<rect x="342.27" y="472.56" width="9.46" height="2.64" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="347.00" cy="473.00" r="2.8" fill="#ad5d24"><title>AQUA-009-demo</title></circle>
-<rect x="199.27" y="309.32" width="9.46" height="2.64" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="204.00" cy="309.76" r="2.8" fill="#ad5d24"><title>AQUA-009-pump</title></circle>
-<text x="208.00" y="304.76" font-family="sans-serif" font-size="11" fill="#123c49">009</text>
-<rect x="171.00" y="190.85" width="40.15" height="36.30" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="129.20" y="208.34" width="39.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="209.00" r="2.8" fill="#ad5d24"><title>AQUA-010-tank</title></circle>
-<text x="197.00" y="204.00" font-family="sans-serif" font-size="11" fill="#123c49">010</text>
-<rect x="178.92" y="207.46" width="28.16" height="3.08" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="209.00" r="2.8" fill="#ad5d24"><title>AQUA-011-scraper</title></circle>
-<text x="197.00" y="204.00" font-family="sans-serif" font-size="11" fill="#123c49">011</text>
-<rect x="262.02" y="135.85" width="15.95" height="14.30" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="226.55" y="142.34" width="31.90" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="270.00" cy="143.00" r="2.8" fill="#ad5d24"><title>AQUA-012-sand</title></circle>
-<text x="274.00" y="138.00" font-family="sans-serif" font-size="11" fill="#123c49">012</text>
-<rect x="306.02" y="212.85" width="15.95" height="14.30" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="268.35" y="219.34" width="36.30" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="314.00" cy="220.00" r="2.8" fill="#ad5d24"><title>AQUA-013-carbon</title></circle>
-<text x="318.00" y="215.00" font-family="sans-serif" font-size="11" fill="#123c49">013</text>
-<rect x="311.03" y="253.33" width="5.94" height="5.94" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="314.00" cy="256.30" r="2.8" fill="#ad5d24"><title>AQUA-014-demo</title></circle>
-<rect x="267.03" y="184.03" width="5.94" height="5.94" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="270.00" cy="187.00" r="2.8" fill="#ad5d24"><title>AQUA-014-extraction</title></circle>
-<text x="274.00" y="182.00" font-family="sans-serif" font-size="11" fill="#123c49">014</text>
-<rect x="425.10" y="233.20" width="19.80" height="17.60" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="446.00" y="236.94" width="39.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="435.00" cy="242.00" r="2.8" fill="#ad5d24"><title>AQUA-015-uv</title></circle>
-<text x="439.00" y="237.00" font-family="sans-serif" font-size="11" fill="#123c49">015</text>
-<rect x="531.25" y="142.45" width="27.50" height="23.10" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="486.15" y="153.34" width="40.70" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="545.00" cy="154.00" r="2.8" fill="#ad5d24"><title>AQUA-016-treated</title></circle>
-<text x="549.00" y="149.00" font-family="sans-serif" font-size="11" fill="#123c49">016</text>
-<rect x="461.40" y="189.41" width="35.20" height="11.12" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="479.00" cy="198.00" r="2.8" fill="#ad5d24"><title>AQUA-017-branch</title></circle>
-<rect x="175.40" y="337.91" width="35.20" height="11.12" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="346.50" r="2.8" fill="#ad5d24"><title>AQUA-017-distribution</title></circle>
-<text x="197.00" y="341.50" font-family="sans-serif" font-size="11" fill="#123c49">017</text>
-<rect x="215.94" y="332.64" width="9.13" height="7.92" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="220.50" cy="336.60" r="2.8" fill="#ad5d24"><title>AQUA-018-manual</title></circle>
-<text x="224.50" y="331.60" font-family="sans-serif" font-size="11" fill="#123c49">018</text>
-<rect x="188.93" y="347.49" width="8.14" height="1.65" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="193.00" cy="348.15" r="2.8" fill="#ad5d24"><title>AQUA-019-indicator</title></circle>
-<text x="197.00" y="343.15" font-family="sans-serif" font-size="11" fill="#123c49">019</text>
-<rect x="510.08" y="302.50" width="25.85" height="11.00" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="537.30" y="307.34" width="39.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="523.00" cy="308.00" r="2.8" fill="#ad5d24"><title>AQUA-020-sampling</title></circle>
-<text x="527.00" y="303.00" font-family="sans-serif" font-size="11" fill="#123c49">020</text>
-<rect x="352.72" y="141.46" width="32.57" height="3.08" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<circle cx="369.00" cy="143.00" r="2.8" fill="#ad5d24"><title>AQUA-021-cycle</title></circle>
-<text x="373.00" y="138.00" font-family="sans-serif" font-size="11" fill="#123c49">021</text>
-<rect x="364.60" y="133.65" width="91.30" height="18.70" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
-<rect x="414.10" y="151.14" width="41.80" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
-<circle cx="435.00" cy="143.00" r="2.8" fill="#ad5d24"><title>AQUA-022-precipitation</title></circle>
-<text x="439.00" y="138.00" font-family="sans-serif" font-size="11" fill="#123c49">022</text>
+<rect x="212.80" y="438.90" width="48.40" height="41.91" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="179.80" y="466.84" width="35.20" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="237.00" cy="462.00" r="2.8" fill="#ad5d24"><title>AQUA-004-collector</title></circle>
+<text x="241.00" y="457.00" font-family="sans-serif" font-size="11" fill="#123c49">004</text>
+<rect x="217.64" y="436.81" width="41.32" height="5.94" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="237.00" cy="439.78" r="2.8" fill="#ad5d24"><title>AQUA-005-adjustable</title></circle>
+<text x="241.00" y="434.78" font-family="sans-serif" font-size="11" fill="#123c49">005</text>
+<rect x="220.88" y="366.30" width="29.32" height="26.40" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="184.20" y="378.84" width="35.20" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="237.00" cy="379.50" r="2.8" fill="#ad5d24"><title>AQUA-006-cistern</title></circle>
+<text x="241.00" y="374.50" font-family="sans-serif" font-size="11" fill="#123c49">006</text>
+<rect x="228.20" y="433.18" width="19.80" height="13.20" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="238.10" cy="439.78" r="2.8" fill="#ad5d24"><title>AQUA-007-inlet</title></circle>
+<text x="242.10" y="434.78" font-family="sans-serif" font-size="11" fill="#123c49">007</text>
+<rect x="238.65" y="301.12" width="20.79" height="13.75" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="200.70" y="305.14" width="28.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="248.00" cy="308.00" r="2.8" fill="#ad5d24"><title>AQUA-008-housing</title></circle>
+<text x="252.00" y="303.00" font-family="sans-serif" font-size="11" fill="#123c49">008</text>
+<rect x="331.27" y="313.06" width="9.46" height="2.64" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="336.00" cy="313.50" r="2.8" fill="#ad5d24"><title>AQUA-009-demo</title></circle>
+<rect x="243.27" y="309.32" width="9.46" height="2.64" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="248.00" cy="309.76" r="2.8" fill="#ad5d24"><title>AQUA-009-pump</title></circle>
+<text x="252.00" y="304.76" font-family="sans-serif" font-size="11" fill="#123c49">009</text>
+<rect x="209.50" y="212.85" width="40.15" height="36.30" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="167.70" y="230.34" width="39.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="231.50" cy="231.00" r="2.8" fill="#ad5d24"><title>AQUA-010-tank</title></circle>
+<text x="235.50" y="226.00" font-family="sans-serif" font-size="11" fill="#123c49">010</text>
+<rect x="217.42" y="229.46" width="28.16" height="3.08" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="231.50" cy="231.00" r="2.8" fill="#ad5d24"><title>AQUA-011-scraper</title></circle>
+<text x="235.50" y="226.00" font-family="sans-serif" font-size="11" fill="#123c49">011</text>
+<rect x="284.02" y="171.05" width="15.95" height="14.30" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="248.55" y="177.54" width="31.90" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="292.00" cy="178.20" r="2.8" fill="#ad5d24"><title>AQUA-012-sand</title></circle>
+<text x="296.00" y="173.20" font-family="sans-serif" font-size="11" fill="#123c49">012</text>
+<rect x="333.52" y="212.85" width="15.95" height="14.30" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="295.85" y="219.34" width="36.30" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="341.50" cy="220.00" r="2.8" fill="#ad5d24"><title>AQUA-013-carbon</title></circle>
+<text x="345.50" y="215.00" font-family="sans-serif" font-size="11" fill="#123c49">013</text>
+<rect x="338.53" y="253.33" width="5.94" height="5.94" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="341.50" cy="256.30" r="2.8" fill="#ad5d24"><title>AQUA-014-demo</title></circle>
+<rect x="289.03" y="200.53" width="5.94" height="5.94" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="292.00" cy="203.50" r="2.8" fill="#ad5d24"><title>AQUA-014-extraction</title></circle>
+<text x="296.00" y="198.50" font-family="sans-serif" font-size="11" fill="#123c49">014</text>
+<rect x="425.10" y="255.20" width="19.80" height="17.60" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="446.00" y="258.94" width="39.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="435.00" cy="264.00" r="2.8" fill="#ad5d24"><title>AQUA-015-uv</title></circle>
+<text x="439.00" y="259.00" font-family="sans-serif" font-size="11" fill="#123c49">015</text>
+<rect x="531.25" y="180.95" width="27.50" height="23.10" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="486.15" y="191.84" width="40.70" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="545.00" cy="192.50" r="2.8" fill="#ad5d24"><title>AQUA-016-treated</title></circle>
+<text x="549.00" y="187.50" font-family="sans-serif" font-size="11" fill="#123c49">016</text>
+<rect x="477.90" y="216.91" width="35.20" height="11.12" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="495.50" cy="225.50" r="2.8" fill="#ad5d24"><title>AQUA-017-branch</title></circle>
+<rect x="219.40" y="337.91" width="35.20" height="11.12" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="237.00" cy="346.50" r="2.8" fill="#ad5d24"><title>AQUA-017-distribution</title></circle>
+<text x="241.00" y="341.50" font-family="sans-serif" font-size="11" fill="#123c49">017</text>
+<rect x="259.94" y="332.64" width="9.13" height="7.92" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="264.50" cy="336.60" r="2.8" fill="#ad5d24"><title>AQUA-018-manual</title></circle>
+<text x="268.50" y="331.60" font-family="sans-serif" font-size="11" fill="#123c49">018</text>
+<rect x="232.93" y="347.49" width="8.14" height="1.65" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="237.00" cy="348.15" r="2.8" fill="#ad5d24"><title>AQUA-019-indicator</title></circle>
+<text x="241.00" y="343.15" font-family="sans-serif" font-size="11" fill="#123c49">019</text>
+<rect x="488.08" y="302.50" width="25.85" height="11.00" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="515.30" y="307.34" width="39.60" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="501.00" cy="308.00" r="2.8" fill="#ad5d24"><title>AQUA-020-sampling</title></circle>
+<text x="505.00" y="303.00" font-family="sans-serif" font-size="11" fill="#123c49">020</text>
+<rect x="352.72" y="174.46" width="32.57" height="3.08" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<circle cx="369.00" cy="176.00" r="2.8" fill="#ad5d24"><title>AQUA-021-cycle</title></circle>
+<text x="373.00" y="171.00" font-family="sans-serif" font-size="11" fill="#123c49">021</text>
+<rect x="364.60" y="166.65" width="91.30" height="18.70" fill="#8cbcc9" stroke="#367780" stroke-width="0.8"/>
+<rect x="414.10" y="184.14" width="41.80" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
+<circle cx="435.00" cy="176.00" r="2.8" fill="#ad5d24"><title>AQUA-022-precipitation</title></circle>
+<text x="439.00" y="171.00" font-family="sans-serif" font-size="11" fill="#123c49">022</text>
 <rect x="503.20" y="396.00" width="83.60" height="66.00" fill="#57adb0" stroke="#367780" stroke-width="0.8"/>
 <rect x="459.20" y="408.54" width="41.80" height="1.76" fill="#143c47" stroke="#367780" stroke-width="0.8"/>
 <circle cx="545.00" cy="429.00" r="2.8" fill="#ad5d24"><title>AQUA-023-basin</title></circle>

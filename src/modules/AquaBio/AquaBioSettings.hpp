@@ -13,12 +13,12 @@ struct Settings {
     glm::vec3 clearColor{.02f, .10f, .18f};
     // Índice = número AQUA menos uno; metros, +Y arriba. La cámara usa ZoneSettings.hpp.
     std::array<glm::vec3, 28> positions{{
-        {0,0,-1}, {0,.01f,17}, {0,.06f,11}, {-17,.01f,7}, {-17,3.0f,4.98f},
-        {-17,.01f,-.5f}, {-16.9f,.04f,4.98f}, {-16,.01f,-7}, {-16,.91f,-6.84f},
-        {-17,.01f,-16}, {-17,1.1f,-16}, {-10,.01f,-22}, {-6,.01f,-15},
-        {-10,.01f,-18}, {5,.01f,-13}, {15,.01f,-21}, {-17,.01f,-3.5f},
-        {-14.5f,.01f,-4.4f}, {-17,1.10f,-3.35f}, {13,.01f,-7}, {-1,1.81f,-22},
-        {5,.01f,-22}, {15,.01f,4}, {13.3f,.36f,2.2f}, {11.9f,.30f,1.7f},
+        {0,0,-1}, {0,.01f,17}, {0,.06f,11}, {-13,.01f,7}, {-13,3.0f,4.98f},
+        {-13,.01f,-.5f}, {-12.9f,.04f,4.98f}, {-12,.01f,-7}, {-12,.91f,-6.84f},
+        {-13.5f,.01f,-14}, {-13.5f,1.1f,-14}, {-8,.01f,-18.8f}, {-3.5f,.01f,-15},
+        {-8,.01f,-16.5f}, {5,.01f,-11}, {15,.01f,-17.5f}, {-13,.01f,-3.5f},
+        {-10.5f,.01f,-4.4f}, {-13,1.10f,-3.35f}, {11,.01f,-7}, {-1,1.81f,-19},
+        {5,.01f,-19}, {15,.01f,4}, {13.3f,.36f,2.2f}, {11.9f,.30f,1.7f},
         {21,.01f,-3}, {18.8f,.01f,14.5f}, {11.5f,-.05f,14.5f}
     }};
     std::array<glm::vec3, 28> scale = [] {
@@ -31,14 +31,15 @@ struct Settings {
     // Eje central: 12 + 3x10 m (3.8 m útiles); seis ramales de 2.8 m.
     glm::vec3 mainWalkwayScale{3.8f/2.8f,1,1.5f};
     std::array<glm::vec3,9> extraWalkways{{
-        {0,.06f,1}, {0,.06f,-9}, {0,.06f,-19}, {-9.8f,.06f,2.7f},
-        {-11.5f,.06f,-3}, {-9.8f,.06f,-10}, {5.8f,.06f,4}, {8.3f,.06f,8}, {12.3f,.06f,11}
+        {0,.06f,1}, {0,.06f,-9}, {0,.06f,-15.5f}, {-7.8f,.06f,2.7f},
+        {-7.5f,.06f,-3}, {-7.8f,.06f,-10}, {5.8f,.06f,4}, {8.3f,.06f,8}, {12.3f,.06f,11}
     }};
     std::array<float,9> extraWalkwayYaws{{0,0,0,90,0,90,90,0,90}};
     std::array<glm::vec3,9> extraWalkwayScales = [] {
         std::array<glm::vec3,9> v; v.fill(glm::vec3(1));
         for(std::size_t i=0;i<3;++i)v[i]={3.8f/2.8f,1,1.25f};
-        for(std::size_t i=3;i<6;++i)v[i].z=2;
+        v[2].z=.4f;
+        for(std::size_t i=3;i<6;++i)v[i].z=1.5f;
         v[4].z=1.75f; // Tramo occidental de 14 m: deja libre la bajante.
         return v;
     }();
@@ -49,9 +50,9 @@ struct Settings {
         {17.7f,.3f,1.7f}, {18,.3f,3.4f}, {17.6f,.3f,6.3f}, {13,.3f,6.5f}, {11.9f,.3f,4.3f}
     }};
     std::array<glm::vec3,2> extraTrees{{{21.2f,.01f,9.3f}, {15.5f,.01f,15}}};
-    glm::vec3 impellerDemoPosition{-3,.44f,8};
-    glm::vec3 cartridgeDemoPosition{-6,.01f,-11.7f};
-    glm::vec3 extraPipesPosition{9,.01f,-17};
+    glm::vec3 impellerDemoPosition{-4,.44f,-6.5f};
+    glm::vec3 cartridgeDemoPosition{-3.5f,.01f,-11.7f};
+    glm::vec3 extraPipesPosition{10.5f,.01f,-14.5f};
 
     // Cinemática ilustrativa: no hay caudal, potabilidad ni fluidodinámica simulados.
     float pumpSpeedDeg = 110, scraperSpeedDeg = 12, flowSpeedDeg = 55, cycleSpeedDeg = 16;
