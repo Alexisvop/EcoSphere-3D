@@ -32,3 +32,16 @@ Las instalaciones reutilizan modelos compartidos mediante rutas canónicas y ref
 - `docs/assets/` — inventarios y datos de geometría utilizados en pruebas.
 
 Para modificar o extender la interfaz del SDK, redacta primero un caso de compatibilidad y conserva las pruebas de consumidores externos.
+
+## Contador FPS de aplicación
+
+`src/app/FpsCounter.hpp` mide intervalos monotónicos del loop mediante
+`glfwGetTime()`, sin alimentar el tiempo de simulación. Acumula fotogramas y
+segundos durante al menos 0.5 s. Primer fotograma, reloj inválido, intervalos
+no positivos o superiores a 2 s, foco perdido y minimización reinician la muestra.
+Una pausa de animaciones con P no pausa la medición del renderizado.
+F3 alterna visibilidad solo en PRESS; los repeats/releases no la alternan.
+`NavigationHud` reutiliza fuente geométrica, material unlit y caché del modelo;
+solo reconstruye al cambiar texto, tamaño o anclaje. La banda superior de 40 px
+queda reservada para FPS; el HUD educativo conserva su espacio debajo.
+No se cambia el SDK, ni se añade un framework o hilo.

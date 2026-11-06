@@ -57,7 +57,11 @@ El proyecto es una demostración educativa: los instrumentos representados son i
 | Rotar / escalar objeto | Z / X, C / V |
 | Tomar / soltar | G |
 | Pausar o reanudar / reiniciar animaciones | P / R |
+| Mostrar / ocultar FPS | F3 |
 | Salir | Esc |
+
+El contador FPS aparece inicialmente y renueva la lectura cada ~0.5 s.
+`FPS: -` indica una muestra pendiente; se reinicia al perder foco o minimizar.
 
 ## Ejecución rápida
 
