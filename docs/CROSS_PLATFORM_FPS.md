@@ -190,3 +190,37 @@ rendimiento. Se conserva la dispersión de cada pasada en el CSV, sin descartarl
 [Registro gráfico final](evidence/cross-platform-fps/gpu-check.txt).
 Las 12 combinaciones zona/resolución aprobaron; F3 restauró el framebuffer
 exactamente y no hubo cambios de píxeles fuera de la región del contador.
+
+
+## Validación gráfica adicional de instalaciones
+
+Los tres smoke tests originales completaron con salida 0 y `Clean exit` en la
+aplicación real Linux/Wayland, framebuffer concedido 951×1023:
+
+| Comando | Interacciones | Animaciones | Resultado |
+|---|---:|---:|---|
+| `--ecoenergy-smoke` | 6 | 8 | PASS |
+| `--aquabio-smoke` | 7 | 8 | PASS |
+| `--ecocycle-smoke` | 7 | 8 | PASS |
+
+Comprobaron selección, manipulación y movimiento mediante framebuffer, además
+de los mecanismos CPU ya probados. Registros completos:
+[EcoEnergy](evidence/cross-platform-fps/installation-energy.txt),
+[AquaBio](evidence/cross-platform-fps/installation-aqua.txt),
+[EcoCycle](evidence/cross-platform-fps/installation-cycle.txt).
+Los ~60 FPS de sus bucles de 600 frames corresponden a swap solicitado 1 y no
+se usan como benchmark causal del overlay.
+
+Comparación exacta antes/después de cuatro vistas de entrada: **0 píxeles RGB
+modificados en los 744633 píxeles de escena por vista**, excluyendo las primeras
+240 filas donde cambiaron el HUD y FPS. Las resoluciones coinciden. Esto respalda
+que iluminación, materiales, cielo y texturas conservan su salida en esas vistas
+Intel/Mesa; no certifica otros controladores ni todas las posiciones.
+[Detalle](evidence/cross-platform-fps/scene-comparison.txt).
+
+**Aviso de almacenamiento:** los PPM/CSV de los smoke tests existentes conservados
+en `/tmp/ecosphere-*` ocupan conjuntamente ~2.23 GiB al cierre, fuera del árbol Git.
+Se informó al usuario al superar 2 GiB. No se borraron ni se publicaron esos PPM:
+se publicaron únicamente PNG seleccionados y registros/CSV necesarios. El árbol
+Git sigue por debajo de 2 GiB y su crecimiento ronda 174 MiB. La limpieza de los
+temporales permanece pendiente de autorización explícita.
