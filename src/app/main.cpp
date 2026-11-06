@@ -18,6 +18,8 @@
 #include "AquaBioSmoke.hpp"
 #include "EcoCycleSmoke.hpp"
 #include "NavigationHud.hpp"
+#include "FpsCounter.hpp"
+#include "SrgbFramebuffer.hpp"
 #include "NavigationSmoke.hpp"
 #include "world/ZoneNavigator.hpp"
 #include "world/LightingDemo.hpp"
@@ -303,7 +305,9 @@ int run(int argc, char** argv) {
         camera.yawDegrees = -90.0f;
         camera.pitchDegrees = -4.0f;
     }
+    ecosphere::FpsCounter fpsCounter;
     struct InputContext {
+        ecosphere::FpsCounter& fps;
         ecosphere::Camera& camera;
         ecosphere::LightingSettings& lighting;
         bool& regression;
@@ -312,11 +316,14 @@ int run(int argc, char** argv) {
         bool skipNextUpdate = true;
         bool navigationEnabled = false, enter = false, home = false;
         std::vector<std::pair<int,bool>> navigationKeys{};
-    } inputContext{camera, lighting, regression, interactionEnabled || contentEnabled, {}};
+    } inputContext{fpsCounter, camera, lighting, regression, interactionEnabled || contentEnabled, {}};
     inputContext.navigationEnabled=plazaEnabled;
     glfwSetWindowUserPointer(window.get(), &inputContext);
     glfwSetKeyCallback(window.get(), [](GLFWwindow* handle, int key, int, int action, int) {
         auto& input = *static_cast<InputContext*>(glfwGetWindowUserPointer(handle));
+        input.fps.key(key,action);
+        if(key==GLFW_KEY_F3 && action==GLFW_PRESS)
+            std::cout<<"FPS overlay: "<<(input.fps.visible ? "on" : "off")<<std::endl;
         if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
             std::cout << "ESC: close requested" << std::endl;
             glfwSetWindowShouldClose(handle, GLFW_TRUE);
@@ -362,7 +369,7 @@ int run(int argc, char** argv) {
     glfwSetFramebufferSizeCallback(window.get(), [](GLFWwindow*, int width, int height) {
         std::cout << "Framebuffer: " << width << 'x' << height << std::endl;
     });
-    std::cout << "Camera mode: first-person\nControls: F1 first-person; F2 free; WASD move; "
+    std::cout << "Camera mode: first-person\nControls: F1 first-person; F2 free; F3 FPS; WASD move; "
                  "Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released." << std::endl;
 
     // Destrucción en orden inverso: recursos GPU y módulo antes del contexto.
@@ -399,6 +406,7 @@ int run(int argc, char** argv) {
     auto modelRenderer=std::make_unique<ecosphere::ModelRenderer>(shaders);
     std::unique_ptr<ecosphere::NavigationHud> navigationHud;
     if (navigator) navigationHud=std::make_unique<ecosphere::NavigationHud>(shaders);
+    ecosphere::NavigationHud fpsHud(shaders);
     ecosphere::Environment environment(shaders);
     const auto showcase = plazaEnabled ? nullptr : ecosphere::makeLightingDemo();
     std::shared_ptr<ecosphere::Model> contentOutline;
@@ -414,10 +422,7 @@ int run(int argc, char** argv) {
         std::cout << "Interaction controls: Space center ray; Tab next; Backspace deselect; J/L X, U/O Y, I/K Z; "
                      "Z/X rotate; C/V scale; G take/drop; P pause/resume; R restart animations. Cursor released." << std::endl;
     }
-    GLint colorEncoding = 0;
-    glGetFramebufferAttachmentParameteriv(GL_FRAMEBUFFER, GL_BACK_LEFT, GL_FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING, &colorEncoding);
-    if (colorEncoding != GL_SRGB) throw std::runtime_error("Lighting demo requires sRGB-capable default framebuffer for linear blending");
-    std::cout << "Color: sRGB framebuffer verified; linear shading/blending, legacy explicit encode" << std::endl;
+    ecosphere::verifySrgbFramebuffer();
     glEnable(GL_TEXTURE_CUBE_MAP_SEAMLESS);
     glEnable(GL_DEPTH_TEST);
     double performanceStart = glfwGetTime();
@@ -434,6 +439,7 @@ int run(int argc, char** argv) {
         const double cameraDelta = ecosphere::cameraDeltaSeconds(elapsed,
             focused && !minimized && !inputContext.skipNextUpdate);
         const bool activeInput = focused && !minimized && !inputContext.skipNextUpdate;
+        fpsCounter.sample(currentTimeSeconds,activeInput);
         inputContext.skipNextUpdate = false;
         const auto held = [&](int key) { return glfwGetKey(window.get(), key) == GLFW_PRESS ? 1.0f : 0.0f; };
         ecosphere::CameraInput input;
@@ -565,6 +571,7 @@ int run(int argc, char** argv) {
             renderer.draw(scene, camera.view(), *projection);
         } else renderLit(lighting);
         if (navigationHud) navigationHud->draw(navigator->message(camera.position),width,height);
+        if(fpsCounter.visible) fpsHud.draw(fpsCounter.text(),width,height,true);
         const bool captureFrame = !capturePath.empty() && ++renderedFrames == smokeFrameLimit;
         std::vector<unsigned char> withoutImported;
         if (captureFrame) {
@@ -635,7 +642,11 @@ int run(int argc, char** argv) {
         }
         if (!navigationCaptureDirectory.empty() && ++renderedFrames==120) {
             ecosphere::checkNavigationFramebuffer(navigationCaptureDirectory,width,height,*navigator,camera,navigate,
-                [&] {renderLit(lighting);navigationHud->draw(navigator->message(camera.position),width,height);},
+                [&] {
+                    renderLit(lighting);navigationHud->draw(navigator->message(camera.position),width,height);
+                    fpsCounter.sample(glfwGetTime(),true);
+                    if(fpsCounter.visible)fpsHud.draw(fpsCounter.text(),width,height,true);
+                },
                 [&] {
                     glfwSwapBuffers(window.get());glfwPollEvents();
                     int w=0,h=0;glfwGetFramebufferSize(window.get(),&w,&h);

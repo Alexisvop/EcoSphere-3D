@@ -1,0 +1,8 @@
+Before/after navigation captures: identical 951x1023 framebuffer dimensions.
+Excluded the top 240 rows containing the moved navigation HUD and new FPS panel.
+Exact RGB comparison of remaining 744633 pixels per capture:
+hub-entry: 0 changed pixels
+ecoenergy-inside: 0 changed pixels
+aquabio-inside: 0 changed pixels
+ecocycle-inside: 0 changed pixels
+This validates these four entry views on Intel/Mesa, not AMD or all viewpoints.

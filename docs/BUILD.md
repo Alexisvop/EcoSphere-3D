@@ -41,7 +41,7 @@ OpenGL 3.3 Core y una sesión gráfica compatible.
 
 En Windows, usa **Developer PowerShell for Visual Studio** con las herramientas
 de escritorio C++ y Windows SDK preparados. Se requieren `cl.exe` (MSVC C++17),
-`cmake.exe`, `ninja.exe`, GLFW **3.4 exacta** con configuración CMake y Python
+`cmake.exe`, `ninja.exe`, GLFW **3.4.0 exacta** con configuración CMake y Python
 3.10+. `-Test` necesita `ctest.exe`. El script solicita explícitamente MSVC para
 C y C++; no sustituye ese compilador por MinGW o Clang. Está escrito con sintaxis
 compatible con Windows PowerShell 5.1 y PowerShell 7, **pendiente de pruebas
@@ -96,8 +96,38 @@ CMake prepara shaders y copia modelos bajo el directorio del ejecutable. No ejec
 
 ## Windows
 
-`windows-dev` solicita MSVC + Ninja y GLFW 3.4 exacta. Es una configuración de trabajo **no validada**; no se promete compatibilidad hasta probarla nativamente. La versión Release y el instalador se prepararán en una etapa posterior.
+`windows-dev` solicita MSVC + Ninja y GLFW 3.4.0 exacta. Es una configuración de trabajo **no validada**; no se promete compatibilidad hasta probarla nativamente. La versión Release y el instalador se prepararán en una etapa posterior.
 
 ## Política de almacenamiento
 
 Usa los directorios de compilación existentes si sus opciones son compatibles. No registres `build/` ni elimines evidencias o modelos originales de manera automática. Antes de realizar limpiezas, compara rutas y respaldos y solicita autorización del equipo.
+
+## Validación de estabilidad y FPS
+
+Linux mantiene GLFW 3.5.1; Windows solicita 3.4.0 (sin cambiar versión mayor/menor).
+El archivo de versión de CMake compara cadenas para `EXACT`: `3.4` no es
+`3.4.0`. No se elimina la validación. `content_module_tests` enlaza explícitamente
+el target `glfw`, que aporta sus includes y requisitos de plataforma.
+
+La inicialización sRGB consulta el attachment del framebuffer 0 y verifica además
+su conversión real: una entrada lineal de 0.25 debe leerse como ~64/255 sin
+`GL_FRAMEBUFFER_SRGB` y ~137/255 con él. Si la consulta es errónea pero la
+conversión funciona, continúa con diagnóstico; si la conversión falla, aborta con
+un error claro. No se desactiva gamma ni se modifican shaders. Los diagnósticos
+incluyen fabricante, GPU, OpenGL, GLFW, encoding y errores de la consulta/probe.
+AMD/Windows sigue pendiente de validación nativa.
+
+Prueba gráfica opcional (requiere sesión OpenGL real, no forma parte de CTest
+para conservar su ejecución sin pantalla):
+
+```bash
+./build/linux-dev/fps_graphics_tests build/linux-dev /tmp/ecosphere-fps-evidence
+```
+
+Comprueba las cuatro zonas a 1280×720, 640×360 y 320×240, lectura del framebuffer,
+F3 apagado/encendido y mediciones emparejadas con/sin overlay. Solicita intervalos
+de swap 0 y 1; el compositor/controlador puede imponer su propia sincronización.
+Si no concede una resolución, informa del fallo; no lo declara aprobado.
+En Windows usa los mismos argumentos con `build/windows-dev/fps_graphics_tests.exe`.
+
+Resultados y límites: [informe de compatibilidad y FPS](CROSS_PLATFORM_FPS.md).

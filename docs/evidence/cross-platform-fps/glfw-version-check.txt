@@ -1,0 +1,3 @@
+-- GLFW package 3.4.0; request=3.4; exact=
+-- GLFW package 3.4.0; request=3.4.0; exact=TRUE
+-- GLFW package 3.4.0; request=3.5.0; exact=

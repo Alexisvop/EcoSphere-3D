@@ -1,0 +1,68 @@
+Native Wayland: yes
+X11: no
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=ecoenergy
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[module] ecoenergy
+[module] initialize content
+Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.
+Shaders: <repo>/build/linux-dev/shaders
+Asset notice: Phase 3: metallic/roughness approximated by Blinn-Phong + static environment; not full glTF PBR
+Imported model: 2 primitives, 4 nodes, 1 textures
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 955x1025
+Focus: active
+Framebuffer: 951x1023
+ECOENERGY MODEL PASS ENERGY-001 pixels=193156
+ECOENERGY MODEL PASS ENERGY-002 pixels=108475
+ECOENERGY MODEL PASS ENERGY-003 pixels=100794
+ECOENERGY MODEL PASS ENERGY-004 pixels=107788
+ECOENERGY MODEL PASS ENERGY-005 pixels=99110
+ECOENERGY MODEL PASS ENERGY-006 pixels=54742
+ECOENERGY MODEL PASS ENERGY-007 pixels=281982
+ECOENERGY MODEL PASS ENERGY-008 pixels=201341
+ECOENERGY MODEL PASS ENERGY-009 pixels=104081
+ECOENERGY MODEL PASS ENERGY-010 pixels=320145
+ECOENERGY MODEL PASS ENERGY-011 pixels=211038
+ECOENERGY MODEL PASS ENERGY-012 pixels=37886
+ECOENERGY MODEL PASS ENERGY-013 pixels=263348
+ECOENERGY MODEL PASS ENERGY-014 pixels=27512
+ECOENERGY MODEL PASS ENERGY-015 pixels=32514
+ECOENERGY MODEL PASS ENERGY-016 pixels=51444
+ECOENERGY MODEL PASS ENERGY-017 pixels=151409
+ECOENERGY MODEL PASS ENERGY-018 pixels=21488
+ECOENERGY MODEL PASS ENERGY-019 pixels=113672
+ECOENERGY MODEL PASS ENERGY-020 pixels=44293
+ECOENERGY MODEL PASS ENERGY-021 pixels=53288
+ECOENERGY MODEL PASS ENERGY-022 pixels=257276
+ECOENERGY MODEL PASS ENERGY-023 pixels=133620
+ECOENERGY MODEL PASS ENERGY-024 pixels=208316
+ECOENERGY MODEL PASS ENERGY-025 pixels=140796
+ECOENERGY MODEL PASS ENERGY-026 pixels=125883
+ECOENERGY MODEL PASS ENERGY-027 pixels=107701
+ECOENERGY MODEL PASS ENERGY-028 pixels=211851
+ECOENERGY MODEL PASS SHARED-001 pixels=172265
+ECOENERGY MODEL PASS SHARED-003 pixels=95481
+ECOENERGY MODEL PASS SHARED-005 pixels=215024
+ECOENERGY INTERACTION PASS INT-ENERGY-001 (ENERGY-005-panel-adjustable) select_px=25274 manip_px=286330
+ECOENERGY INTERACTION PASS INT-ENERGY-002 (ENERGY-019-blade-demo) select_px=25440 manip_px=290695
+ECOENERGY INTERACTION PASS INT-ENERGY-003 (ENERGY-011-battery-module) select_px=26075 manip_px=173792
+ECOENERGY INTERACTION PASS INT-ENERGY-004 (ENERGY-023-generator-coil) select_px=15919 manip_px=66040
+ECOENERGY INTERACTION PASS INT-ENERGY-005 (ENERGY-027-charge-connector) select_px=22404 manip_px=87962
+ECOENERGY INTERACTION PASS INT-ENERGY-006 (ENERGY-026-ev-interactive) select_px=19988 manip_px=239463
+ECOENERGY ANIMATION PASS simple changed_pixels=67350
+ECOENERGY ANIMATION PASS keyframe-tracker changed_pixels=72536
+ECOENERGY ANIMATION PASS keyframe-ev changed_pixels=233077
+ECOENERGY ANIMATION PASS procedural-vane changed_pixels=32906
+ECOENERGY ANIMATION PASS procedural-soc changed_pixels=37492
+ECOENERGY SMOKE PASS: unique=31 resources=31 instances=63 triangles=31112 interactions=6 animations=8 load_seconds=0.0585007 frames=600 seconds=9.99859 fps_mean=60.0085 framebuffer=951x1023
+FPS observed: 4.73651; frames=120; seconds=25.3351; framebuffer=951x1023; requested swap interval=1; regression=0
+[module] ecoenergy
+[module] shutdown content
+Clean exit

@@ -1,0 +1,30 @@
+Native Wayland: no
+X11: yes
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=hub
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[zone] hub initialize: plaza GLB content registered
+Navigation: Enter near an access to enter; H return to plaza; ESC exit. Release Enter/H before another transition.
+Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.
+Shaders: <repo>/build/linux-dev/shaders
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+FPS overlay: off
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+FPS overlay: on
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Camera mode: first-person
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Camera mode: free
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+ESC: close requested
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+[zone] hub shutdown: session releases plaza content
+Clean exit

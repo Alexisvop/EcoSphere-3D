@@ -1,0 +1,75 @@
+Test project <repo>/build/linux-dev
+      Start  1: fps_cpu
+ 1/35 Test  #1: fps_cpu ...............................   Passed    0.00 sec
+      Start  2: visitor_controls_cpu
+ 2/35 Test  #2: visitor_controls_cpu ..................   Passed    4.14 sec
+      Start  3: shared_resources_cpu
+ 3/35 Test  #3: shared_resources_cpu ..................   Passed   15.60 sec
+      Start  4: shared_inventory
+ 4/35 Test  #4: shared_inventory ......................   Passed    0.21 sec
+      Start  5: shared_spatial_layout
+ 5/35 Test  #5: shared_spatial_layout .................   Passed    0.23 sec
+      Start  6: zone_navigation_cpu
+ 6/35 Test  #6: zone_navigation_cpu ...................   Passed   21.03 sec
+      Start  7: cli_rejects_unscoped_benchmark
+ 7/35 Test  #7: cli_rejects_unscoped_benchmark ........   Passed    0.00 sec
+      Start  8: plaza_assets_cpu
+ 8/35 Test  #8: plaza_assets_cpu ......................   Passed    0.64 sec
+      Start  9: sdk_v1_cpu
+ 9/35 Test  #9: sdk_v1_cpu ............................   Passed    0.03 sec
+      Start 10: sdk_external_consumer
+10/35 Test #10: sdk_external_consumer .................   Passed    0.16 sec
+      Start 11: plaza_inventory
+11/35 Test #11: plaza_inventory .......................   Passed    0.14 sec
+      Start 12: plaza_cli_rejects_module
+12/35 Test #12: plaza_cli_rejects_module ..............   Passed    0.00 sec
+      Start 13: ecoenergy_assets_cpu
+13/35 Test #13: ecoenergy_assets_cpu ..................   Passed    1.08 sec
+      Start 14: ecoenergy_inventory
+14/35 Test #14: ecoenergy_inventory ...................   Passed    0.13 sec
+      Start 15: aquabio_assets_cpu
+15/35 Test #15: aquabio_assets_cpu ....................   Passed    3.09 sec
+      Start 16: cli_rejects_aquabio_module
+16/35 Test #16: cli_rejects_aquabio_module ............   Passed    0.00 sec
+      Start 17: cli_rejects_two_installation_smokes
+17/35 Test #17: cli_rejects_two_installation_smokes ...   Passed    0.00 sec
+      Start 18: aquabio_inventory
+18/35 Test #18: aquabio_inventory .....................   Passed    0.15 sec
+      Start 19: aquabio_spatial_layout
+19/35 Test #19: aquabio_spatial_layout ................   Passed    0.46 sec
+      Start 20: ecocycle_assets_cpu
+20/35 Test #20: ecocycle_assets_cpu ...................   Passed    2.88 sec
+      Start 21: ecocycle_inventory
+21/35 Test #21: ecocycle_inventory ....................   Passed    0.12 sec
+      Start 22: ecocycle_spatial_layout
+22/35 Test #22: ecocycle_spatial_layout ...............   Passed    4.21 sec
+      Start 23: cli_rejects_ecocycle_module
+23/35 Test #23: cli_rejects_ecocycle_module ...........   Passed    0.00 sec
+      Start 24: cli_rejects_ecocycle_mixed
+24/35 Test #24: cli_rejects_ecocycle_mixed ............   Passed    0.00 sec
+      Start 25: content_registry_cpu
+25/35 Test #25: content_registry_cpu ..................   Passed    0.01 sec
+      Start 26: content_modules_integration_cpu
+26/35 Test #26: content_modules_integration_cpu .......   Passed    0.35 sec
+      Start 27: module_contract
+27/35 Test #27: module_contract .......................   Passed    0.00 sec
+      Start 28: graphics_failure_cleanup
+28/35 Test #28: graphics_failure_cleanup ..............   Passed    1.22 sec
+      Start 29: scene_camera_cpu
+29/35 Test #29: scene_camera_cpu ......................   Passed    0.00 sec
+      Start 30: assets_cpu
+30/35 Test #30: assets_cpu ............................   Passed    0.10 sec
+      Start 31: lighting_cpu
+31/35 Test #31: lighting_cpu ..........................   Passed    0.01 sec
+      Start 32: lighting_assets_cpu
+32/35 Test #32: lighting_assets_cpu ...................   Passed    0.01 sec
+      Start 33: interaction_animation_cpu
+33/35 Test #33: interaction_animation_cpu .............   Passed    0.01 sec
+      Start 34: cli_rejects_unknown_module
+34/35 Test #34: cli_rejects_unknown_module ............   Passed    0.00 sec
+      Start 35: cli_rejects_unknown_option
+35/35 Test #35: cli_rejects_unknown_option ............   Passed    0.00 sec
+
+100% tests passed out of 35
+
+Total Test time (real) =  56.03 sec
