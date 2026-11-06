@@ -1,0 +1,613 @@
+{
+  "tour_samples": 120,
+  "platform_m": [
+    48,
+    48
+  ],
+  "instances": 52,
+  "paths": 10,
+  "connected_paths": 10,
+  "useful_width_m": {
+    "main": 3.8,
+    "secondary": 2.8
+  },
+  "minimum_station_gap_m": 3.7000007999999998,
+  "station_distances": [
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-006-cistern",
+      "gap_m": 4.70000005
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-008-housing",
+      "gap_m": 12.2750001
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-010-tank",
+      "gap_m": 18.7500005
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-012-sand",
+      "gap_m": 25.7500005
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-013-carbon",
+      "gap_m": 19.86668115556799
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-015-uv",
+      "gap_m": 28.230657948797454
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-016-treated",
+      "gap_m": 25.724016132031174
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-020-sampling",
+      "gap_m": 18.240082981719134
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 4.439999599999998
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-023-basin",
+      "gap_m": 16.0
+    },
+    {
+      "a": "AQUA-004-collector",
+      "b": "AQUA-027-shelter",
+      "gap_m": 27.306036949125406
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-008-housing",
+      "gap_m": 5.174999952
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-010-tank",
+      "gap_m": 11.650000352000001
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-012-sand",
+      "gap_m": 18.650000352
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-013-carbon",
+      "gap_m": 13.036295851797785
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-015-uv",
+      "gap_m": 22.55349264313624
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-016-treated",
+      "gap_m": 21.73165904145379
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-020-sampling",
+      "gap_m": 16.080442311942168
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 12.94999955
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-023-basin",
+      "gap_m": 17.00000001
+    },
+    {
+      "a": "AQUA-006-cistern",
+      "b": "AQUA-027-shelter",
+      "gap_m": 30.380142374049232
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-010-tank",
+      "gap_m": 5.225000400000001
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-012-sand",
+      "gap_m": 12.225000399999999
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-013-carbon",
+      "gap_m": 7.05029994525057
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-015-uv",
+      "gap_m": 17.786771536959726
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-016-treated",
+      "gap_m": 19.023741122397563
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-020-sampling",
+      "gap_m": 15.789453568812952
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 20.5249996
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-023-basin",
+      "gap_m": 18.485973560491754
+    },
+    {
+      "a": "AQUA-008-housing",
+      "b": "AQUA-027-shelter",
+      "gap_m": 34.09480921005429
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-012-sand",
+      "gap_m": 3.7000007999999998
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-013-carbon",
+      "gap_m": 4.200000300000001
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-015-uv",
+      "gap_m": 14.394617636116688
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-016-treated",
+      "gap_m": 19.0000005
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-020-sampling",
+      "gap_m": 18.027150010012683
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 27.0
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-023-basin",
+      "gap_m": 22.450501514687822
+    },
+    {
+      "a": "AQUA-010-tank",
+      "b": "AQUA-027-shelter",
+      "gap_m": 38.750684911882544
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-013-carbon",
+      "gap_m": 4.701662739925168
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-015-uv",
+      "gap_m": 9.875
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-016-treated",
+      "gap_m": 15.532083977689538
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-020-sampling",
+      "gap_m": 18.723848664524077
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 34.0
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-023-basin",
+      "gap_m": 24.686497093846672
+    },
+    {
+      "a": "AQUA-012-sand",
+      "b": "AQUA-027-shelter",
+      "gap_m": 41.059605522094365
+    },
+    {
+      "a": "AQUA-013-carbon",
+      "b": "AQUA-015-uv",
+      "gap_m": 6.668443290603997
+    },
+    {
+      "a": "AQUA-013-carbon",
+      "b": "AQUA-016-treated",
+      "gap_m": 9.9250002
+    },
+    {
+      "a": "AQUA-013-carbon",
+      "b": "AQUA-020-sampling",
+      "gap_m": 10.926230132666992
+    },
+    {
+      "a": "AQUA-013-carbon",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 28.0
+    },
+    {
+      "a": "AQUA-013-carbon",
+      "b": "AQUA-023-basin",
+      "gap_m": 16.925517270219547
+    },
+    {
+      "a": "AQUA-013-carbon",
+      "b": "AQUA-027-shelter",
+      "gap_m": 33.255694472225386
+    },
+    {
+      "a": "AQUA-015-uv",
+      "b": "AQUA-016-treated",
+      "gap_m": 4.150000600000002
+    },
+    {
+      "a": "AQUA-015-uv",
+      "b": "AQUA-020-sampling",
+      "gap_m": 13.700000800000002
+    },
+    {
+      "a": "AQUA-015-uv",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 34.6072611484931
+    },
+    {
+      "a": "AQUA-015-uv",
+      "b": "AQUA-023-basin",
+      "gap_m": 20.2000008
+    },
+    {
+      "a": "AQUA-015-uv",
+      "b": "AQUA-027-shelter",
+      "gap_m": 33.763414362590794
+    },
+    {
+      "a": "AQUA-016-treated",
+      "b": "AQUA-020-sampling",
+      "gap_m": 7.4499998000000005
+    },
+    {
+      "a": "AQUA-016-treated",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 30.196398243499182
+    },
+    {
+      "a": "AQUA-016-treated",
+      "b": "AQUA-023-basin",
+      "gap_m": 13.9499998
+    },
+    {
+      "a": "AQUA-016-treated",
+      "b": "AQUA-027-shelter",
+      "gap_m": 26.322340393095793
+    },
+    {
+      "a": "AQUA-020-sampling",
+      "b": "AQUA-022-precipitation",
+      "gap_m": 21.569147037458396
+    },
+    {
+      "a": "AQUA-020-sampling",
+      "b": "AQUA-023-basin",
+      "gap_m": 5.5
+    },
+    {
+      "a": "AQUA-020-sampling",
+      "b": "AQUA-027-shelter",
+      "gap_m": 18.76814084585901
+    },
+    {
+      "a": "AQUA-022-precipitation",
+      "b": "AQUA-023-basin",
+      "gap_m": 13.645969636709596
+    },
+    {
+      "a": "AQUA-022-precipitation",
+      "b": "AQUA-027-shelter",
+      "gap_m": 22.456819100315403
+    },
+    {
+      "a": "AQUA-023-basin",
+      "b": "AQUA-027-shelter",
+      "gap_m": 6.125
+    }
+  ],
+  "readable_panels": [
+    {
+      "instance_id": "AQUA-004-collector",
+      "observer": [
+        -15.6,
+        1.7,
+        14.52
+      ],
+      "panel_bounds": [
+        [
+          -17.2,
+          0.89999999978,
+          9.94
+        ],
+        [
+          -14.0,
+          2.11999999978,
+          10.1
+        ]
+      ],
+      "min_letter_height": 0.1713124274099884
+    },
+    {
+      "instance_id": "AQUA-006-cistern",
+      "observer": [
+        -15.2,
+        1.7,
+        6.02
+      ],
+      "panel_bounds": [
+        [
+          -16.8,
+          0.89999999978,
+          1.44
+        ],
+        [
+          -13.6,
+          2.11999999978,
+          1.6
+        ]
+      ],
+      "min_letter_height": 0.17987804878048785
+    },
+    {
+      "instance_id": "AQUA-008-housing",
+      "observer": [
+        -15.0,
+        1.7,
+        -1.1799999999999997
+      ],
+      "panel_bounds": [
+        [
+          -16.3,
+          0.89999999978,
+          -5.76
+        ],
+        [
+          -13.7,
+          2.11999999978,
+          -5.6
+        ]
+      ],
+      "min_letter_height": 0.1791158536585366
+    },
+    {
+      "instance_id": "AQUA-010-tank",
+      "observer": [
+        -17.5,
+        1.7,
+        -8.48
+      ],
+      "panel_bounds": [
+        [
+          -19.3,
+          0.89999999978,
+          -13.06
+        ],
+        [
+          -15.7,
+          2.11999999978,
+          -12.9
+        ]
+      ],
+      "min_letter_height": 0.18
+    },
+    {
+      "instance_id": "AQUA-012-sand",
+      "observer": [
+        -11.0,
+        1.7,
+        -14.479999999999997
+      ],
+      "panel_bounds": [
+        [
+          -12.45,
+          0.89999999978,
+          -19.06
+        ],
+        [
+          -9.55,
+          2.11999999978,
+          -18.9
+        ]
+      ],
+      "min_letter_height": 0.17953929539295393
+    },
+    {
+      "instance_id": "AQUA-013-carbon",
+      "observer": [
+        -6.0,
+        1.7,
+        -8.48
+      ],
+      "panel_bounds": [
+        [
+          -7.65,
+          0.89999999978,
+          -13.06
+        ],
+        [
+          -4.35,
+          2.11999999978,
+          -12.9
+        ]
+      ],
+      "min_letter_height": 0.18
+    },
+    {
+      "instance_id": "AQUA-015-uv",
+      "observer": [
+        5.8,
+        1.7,
+        -14.880000000000003
+      ],
+      "panel_bounds": [
+        [
+          4.0,
+          0.89999999978,
+          -19.46
+        ],
+        [
+          7.6,
+          2.11999999978,
+          -19.3
+        ]
+      ],
+      "min_letter_height": 0.18
+    },
+    {
+      "instance_id": "AQUA-016-treated",
+      "observer": [
+        9.0,
+        1.7,
+        -8.48
+      ],
+      "panel_bounds": [
+        [
+          7.15,
+          0.89999999978,
+          -13.06
+        ],
+        [
+          10.85,
+          2.11999999978,
+          -12.9
+        ]
+      ],
+      "min_letter_height": 0.18
+    },
+    {
+      "instance_id": "AQUA-020-sampling",
+      "observer": [
+        9.1,
+        1.7,
+        0.5200000000000005
+      ],
+      "panel_bounds": [
+        [
+          7.3,
+          0.89999999978,
+          -4.06
+        ],
+        [
+          10.9,
+          2.11999999978,
+          -3.9
+        ]
+      ],
+      "min_letter_height": 0.18
+    },
+    {
+      "instance_id": "AQUA-022-precipitation",
+      "observer": [
+        -7.0,
+        1.7,
+        21.82
+      ],
+      "panel_bounds": [
+        [
+          -8.9,
+          0.89999999978,
+          17.24
+        ],
+        [
+          -5.1,
+          2.11999999978,
+          17.4
+        ]
+      ],
+      "min_letter_height": 0.18
+    },
+    {
+      "instance_id": "AQUA-023-basin",
+      "observer": [
+        8.1,
+        1.7,
+        7.72
+      ],
+      "panel_bounds": [
+        [
+          6.199999999999999,
+          0.89999999978,
+          3.1399999999999997
+        ],
+        [
+          10.0,
+          2.11999999978,
+          3.3
+        ]
+      ],
+      "min_letter_height": 0.18
+    }
+  ],
+  "animation_samples": 200,
+  "animated_entities": 8,
+  "mount_exceptions": [
+    [
+      "AQUA-004-collector",
+      "AQUA-005-adjustable"
+    ],
+    [
+      "AQUA-008-housing",
+      "AQUA-009-pump"
+    ],
+    [
+      "AQUA-010-tank",
+      "AQUA-011-scraper"
+    ],
+    [
+      "AQUA-017-distribution",
+      "AQUA-019-indicator"
+    ],
+    [
+      "AQUA-021-cycle",
+      "AQUA-022-precipitation"
+    ],
+    [
+      "AQUA-023-basin",
+      "AQUA-024-floating"
+    ],
+    [
+      "AQUA-023-basin",
+      "AQUA-025-sway"
+    ]
+  ],
+  "limits": "AABB conservadoras y lineas de lectura muestreadas; no colisiones exactas, legibilidad visual se inspecciona en framebuffer"
+}

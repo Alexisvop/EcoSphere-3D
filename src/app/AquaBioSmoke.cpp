@@ -98,14 +98,15 @@ void checkAquaBioFramebuffer(const std::filesystem::path& directory,int width,in
     }
     usage.close();
     struct View {const char* name;glm::vec3 position,target;};
-    const std::array<View,10> stations{{
+    const std::array<View,11> stations{{
         {"overview",{35,27,39},{0,0,-2}}, {"overview-equivalent",{23,21,26},{0,0,-3}},
+        {"arrival",{0,1.7f,22},{0,1.8f,9}},
         {"entry-equivalent",{0,1.7f,6},{0,1.5f,-7}},
         {"rain-capture",{-8,1.7f,13},{-14,1.6f,6}},
         {"treatment",{-7.5f,5,-6},{-8.5f,1.3f,-15}},
         {"treatment-visitor",{-7.5f,1.7f,-10},{-13.5f,1.2f,-14}},
-        {"sampling",{10,1.7f,-2.5f},{13,1.3f,-7}},
-        {"water-cycle",{1,1.7f,-13},{2,1.8f,-19}},
+        {"sampling",{6,1.7f,1},{6,1.3f,-4}},
+        {"water-cycle",{-7,1.7f,22},{-9,1.8f,16.5f}},
         {"wetland",{8.3f,1.7f,9},{14,1,4}},
         {"biodiversity",{12.3f,1.7f,11},{18,1,14.5f}}
     }};

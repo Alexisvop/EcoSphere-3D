@@ -179,7 +179,7 @@ int main(int argc,char** argv) {
             }
         }
         // Los estados del framebuffer deben coincidir con el mismo registro CPU a t=0 y t=2.
-        const auto captureStates=std::filesystem::path(argv[2]).parent_path().parent_path()/"evidence/phase6b/visual-space-closure/aquabio/animation-states.csv";
+        const auto captureStates=std::filesystem::path(argv[2]).parent_path().parent_path()/"evidence/aquabio-layout-polish/after/animation-states.csv";
         require(std::filesystem::is_regular_file(captureStates),"Missing captured animation state evidence");
         {
             ContentRegistry expected(root);Host he(expected);ModuleSession session(makeAquaBio(),he);

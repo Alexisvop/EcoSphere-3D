@@ -175,7 +175,7 @@ def write_plan(path, rows, source):
         x,y=xy(box[0][0],box[0][2]);w=(box[1][0]-box[0][0])*scale;h=(box[1][2]-box[0][2])*scale
         return f'<rect x="{x:.2f}" y="{y:.2f}" width="{max(w,1):.2f}" height="{max(h,1):.2f}" fill="{color}" stroke="{stroke}" stroke-width="0.8"/>'
     svg=['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 790"><rect width="980" height="790" fill="#eef7f4"/>',
-         '<g font-family="sans-serif" fill="#123c49"><text x="35" y="34" font-size="23">AquaBio — cierre espacial: geometría real 48 × 48 m</text><text x="35" y="59" font-size="14">52 instancias / 28 modelos; -Z norte; cajas importadas y anchuras útiles de caminos</text></g>']
+         '<g font-family="sans-serif" fill="#123c49"><text x="35" y="34" font-size="23">AquaBio — recorrido por subzonas: 48 × 48 m</text><text x="35" y="59" font-size="14">52 instancias / 28 modelos; -Z norte; cajas importadas y anchuras útiles de caminos</text></g>']
     svg.append(rect(bounds(base['AQUA-001-main']),'#d4e1ce'))
     for iid,row in base.items():
         if iid.startswith('AQUA-003-'):svg.append(rect(transform([[-1.4,0,-4],[1.4,.07,4]],row),'#fffce6'))
@@ -190,9 +190,9 @@ def write_plan(path, rows, source):
         svg.append(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.8" fill="#ad5d24"><title>{html.escape(iid)}</title></circle>')
         if not any(t in iid for t in ('static-','bank-','path-','branch','demo')):
             svg.append(f'<text x="{x+4:.2f}" y="{y-5:.2f}" font-family="sans-serif" font-size="11" fill="#123c49">{iid[5:8]}</text>')
-    for text,y in [('A — Captación occidental',155),('B — Tratamiento norte/NO',205),('C — Ciclo al fondo',255),('D — Humedal oriental',305),('Eje útil 3.8 m / ramales 2.8 m',375),('Cámara (0, 1.7, 13)',425),('Altura visitante: 1.7 m',455),('Paso: 3 m/s; Enter / H intactos',485),('● Colocación / número AQUA-XXX',545),('Paneles laterales oscuros',575)]:
+    for text,y in [('A — Captación / precipitación',155),('B — Almacenamiento / conducción',205),('C — Tratamiento / filtración',255),('D — Medición junto al eje',305),('E — Humedal oriental',345),('Eje útil 3.8 m / ramales 2.8 m',375),('Cámara (0, 1.7, 13)',425),('Altura visitante: 1.7 m',455),('Paso: 3 m/s; Enter / H intactos',485),('● Colocación / número AQUA-XXX',545),('Paneles laterales oscuros',575)]:
         svg.append(f'<text x="685" y="{y}" font-family="sans-serif" font-size="15" fill="#123c49">{html.escape(text)}</text>')
-    svg.append('<text x="35" y="720" font-family="sans-serif" font-size="14">La plataforma crece de 1 156 a 2 304 m²; no se escalan globalmente maquinaria ni vegetación.</text><text x="35" y="748" font-family="sans-serif" font-size="14">AABB conservadoras ≠ colisión exacta. Se exceptúan montajes, suelo y vegetación del humedal; no hay física.</text></svg>')
+    svg.append('<text x="35" y="720" font-family="sans-serif" font-size="14">Se conserva la plataforma de 2 304 m²; no se escalan maquinaria ni vegetación.</text><text x="35" y="748" font-family="sans-serif" font-size="14">AABB conservadoras ≠ colisión exacta. Se exceptúan montajes, suelo y vegetación del humedal; no hay física.</text></svg>')
     path.write_text('\n'.join(svg)+'\n')
 
 

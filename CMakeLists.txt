@@ -183,11 +183,11 @@ if(BUILD_TESTING)
     set_tests_properties(cli_rejects_aquabio_module cli_rejects_two_installation_smokes PROPERTIES WILL_FAIL TRUE)
     add_test(NAME aquabio_inventory COMMAND "${Python3_EXECUTABLE}" "${CMAKE_CURRENT_SOURCE_DIR}/tools/validate_aquabio_inventory.py"
         --root "${CMAKE_CURRENT_SOURCE_DIR}" --import-report "${CMAKE_CURRENT_BINARY_DIR}/aquabio-import.csv"
-        --usage-report "${CMAKE_CURRENT_SOURCE_DIR}/docs/evidence/phase6b/visual-space-closure/aquabio/model-use.csv" --require-definitive --self-test)
+        --usage-report "${CMAKE_CURRENT_SOURCE_DIR}/docs/evidence/aquabio-layout-polish/after/model-use.csv" --require-definitive --self-test)
     set_tests_properties(aquabio_inventory PROPERTIES FIXTURES_REQUIRED aquabio_import)
     add_test(NAME aquabio_spatial_layout COMMAND "${Python3_EXECUTABLE}" "${CMAKE_CURRENT_SOURCE_DIR}/tools/validate_aquabio_space.py"
         --root "${CMAKE_CURRENT_SOURCE_DIR}" --bounds "${CMAKE_CURRENT_BINARY_DIR}/aquabio-space-bounds.csv"
-        --views "${CMAKE_CURRENT_SOURCE_DIR}/docs/evidence/phase6b/visual-space-closure/aquabio/views.csv"
+        --views "${CMAKE_CURRENT_SOURCE_DIR}/docs/evidence/aquabio-layout-polish/after/views.csv"
         --report "${CMAKE_CURRENT_BINARY_DIR}/aquabio-space-audit.json" --self-test)
     set_tests_properties(aquabio_spatial_layout PROPERTIES FIXTURES_REQUIRED aquabio_import)
     list(APPEND ecos_targets aquabio_tests)
