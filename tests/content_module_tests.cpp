@@ -8,6 +8,8 @@
 #include "app/InteractionDemoInput.hpp"
 #include <GLFW/glfw3.h>
 #include <array>
+#include <algorithm>
+#include <limits>
 #include <iostream>
 #include <stdexcept>
 
@@ -40,7 +42,12 @@ int main(int argc,char** argv) {
         registry.update(0.5); const auto after=registry.placements();
         std::size_t ecoMoved=0, aquaMoved=0,cycleMoved=0;
         for(std::size_t i=0;i<before.size();++i) {
-            if(before[i].world!=after[i].world) {
+            // Eight float epsilons allow recomposition rounding, not mechanism motion.
+            bool moved=false;
+            for(int c=0;c<4;++c)for(int r=0;r<4;++r)
+                moved=moved || std::abs(before[i].world[c][r]-after[i].world[c][r])>8*std::numeric_limits<float>::epsilon()*
+                    std::max({1.f,std::abs(before[i].world[c][r]),std::abs(after[i].world[c][r])});
+            if(moved) {
                 if(before[i].owner=="ecoenergy")++ecoMoved;
                 else if(before[i].owner=="aquabio")++aquaMoved;else ++cycleMoved;
             }

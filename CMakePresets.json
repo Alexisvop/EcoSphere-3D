@@ -15,7 +15,7 @@
       "displayName": "Windows MSVC / Ninja / Debug (NO VALIDADO)",
       "generator": "Ninja",
       "binaryDir": "${sourceDir}/build/windows-dev",
-      "cacheVariables": {"CMAKE_BUILD_TYPE": "Debug", "BUILD_TESTING": "ON", "ECOS_GLFW_VERSION": "3.4"},
+      "cacheVariables": {"CMAKE_BUILD_TYPE": "Debug", "BUILD_TESTING": "ON", "ECOS_GLFW_VERSION": "3.4.0"},
       "condition": {"type": "equals", "lhs": "${hostSystemName}", "rhs": "Windows"}
     }
   ],

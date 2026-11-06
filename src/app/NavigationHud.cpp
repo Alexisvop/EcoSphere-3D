@@ -4,10 +4,12 @@
 #include <cmath>
 
 namespace ecosphere {
-void NavigationHud::draw(const std::string& message,int width,int height) {
-    if(!model_ || message!=text_ || width!=width_ || height!=height_) {
+void NavigationHud::draw(const std::string& message,int width,int height,bool topRight) {
+    if(!model_ || message!=text_ || width!=width_ || height!=height_ || topRight!=topRight_) {
         layout_=layoutNavigationHud(message,width,height);
-        renderer_.clear();model_.reset();text_=message;width_=width;height_=height;
+        if(!topRight && height>=160) layout_.y-=40; // Reserve the top strip for FPS.
+        if(topRight) { layout_.x=width-10-layout_.width; layout_.y=height-10-layout_.height; }
+        renderer_.clear();model_.reset();text_=message;width_=width;height_=height;topRight_=topRight;
         if(!layout_.lines.empty())model_=makeNavigationHudModel(layout_);
     }
     if(!model_)return;

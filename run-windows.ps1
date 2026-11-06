@@ -16,7 +16,7 @@ Sin opciones: abre la plaza; compila si falta el ejecutable.
   -Build  Configura y compila sin abrir la aplicacion.
   -Test   Configura, compila y ejecuta CTest sin abrir la aplicacion.
   -Help   Muestra esta ayuda sin configurar ni compilar.
-Requisitos: CMake 3.24+, Ninja, MSVC C++17, GLFW 3.4 y Python 3.10+.
+Requisitos: CMake 3.24+, Ninja, MSVC C++17, GLFW 3.4.0 y Python 3.10+.
 Windows sigue pendiente de validacion nativa.
 '@
     exit 0
@@ -49,7 +49,7 @@ try {
     & cmake.exe --preset windows-dev '-DCMAKE_C_COMPILER=cl.exe' '-DCMAKE_CXX_COMPILER=cl.exe'
     if ($LASTEXITCODE -ne 0) {
         $code = $LASTEXITCODE
-        [Console]::Error.WriteLine('Error de configuracion. Revisa MSVC C++17, GLFW 3.4 exacta, Python 3.10+ y docs/BUILD.md.')
+        [Console]::Error.WriteLine('Error de configuracion. Revisa MSVC C++17, GLFW 3.4.0 exacta, Python 3.10+ y docs/BUILD.md.')
         exit $code
     }
     if ($Build -or $Test -or -not (Test-Path -LiteralPath $binary -PathType Leaf)) {

@@ -8,6 +8,7 @@
 #include <ecosphere/modules/Stubs.hpp>
 #include <ecosphere/sdk/ModuleServices.hpp>
 #include <fstream>
+#include "InstanceCsv.hpp"
 #include <iomanip>
 #include <iostream>
 #include <limits>
@@ -48,7 +49,7 @@ int main(int argc,char** argv) {
         const std::filesystem::path root=argv[1],scratch=argv[4];
         std::ifstream instanceFile(argv[2]);
         const std::string recorded((std::istreambuf_iterator<char>(instanceFile)),{});
-        require(recorded==instanceCsv(),"Instance CSV differs from actual configuration; regenerate explicitly");
+        require(sameInstanceCsv(recorded,instanceCsv()),"Instance CSV differs from actual configuration; regenerate explicitly");
         std::ofstream report(argv[3]);report.exceptions(std::ios::badbit|std::ios::failbit);
         report<<"model_id,triangles,meshes,textures,width_m,height_m,depth_m\n";
         AssetManager assets(root);
