@@ -76,7 +76,7 @@ int main(int argc,char** argv) {
             if(p.destination!=Zone::hub) {
                 std::size_t moved=0;
                 for(std::size_t idx=0;idx<initial.size();++idx) moved+=initial[idx].world!=advancedAll[idx].world;
-                require(moved==8,"Definitive installation must advance 8 animated mechanisms");
+                require(moved==(p.destination==Zone::aquabio ? 18u : 8u),"Installation animation count must match its mechanisms and plants");
             }
             const auto advanced=advancedAll.front().world;
             if(p.destination==Zone::aquabio) for(const auto& e:advancedAll) if(e.id=="AQUA-005-adjustable") {

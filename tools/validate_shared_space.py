@@ -15,7 +15,7 @@ def audit(root,rows):
     for r in rows:
         if float(r['time_s'])==0:base[(r['owner'],r['instance_id'])]=r
         else:moving.append(r)
-    require(len(base)==252 and len(moving)==4800,'252 base and 200 samples of 24 animations required')
+    require(len(base)==252 and len(moving)==6800,'252 base and 200 samples of 34 animations required')
     shared={k:r for k,r in base.items() if k[1].startswith('SHARED-')};require(len(shared)==12,'Twelve shared bounds')
     boxes={k:bounds(r) for k,r in base.items()}
     floors={'hub':('PLAZA-001','PLAZA-002'),'ecoenergy':('ENERGY-001',),'aquabio':('AQUA-001',),'ecocycle':('CYCLE-001',)}

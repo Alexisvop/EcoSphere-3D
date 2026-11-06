@@ -129,10 +129,12 @@ int main(int argc,char** argv) {
             require(ids.insert(e.id).second,"Duplicate instance ID");models.insert(e.model);
             (void)normalMatrix(e.transform.matrix());families[family(e.animation)]++;
             interactions+=e.interaction.has_value();
+            if(e.model=="aquabio/models/AQUA-024.glb" || e.model=="aquabio/models/AQUA-025.glb")
+                require(family(e.animation)=="procedural","Every pond plant must animate: "+e.id);
             require(!(e.interaction && e.animation),"Animated and interactive samples must be independent");
         }
         require(entities.size()==52 && models.size()==28 && interactions==7,"Unexpected definitive counts");
-        require(families["simple"]==4 && families["keyframe"]==2 && families["procedural"]==2,"Unexpected animation families");
+        require(families["simple"]==4 && families["keyframe"]==2 && families["procedural"]==12,"Unexpected animation families");
         rejects([]{aquaBioModelId(static_cast<aquabio::Model>(0));});rejects([]{aquaBioModelId(static_cast<aquabio::Model>(29));});
         auto bad=aquabio::settings;bad.scale[0].x=0;rejects([&]{makeAquaBioInstances(bad);});
         bad=aquabio::settings;bad.positions[0].y=NAN;rejects([&]{makeAquaBioInstances(bad);});
@@ -179,7 +181,7 @@ int main(int argc,char** argv) {
             }
         }
         // Los estados del framebuffer deben coincidir con el mismo registro CPU a t=0 y t=2.
-        const auto captureStates=std::filesystem::path(argv[2]).parent_path().parent_path()/"evidence/aquabio-layout-polish/after/animation-states.csv";
+        const auto captureStates=std::filesystem::path(argv[2]).parent_path().parent_path()/"evidence/aquabio-pond-animation/animation-states.csv";
         require(std::filesystem::is_regular_file(captureStates),"Missing captured animation state evidence");
         {
             ContentRegistry expected(root);Host he(expected);ModuleSession session(makeAquaBio(),he);
@@ -209,7 +211,7 @@ int main(int argc,char** argv) {
             host.water->setPlaying(true);registry.update(.3);
             const auto resumed=registry.placements();std::size_t advanced=0;
             for(std::size_t i=0;i<paused.size();++i)advanced+=paused[i].world!=resumed[i].world;
-            require(advanced==8,"Resume must advance all eight mechanisms");
+            require(advanced==18,"Resume must advance all eighteen animated entities");
             host.water->restart();same(initial,registry.placements());
             auto& inter=registry.interactions("aquabio");require(inter.objects().size()==7,"Interaction registration");
             for(const auto& e:entities)if(e.interaction) {
@@ -257,7 +259,7 @@ int main(int argc,char** argv) {
         { ModuleSession retry(makeAquaBio(),hb);require(broken.placements().size()==55,"Retry after load failure"); }
         require(broken.placements().empty(),"Retry cleanup");
         std::cout<<"AQUABIO CPU PASS: 28 distinct models (also distinct from plaza/EcoEnergy); "<<triangles
-                 <<" source triangles; 52 instances; 7 interactions; 4S/2K/2P; 30/60/144 Hz and single step; pause/restart; sharing; cleanup; rollback/retry\n";
+                 <<" source triangles; 52 instances; 7 interactions; 4S/2K/12P; 30/60/144 Hz and single step; pause/restart; sharing; cleanup; rollback/retry\n";
         return 0;
     }catch(const std::exception& e){std::cerr<<e.what()<<'\n';return 1;}
 }

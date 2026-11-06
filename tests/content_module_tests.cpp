@@ -58,7 +58,7 @@ int main(int argc,char** argv) {
             require(draws>=1,"Bridge lost glTF hierarchy/primitives");
         }
         require(cycleMoved==8 && registry.interactions("ecocycle").objects().size()==7,"EcoCycle definitive mechanisms/interactions");
-        require(aquaMoved==8,"AquaBio must animate 8 definitive mechanisms");
+        require(aquaMoved==18,"AquaBio must animate 6 mechanisms and 12 pond plants");
         require(registry.interactions("aquabio").objects().size()==7,"AquaBio must expose 7 interactive objects");
         require(ecoMoved==8,"EcoEnergy must animate 8 definitive mechanisms");
         require(registry.interactions("ecoenergy").objects().size()==6,"EcoEnergy must expose 6 interactive objects");

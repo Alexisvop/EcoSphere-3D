@@ -71,8 +71,8 @@ def audit(root, models, report, instances, imported):
     for area in ['ECOENERGY','AQUABIO','ECOCYCLE']:
         with (root/f'docs/assets/{area}_INTERACTIONS.csv').open() as f:interactions+=len(list(csv.DictReader(f)))
         with (root/f'docs/assets/{area}_ANIMATIONS.csv').open() as f:animations+=len(list(csv.DictReader(f)))
-    require(interactions==20 and animations==24,'Original educational interactions/animations changed')
-    return dict(unique_models=110,original_models=105,shared_models=5,original_instances=240,shared_instances=12,total_instances=252,educational_interactions=20,animations=24,shared_triangles=sum(e['triangles'] for e in report))
+    require(interactions==20 and animations==34,'Original educational interactions/animations changed')
+    return dict(unique_models=110,original_models=105,shared_models=5,original_instances=240,shared_instances=12,total_instances=252,educational_interactions=20,animations=34,shared_triangles=sum(e['triangles'] for e in report))
 
 
 def main():

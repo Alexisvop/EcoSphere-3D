@@ -45,7 +45,7 @@ def validate(root, catalog, instances, interactions, animations, imports, usage,
             require(item['status']=='definitive' and item['validated']=='true','Interaccion sin validar')
             for key in ('evidence_before','evidence_selected','evidence_manipulated'):png(item[key])
     require(seen=={iid for iid,r in placed.items() if r['interactive']=='true'},'Interacciones difieren de instancias')
-    require(len(animations)==8 and {r['animation_id'] for r in animations}=={f'ANIM-AQUA-{n:03}' for n in range(1,9)},'Se requieren ocho animaciones')
+    require(len(animations)==18 and {r['animation_id'] for r in animations}=={f'ANIM-AQUA-{n:03}' for n in range(1,19)},'Se requieren dieciocho animaciones')
     seen=set();families={'simple':0,'keyframe':0,'procedural':0}
     for item in animations:
         iid=item['instance_id'];mid=item['model_id'];family=item['family']
@@ -57,7 +57,7 @@ def validate(root, catalog, instances, interactions, animations, imports, usage,
         if definitive:
             require(item['status']=='definitive' and item['validated']=='true','Animacion sin validar')
             png(item['evidence_t0']);png(item['evidence_t1'])
-    require(families=={'simple':4,'keyframe':2,'procedural':2},'Familias deben ser 4S/2K/2P')
+    require(families=={'simple':4,'keyframe':2,'procedural':12},'Familias deben ser 4S/2K/12P')
     require(seen=={iid for iid,r in placed.items() if r['animation_family']!='none'},'Animaciones difieren de instancias')
     proof={r['model_id']:r for r in usage};verified=0
     for item in catalog:
@@ -103,7 +103,7 @@ def main():
             try:validate(root,*altered,imports,usage,args.require_definitive)
             except (ValueError,OSError):print('Expected rejection:',name)
             else:raise AssertionError('No se rechazo: '+name)
-    print(f'AQUABIO INVENTORY PASS: 28 modelos; 52 instancias; 7 interacciones; 8 animaciones (4S/2K/2P); {count} definitivos verificados')
+    print(f'AQUABIO INVENTORY PASS: 28 modelos; 52 instancias; 7 interacciones; 18 animaciones (4S/2K/12P); {count} definitivos verificados')
 
 
 if __name__=='__main__':main()

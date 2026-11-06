@@ -1,0 +1,81 @@
+Native Wayland: yes
+X11: no
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=aquabio
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[module] aquabio
+[module] initialize content
+Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.
+Shaders: <repo>/build/linux-dev/shaders
+Asset notice: Phase 3: metallic/roughness approximated by Blinn-Phong + static environment; not full glTF PBR
+Imported model: 2 primitives, 4 nodes, 1 textures
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 955x1025
+Focus: active
+Framebuffer: 951x1023
+AQUABIO MODEL PASS AQUA-001 pixels=191694
+AQUABIO MODEL PASS AQUA-002 pixels=95231
+AQUABIO MODEL PASS AQUA-003 pixels=64877
+AQUABIO MODEL PASS AQUA-004 pixels=84400
+AQUABIO MODEL PASS AQUA-005 pixels=46499
+AQUABIO MODEL PASS AQUA-006 pixels=99292
+AQUABIO MODEL PASS AQUA-007 pixels=160362
+AQUABIO MODEL PASS AQUA-008 pixels=63554
+AQUABIO MODEL PASS AQUA-009 pixels=211940
+AQUABIO MODEL PASS AQUA-010 pixels=70481
+AQUABIO MODEL PASS AQUA-011 pixels=39281
+AQUABIO MODEL PASS AQUA-012 pixels=95287
+AQUABIO MODEL PASS AQUA-013 pixels=90980
+AQUABIO MODEL PASS AQUA-014 pixels=139984
+AQUABIO MODEL PASS AQUA-015 pixels=65285
+AQUABIO MODEL PASS AQUA-016 pixels=92792
+AQUABIO MODEL PASS AQUA-017 pixels=48236
+AQUABIO MODEL PASS AQUA-018 pixels=303703
+AQUABIO MODEL PASS AQUA-019 pixels=237607
+AQUABIO MODEL PASS AQUA-020 pixels=58220
+AQUABIO MODEL PASS AQUA-021 pixels=88286
+AQUABIO MODEL PASS AQUA-022 pixels=59236
+AQUABIO MODEL PASS AQUA-023 pixels=88180
+AQUABIO MODEL PASS AQUA-024 pixels=87124
+AQUABIO MODEL PASS AQUA-025 pixels=63547
+AQUABIO MODEL PASS AQUA-026 pixels=119076
+AQUABIO MODEL PASS AQUA-027 pixels=183689
+AQUABIO MODEL PASS AQUA-028 pixels=90474
+AQUABIO MODEL PASS SHARED-001 pixels=160419
+AQUABIO MODEL PASS SHARED-002 pixels=120351
+AQUABIO MODEL PASS SHARED-003 pixels=89347
+AQUABIO INTERACTION PASS INT-AQUA-001 select/TRS/take/follow/drop
+AQUABIO INTERACTION PASS INT-AQUA-002 select/TRS/take/follow/drop
+AQUABIO INTERACTION PASS INT-AQUA-003 select/TRS/take/follow/drop
+AQUABIO INTERACTION PASS INT-AQUA-004 select/TRS/take/follow/drop
+AQUABIO INTERACTION PASS INT-AQUA-005 select/TRS/take/follow/drop
+AQUABIO INTERACTION PASS INT-AQUA-006 select/TRS/take/follow/drop
+AQUABIO INTERACTION PASS INT-AQUA-007 select/TRS/take/follow/drop
+AQUABIO ANIMATION PASS AQUA-009-pump pixels=76518
+AQUABIO ANIMATION PASS AQUA-011-scraper pixels=33356
+AQUABIO ANIMATION PASS AQUA-019-indicator pixels=29030
+AQUABIO ANIMATION PASS AQUA-021-cycle pixels=57135
+AQUABIO ANIMATION PASS AQUA-005-adjustable pixels=18158
+AQUABIO ANIMATION PASS AQUA-014-extraction pixels=178418
+AQUABIO ANIMATION PASS AQUA-024-floating pixels=23045
+AQUABIO ANIMATION PASS AQUA-025-sway pixels=51656
+AQUABIO ANIMATION PASS AQUA-024-static-0 pixels=23187
+AQUABIO ANIMATION PASS AQUA-024-static-1 pixels=33423
+AQUABIO ANIMATION PASS AQUA-024-static-2 pixels=13803
+AQUABIO ANIMATION PASS AQUA-024-static-3 pixels=21876
+AQUABIO ANIMATION PASS AQUA-024-static-4 pixels=24275
+AQUABIO ANIMATION PASS AQUA-025-static-0 pixels=51855
+AQUABIO ANIMATION PASS AQUA-025-static-1 pixels=46705
+AQUABIO ANIMATION PASS AQUA-025-static-2 pixels=32624
+AQUABIO ANIMATION PASS AQUA-025-static-3 pixels=17617
+AQUABIO ANIMATION PASS AQUA-025-static-4 pixels=26472
+AQUABIO SMOKE PASS: 28 models; 52 instances; 7 interactions; 18 animations; frames=600 seconds=10.0002 fps_mean=59.9988 framebuffer=951x1023
+[module] aquabio
+[module] shutdown content
+Clean exit

@@ -143,11 +143,11 @@ std::vector<EntityDescriptor> makeAquaBioInstances(const aquabio::Settings& s) {
     for(std::size_t i=0;i<s.extraWalkways.size();++i)
         add(Model::walkway,"path-"+std::to_string(i),s.extraWalkways[i],false,std::nullopt,s.extraWalkwayYaws[i],s.extraWalkwayScales[i]);
     add(Model::pipes,"branch",s.extraPipesPosition);
-    // Solo una entidad por familia procedural: el resto de vegetación permanece estático.
+    // Conserva los IDs static-* para no romper referencias; ahora también se animan.
     for(std::size_t i=0;i<s.extraFloatingPlants.size();++i)
-        add(Model::floatingPlant,"static-"+std::to_string(i),s.extraFloatingPlants[i],false,std::nullopt,static_cast<float>(i)*47);
+        add(Model::floatingPlant,"static-"+std::to_string(i),s.extraFloatingPlants[i],false,floating(s),static_cast<float>(i)*47);
     for(std::size_t i=0;i<s.extraReeds.size();++i)
-        add(Model::reeds,"static-"+std::to_string(i),s.extraReeds[i],false,std::nullopt,static_cast<float>(i)*31);
+        add(Model::reeds,"static-"+std::to_string(i),s.extraReeds[i],false,reeds(s),static_cast<float>(i)*31);
     for(std::size_t i=0;i<s.extraTrees.size();++i)
         add(Model::riparianTree,"bank-"+std::to_string(i),s.extraTrees[i]);
     return result;

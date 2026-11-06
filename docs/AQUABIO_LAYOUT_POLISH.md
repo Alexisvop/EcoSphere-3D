@@ -139,3 +139,39 @@ medida causal de mejora de rendimiento: el objetivo de esta rama es la composici
 La validación Windows y el juicio estético final del director quedan pendientes.
 El directorio de trabajo de capturas conservadas hace que el árbol local supere
 2 GiB; esas capturas completas permanecen ignoradas bajo build. No se limpiaron.
+
+
+## Ampliación posterior: vegetación animada del estanque
+
+Por petición del director, las cinco copias adicionales de roseta y las cinco de
+juncos reutilizan ahora `floating(s)` y `reeds(s)`, con los mismos parámetros y
+reloj de las plantas originales. Las **seis rosetas y seis macollas** se animan;
+no se añaden modelos, instancias, dependencias ni controles. Se conservan los IDs
+`static-*` por compatibilidad con referencias existentes, aunque ya no son estáticas.
+AquaBio tiene ahora **18 entidades animadas** (4S/2K/12P); el total global pasa de
+24 a **34** (12S/6K/16P). Las siete interacciones permanecen intactas.
+
+El barrido de las nuevas plantas detectó tres cruces conservadores entre vecinas.
+Se ajustaron únicamente tres juncos: `AQUA-025-static-0` x=16.7→17.3,
+`static-1` z=4.4→4.0 y `static-4` z=5.3→4.9, en metros. El validador sigue
+rechazando contactos entre plantas vecinas; solo permite el montaje dentro del
+vaso, como para las dos plantas originales. Comprueba ahora 52 bases y 3600
+muestras de las 18 entidades animadas. Se mantiene el resto del layout.
+
+Los inventarios y las pruebas de integración/navegación/recursos compartidos
+actualizan sus conteos explícitos. El smoke gráfico compara t=0 y t=2 de cada una
+de las 18 entidades, incluidas las diez copias nuevas. Se conservan la prueba de
+independencia temporal a 30/60/144 Hz, pausa/reanudación y reinicio de todas ellas.
+Los fixtures actuales y las nuevas parejas de capturas están en
+[`aquabio-pond-animation`](evidence/aquabio-pond-animation/); no se reemplaza la
+evidencia histórica del layout ni de las ocho animaciones originales.
+
+
+Validación de esta ampliación: compilación Linux correcta; **35/35 CTest** en
+31.06 s ([registro](evidence/aquabio-pond-animation/ctest.txt)); smoke gráfico
+**18/18 entidades animadas visibles** y siete interacciones aprobadas
+([registro](evidence/aquabio-pond-animation/graphics-smoke.txt)). Auditoría espacial
+con 200 pasos de las 18 entidades, vecinos sin cruces AABB y diez caminos
+conectados: [informe](evidence/aquabio-pond-animation/spatial-audit.json).
+Se conserva la independencia temporal, P/R y la reentrada. Validado en Linux,
+Intel/Mesa; Windows pendiente. Los PPM completos permanecen bajo build sin borrar.

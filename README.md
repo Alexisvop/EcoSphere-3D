@@ -37,7 +37,7 @@ Instalación dedicada a separación, recuperación y reutilización de materiale
 | Modelos originales únicos | 110 |
 | Instancias de modelos | 252 |
 | Interacciones educativas | 20 |
-| Animaciones | 24 (12 simples, 6 keyframe, 6 procedurales) |
+| Animaciones | 34 (12 simples, 6 keyframe, 16 procedurales) |
 | Instalaciones | 3, más una plaza central |
 
 El proyecto es una demostración educativa: los instrumentos representados son interpretativos, no equipos calibrados; no incorpora colisiones físicas generales ni certificación de accesibilidad.

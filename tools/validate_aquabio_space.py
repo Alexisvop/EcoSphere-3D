@@ -54,7 +54,7 @@ def audit(root, rows, views, tour):
     source=json.loads((root/'docs/assets/AQUABIO_EXPORT_REPORT.json').read_text())
     models={m['model_id']:m for m in source['models']}
     base={r['instance_id']:r for r in rows if float(r['time_s'])==0}
-    require(len(base)==52 and len(rows)==1652,'52 bases y 200 pasos de ocho animaciones requeridos')
+    require(len(base)==52 and len(rows)==3652,'52 bases y 200 pasos de dieciocho animaciones requeridos')
     for r in rows:
         require(all(math.isfinite(float(v)) for k,v in r.items() if k!='instance_id'),'Estado no finito')
     boxes={iid:bounds(row) for iid,row in base.items()}
@@ -118,12 +118,14 @@ def audit(root, rows, views, tour):
         ('AQUA-005-adjustable','AQUA-004-collector'),('AQUA-009-pump','AQUA-008-housing'),
         ('AQUA-011-scraper','AQUA-010-tank'),('AQUA-019-indicator','AQUA-017-distribution'),
         ('AQUA-021-cycle','AQUA-022-precipitation'),('AQUA-024-floating','AQUA-023-basin'),('AQUA-025-sway','AQUA-023-basin'))}
+    joins.update(frozenset((iid,"AQUA-023-basin")) for iid in base
+                 if iid.startswith(("AQUA-024-","AQUA-025-")))
     moving={r['instance_id'] for r in rows if float(r['time_s'])>0}
     times={}
     for r in rows:
         if float(r['time_s'])>0:times.setdefault(r['time_s'],{})[r['instance_id']]=bounds(r)
     for time,step in times.items():
-        require(len(step)==8,'Barrido animado incompleto')
+        require(len(step)==18,'Barrido animado incompleto')
         current={**boxes,**step}
         for iid,box in step.items():
             for other,obstacle in current.items():

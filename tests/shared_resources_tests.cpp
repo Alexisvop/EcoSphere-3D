@@ -89,7 +89,7 @@ void boundsCsv(ContentRegistry& registry,const std::filesystem::path& path) {
     for(const auto& e:makeEcoEnergyInstances())if(e.animation)animated.insert({"ecoenergy",e.id});
     for(const auto& e:makeAquaBioInstances())if(e.animation)animated.insert({"aquabio",e.id});
     for(const auto& e:makeEcoCycleInstances())if(e.animation)animated.insert({"ecocycle",e.id});
-    require(animated.size()==24,"Original 24 animations changed");
+    require(animated.size()==34,"Expected 24 original animations plus ten additional pond plants");
     std::ofstream out(path);out.exceptions(std::ios::badbit|std::ios::failbit);out<<std::setprecision(9);
     out<<"owner,time_s,instance_id,min_x,min_y,min_z,max_x,max_y,max_z";
     for(int c=0;c<4;++c)for(int r=0;r<4;++r)out<<",m"<<c<<r;
@@ -172,7 +172,7 @@ int main(int argc,char** argv) {
             {ModuleSession reopened(factories[i](),host);require(registry.placements().size()==originalCounts[i]+addedCounts[i],"Shared reentry count");}
             require(registry.placements().empty(),"Shared reentry leaked owner");
         }
-        std::cout<<"SHARED CPU PASS: 5 novel models vs 105 originals/2 variants; 240+12 instances; 20 educational interactions/24 animations unchanged; canonical identity across four owners; last-use release, snapshots, independent close, four partial failures/retries and 100 reentries; no GL context\n";
+        std::cout<<"SHARED CPU PASS: 5 novel models vs 105 originals/2 variants; 240+12 instances; 20 educational interactions/34 animations; canonical identity across four owners; last-use release, snapshots, independent close, four partial failures/retries and 100 reentries; no GL context\n";
         return 0;
     }catch(const std::exception& e){std::cerr<<e.what()<<'\n';return 1;}
 }

@@ -155,21 +155,23 @@ void checkAquaBioFramebuffer(const std::filesystem::path& directory,int width,in
         std::cout<<"AQUABIO INTERACTION PASS "<<code<<" select/TRS/take/follow/drop\n";
     }
     interactionCsv.close();
-    const std::array<const char*,8> animated{{"AQUA-009-pump","AQUA-011-scraper","AQUA-019-indicator","AQUA-021-cycle","AQUA-005-adjustable","AQUA-014-extraction","AQUA-024-floating","AQUA-025-sway"}};
+    const std::array<const char*,18> animated{{"AQUA-009-pump","AQUA-011-scraper","AQUA-019-indicator","AQUA-021-cycle","AQUA-005-adjustable","AQUA-014-extraction","AQUA-024-floating","AQUA-025-sway",
+        "AQUA-024-static-0","AQUA-024-static-1","AQUA-024-static-2","AQUA-024-static-3","AQUA-024-static-4",
+        "AQUA-025-static-0","AQUA-025-static-1","AQUA-025-static-2","AQUA-025-static-3","AQUA-025-static-4"}};
     std::ofstream animationCsv(directory/"animation-states.csv");animationCsv.exceptions(std::ios::badbit|std::ios::failbit);header(animationCsv);states(animationCsv,"t0",0,registry.placements());
-    std::array<std::vector<unsigned char>,8> initial;
-    std::array<Camera,8> cameras;
+    std::array<std::vector<unsigned char>,18> initial;
+    std::array<Camera,18> cameras;
     for(std::size_t i=0;i<animated.size();++i) {
         const auto p=std::find_if(placements.begin(),placements.end(),[&](const auto& p){return p.id==animated[i];});
         if(p==placements.end())throw std::runtime_error("Animated instance missing");
         const auto [center,radius]=bounds(*p);
         lookAt(camera,center+glm::normalize(glm::vec3(.4f,.7f,2))*std::max(.4f,radius)*3.6f,center);cameras[i]=camera;
-        render(lighting,true,p->id);initial[i]=shot("animations/ANIM-AQUA-00"+std::to_string(i+1)+"-t0",0);
+        render(lighting,true,p->id);initial[i]=shot("animations/ANIM-AQUA-"+std::string(i<9?"00":"0")+std::to_string(i+1)+"-t0",0);
     }
     registry.update(2);states(animationCsv,"t2",2,registry.placements());
     for(std::size_t i=0;i<animated.size();++i) {
         camera=cameras[i];render(lighting,true,std::string(animated[i]));
-        const auto pixels=shot("animations/ANIM-AQUA-00"+std::to_string(i+1)+"-t1",2);
+        const auto pixels=shot("animations/ANIM-AQUA-"+std::string(i<9?"00":"0")+std::to_string(i+1)+"-t1",2);
         const auto count=changed(initial[i],pixels);
         if(count<40)throw std::runtime_error("AquaBio motion invisible: "+std::string(animated[i]));
         std::cout<<"AQUABIO ANIMATION PASS "<<animated[i]<<" pixels="<<count<<'\n';
@@ -207,7 +209,7 @@ void checkAquaBioFramebuffer(const std::filesystem::path& directory,int width,in
     if(glGetError()!=GL_NO_ERROR)throw std::runtime_error("AquaBio GL error");
     std::sort(durations.begin(),durations.end());
     std::ofstream metrics(directory/"metrics.csv");metrics.exceptions(std::ios::badbit|std::ios::failbit);
-    metrics<<std::setprecision(9)<<"metric,value\nunique_models,28\nmodel_resources,28\ninstances,52\ninteractive_objects,7\nanimated_entities,8\nsource_triangles,"<<sourceTriangles
+    metrics<<std::setprecision(9)<<"metric,value\nunique_models,28\nmodel_resources,28\ninstances,52\ninteractive_objects,7\nanimated_entities,18\nsource_triangles,"<<sourceTriangles
             <<"\nscene_triangles,"<<sceneTriangles<<"\nsource_geometries,"<<geometries<<"\nsource_textures,0\nwidth,"<<width<<"\nheight,"<<height
             <<"\ncpu_geometry_bytes_lower_bound,"<<cpuBytes<<"\ncpu_load_seconds,"<<loadSeconds<<"\nframes,600\nseconds,"<<seconds<<"\nfps_mean,"<<600/seconds
             <<"\nframe_p50_ms,"<<durations[299]*1000<<"\nframe_p95_ms,"<<durations[569]*1000<<"\nframe_p99_ms,"<<durations[593]*1000<<"\nrecording_seconds,"<<recordingSeconds<<'\n';
@@ -216,6 +218,6 @@ void checkAquaBioFramebuffer(const std::filesystem::path& directory,int width,in
     while(std::getline(status,line))if(line.rfind("VmRSS:",0)==0)metrics<<"process_rss_kib,"<<std::stoull(line.substr(6))<<'\n';
 #endif
     metrics.close();
-    std::cout<<"AQUABIO SMOKE PASS: 28 models; 52 instances; 7 interactions; 8 animations; frames=600 seconds="<<seconds<<" fps_mean="<<600/seconds<<" framebuffer="<<width<<'x'<<height<<'\n';
+    std::cout<<"AQUABIO SMOKE PASS: 28 models; 52 instances; 7 interactions; 18 animations; frames=600 seconds="<<seconds<<" fps_mean="<<600/seconds<<" framebuffer="<<width<<'x'<<height<<'\n';
 }
 }

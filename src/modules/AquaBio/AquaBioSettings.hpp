@@ -50,7 +50,7 @@ struct Settings {
         {15.5f,.36f,3}, {13.7f,.36f,4.6f}, {16.2f,.36f,5.4f}, {11.8f,.36f,6.1f}, {14.5f,.36f,7.1f}
     }};
     std::array<glm::vec3,5> extraReeds{{
-        {16.7f,.3f,2.7f}, {17,.3f,4.4f}, {16.6f,.3f,7.3f}, {12,.3f,7.5f}, {10.9f,.3f,5.3f}
+        {17.3f,.3f,2.7f}, {17,.3f,4.0f}, {16.6f,.3f,7.3f}, {12,.3f,7.5f}, {10.9f,.3f,4.9f}
     }};
     std::array<glm::vec3,2> extraTrees{{{19.5f,.01f,10}, {15.5f,.01f,16.5f}}};
     glm::vec3 impellerDemoPosition{-9.5f,.44f,-5.5f};
