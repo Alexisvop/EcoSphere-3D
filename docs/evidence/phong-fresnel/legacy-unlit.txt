@@ -1,0 +1,25 @@
+Native Wayland: yes
+X11: no
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=aquabio
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; F5 Phong/Blinn-Phong; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[module] aquabio
+[module] initialize stub
+Shaders: <repo>/build/linux-dev/shaders
+Asset notice: Phase 3: metallic/roughness approximated by Blinn-Phong + static environment; not full glTF PBR
+Imported model: 2 primitives, 4 nodes, 1 textures
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 955x1025
+Focus: active
+Framebuffer: 951x1023
+IMPORTED SMOKE PASS: changed=18235; magenta=3051; cyan=1790
+SMOKE PASS: object pixels (ground/red/blue/parent/child)=406993 28811 22134 23934 4688 ; depth range=0.5..0.994715; capture=build/linux-dev/phong-fresnel-legacy-frame.ppm
+[module] aquabio
+[module] shutdown stub
+Clean exit

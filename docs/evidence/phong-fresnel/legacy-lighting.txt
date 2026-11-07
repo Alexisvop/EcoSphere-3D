@@ -1,0 +1,36 @@
+Native Wayland: yes
+X11: no
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=ecoenergy
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; F5 Phong/Blinn-Phong; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[module] ecoenergy
+[module] initialize stub
+Shaders: <repo>/build/linux-dev/shaders
+Asset notice: Phase 3: metallic/roughness approximated by Blinn-Phong + static environment; not full glTF PBR
+Imported model: 2 primitives, 4 nodes, 1 textures
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 955x1025
+Focus: active
+Framebuffer: 951x1023
+LIGHTING directional on matte: changed=6634
+LIGHTING point on plastic: changed=7675
+LIGHTING directional versus point: changed=7688
+LIGHTING environment on metal: changed=7744
+LIGHTING reflection with direct: changed=7744
+LIGHTING direct with reflection: changed=7744
+LIGHTING plastic specular lobe: changed=1461
+LIGHTING Fresnel angular curve: changed=14393
+LIGHTING skybox background: changed=222489
+LIGHTING glass on backdrop: changed=7744
+LIGHTING backdrop through glass: changed=7744
+LIGHTING unlit invariant: magenta=2553 cyan=1747
+LIGHTING PASS: linear alpha=0.32 matched=7744/7744; MASK changed=2526/5184; framebuffer=951x1023; real captures=build/linux-dev/phong-fresnel-legacy-lighting
+[module] ecoenergy
+[module] shutdown stub
+Clean exit
