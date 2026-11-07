@@ -55,7 +55,7 @@ int main(int argc,char** argv) {
                         for(const auto& p:nav.placements())models.push_back({p.model,p.world});
                         renderer.drawModels(models,camera.view(),*camera.projection(w,h),lighting,camera.position,environment.texture());
                         hud.draw(nav.message(camera.position),w,h);
-                        if(overlay)fpsHud.draw(fps.text(),w,h,true);
+                        if(overlay)fpsHud.draw(fps.text(),w,h,HudAnchor::topRight);
                     };
                     fps.sample(0,true);for(int i=1;i<=32;++i)fps.sample(i/64.,true);
                     const auto pixels=[&] {std::vector<unsigned char> data(w*h*3);glReadBuffer(GL_BACK);glPixelStorei(GL_PACK_ALIGNMENT,1);glReadPixels(0,0,w,h,GL_RGB,GL_UNSIGNED_BYTE,data.data());return data;};

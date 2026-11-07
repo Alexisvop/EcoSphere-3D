@@ -19,6 +19,7 @@
 #include "EcoCycleSmoke.hpp"
 #include "NavigationHud.hpp"
 #include "FpsCounter.hpp"
+#include "LightingControls.hpp"
 #include "SrgbFramebuffer.hpp"
 #include "NavigationSmoke.hpp"
 #include "world/ZoneNavigator.hpp"
@@ -306,8 +307,10 @@ int run(int argc, char** argv) {
         camera.pitchDegrees = -4.0f;
     }
     ecosphere::FpsCounter fpsCounter;
+    ecosphere::LightingControls lightControls;
     struct InputContext {
         ecosphere::FpsCounter& fps;
+        ecosphere::LightingControls& lightControls;
         ecosphere::Camera& camera;
         ecosphere::LightingSettings& lighting;
         bool& regression;
@@ -316,7 +319,7 @@ int run(int argc, char** argv) {
         bool skipNextUpdate = true;
         bool navigationEnabled = false, enter = false, home = false;
         std::vector<std::pair<int,bool>> navigationKeys{};
-    } inputContext{fpsCounter, camera, lighting, regression, interactionEnabled || contentEnabled, {}};
+    } inputContext{fpsCounter, lightControls, camera, lighting, regression, interactionEnabled || contentEnabled, {}};
     inputContext.navigationEnabled=plazaEnabled;
     glfwSetWindowUserPointer(window.get(), &inputContext);
     glfwSetKeyCallback(window.get(), [](GLFWwindow* handle, int key, int, int action, int) {
@@ -332,17 +335,14 @@ int run(int argc, char** argv) {
             input.camera.setMode(key == GLFW_KEY_F1 ? ecosphere::CameraMode::firstPerson : ecosphere::CameraMode::free);
             std::cout << "Camera mode: " << (key == GLFW_KEY_F1 ? "first-person" : "free") << std::endl;
         }
-        if (action == GLFW_PRESS && key >= GLFW_KEY_1 && key <= GLFW_KEY_6) {
-            auto& s = input.lighting;
-            if (key == GLFW_KEY_1) s.directEnabled = !s.directEnabled;
-            if (key == GLFW_KEY_2) s.directional.enabled = !s.directional.enabled;
-            if (key == GLFW_KEY_3) s.point.enabled = !s.point.enabled;
-            if (key == GLFW_KEY_4) s.environment.reflectionEnabled = !s.environment.reflectionEnabled;
-            if (key == GLFW_KEY_5) s.environment.skyboxEnabled = !s.environment.skyboxEnabled;
-            if (key == GLFW_KEY_6) input.regression = !input.regression;
-            std::cout << "Lighting state: direct=" << s.directEnabled << " directional=" << s.directional.enabled
-                      << " point=" << s.point.enabled << " reflection=" << s.environment.reflectionEnabled
-                      << " skybox=" << s.environment.skyboxEnabled << " regression=" << input.regression << std::endl;
+        const bool lightingChanged=input.lightControls.key(key,action,input.lighting);
+        if(key==GLFW_KEY_6 && action==GLFW_PRESS)input.regression=!input.regression;
+        if(lightingChanged || (key==GLFW_KEY_6 && action==GLFW_PRESS)) {
+            const auto& s=input.lighting;
+            std::cout<<"Lighting state: direct="<<s.directEnabled<<" directional="<<s.directional.enabled
+                     <<" point="<<s.point.enabled<<" reflection="<<s.environment.reflectionEnabled
+                     <<" skybox="<<s.environment.skyboxEnabled<<" regression="<<input.regression
+                     <<" HUD="<<input.lightControls.visible<<std::endl;
         }
         if (input.interactionEnabled && action == GLFW_PRESS && glfwGetWindowAttrib(handle, GLFW_FOCUSED))
             input.interactionKeys.push_back(key);
@@ -369,7 +369,7 @@ int run(int argc, char** argv) {
     glfwSetFramebufferSizeCallback(window.get(), [](GLFWwindow*, int width, int height) {
         std::cout << "Framebuffer: " << width << 'x' << height << std::endl;
     });
-    std::cout << "Camera mode: first-person\nControls: F1 first-person; F2 free; F3 FPS; WASD move; "
+    std::cout << "Camera mode: first-person\nControls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; WASD move; "
                  "Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released." << std::endl;
 
     // Destrucción en orden inverso: recursos GPU y módulo antes del contexto.
@@ -391,6 +391,7 @@ int run(int argc, char** argv) {
         lighting = contentRegistry.lighting(std::string(selectedModuleId)).value_or(lighting);
         std::cout << "Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.\n";
     }
+    lightControls.defaults(navigator ? navigator->lighting() : lighting);
     ecosphere::Scene scene;
     const auto shaders = executableDirectory(argv[0]) / "shaders";
     std::cout << "Shaders: " << shaders.string() << std::endl;
@@ -406,7 +407,7 @@ int run(int argc, char** argv) {
     auto modelRenderer=std::make_unique<ecosphere::ModelRenderer>(shaders);
     std::unique_ptr<ecosphere::NavigationHud> navigationHud;
     if (navigator) navigationHud=std::make_unique<ecosphere::NavigationHud>(shaders);
-    ecosphere::NavigationHud fpsHud(shaders);
+    ecosphere::NavigationHud fpsHud(shaders),lightingHud(shaders);
     ecosphere::Environment environment(shaders);
     const auto showcase = plazaEnabled ? nullptr : ecosphere::makeLightingDemo();
     std::shared_ptr<ecosphere::Model> contentOutline;
@@ -485,6 +486,7 @@ int run(int argc, char** argv) {
             if (changed) {
                 modelRenderer.swap(prepared); // Destruir caché saliente con el contexto aún activo.
                 camera=navigator->entryCamera();lighting=navigator->lighting();
+                lightControls.defaults(lighting);
                 selectedModuleId=ecosphere::zoneId(navigator->active());
                 inputContext.interactionKeys.clear();previousTimeSeconds=glfwGetTime();
                 inputContext.enter=held(GLFW_KEY_ENTER)>0;inputContext.home=held(GLFW_KEY_H)>0;
@@ -571,7 +573,8 @@ int run(int argc, char** argv) {
             renderer.draw(scene, camera.view(), *projection);
         } else renderLit(lighting);
         if (navigationHud) navigationHud->draw(navigator->message(camera.position),width,height);
-        if(fpsCounter.visible) fpsHud.draw(fpsCounter.text(),width,height,true);
+        if(fpsCounter.visible) fpsHud.draw(fpsCounter.text(),width,height,ecosphere::HudAnchor::topRight);
+        if(lightControls.visible)lightingHud.draw(ecosphere::lightingHudText(lighting,regression,width),width,height,ecosphere::HudAnchor::bottomRight);
         const bool captureFrame = !capturePath.empty() && ++renderedFrames == smokeFrameLimit;
         std::vector<unsigned char> withoutImported;
         if (captureFrame) {
@@ -581,7 +584,7 @@ int run(int argc, char** argv) {
             glReadPixels(0, 0, width, height, GL_RGB, GL_UNSIGNED_BYTE, withoutImported.data());
             if (glGetError() != GL_NO_ERROR) throw std::runtime_error("Smoke baseline readback failed");
         }
-        if (regression && ecosphere::demo::importedVisible)
+        if (regression && imported && ecosphere::demo::importedVisible)
             modelRenderer->draw(imported, ecosphere::demo::importedPlacement.matrix(), camera.view(), *projection);
         if (glGetError() != GL_NO_ERROR) throw std::runtime_error("OpenGL draw failed");
         if (captureFrame) {
@@ -645,7 +648,8 @@ int run(int argc, char** argv) {
                 [&] {
                     renderLit(lighting);navigationHud->draw(navigator->message(camera.position),width,height);
                     fpsCounter.sample(glfwGetTime(),true);
-                    if(fpsCounter.visible)fpsHud.draw(fpsCounter.text(),width,height,true);
+                    if(lightControls.visible)lightingHud.draw(ecosphere::lightingHudText(lighting,regression,width),width,height,ecosphere::HudAnchor::bottomRight);
+                    if(fpsCounter.visible)fpsHud.draw(fpsCounter.text(),width,height,ecosphere::HudAnchor::topRight);
                 },
                 [&] {
                     glfwSwapBuffers(window.get());glfwPollEvents();
