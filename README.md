@@ -58,10 +58,18 @@ El proyecto es una demostración educativa: los instrumentos representados son i
 | Tomar / soltar | G |
 | Pausar o reanudar / reiniciar animaciones | P / R |
 | Mostrar / ocultar FPS | F3 |
+| Mostrar / ocultar estado de iluminación | F4 |
+| Restaurar iluminación original de la zona | 0 |
+| Directa / direccional / puntual / reflejos / cielo | 1 / 2 / 3 / 4 / 5 |
+| Regresión gráfica independiente | 6 |
 | Salir | Esc |
 
 El contador FPS aparece inicialmente y renueva la lectura cada ~0.5 s.
 `FPS: -` indica una muestra pendiente; se reinicia al perder foco o minimizar.
+
+El panel de iluminación aparece abajo a la derecha. `ON-` indica una luz activada
+que no contribuye porque la iluminación directa general está apagada. La tecla 5
+controla el cielo; 6 activa una comparación de regresión, no una luz.
 
 ## Ejecución rápida
 

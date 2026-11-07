@@ -45,3 +45,20 @@ F3 alterna visibilidad solo en PRESS; los repeats/releases no la alternan.
 solo reconstruye al cambiar texto, tamaño o anclaje. La banda superior de 40 px
 queda reservada para FPS; el HUD educativo conserva su espacio debajo.
 No se cambia el SDK, ni se añade un framework o hilo.
+
+
+## Estado de iluminación en el HUD
+
+`LightingControls` de la aplicación recibe por referencia el mismo
+`LightingSettings` que usa `renderLit`: no mantiene una segunda copia editable.
+Conserva únicamente los valores iniciales para 0 y la preferencia de visibilidad
+F4. Después de una transición confirmada, el anfitrión actualiza esos valores
+originales desde `ZoneNavigator::lighting()`. En modos históricos los captura
+tras la inicialización del contenido. Restaurar no llama al navegador ni al reloj
+de animación. La tecla 6 se procesa independientemente en el callback existente.
+
+`lightingHudText` deriva ON/OFF y la marca de contribución inactiva del estado real.
+`NavigationHud` reutiliza el texto geométrico, material unlit, caché y restauración
+OpenGL; `HudAnchor` distingue navegación, FPS superior derecho e iluminación
+inferior derecha. Solo reconstruye geometría si cambian texto, resolución o anclaje.
+No cambia ningún contrato público del SDK ni los shaders.

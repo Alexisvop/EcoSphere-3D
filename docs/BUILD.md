@@ -131,3 +131,30 @@ Si no concede una resolución, informa del fallo; no lo declara aprobado.
 En Windows usa los mismos argumentos con `build/windows-dev/fps_graphics_tests.exe`.
 
 Resultados y límites: [informe de compatibilidad y FPS](CROSS_PLATFORM_FPS.md).
+
+
+## HUD de estado de iluminación
+
+F4 muestra u oculta el panel sin cambiar las luces ni FPS. 0 restaura todos los
+valores originales de iluminación de la zona activa; no reinicia animaciones ni
+cambia el modo de regresión (6). Las teclas 1–5 conservan sus operaciones.
+La preferencia F4 se conserva al cambiar de zona, incluso con el panel oculto.
+En modos históricos, 0 vuelve a la iluminación inicial de ese modo.
+
+La nueva prueba `lighting_hud_cpu` forma parte de CTest. Pruebas opcionales con
+contexto gráfico real, sin instalar bibliotecas adicionales:
+
+```bash
+./build/linux-dev/lighting_hud_graphics_tests build/linux-dev build/linux-dev/lighting-hud-evidence
+python3 tests/lighting_hud_input.py build/linux-dev/ecosphere build/linux-dev/lighting-hud-input.log
+```
+
+El segundo comando requiere Linux/X11 y `xdotool` disponible; solo envía teclas a
+la ventana creada por la propia prueba, comprobando su PID. El primer comando
+verifica cuatro zonas, tres resoluciones, píxeles, estado OpenGL, controles y pares
+de rendimiento; falla si el compositor no concede una resolución. Para X11 en una
+sesión mixta puede ejecutarse con `env -u WAYLAND_DISPLAY`.
+Windows mantiene pendiente la comprobación nativa; el test de teclado X11 no se
+presenta como prueba Windows. No se instala nada ni se limpian capturas.
+
+Resultados y límites: [HUD de iluminación](LIGHTING_STATUS_HUD.md).
