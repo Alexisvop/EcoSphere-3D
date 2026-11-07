@@ -1,0 +1,61 @@
+Native Wayland: no
+X11: yes
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=hub
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[zone] hub initialize: plaza GLB content registered
+Navigation: Enter near an access to enter; H return to plaza; ESC exit. Release Enter/H before another transition.
+Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.
+Shaders: <repo>/build/linux-dev/shaders
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 953x1025
+Focus: active
+Framebuffer: 951x1023
+Lighting state: direct=1 directional=1 point=1 reflection=1 skybox=1 regression=0 HUD=0
+Content selection: hub/none held=0
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Lighting state: direct=1 directional=1 point=1 reflection=1 skybox=1 regression=0 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+FPS overlay: off
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+FPS overlay: on
+Content selection: hub/none held=0
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Lighting state: direct=0 directional=1 point=1 reflection=1 skybox=1 regression=0 HUD=1
+Content selection: hub/none held=0
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Lighting state: direct=0 directional=0 point=1 reflection=1 skybox=1 regression=0 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+FPS observed: 60.6744; frames=122; seconds=2.01073; framebuffer=951x1023; requested swap interval=1; regression=0
+Lighting state: direct=0 directional=0 point=0 reflection=1 skybox=1 regression=0 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+Lighting state: direct=0 directional=0 point=0 reflection=0 skybox=1 regression=0 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+Lighting state: direct=0 directional=0 point=0 reflection=0 skybox=0 regression=0 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+Lighting state: direct=1 directional=1 point=1 reflection=1 skybox=1 regression=0 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Content selection: hub/none held=0
+Lighting state: direct=1 directional=1 point=1 reflection=1 skybox=1 regression=1 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Lighting state: direct=1 directional=1 point=1 reflection=1 skybox=1 regression=1 HUD=1
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+Lighting state: direct=1 directional=1 point=1 reflection=1 skybox=1 regression=0 HUD=1
+Content selection: hub/none held=0
+Camera state: position=0,1.7,19 yaw=-90 pitch=1
+ESC: close requested
+Content selection: hub/none held=0
+[zone] hub shutdown: session releases plaza content
+Clean exit
