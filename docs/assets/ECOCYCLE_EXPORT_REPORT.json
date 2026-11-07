@@ -19,7 +19,7 @@
         "stone",
         "yellow"
       ],
-      "bytes": 28816,
+      "bytes": 30056,
       "bounds": [
         [
           -24.0,
@@ -34,7 +34,7 @@
       ],
       "signs": [],
       "mechanism_bounds": null,
-      "sha256": "73ecaa31dffe75482b7c9c01d92774eb79220ab4011190c99365a70fe229533c",
+      "sha256": "f2ebac1c6a24634f1f4b1897d1d7b79e728ccd7744a5163f4500c80f63b06bfe",
       "geometry_signature": "32ddca493c1f47da21c6132aa10da940d9f658e93fa867bb7733e190bede4d01"
     },
     {
@@ -213,7 +213,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 159320,
+      "bytes": 161724,
       "bounds": [
         [
           -5.5,
@@ -271,7 +271,7 @@
           0.699999988079071
         ]
       ],
-      "sha256": "683b26e6e33bb5fe6aefd069e675c95751173c38e67d0af217296564a783ad26",
+      "sha256": "75a76a49c3c01e1d7d0bde6e766f340e8de95491c5f2082e60b3f2ed0ed77d54",
       "geometry_signature": "f2b91dcf2a7f55a2a98ccabe7fb565054e8cfd5a4b24efc444c4b3da956168c3"
     },
     {
@@ -377,7 +377,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 157400,
+      "bytes": 159244,
       "bounds": [
         [
           -5.5,
@@ -435,7 +435,7 @@
           2.549999952316284
         ]
       ],
-      "sha256": "6c4807cc790046ac07eafeb825b8063b3c337b63fb9ee4202aaeae6f71c185af",
+      "sha256": "f3336747c5b7dee702c69aec15077d434d12ae79d81a97682bdcd1870413cd6e",
       "geometry_signature": "b72d0865204549ee91d461c39a35072a006a0117fe4278e5e01d5d75b922dc8e"
     },
     {
@@ -1214,7 +1214,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 149572,
+      "bytes": 151796,
       "bounds": [
         [
           -1.7000000476837158,
@@ -1272,7 +1272,7 @@
           0.800000011920929
         ]
       ],
-      "sha256": "2faf604d9269690f110d77f2d31831fad914679087351b372749cb1521ae0d28",
+      "sha256": "ce98c19d2eba19188267217eea2c87d5bd52529ba7b4d525996c7d481f037fb1",
       "geometry_signature": "30ea1f8ea696af876144f50604bcdd0f5880c77adfb8e213c49e82d5b8baccb6"
     },
     {

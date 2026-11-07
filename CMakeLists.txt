@@ -133,6 +133,8 @@ if(BUILD_TESTING)
     add_test(NAME fps_cpu COMMAND fps_tests)
     list(APPEND ecos_targets fps_tests)
     find_package(Python3 3.10 COMPONENTS Interpreter REQUIRED)
+    add_test(NAME presentation_textures_integrity COMMAND "${Python3_EXECUTABLE}" -B
+        "${CMAKE_CURRENT_SOURCE_DIR}/tools/apply_presentation_textures.py" --check)
     add_executable(visitor_controls_tests tests/visitor_controls_tests.cpp src/app/InteractionDemoInput.cpp src/app/NavigationHudLayout.cpp)
     target_compile_definitions(visitor_controls_tests PRIVATE GLFW_INCLUDE_NONE)
     target_include_directories(visitor_controls_tests SYSTEM PRIVATE $<TARGET_PROPERTY:glfw,INTERFACE_INCLUDE_DIRECTORIES>)
