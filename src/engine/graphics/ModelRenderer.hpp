@@ -1,6 +1,7 @@
 #pragma once
 #include "assets/Model.hpp"
 #include "scene/Lighting.hpp"
+#include "Shading.hpp"
 #include <glad/gl.h>
 #include <filesystem>
 #include <map>
@@ -45,6 +46,8 @@ public:
               const LightingSettings& lighting = {}, glm::vec3 camera = {}, GLuint environment = 0);
     void drawModels(const std::vector<ModelPlacement>& models, const glm::mat4& view, const glm::mat4& projection,
                     const LightingSettings& lighting, glm::vec3 camera, GLuint environment);
+    void setShadingModel(ShadingModel model) { shadingName(model); shading_=model; }
+    void setFresnelEnabled(bool enabled) noexcept { fresnelEnabled_=enabled; }
     void clear() noexcept { uploads_.clear(); }
 private:
     struct Upload {
@@ -53,6 +56,8 @@ private:
         std::vector<std::unique_ptr<Texture>> textures;
     };
     std::map<std::shared_ptr<const Model>, Upload, std::owner_less<std::shared_ptr<const Model>>> uploads_;
+    ShadingModel shading_=ShadingModel::BlinnPhong;
+    bool fresnelEnabled_=true;
     GLuint program_ = 0;
     std::map<std::string, GLint> uniforms_;
     GLint uniform(const char* name) const { return uniforms_.at(name); }

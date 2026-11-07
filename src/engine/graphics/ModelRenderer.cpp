@@ -72,7 +72,7 @@ ModelRenderer::ModelRenderer(const std::filesystem::path& shaders) {
              "legacyUnlit", "unlit", "doubleSided", "alphaMode", "alphaCutoff", "metallic", "roughness", "specular",
              "reflection", "cameraPosition", "directEnabled", "ambient", "directionalEnabled", "directionalDirection",
              "directionalColor", "directionalIntensity", "pointEnabled", "pointPosition", "pointColor", "pointIntensity",
-             "attenuation", "reflectionEnabled", "environmentIntensity", "fresnelPower", "environmentMap"}) {
+             "phongShading", "fresnelEnabled", "attenuation", "reflectionEnabled", "environmentIntensity", "fresnelPower", "environmentMap"}) {
             const auto location = glGetUniformLocation(program_, name);
             if (location < 0) throw std::runtime_error(std::string("Model shader missing required uniform: ") + name);
             uniforms_.emplace(name, location);
@@ -125,6 +125,7 @@ void ModelRenderer::drawModels(const std::vector<ModelPlacement>& models, const 
     const auto scalar = [&](const char* name, float value) { glUniform1f(uniform(name), value); };
     const auto flag = [&](const char* name, int value) { glUniform1i(uniform(name), value); };
     const auto vector = [&](const char* name, glm::vec3 value) { glUniform3fv(uniform(name), 1, glm::value_ptr(value)); };
+    flag("phongShading", shading_==ShadingModel::Phong); flag("fresnelEnabled", fresnelEnabled_);
     flag("baseTexture", 0); flag("environmentMap", 1);
     flag("legacyUnlit", lighting.legacyUnlit); flag("directEnabled", lighting.directEnabled);
     scalar("ambient", lighting.ambient); vector("cameraPosition", camera);
