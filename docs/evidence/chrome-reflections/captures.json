@@ -1,0 +1,602 @@
+{
+  "A-front-BLINN-PHONG-off.png": {
+    "sha256": "fa4e2033df133dccf46549aa9cdd022860c877615d38eafc1d5423ec402ae755",
+    "framebuffer_rgb_sha256": "fe623672f89f6af1ce52172203de96953851d16476dbe60d9242de2feef22527",
+    "width": 1280,
+    "height": 720
+  },
+  "A-front-BLINN-PHONG-on.png": {
+    "sha256": "eb6e2e6f066129e374d555f32eab6acc369c753bc274e7811dbbbd3239a7835f",
+    "framebuffer_rgb_sha256": "9a2cdbc0b07c5de77dd8a599e4f7099522fbe41c03905b95c772b3a58c03437c",
+    "width": 1280,
+    "height": 720
+  },
+  "A-front-PHONG-off.png": {
+    "sha256": "2f62f18beb74c5b66e968a3bae3b31a09b3c87dbe61b3196f9ba25c54ce2967e",
+    "framebuffer_rgb_sha256": "fbe19debe48892cd0dd0523ca066ab79552a9807febb4ce002749f9c4e6bfbb3",
+    "width": 1280,
+    "height": 720
+  },
+  "A-front-PHONG-on.png": {
+    "sha256": "cc369db4564375588087eae839b4792d919169573a04651bf4d16f689e4509a3",
+    "framebuffer_rgb_sha256": "c76fd7c7f52b7b7c0c58ce9983449603bc4d113a08e70e6e0d7de38c4ad8804e",
+    "width": 1280,
+    "height": 720
+  },
+  "A-grazing-BLINN-PHONG-off.png": {
+    "sha256": "c2b6e745c7b5cc71558d249be4594ea6764a618ee60a1c71106b532757e5f2aa",
+    "framebuffer_rgb_sha256": "48a978d0f8f61fe8423ae8421949f1de6bad88e340a6c05986aa82773fa15eca",
+    "width": 1280,
+    "height": 720
+  },
+  "A-grazing-BLINN-PHONG-on.png": {
+    "sha256": "bbebadbb2dd4f5e988c06111b61830c04dd8dbaadc4f6c9310ff59c4e42cfa90",
+    "framebuffer_rgb_sha256": "90e8370717addcac89163a079ef3d56b58c7ee57a6460fdde1f72a7342385198",
+    "width": 1280,
+    "height": 720
+  },
+  "A-grazing-PHONG-off.png": {
+    "sha256": "43f3a340a2b79f2a80ead5e2cd5cfadfb2ef07106cee25c6fdf524d834ce147d",
+    "framebuffer_rgb_sha256": "996d50f2df82cf8088ebb149cf4ae0c3c1e54aa420b9e271d5144033841691ec",
+    "width": 1280,
+    "height": 720
+  },
+  "A-grazing-PHONG-on.png": {
+    "sha256": "e0401f5d611bd45a6d581d5429919dc2b668654d144648c060eb0124475f60cb",
+    "framebuffer_rgb_sha256": "b453354a602756ba1e11513b60fec5be70571e9290466b36bdb2ac1829f58454",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-00.png": {
+    "sha256": "059955b63ca04e330019bde62cab2e6687072e6973e5221a7caeb00f8f8c0650",
+    "framebuffer_rgb_sha256": "3e2552beea0b64505084fe4871dac233224c3f7a5ad66bc7f9fbdbc79c1ad2e5",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-01.png": {
+    "sha256": "6fdb2b476b1c76387cb8f57aa4a490388f493c144a7ee765aa27e426a858995b",
+    "framebuffer_rgb_sha256": "b73862272713161ff675a5cedf81efc52d6e3ee50d07e03bde3f517dfd5fde2c",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-02.png": {
+    "sha256": "473bdb7ce3671be3207459b1f6c5af0a77dec6718fdfec24430efc505748f76f",
+    "framebuffer_rgb_sha256": "104c819a12e7a9744e2c97f670256bceacfee1503dc6603693a123809b1f025f",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-03.png": {
+    "sha256": "4694664173a26b71e9fee8293b54ac11880850f6f566790f6540cd56f6373d25",
+    "framebuffer_rgb_sha256": "650193069bb1c0c9fce22d0c316de6f47976389c5df21163884e31ee3036dbb3",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-04.png": {
+    "sha256": "5f5b4bcf6a8f7242e694c022c85f5c068f09621903c7a0cb67b7c0b710e8008f",
+    "framebuffer_rgb_sha256": "53e569d2eddfbf7b61716a6248a48c0340cc6c0d2da403419b22948e6d979c57",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-05.png": {
+    "sha256": "9f4c7a9cb668860c8e996c2da6eace01e119cc797a3f985d56f4bf3108034cbd",
+    "framebuffer_rgb_sha256": "d0ad570b6f02e41bdc6dcb467f1bd0fb5b0bb73fc85c1f85106302063e8eaa1b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-06.png": {
+    "sha256": "f06983e23f2b0adaa259ca659f864995aa1c0cf7772a5679614bcdb68189943c",
+    "framebuffer_rgb_sha256": "174b2ec8b815aa8a7da021ed05f2e3f0a28168d15f481fff720862fb9255e851",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-07.png": {
+    "sha256": "13013ac949c0aea391b3ec4a19f219fca0337806154395af63f311561cd39d93",
+    "framebuffer_rgb_sha256": "60da933f9e66833cc6e74ad8cca9068a4eb5c11aa3ccb223a781dd78edcdc13b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-08.png": {
+    "sha256": "d7e19d45b3f44c86671d4855ec9e3cd083d8c55128c0f097a2e264e0df1442ff",
+    "framebuffer_rgb_sha256": "fe449fe58716b9b290bb50d59e47f8e2d2bc39df124cf13d7291fad6cc656e5b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-09.png": {
+    "sha256": "d07f94df451734f05fe0fc60b16167a6c8c8b142819dad381fba24b593e7d87a",
+    "framebuffer_rgb_sha256": "a64e360805b2a7a7060ca8026e37ef63622052f3982ef21214621592650afe9f",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-10.png": {
+    "sha256": "d6e7c93b758a497170425dd3aea2c3da665c9b2cbef0f633f7329b93c522929a",
+    "framebuffer_rgb_sha256": "e3b4bd61b5416fbc98eaff2b7de8060df3c12f93df8cdcd6c8d9be51af0fb08b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-11.png": {
+    "sha256": "282199f628e5360ac6dfec6055374313156187f1457443df135236268e0d3c45",
+    "framebuffer_rgb_sha256": "710b7c19f31781d95cb24be966c316afdf359f30167903313dc71a56122ca98c",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-12.png": {
+    "sha256": "d14f4f3d4523096b0b0c1d3fc483eaba98c7bbff892a26a4ad49ea4c49abd545",
+    "framebuffer_rgb_sha256": "0e1072310f41a1562ace0c453042468231b42e446d2d0154860299d8f402eb8a",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-13.png": {
+    "sha256": "153205d40cea41e745b53874a889c3323ff6d8bf130b91d7c5235cb202a8d936",
+    "framebuffer_rgb_sha256": "770f8cae2db3fac35379496b5ca71c7d6fbdbc37ae86a2784a68d6747e11918e",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-14.png": {
+    "sha256": "a6c0d496bc5f91fd648cbd0205fcbc30951a344e8ee01d8eddcd442f14a571d7",
+    "framebuffer_rgb_sha256": "fd72474ec6ddf08ec83b8fa14dc8e47ea470a1cbd5557a55fc55b01d17eb779b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-15.png": {
+    "sha256": "20b05ba85beb62803e99d70da80c5208dfeb2c7f1863c68535eee3c8b6f82934",
+    "framebuffer_rgb_sha256": "257b266d116c0b26d52183a78eb130bcfaa1e7867eab49970fc0878432132588",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-16.png": {
+    "sha256": "69ef92ecc9a505ae4744656b3bc86cb0cb3ff484fffa822c6674a3b7ffea1dc6",
+    "framebuffer_rgb_sha256": "c111c23a36c30445c55d3b254e9d64bd8abb8686146963466ca92b87cdfd2f91",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-17.png": {
+    "sha256": "5022a93aeea554ec9ea5b2498d486b2af9a40d0bbc2cbaaaf836d83a9e749aa6",
+    "framebuffer_rgb_sha256": "7bd0bc6c4acf9614845d2c632dd3eb2642d2e0381dab7cc027aae53f388624b6",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-18.png": {
+    "sha256": "495cf2c1421336ccdf18927d2054562cfb48de4190bcbf59644e0e17109b811b",
+    "framebuffer_rgb_sha256": "d47c17010d42f7b7f0ae65f07f3626c5fd181aa5567d525d0d192373dafa4fc6",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-19.png": {
+    "sha256": "2445e657970afbcef81cb066d381e3b04d1eb53b644defe0d52095d5f8aad12a",
+    "framebuffer_rgb_sha256": "7937c17cf6cf67d9116e3e5cbb149873fdd187dc104b17f6d72f8185af64681b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-20.png": {
+    "sha256": "44d4f59bce8e69d31a081d6fbccef50b925199b23f65f92b821167b3059feb94",
+    "framebuffer_rgb_sha256": "119eb9ec2564eeaeaa398dbe3583c7082ede7fb0bd89d3f2fefc5fe32d949fee",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-21.png": {
+    "sha256": "140c29192b381bcbf6571963c5125fd2575e5358392f80a56bea98b7b47ad50b",
+    "framebuffer_rgb_sha256": "ec5d159b42fe11607894eafa470cde753453c33df2760e112199ac7bacc00a6b",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-22.png": {
+    "sha256": "1b018c6cf137bd6dde003fa96d7464e714c6b9d65790b83f6f5a788f539b9187",
+    "framebuffer_rgb_sha256": "596f79fccdd8888f6cb3f85d295f58cb282374c8d91f27d324f04e893f1c0cdd",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion-23.png": {
+    "sha256": "7114eaa46113ebb789d29e44dee2fc29b7862f37edc53105a28b97e214248c47",
+    "framebuffer_rgb_sha256": "0c1992f4f86b01529d643a81c6386e2e91dfdf8413dc666a5c0f236f4a91f3b3",
+    "width": 1280,
+    "height": 720
+  },
+  "B-front-BLINN-PHONG-off.png": {
+    "sha256": "6f7f435dbc7c6d7f5a8dc2c98f16895e0e66ec59b0930576316a1bd3e47d2a30",
+    "framebuffer_rgb_sha256": "9e86a0d3ebed4f41d2fde81b081b15b69c431d0ea528f9cf24974d35cb74fc95",
+    "width": 1280,
+    "height": 720
+  },
+  "B-front-BLINN-PHONG-on.png": {
+    "sha256": "a943e3edae8a970deb2c128ee02a837c641aa4a50724ab509873221b174ab2a8",
+    "framebuffer_rgb_sha256": "b70dbd002b985e1f47d094f1ebbcc129606e2cff16ed766098565835f2824949",
+    "width": 1280,
+    "height": 720
+  },
+  "B-front-PHONG-off.png": {
+    "sha256": "20459423984821084df271b90eef66c115196906f8f2b97c12b879555c76a1ac",
+    "framebuffer_rgb_sha256": "b86d5cb0d675ee87589c6e8fdd0b512ca628b18082ea1a813666f2b6df7e72ea",
+    "width": 1280,
+    "height": 720
+  },
+  "B-front-PHONG-on.png": {
+    "sha256": "011dec4f025ef3992400419f01a1a25c945143fc67e1ff28c162880185d33a20",
+    "framebuffer_rgb_sha256": "0a7e6595721915a6834e0ddc482180c061ea8b44bed69b7db0d4fca52c8a4a3d",
+    "width": 1280,
+    "height": 720
+  },
+  "B-grazing-BLINN-PHONG-off.png": {
+    "sha256": "e0067fbef9354369f45c8b8dfec4f18e63c530f2c6d63f036aa6b8a9d187c40e",
+    "framebuffer_rgb_sha256": "f1e5e1e1363c265c620fc221b726def85a0ee5ab4ed840144cc3e027fa50ace5",
+    "width": 1280,
+    "height": 720
+  },
+  "B-grazing-BLINN-PHONG-on.png": {
+    "sha256": "4b1eb55c9536d9ee5b2ee0af0dcf34d116b0f674fc2accb7ed0a112cd1d4018f",
+    "framebuffer_rgb_sha256": "0e6cb0e7a4596fba0fef65c10f5309a147f99f34238975b12d1a613fb3f18f7d",
+    "width": 1280,
+    "height": 720
+  },
+  "B-grazing-PHONG-off.png": {
+    "sha256": "3c028f40bdeb69a956cff129392068a38489d8aa40db46fc717983e627f1e592",
+    "framebuffer_rgb_sha256": "3167527b6116d9371b092ee9014a8b49dcb9dcefa3bede2a7fe8eaed31bc64ba",
+    "width": 1280,
+    "height": 720
+  },
+  "B-grazing-PHONG-on.png": {
+    "sha256": "40adf0358d2aa39885a9683403a67f22a6e7ddf708d360d4541ba93c2fd48b12",
+    "framebuffer_rgb_sha256": "77d4dc731c4d623aa985d634bc08cb6e5503ca8781093628e5d6539e4bf1df90",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-00.png": {
+    "sha256": "d2d0aed6549ad1878595d9229803b57f616a2d7e412671e80c3e4f207cdd4952",
+    "framebuffer_rgb_sha256": "d57547585bfc749593b7f49f6597d1a1c2c9af2a0d54739cf54e6edbc33497eb",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-01.png": {
+    "sha256": "6f3b6a42b7a1e834c52f89ff5398ce2b83e236846bbc7af1a0b313408b8fcd76",
+    "framebuffer_rgb_sha256": "efe9ba1715c4550e8dce941b52999e4fb4bcd208e85f3d5a37d6b5f0f907d93c",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-02.png": {
+    "sha256": "cf8fefd6aeb00b607e55c41fbe53f048f19f44195bb8fafdff78765f389bb5cc",
+    "framebuffer_rgb_sha256": "5af1f05dfd97020fa36f8cfcb5b7c7ce21c864d2d5dff15717f056b97fcb0bce",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-03.png": {
+    "sha256": "ad2b15aaec0f6c9cc5bc439aa0ff98fa9e40fa97aab793aee9e690be84262806",
+    "framebuffer_rgb_sha256": "636e67136f73693f18ea0883f37ce48f0754a1fc11cd078c47f9c3c86c355f25",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-04.png": {
+    "sha256": "ec4b7d7fd4ceeedd8e86cab3c0a2435c577d2d5fa4e28e0b6cbefd6b288a7407",
+    "framebuffer_rgb_sha256": "d41aae1ca9d31dbd30704268d6ea8c06f39691d190fc1e513b19480eff4f245e",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-05.png": {
+    "sha256": "022928fb59f7a80f0a8a2d5ba79d7cc7b6ed6774dc59000619aa3288b55a49be",
+    "framebuffer_rgb_sha256": "6bfcd8196ccfb7c01aa6499b46d7fcbf6369b78280eab6e538048b73ef4aeb50",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-06.png": {
+    "sha256": "e26385e199d21e74334ae38735cad08396d2df3fe6aa9f9b25266d4e515b3d3d",
+    "framebuffer_rgb_sha256": "a5230763456e7c8975a36cac8f559b5b2d7d0906352546f3026c1e8788866e66",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-07.png": {
+    "sha256": "04090353905c1566add890a0909954f3a242b7c260614f4a6a5e3ae584049585",
+    "framebuffer_rgb_sha256": "150ddcbe07058989ebac3a0f8dc93daced4ff551e61f3f66b67b564e2250fe01",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-08.png": {
+    "sha256": "53b823ea6ae831fc0433b024dacacdf4adaefd712a958de5333d010dc5359eff",
+    "framebuffer_rgb_sha256": "7fe118e1d1f1c334ed7667d711ab800b2cc17bd00a05f766554b390cbcf617c1",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-09.png": {
+    "sha256": "e46680cc9d19842b5158b12d0d2b167ab74c4f7db8e85eaa6ddedfefc125ba62",
+    "framebuffer_rgb_sha256": "5a376acfd1c018b072b2f838d09e53002a3288af98e275a6163a5a6b5572b396",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-10.png": {
+    "sha256": "c7a72ebd6c88021bd7662d92aa15851cbbc0fe224f0a89b2784745705284872e",
+    "framebuffer_rgb_sha256": "2dcd6c05a6d674e849ff7d077faad9322eae8b432a23ff46054a0e9722a2a7d7",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-11.png": {
+    "sha256": "c5f4ba59bd638e9d1b3979347e7b5ba3fea2c0c518b01cbf7bdc100c2d0cedfd",
+    "framebuffer_rgb_sha256": "ded25201326ee759d5cfb2b270bdc174e06d9f2e66c5666154eec200cb816837",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-12.png": {
+    "sha256": "c310109da175c2c3e3ccbed5f091723300718fee856ba6db1ac9f54e1dbf5b93",
+    "framebuffer_rgb_sha256": "ba0d0f1b122ffd3944880348326f7b59074a3a643412ff9fcd524d395172cf87",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-13.png": {
+    "sha256": "0ffb2f6ba0cf9608cdac9c59da8bf9a697181ea4d1bb8ae064d15b268758bca1",
+    "framebuffer_rgb_sha256": "cbdc1fa3943981fd69956c7e0fa4a1711e0ba349f6e491a78b63f4e3dd4f2b96",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-14.png": {
+    "sha256": "4824984a8f3dfdb1fe7247c8e02dfe108addfc5285efcdfb81d73598b9eb05d6",
+    "framebuffer_rgb_sha256": "b2d5083ab0b83a50b2f3b6b21d68d7fe0380a84f9b89c275a1645d3c63f3d8aa",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-15.png": {
+    "sha256": "67eacbda8d46137cb01bfb4b1623d535799db32c2f2edd7560d86474da8fe9bf",
+    "framebuffer_rgb_sha256": "e32d0c4276ad9d1c5ba9bfd90d551ae0230169894f4e4fdf1d9291573c53e4a3",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-16.png": {
+    "sha256": "c0c13c6bd9d65c07aa02aeb84e8092e5bb03f990a304c01feea10a3d77845f2f",
+    "framebuffer_rgb_sha256": "e527567fae8e8c4e85fb6e872534d86b9c76ecad970bb06cce8ff8843d6dc477",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-17.png": {
+    "sha256": "b2873da9ae527d2b2318e4d05f58c10696d5c83eb06c2392cdfab625b0b9ac56",
+    "framebuffer_rgb_sha256": "d322db72eb5c0fbc1414ca8f2918ac088c02c97d6becb6de831c042fc9187c65",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-18.png": {
+    "sha256": "4e1d0ed2bf94cccbe899c1627e2a2cb76b0a0fdb66bb2322ae6ca43bee6b13a8",
+    "framebuffer_rgb_sha256": "6ba4858f32d980e1b33a322eacd0a56f5a1c71ba2745ef33ffec01f1c7a4349f",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-19.png": {
+    "sha256": "3d3853fdb305f0e1ac6c343c3764be5442efb68ee8e59384a03a44a067338813",
+    "framebuffer_rgb_sha256": "8914e69af9bad75631f5945d647406b67c2afb24c148bf67e1d8468cae2b3061",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-20.png": {
+    "sha256": "88f0421fd3a28dffc86ea607c8b7943ed315f9b2146b07802f0c723a2421ad11",
+    "framebuffer_rgb_sha256": "649c7d82309a0badec61569dc041f26905074dff581b3fc7a0d7c3f014a29d9c",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-21.png": {
+    "sha256": "4fbe402ee93e00d63411faa534aca2aeb32dcf74d1dac77409f3245e66b4b419",
+    "framebuffer_rgb_sha256": "62e2282759545207a30269807b06e5887c31f3559018b6442e01f096f09d94f1",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-22.png": {
+    "sha256": "c3c8efd567c3f3eeb274cc95b0a4d4c7be73517a675c79bc6c06792ebc0a6040",
+    "framebuffer_rgb_sha256": "6386dfd5e7c354b42159922fd266c3e83985fac054125e80e817e0c280bad3c5",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion-23.png": {
+    "sha256": "8970065c377bea7af444e0e9fb60cb26d020f09c448a1103d8e39f0b1555c67d",
+    "framebuffer_rgb_sha256": "3f2200907e4ab5a07748f8dd754909069470c45fee8846a43c483bd9fd6400b4",
+    "width": 1280,
+    "height": 720
+  },
+  "C-front-BLINN-PHONG-off.png": {
+    "sha256": "81b85e6d44e092b4850ad4518d0a82ea56990bb51da5f15abac0dc1bf0c1f355",
+    "framebuffer_rgb_sha256": "9e86a0d3ebed4f41d2fde81b081b15b69c431d0ea528f9cf24974d35cb74fc95",
+    "width": 1280,
+    "height": 720
+  },
+  "C-front-BLINN-PHONG-on.png": {
+    "sha256": "d43e742b263a48c69c17c3ac2ae4d2895df933e0efcda5cc8ca26f0e05f812d9",
+    "framebuffer_rgb_sha256": "6f031e5e32ce318cc8a868d83320381e06f7472a8f412bcd89da2a74c9d3f2ac",
+    "width": 1280,
+    "height": 720
+  },
+  "C-front-PHONG-off.png": {
+    "sha256": "2b5f1b2f077d7beae17637636354045743f7a7ef50f0f9b351b3cf62d1d70cce",
+    "framebuffer_rgb_sha256": "b86d5cb0d675ee87589c6e8fdd0b512ca628b18082ea1a813666f2b6df7e72ea",
+    "width": 1280,
+    "height": 720
+  },
+  "C-front-PHONG-on.png": {
+    "sha256": "6ed88c732b75914d7475c004ab85c62c4f03b174cc6651a6302eb256e14a01da",
+    "framebuffer_rgb_sha256": "a26a9cd07ff0ae71fe3fbd4f33b4b950ea8de5a32c67cde1e6547c186e94bf77",
+    "width": 1280,
+    "height": 720
+  },
+  "C-grazing-BLINN-PHONG-off.png": {
+    "sha256": "65461b891687cf5957e8043c6134cec4442175ada12c8ac651849a21c000ad04",
+    "framebuffer_rgb_sha256": "f1e5e1e1363c265c620fc221b726def85a0ee5ab4ed840144cc3e027fa50ace5",
+    "width": 1280,
+    "height": 720
+  },
+  "C-grazing-BLINN-PHONG-on.png": {
+    "sha256": "66ab37dca76317498b77e4ebbeb52d75c39eb1c58fbdd369431a9afc7281c7c7",
+    "framebuffer_rgb_sha256": "e80917080f78fec893de866efb434c486395b36f09bdda5ca2ff4a963bfc82d4",
+    "width": 1280,
+    "height": 720
+  },
+  "C-grazing-PHONG-off.png": {
+    "sha256": "28f6161fe76ff6c8b432528e9d7d6f31febb50532424908109611438ee13835c",
+    "framebuffer_rgb_sha256": "3167527b6116d9371b092ee9014a8b49dcb9dcefa3bede2a7fe8eaed31bc64ba",
+    "width": 1280,
+    "height": 720
+  },
+  "C-grazing-PHONG-on.png": {
+    "sha256": "5e3cf115ab68f5ec678b384235e047dedf24326b2b10824074f7146ed4c3ea47",
+    "framebuffer_rgb_sha256": "7bd6fe2256561779215b321efae8d8d6fe06ce0eeb402a158a5d4b14daa11153",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-00.png": {
+    "sha256": "d3306df569463f7869061b732ff6eb00b180db8fe21abc49d0ba12bd5f94cc98",
+    "framebuffer_rgb_sha256": "d57a5d9632133e57031c5232ebca081069e4432351c9889d49b111c5e9e1bc61",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-01.png": {
+    "sha256": "e11698c413b275d9f988045d4955c1dc456de91c4b15aef5c216a1008d12e40f",
+    "framebuffer_rgb_sha256": "7b17b4d8c508ac3ad505e768931bbc6a1a449431f2215ce143c04e22ef0037b8",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-02.png": {
+    "sha256": "73b527beba1dc582c14292beccb760568678ea5d78e2218bb15f100a33a72739",
+    "framebuffer_rgb_sha256": "e908688b9f76789e16adfc2528e82b0d991642e9aea9cbf18525d6d26c9ee2a4",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-03.png": {
+    "sha256": "168034321839ebe0c842088eb20a272750238b583345bda04f9c4b60e6ee4b48",
+    "framebuffer_rgb_sha256": "0859a2ecee63fba725bbcc16960e69aeaea8b8ae03698a1e087038418921ef93",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-04.png": {
+    "sha256": "59b6313d432bd9f0cf690193ad3a541805155f1baf700ff8c87abe3df830d231",
+    "framebuffer_rgb_sha256": "df7a6598c4e90f226c62215dd0253e2868b114c16ddba4d14309abf91bd7a614",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-05.png": {
+    "sha256": "6f9c0d7a9d328ca8e70d7d9e4f8ba8de2dfecd44d4c85d4b8e7a443dd9b5abdb",
+    "framebuffer_rgb_sha256": "edda54cbae3b1e743104a485f5c254311b71d82ab798678062d4abe02e29f7d3",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-06.png": {
+    "sha256": "b82ecf425cea2eaf6f2ed642ba02be99b32200ff661b0eb1ebc5ea880b29a534",
+    "framebuffer_rgb_sha256": "2db8799597ec8decbc98789096e8767507d228c3ee7e693553f2b1952660a13d",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-07.png": {
+    "sha256": "c96c8e2fa840ddd67ec8a170e8af5186ff5f36ddf31717fe2aeb9397aeeae1d8",
+    "framebuffer_rgb_sha256": "e70d9b47f75b754f2e3ac9a7fc1464b616db488832c0a0d5d1879d33920ec2e2",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-08.png": {
+    "sha256": "304606a817afa51dec805d01c118919517afcc165128bdc7583b70385683a38f",
+    "framebuffer_rgb_sha256": "4eab7dc3a79c8be241fc7de40579a46e76341739ac6447a6d1e442539803fd7c",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-09.png": {
+    "sha256": "145b4ddd060c5db995540b972cbb3239b8d0b59d0523d0a9eff361e9f6f35cab",
+    "framebuffer_rgb_sha256": "3d7bd59052dcfdd44f889c2388f9717e23e0bea4a87607d654b3c48a3af461f7",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-10.png": {
+    "sha256": "4e12f6b561e0cb085e6e2e7a86c51267a11875b8b297bf94666743a4ef510445",
+    "framebuffer_rgb_sha256": "55e23e9c94ba99eb21928a0e5ff998b2bddccd544b17326a6ab455b04b76b3ca",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-11.png": {
+    "sha256": "fa5895966d724d9df43dc12ccb3500a793b5847e1c2feeddc5202166777638ce",
+    "framebuffer_rgb_sha256": "c7d7608c8bbd5bcf54e281e08544e3630eeba3d1fb156385cfc9efa2bb28dce3",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-12.png": {
+    "sha256": "0bebe1fe2ae15698361a7e3b9f30496dbdaa3e309c6e6f990e96f06088a2b282",
+    "framebuffer_rgb_sha256": "7d9e0292a39afb9349f298e881e3990bcd63d9b9c368c009b25d691a0f8abe62",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-13.png": {
+    "sha256": "cfe0a2315ac018700bc5711ad6aad1a298350743f267199f14cd781d8fc9063e",
+    "framebuffer_rgb_sha256": "60dfd034e5661660c5c67fae6b64db0f5624d81114cb965514c03e96880d104d",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-14.png": {
+    "sha256": "b1a953bf969e6e4da3a4c88fa5b98ac95efe0531c46c6c4addc14da013789d9a",
+    "framebuffer_rgb_sha256": "0412a97e552a42a2b23d1e02475a466a24eb03769bdc5288ad06da0c4c811203",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-15.png": {
+    "sha256": "ba93d604bba05ebbeb8053ab2a1495ba9c77a62d3527ec261e9cc8da9a014f8d",
+    "framebuffer_rgb_sha256": "37a9f5762a3169a6319b9865e422bd3ca397f8cea2d42372c59cb473aeda1e05",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-16.png": {
+    "sha256": "d7b61e4f6b8f2f488943e63cce967fca050661041fddc4d7e370e7c4ee276cbb",
+    "framebuffer_rgb_sha256": "007eaca87264abaf8ee425cf4836cbeb24e7ce0724951b5286032d158174801f",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-17.png": {
+    "sha256": "b5260f2169223afe6301eb609a8587f83a17f150c93975c21b5ce7c85947f998",
+    "framebuffer_rgb_sha256": "6bb7ebe121a1682ff16462cfe289705b091f223dbeb09c1fc5bbd9f7cc674dc5",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-18.png": {
+    "sha256": "84dc05bcf1725b277c7cc6691d5b7221cde103bcb984596f8e307035f0385b4c",
+    "framebuffer_rgb_sha256": "9a7f6190e135c5d39bdc2e4828d5fb39f89a2ab198d73b65d9f9e77701751410",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-19.png": {
+    "sha256": "e157c19fa2b9d629f54d091870379209fd48b4aeaddac0da0f24e4a015fc16f8",
+    "framebuffer_rgb_sha256": "681f716c8ede0405dd93161471c08530143ce59ccccd70a84acce36cd2aa3917",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-20.png": {
+    "sha256": "0a2da93f86ec798644480ccebcd27599d282f3f4d39b46be180797c1b6fa323b",
+    "framebuffer_rgb_sha256": "c39f35afcb0e1ec1e34f67693b46f648f87fc449dd6557aa5e5c733affc5fa42",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-21.png": {
+    "sha256": "bc3073db6ff329fda50b477856cf59548362ef856ce9954fa671d5d80e868326",
+    "framebuffer_rgb_sha256": "68f81b9310c9eda551c2071a3c094960a0b15c52f9956e27f0be3f44c69c6579",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-22.png": {
+    "sha256": "7c636c8ba376ac2501f9e00e95912e672fe89fcd18f970077dc8627efcffc6a2",
+    "framebuffer_rgb_sha256": "2f268c3a1c7e6e9bdd2a1968706494f4bdaaf19cfe9ef9a7ce910c4606fc12aa",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion-23.png": {
+    "sha256": "481dfba581198831dde3e7f4ad1d8b5f4ba497a0363eee7bac77452c28636d46",
+    "framebuffer_rgb_sha256": "8cc36df06c6f199e5ebda057ae21d20438c0ce515c9226c6bdf2555c51e16beb",
+    "width": 1280,
+    "height": 720
+  },
+  "A-motion.webp": {
+    "sha256": "ed091a7ae27dcfa913f9bda901cd4de5fdf7dc5ffe43e0de233b82d79f4b1cd9",
+    "frames": 24,
+    "fps": 12,
+    "encoding": "lossless WebP animation",
+    "width": 1280,
+    "height": 720
+  },
+  "B-motion.webp": {
+    "sha256": "74fe2832157769dcd4070279a0a7d8f1ba23f5e90cb08c0b26017855cf16642a",
+    "frames": 24,
+    "fps": 12,
+    "encoding": "lossless WebP animation",
+    "width": 1280,
+    "height": 720
+  },
+  "C-motion.webp": {
+    "sha256": "69db3b776753c0a876740cc8aa1179d792bf20b560b7fb635e9761e4b0d6a9ea",
+    "frames": 24,
+    "fps": 12,
+    "encoding": "lossless WebP animation",
+    "width": 1280,
+    "height": 720
+  }
+}

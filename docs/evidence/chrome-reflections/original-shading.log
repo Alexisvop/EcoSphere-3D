@@ -1,0 +1,39 @@
+GPU=Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2) vendor=Intel GL=3.3 (Core Profile) Mesa 26.2.6-arch1.1 GLFW=3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+reference-demo changed=0 max=0
+opaque-phong-vs-blinn changed=2254 max=28
+metal-normal-schlick-vs-F0 changed=8421 max=91
+metal-normal-reflection-off changed=53596 max=227
+metal-grazing-schlick-vs-F0 changed=8360 max=88
+metal-grazing-reflection-off changed=54206 max=219
+glass-normal-schlick-vs-F0 changed=0 max=1
+glass-normal-reflection-off changed=0 max=1
+glass-grazing-schlick-vs-F0 changed=479 max=9
+glass-grazing-reflection-off changed=969 max=10
+cubemap-all-off changed=901661 max=221
+skybox-only-off changed=891321 max=179
+[zone] hub initialize: plaza GLB content registered
+reference-hub changed=0 max=0
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+reference-ecoenergy changed=0 max=0
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+reference-aquabio changed=0 max=0
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+reference-ecocycle changed=0 max=0
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub shutdown: session releases plaza content
+SHADING GPU PASS

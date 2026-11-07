@@ -1,0 +1,17 @@
+GPU=Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+Vendor=Intel
+GL=3.3 (Core Profile) Mesa 26.2.6-arch1.1
+GLSL=3.30
+Resolution=1280x720 VSync=0 Fresnel=ON
+Static capture ms=13.8179
+RSS before KiB=165348
+RSS after KiB=165932
+Cube RGBA16F bytes=12582912
+Faces rendered once=6, reflector excluded, no updates during movement
+RSS after first C frame KiB=165932
+PASS capture storage and window state restored
+PASS B/C OFF exact equality and ON difference view=0 shading=BLINN-PHONG
+PASS B/C OFF exact equality and ON difference view=0 shading=PHONG
+PASS B/C OFF exact equality and ON difference view=1 shading=BLINN-PHONG
+PASS B/C OFF exact equality and ON difference view=1 shading=PHONG
+PASS GL errors=0, 24 stills + 72 moving-camera frames, performance 3x120 frames/variant

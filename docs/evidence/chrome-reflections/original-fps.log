@@ -1,0 +1,47 @@
+GPU: Intel / Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2); GL 3.3 (Core Profile) Mesa 26.2.6-arch1.1; GLFW 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+[zone] hub initialize: plaza GLB content registered
+hub 1280x720 changed=3400 outside=0
+hub-1280x720: overlay pixels=3400; F3 off/on PASS
+hub 640x360 changed=2291 outside=0
+hub-640x360: overlay pixels=2291; F3 off/on PASS
+hub 320x240 changed=2291 outside=0
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+hub-320x240: overlay pixels=2291; F3 off/on PASS
+ecoenergy 1280x720 changed=3400 outside=0
+ecoenergy-1280x720: overlay pixels=3400; F3 off/on PASS
+ecoenergy 640x360 changed=2291 outside=0
+ecoenergy-640x360: overlay pixels=2291; F3 off/on PASS
+ecoenergy 320x240 changed=2291 outside=0
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+ecoenergy-320x240: overlay pixels=2291; F3 off/on PASS
+aquabio 1280x720 changed=3400 outside=0
+aquabio-1280x720: overlay pixels=3400; F3 off/on PASS
+aquabio 640x360 changed=2291 outside=0
+aquabio-640x360: overlay pixels=2291; F3 off/on PASS
+aquabio 320x240 changed=2291 outside=0
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+aquabio-320x240: overlay pixels=2291; F3 off/on PASS
+ecocycle 1280x720 changed=3400 outside=0
+ecocycle-1280x720: overlay pixels=3400; F3 off/on PASS
+ecocycle 640x360 changed=2291 outside=0
+ecocycle-640x360: overlay pixels=2291; F3 off/on PASS
+ecocycle 320x240 changed=2291 outside=0
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub shutdown: session releases plaza content
+ecocycle-320x240: overlay pixels=2291; F3 off/on PASS
+FPS GPU PASS

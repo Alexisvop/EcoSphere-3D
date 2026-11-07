@@ -1,0 +1,35 @@
+GPU: Intel / Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2); GL 3.3 (Core Profile) Mesa 26.2.6-arch1.1; GLFW 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+[zone] hub initialize: plaza GLB content registered
+hub-1280x720 PASS: 60520 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+hub-640x360 PASS: 30361 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+hub-320x240 PASS: 12711 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+ecoenergy-1280x720 PASS: 60520 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+ecoenergy-640x360 PASS: 30361 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+ecoenergy-320x240 PASS: 12711 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+aquabio-1280x720 PASS: 60520 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+aquabio-640x360 PASS: 30361 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+aquabio-320x240 PASS: 12711 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+ecocycle-1280x720 PASS: 60520 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+ecocycle-640x360 PASS: 30361 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+ecocycle-320x240 PASS: 12711 panel pixels; outside=0; F4/F3; five flags; hidden update; reset; GL state
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub shutdown: session releases plaza content
+LIGHTING HUD GPU PASS

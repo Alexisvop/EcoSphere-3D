@@ -1,0 +1,12 @@
+{
+  "protected_file_count": 266,
+  "changed_protected_files": [],
+  "original_application_sha256": "a17eb27e5aba401d8356e07b2e4a29141a70e7b45f25c05d10a847317a6ec051",
+  "application_binary_unchanged": true,
+  "refs": {
+    "main": "1e8e334f9482cfb78626a59179abd5e948d8c15c",
+    "origin/main": "0732ad343434f2983f2d98a2454dc516b09488b2",
+    "fix/presentation-textures-sync": "fab50c1e1c9eb2ecf7f39575dcc7f04a12c68b0c",
+    "origin/fix/presentation-textures-sync": "fab50c1e1c9eb2ecf7f39575dcc7f04a12c68b0c"
+  }
+}
