@@ -31,5 +31,8 @@ python3 -B tools/apply_presentation_textures.py --check
 El script aplica el postproceso una vez sobre los GLB originales y en ejecuciones
 posteriores comprueba el resultado. Los `.blend` permanecen como originales de
 modelado: una nueva exportación sobrescribiría este acabado. Para regenerarlo,
-trabajar sobre los GLB originales de `046dba7`, con el script y sin el manifiesto
-de salida anterior. No reexportar los modelos antes de la exposición.
+trabajar sobre los GLB originales de main `0732ad343434f2983f2d98a2454dc516b09488b2`,
+con el script y sin el manifiesto de salida anterior. Coinciden byte a byte con
+los originales de `046dba7` usados en la implementación histórica; el manifiesto
+no necesita regenerarse al sincronizar Git. No reexportar los modelos antes de
+la exposición.

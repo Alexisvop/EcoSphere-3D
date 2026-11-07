@@ -1,0 +1,13 @@
+* 74f3b2e (origin/feature/presentation-textures, feature/presentation-textures) docs: record presentation texture validation and comparisons
+* 5ddf79d feat: add selective procedural presentation textures
+* 046dba7 docs: document Phong Blinn-Phong and Fresnel
+* 99048f0 test: record Phong Fresnel comparisons and performance
+* a7a41fe feat: add Phong shading and Fresnel comparison controls
+| * 0732ad3 (origin/main, origin/HEAD) Feature/phong fresnel materials (#4)
+|/
+* f82c288 Feature/Aquabio y pulimiento en zonas (#3)
+* b223223 feat: animate all AquaBio pond plants
+* c0ce56f feat: polish AquaBio layout and thematic visitor flow
+* 72cd734 (feature/lighting-status-hud) Fix/cross platform stability fps (#2)
+* 1e8e334 (main) Merge pull request #1 from BassAndres/aquabio-acomodo-y-fondo
+* a0f228c feat: publish initial EcoSphere 3D collaborative platform

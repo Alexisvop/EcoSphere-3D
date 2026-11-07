@@ -1,6 +1,13 @@
 # Texturizado selectivo para la exposición
 
-Rama local: `feature/presentation-textures`. Base: `origin/main` consultado en el
+La rama vigente de revisión es `fix/presentation-textures-sync`, basada en
+`0732ad343434f2983f2d98a2454dc516b09488b2` (main con PR #4). Contiene únicamente
+los dos parches de texturas trasladados como `92a42d1` y `8b4780d`, además de la
+conciliación documental y su validación. Véase el [informe de sincronización](PRESENTATION_TEXTURES_SYNC.md).
+Los resultados y capturas siguientes documentan la implementación original;
+no se presentan como pruebas ejecutadas de nuevo sobre la rama sincronizada.
+
+Rama de implementación original: `feature/presentation-textures`. Base: `origin/main` consultado en el
 repositorio, `f82c2881758555fb54bc9c4d41440bbee0b9bf95`. No se hizo fetch, push,
 PR ni merge. El `main` local permanece en
 `1e8e334f9482cfb78626a59179abd5e948d8c15c`.
@@ -173,9 +180,13 @@ de framebuffer y grabación separadas; sus primeras métricas, algunas concurren
 con pruebas CPU, son exploratorias y no sustituyen la comparación controlada.
 
 Las fuentes `.blend` permanecen como originales de modelado: reexportarlas
-sobrescribiría el acabado. El postproceso es reproducible desde los GLB originales
-de `046dba7`; el script y README explican su aplicación y comprobación. No hay
+sobrescribiría el acabado. El postproceso se comprobó originalmente desde los GLB
+de `046dba7`; para reproducirlo actualmente, usar los GLB de main `0732ad3`,
+idénticos a aquellos, según la verificación del informe de sincronización.
+El script y README explican su aplicación y comprobación. No hay
 carga de recursos remotos en ejecución. No se validó Windows ni el equipo o
 proyector de la exposición, ni se hizo una auditoría general del repositorio.
 
-El trabajo queda detenido para auditoría externa de ChatGPT, sin PR, push ni merge.
+El cierre original dejó el trabajo detenido para auditoría externa de ChatGPT,
+sin PR, push ni merge en esa fase. La publicación posterior de las ramas y la
+sincronización actual se registran por separado en el informe de sincronización.
