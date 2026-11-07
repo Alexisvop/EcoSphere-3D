@@ -1,0 +1,3 @@
+e2ca4a1736d8a1c7595576b05cf61cbd1d80a5763e82f4bd9a8710cf1864d166  assets/common/shaders/model.frag
+4267cfcd1fac69d6523e5b0cf06f76be7f8f569c998a13bc84ceb05a934fad32  src/engine/graphics/ModelRenderer.cpp
+5dea4ca323498e42bf7118366fd5cf3eeea710321b35d3c7926c5dbd57c90978  src/engine/graphics/ModelRenderer.hpp

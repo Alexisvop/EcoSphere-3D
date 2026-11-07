@@ -342,7 +342,7 @@ int run(int argc, char** argv) {
             std::cout<<"Lighting state: direct="<<s.directEnabled<<" directional="<<s.directional.enabled
                      <<" point="<<s.point.enabled<<" reflection="<<s.environment.reflectionEnabled
                      <<" skybox="<<s.environment.skyboxEnabled<<" regression="<<input.regression
-                     <<" HUD="<<input.lightControls.visible<<std::endl;
+                     <<" HUD="<<input.lightControls.visible<<" shading="<<ecosphere::shadingName(input.lightControls.shading)<<std::endl;
         }
         if (input.interactionEnabled && action == GLFW_PRESS && glfwGetWindowAttrib(handle, GLFW_FOCUSED))
             input.interactionKeys.push_back(key);
@@ -369,7 +369,7 @@ int run(int argc, char** argv) {
     glfwSetFramebufferSizeCallback(window.get(), [](GLFWwindow*, int width, int height) {
         std::cout << "Framebuffer: " << width << 'x' << height << std::endl;
     });
-    std::cout << "Camera mode: first-person\nControls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; WASD move; "
+    std::cout << "Camera mode: first-person\nControls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; F5 Phong/Blinn-Phong; WASD move; "
                  "Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released." << std::endl;
 
     // Destrucción en orden inverso: recursos GPU y módulo antes del contexto.
@@ -470,6 +470,7 @@ int run(int argc, char** argv) {
                 prepared=std::make_unique<ecosphere::ModelRenderer>(shaders);
                 std::vector<ecosphere::ModelPlacement> models;
                 for (const auto& p:content) models.push_back({p.model,p.world});
+                prepared->setShadingModel(lightControls.shading);
                 prepared->drawModels(models,entry.view(),*projection,lights,entry.position,environment.texture());
                 if (glGetError()!=GL_NO_ERROR) throw std::runtime_error("Zone GPU preparation failed");
             };
@@ -529,6 +530,7 @@ int run(int argc, char** argv) {
         glClearColor(clear.r,clear.g,clear.b,1);
         const auto renderLit = [&](const ecosphere::LightingSettings& settings, bool includeContent = true,
                                    const std::optional<std::string>& onlyEntity = std::nullopt) {
+            modelRenderer->setShadingModel(lightControls.shading);
             glEnable(GL_FRAMEBUFFER_SRGB);
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
             if (!contentEnabled) renderer.drawLit(*modelRenderer, scene, camera.view(), *projection, settings, camera.position, environment.texture());
@@ -574,7 +576,7 @@ int run(int argc, char** argv) {
         } else renderLit(lighting);
         if (navigationHud) navigationHud->draw(navigator->message(camera.position),width,height);
         if(fpsCounter.visible) fpsHud.draw(fpsCounter.text(),width,height,ecosphere::HudAnchor::topRight);
-        if(lightControls.visible)lightingHud.draw(ecosphere::lightingHudText(lighting,regression,width),width,height,ecosphere::HudAnchor::bottomRight);
+        if(lightControls.visible)lightingHud.draw(ecosphere::lightingHudText(lighting,regression,width,lightControls.shading),width,height,ecosphere::HudAnchor::bottomRight);
         const bool captureFrame = !capturePath.empty() && ++renderedFrames == smokeFrameLimit;
         std::vector<unsigned char> withoutImported;
         if (captureFrame) {
@@ -648,7 +650,7 @@ int run(int argc, char** argv) {
                 [&] {
                     renderLit(lighting);navigationHud->draw(navigator->message(camera.position),width,height);
                     fpsCounter.sample(glfwGetTime(),true);
-                    if(lightControls.visible)lightingHud.draw(ecosphere::lightingHudText(lighting,regression,width),width,height,ecosphere::HudAnchor::bottomRight);
+                    if(lightControls.visible)lightingHud.draw(ecosphere::lightingHudText(lighting,regression,width,lightControls.shading),width,height,ecosphere::HudAnchor::bottomRight);
                     if(fpsCounter.visible)fpsHud.draw(fpsCounter.text(),width,height,ecosphere::HudAnchor::topRight);
                 },
                 [&] {

@@ -59,6 +59,7 @@ El proyecto es una demostración educativa: los instrumentos representados son i
 | Pausar o reanudar / reiniciar animaciones | P / R |
 | Mostrar / ocultar FPS | F3 |
 | Mostrar / ocultar estado de iluminación | F4 |
+| Alternar Phong / Blinn-Phong | F5 |
 | Restaurar iluminación original de la zona | 0 |
 | Directa / direccional / puntual / reflejos / cielo | 1 / 2 / 3 / 4 / 5 |
 | Regresión gráfica independiente | 6 |
@@ -68,7 +69,8 @@ El contador FPS aparece inicialmente y renueva la lectura cada ~0.5 s.
 `FPS: -` indica una muestra pendiente; se reinicia al perder foco o minimizar.
 
 El panel de iluminación aparece abajo a la derecha. `ON-` indica una luz activada
-que no contribuye porque la iluminación directa general está apagada. La tecla 5
+que no contribuye porque la iluminación directa general está apagada. F5 alterna
+el modelo especular; 0 restaura también Blinn-Phong. La tecla 5
 controla el cielo; 6 activa una comparación de regresión, no una luz.
 
 ## Ejecución rápida
@@ -121,3 +123,5 @@ Responsabilidades del trabajo colaborativo; no describen un historial individual
 - [Alcance de licencias](LICENSE_SCOPE.md)
 
 El código y los modelos constituyen una base ampliable. Los cambios deben proponerse en ramas y revisarse mediante pull requests antes de entrar en `main`.
+
+Comparación académica, capturas y límites: [Phong, Blinn-Phong y Fresnel](docs/PHONG_FRESNEL_COMPARISON.md).

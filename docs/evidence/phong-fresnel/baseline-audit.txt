@@ -1,0 +1,11 @@
+Base: f82c2881758555fb54bc9c4d41440bbee0b9bf95 (origin/main fetched before branching).
+GLSL 330 / OpenGL 3.3 Core. Normal matrix + derivative fallback; unlit/legacy bypass.
+Direct: ambient + Lambert diffuse + Blinn halfway specular, directional/point and attenuation.
+Exponent: 2 + 254*(1-roughness)^4. Highlight gated by positive N dot L.
+Environment: procedural cubemap; F0=mix(.04,baseColor,metallic); Schlick fresnelPower default 5.
+Reflection weight clamps Fresnel*reflection*environmentIntensity*(1-.6*roughness).
+Transparency: opaque/MASK first, BLEND sorted across models; no depth writes for BLEND.
+Straight alpha: SRC_ALPHA/ONE_MINUS_SRC_ALPHA RGB; no refraction/transmission.
+Demo: existing matte, plastic, metal spheres, glass panel/backdrop and textured MASK panel.
+No Phong selector or F5 binding found in src/tests before implementation.
+SDK v1.0 and original assets must remain byte-identical.
