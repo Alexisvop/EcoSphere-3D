@@ -1,0 +1,747 @@
+{
+  "states": {
+    "A-main": "0732ad343434f2983f2d98a2454dc516b09488b2",
+    "B-previous": "014d2461968c09e7ad29f2fa713cf4f8c07fa2c4",
+    "C-improved": "current implementation"
+  },
+  "identical_camera_settings": true,
+  "identical_lights_and_poses_asserted_by_gpu_test": true,
+  "conversion": "Lossless PNG; decoded RGB equals original glReadPixels PPM bytes",
+  "captures": [
+    {
+      "file": "A-main/assets/AQUA-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "67c2ec0a32c1ceffb6f1d68c44e40a169ce4bb326345cb3f3842e1b258a5a4a6",
+      "rgb_sha256": "da42b32fb0227f889e26ba857ae4c8ea9934ef3b3e11069cb818030aee363c55"
+    },
+    {
+      "file": "A-main/assets/AQUA-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "4464ebc414498f02dae8982a90748d586c0fae13b101c64e807bbcb83758abed",
+      "rgb_sha256": "26916f2a3041c89e2169c4b79b003d08479c82794ad6f200a8112d88b30ed2c8"
+    },
+    {
+      "file": "A-main/assets/AQUA-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0a03e4ffff2130da2fc2153856218a94c65b3e9ea44b7b87bd10ae1fc1e0e83e",
+      "rgb_sha256": "32bc982bf470854f6e86608025ef33c763aa5a0a4c355fb6d24f0b1993cc47eb"
+    },
+    {
+      "file": "A-main/assets/AQUA-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "444298c8a3bb39d1377e5d5fdddc1334c19bbf705038a1359ae2755466f3a791",
+      "rgb_sha256": "aa51eb2cd125cfecf76497d75c538ee18bc77004318bbc3df946a22bdf7f02d0"
+    },
+    {
+      "file": "A-main/assets/AQUA-027.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e5cc1b6af0581b8ff6d1f2b7791ec5716ae049ea90cbc41db5573f37ea4eaba9",
+      "rgb_sha256": "95180f049b71bff69e63adf0d487ced65b8fb91a6c6dd3d4a8762b401009eb6e"
+    },
+    {
+      "file": "A-main/assets/CYCLE-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "33553333cd7dbb96827764fca7307952978e42fc0da0a4181caf3286d3e94c98",
+      "rgb_sha256": "d2832ac65b17337829c986d346f194a49a2b9a5133afb68997c5e8b4b560b0a3"
+    },
+    {
+      "file": "A-main/assets/CYCLE-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "3520f2e7b5db5c77158bf61c687ee43113a28a796a6868287ebcf81367aa2359",
+      "rgb_sha256": "c52dcb82323ff13d5000588d1eaf56f44ffa83ba93bf82759f73990149af8047"
+    },
+    {
+      "file": "A-main/assets/CYCLE-007.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "94b913507df94195e7f286e1bc88afb1c37a590e60e54b5b93949754bb60ecee",
+      "rgb_sha256": "f25f190b6aac9e28afc6870b284178df06941dcedc490cadb7c248fffa00b8e5"
+    },
+    {
+      "file": "A-main/assets/CYCLE-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e14e3acea38a9f009f925af5b60c2432ad6866ee90e9a0d2771f75d4d74f52c2",
+      "rgb_sha256": "86e2155b081591c267901d8e1fa57c9e12f82e93c95d2b0d7c0c160b426329dd"
+    },
+    {
+      "file": "A-main/assets/ENERGY-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "7e725079a639dab3fb6014815bb27f18068851ad92b64eb8862817aaf14e0ab1",
+      "rgb_sha256": "36030c0ff1b42abb0a8d778926893d698a4de001e800dba91da1a6a6dbbd6089"
+    },
+    {
+      "file": "A-main/assets/ENERGY-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "7f73a95f0513e6b063e6ed8792f2106ae592f5f6a76a7b87666f487cbd4d52e2",
+      "rgb_sha256": "3516f873e89dd12330c6c7c4c80c552140502cec615551947340a96ec4a1cd8e"
+    },
+    {
+      "file": "A-main/assets/ENERGY-004.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "7b8894c48963c8150743a7ac5449103c7c0204cba15b821eb588d2876749371c",
+      "rgb_sha256": "45e5794a8fbf0958c96b0cf74ac98c1a1c899bb225b9d941bb0cb88b22142275"
+    },
+    {
+      "file": "A-main/assets/ENERGY-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "46a3c2b3492762b1d1d0b54b02628198ab6aa10c802f8631d7bddb7ac78ff59d",
+      "rgb_sha256": "a68d927557eec1af120e7a5d73f716fb296636f51b96150458fe4336ab859995"
+    },
+    {
+      "file": "A-main/assets/ENERGY-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "9a15dbd90baa8fb5e82bf5cc27615a152286dbab7e4b52217b3873ef2666d39f",
+      "rgb_sha256": "c48ec0e0c6439a15ecbb2e291ca6b40f1fef7093d00d591dd0bc2cef86e2b9e1"
+    },
+    {
+      "file": "A-main/belt-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "9e7d128d79427b0044aac908a56ef090705af1be9debe1dd56c04bdabc1389c2",
+      "rgb_sha256": "3ed3c7deaa459b2186adb952c0bfc952d7724f291b480a0012843db5c8ce0260"
+    },
+    {
+      "file": "A-main/belt-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0b2052ea38a26b220d0e39220cf85d3a365e01a6eeef8fdfb36bd0b32a134577",
+      "rgb_sha256": "873c26bc8d56df373ddb736876a5d16d1de91c343b7d1b563013715b1e619de3"
+    },
+    {
+      "file": "A-main/belt-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "102c02a5ded55415a9749992ffb39237208f8efbd1118ebaf87e16319b8b89cd",
+      "rgb_sha256": "e28b6d38570f05f4553280a777e0bd63e9d5e0739263b3e565f6fa345630cbc1"
+    },
+    {
+      "file": "A-main/containers-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "efe6e5be469e1f5d479ff4a421dd22a143872042cfcc9f6e64f45798bd7a0ab7",
+      "rgb_sha256": "d78c997d68ddb201befd18f6dd3a6b7b9852516b987d5ab8dd756129c393c783"
+    },
+    {
+      "file": "A-main/containers-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "1fde2282bd7ab15be379e69c317c3fe1a88479e69e49d67d373c8d075c49f71e",
+      "rgb_sha256": "26c659bd4c7377065b746e43dd5f1e5275ff7a92328eea7d8e7f5996dcb57cec"
+    },
+    {
+      "file": "A-main/containers-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a0e0263ae3ef13df4dc5fd33addde5b7dd81fef36db923d39282557403200133",
+      "rgb_sha256": "45a3242d37c0e21135e5745d5383b161edd8e649cb1c8eae08d033e34dd8a126"
+    },
+    {
+      "file": "A-main/pavement-metal-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b7a37cc5f54d2b54612ab7348ff629ae2388988e29ef4708d5b1915abda44fb9",
+      "rgb_sha256": "bef0d911959817030e05e7e42225ed5e32369ddfb70ec94942c5f3e505b3d5d5"
+    },
+    {
+      "file": "A-main/pavement-metal-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "03d574e4b120ce4d602746f1d810975804ba50f909a13347db330b4fc5fcdfff",
+      "rgb_sha256": "ac4a4e2da1bc38fff5387738fc7093b2b59cde5b7c3923117d77d3344ff39121"
+    },
+    {
+      "file": "A-main/pavement-metal-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "fc3a60d35c03ccd4bf7f30e1d666c36aefe5abe0ec313e7632d928ed7b0b3e8d",
+      "rgb_sha256": "75a3ba5a9dbd5e25a4cc430ecf5b04af33f80fcf352ec141a6155a6145297dbe"
+    },
+    {
+      "file": "A-main/solar-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "bb07e25cd5a872b6b44ff74024ac02d8ce9bb5b15b146225da399deda4edeefb",
+      "rgb_sha256": "d0a24db465c64e65dc85147336650e8ca71031c54fe53cb1d55f0fb5873ae5c0"
+    },
+    {
+      "file": "A-main/solar-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "ed85c1d716efe2d24d77f4a663a03bd53aa82fe82964dc6bebb3231a092cee3f",
+      "rgb_sha256": "75390055a5eb1b0357b538a02b75a7a9336d8b1a14b6cafc2dac55d614131089"
+    },
+    {
+      "file": "A-main/solar-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "25b6f744264ff18ee55ac043ba45a7cc84db73ae5bb51f59dd2aa2762e0420d3",
+      "rgb_sha256": "4af8e76fc2bbb665a4e404c2ee67e046ca878fd2c7c93e5f5086125b75c39d51"
+    },
+    {
+      "file": "A-main/treatment-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e2339a3dc4560b7a5ceea0dee88ab72fcc7e526b66bce8a031fb3fed5ef1806c",
+      "rgb_sha256": "b5d946cdcdbdef73a86792b77fd82d6fb5d1d4d340bb81ff7be69e0b539f7c4d"
+    },
+    {
+      "file": "A-main/treatment-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "1f894c918ad1b4947df231855aed851627dd6e9290fbb9423c48ef71602c1c52",
+      "rgb_sha256": "27a1e2b94edeecfadfa36641e2f3e8e2a9683337180cffba8e19659af0d28953"
+    },
+    {
+      "file": "A-main/treatment-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "abb0fada525ef0cd0ee6205c541b0e056bfe051a9f749b43d9bce16395848810",
+      "rgb_sha256": "77f03715a2821d317771ecfef675e03c205ed7c01f55c4c3ebe15f47bef837fb"
+    },
+    {
+      "file": "A-main/wetland-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "39275054a76aa54d2ebe4cd38fccaab36848cb2f0e0f93a27688e2ff3f29f419",
+      "rgb_sha256": "9478c1f15f4035760aeaab3cabe2480fa7940ba273e11220ccbc02cf3ccaa879"
+    },
+    {
+      "file": "A-main/wetland-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "afb84ffb02d7b9cdc26b545edfc22f9dccfa19a164e7420e1c9c2d9569d6e5df",
+      "rgb_sha256": "c3ce74d02dce4fec5cb597013ef72f451ea78fd4c5051a2a0241b4e3f0338510"
+    },
+    {
+      "file": "A-main/wetland-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a1462682ddd92b4127c5657e15a505a8d9495de4fbeee6c2da596061a1508fa4",
+      "rgb_sha256": "a78a83436e7e891b4e9b00258da5228709ec3507be8ee85c7a216ec5e263a999"
+    },
+    {
+      "file": "A-main/wood-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "fdbd32a30ea0035190ab765de2b0b78a4ada3b5bb1a8a820c8bc7db4006eb6ea",
+      "rgb_sha256": "976d35125d544a7413347bb15e8527ac3b7b83f5c857bbe26cf9cf15194d4cef"
+    },
+    {
+      "file": "A-main/wood-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f749883197c8f27e5320c7657221864c889292c866d240c836df3412ce3e729e",
+      "rgb_sha256": "436d29407fb3ac2c83985b5664cd20f5716a9164cd56670749052e85e344d623"
+    },
+    {
+      "file": "A-main/wood-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "81842d46e3ae3e168e29451808eed5724d91630b828a2cb24bd4ea2f96dd7ce1",
+      "rgb_sha256": "cb5f3ed8ecfc84b2cff2e8ccb041860a56f4ba559954875dd3ae3a585bc6a198"
+    },
+    {
+      "file": "B-previous/assets/AQUA-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "47cb3be44a336f223a0c78ae0e2a0af296541f672cce3f0d0c7201c1277c2c81",
+      "rgb_sha256": "a842d01b7d3bdadceb941821a690146b22b0bfb2786ff15c73aeb9d77fd22384"
+    },
+    {
+      "file": "B-previous/assets/AQUA-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "15dec17cf7fa8c9c5f2a26a452717bda5498ba6ac2f27d4c88ba1f3c102027b7",
+      "rgb_sha256": "b9c6a6f04d4eb8c9d1a5d78c37a8ec8af6b4de357bd12a36c7f18cc853015239"
+    },
+    {
+      "file": "B-previous/assets/AQUA-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0e42d7ef3db698f592360ba806bbafe0590431cdcb177ec1be388afde589ee27",
+      "rgb_sha256": "9c711af87bb6987b1054b00a6851c8e07d1dab9d6ab4fc3dd2c78e370d4ae5a5"
+    },
+    {
+      "file": "B-previous/assets/AQUA-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f728e8d773b62a45af0cc57cb7be6aece909b79163ff22de5f1973cf7ee53629",
+      "rgb_sha256": "7694975cd458ea2814eafd86d0de40207644b4528fd91ba5c31f53c92a753ac3"
+    },
+    {
+      "file": "B-previous/assets/AQUA-027.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a30cf40bd6e12c73bd8b4b1a4634b2584b5f2ae75d017ff64586718817f1d63b",
+      "rgb_sha256": "de377fe5d7794f8c67b54f1d8a7db4904d63ba72bdcc0684d8912d103e02e622"
+    },
+    {
+      "file": "B-previous/assets/CYCLE-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "6dd2243702cfde7c0a1730c0e96312cdaff8ee56902d7872633d4a6e894df942",
+      "rgb_sha256": "06182b39eae8fc3ff469a6100d1d6661299962e8f44b1b3774550b1cdcff74e4"
+    },
+    {
+      "file": "B-previous/assets/CYCLE-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "88ecd2c6d4a68fe03fc67a955fb4b93cd86039e7b4d8a093228e0308e9fa264a",
+      "rgb_sha256": "5598290825dee724a983b3094d9cd442ab52e068d1767a5709daf67646a9a703"
+    },
+    {
+      "file": "B-previous/assets/CYCLE-007.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "457f13ee6ca326d723314f6eb6db1920f57b3bdf37e5aa673f3bf38818cea4fc",
+      "rgb_sha256": "1a7eef12490a5ef8fc2e483e91fc30d5b0907d7fd8ff60738bd65f9c03d04420"
+    },
+    {
+      "file": "B-previous/assets/CYCLE-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "c90a72400aacf882dc29e5efaaa6c277accd02b1c4c85ce899154474bb240bf9",
+      "rgb_sha256": "3b20baf08ad4115be0e5443fb41154d38599b268b5ddde56ff496263f92d24c2"
+    },
+    {
+      "file": "B-previous/assets/ENERGY-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "cf2e03d390c3e4c6dc8b9daf68586b69266e6b05461aabe2002974689074a4d4",
+      "rgb_sha256": "d2ad794d6c4f16242d403ebaa7ed5063bc526897643c82414647f77d87d8c3ef"
+    },
+    {
+      "file": "B-previous/assets/ENERGY-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "46083fed7802adc20c2f31d68a227670f09caaa125fac612228f0f12c088a84f",
+      "rgb_sha256": "3deb0398243a62f8c20ab2449408975053ab3e194566389d87adee9156dd13b5"
+    },
+    {
+      "file": "B-previous/assets/ENERGY-004.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "5f10aa3706a14a0b01cb4cc69c85657d3278dc0b148d78e1b2879b3176779b47",
+      "rgb_sha256": "867f024ec795ef50f4d738078059770771e139a3231fb1b34950afa0700fd6db"
+    },
+    {
+      "file": "B-previous/assets/ENERGY-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "2137c6594f29823e9ba0f8e2a6d0a83dede5fef88d76a5b11686041f6ffc0864",
+      "rgb_sha256": "935c5911e9cc4b7339777195249d10c62592bd6495c52e6e0a3b5c611b5b868f"
+    },
+    {
+      "file": "B-previous/assets/ENERGY-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "28eb6470d86b535006df19574e43175fab2952a7a7e2bc86dee5402cf41274f1",
+      "rgb_sha256": "cf3868cceaa372d097f4008b429392fad05466e145ddb7622a2937e5aa7a0496"
+    },
+    {
+      "file": "B-previous/belt-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f2062a3e78788c938f01f50abe981f376fea34cc127337f3f2a0c878be17608f",
+      "rgb_sha256": "94a027bb18b8f8702f26e1d2c569f8c0e0fd8e1563d74beb1899dbbc8936c596"
+    },
+    {
+      "file": "B-previous/belt-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "3946d16e39bd263ed49d5d95e9a8308dc6512b836b4beee4c13ef5908249f797",
+      "rgb_sha256": "35f12ece50697c726f4d9f12275e87f5feb6405c33ec05b88a837f87afa99afc"
+    },
+    {
+      "file": "B-previous/belt-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "3940e73aeb844cf5349f218df40b4c4f75ac0ec0f094b091cd6040ee1192ba54",
+      "rgb_sha256": "549de40833c2bac5b9f0ff4c40fb01cc4932f20963eec0301f976eb3f2d15695"
+    },
+    {
+      "file": "B-previous/containers-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "092b37da118e000939b99b08ee55ee36f90cf407cd3c7775a55efcf249659004",
+      "rgb_sha256": "6d00df11476dd42d3584ab14db05b363f973adad147522f702c54fd5017da82b"
+    },
+    {
+      "file": "B-previous/containers-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e2b809304d188e561d09086628981b7bbfdbb9075b9105e023c40e8d2a6095ff",
+      "rgb_sha256": "3abdcddc0b51e8b25141ef8337669ba5dde963cc10e0d3d77c3774fae105d634"
+    },
+    {
+      "file": "B-previous/containers-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "1c5fd8fcc34fafacd36ca4a1c88813dbdcc03de0960e2b81b6ad88913321d656",
+      "rgb_sha256": "dfebe7d401efc6f465f093c5d92d3ea8c6faec9beacec58bf999fb67bc46a6f3"
+    },
+    {
+      "file": "B-previous/pavement-metal-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f696e913afcdb4400756f5b38218211094a261532c4474b122616d63f916cf7a",
+      "rgb_sha256": "3c295337d1e1f2a493055e79e373b623917db360bdbce44de5c2103463fd21b2"
+    },
+    {
+      "file": "B-previous/pavement-metal-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "039f87e05c8b7f6217ad97f29442b7e8c837af199063644235d9221b408532c1",
+      "rgb_sha256": "008129fcdfa4699c4c8491df09403e37c1c4ca1806ece28cefc963e5d6493f41"
+    },
+    {
+      "file": "B-previous/pavement-metal-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a672dd239031c86303528c82d9fcc366c5d02d3eed0d3c31749253b107efba0c",
+      "rgb_sha256": "236848c9c6ad658064cbb03e07849d7dd720d9c8418ab1ff2862dae0d1cdd8c4"
+    },
+    {
+      "file": "B-previous/solar-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0c7cc0885f79b98cb1b7a7823aa2772a9133b67cc3e0114e51977f17c5e9f91b",
+      "rgb_sha256": "5c9db21c52c32cb6aa8b0ef4a687980bdaa60969644c8d872c9adae699bff8d9"
+    },
+    {
+      "file": "B-previous/solar-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "95c42ff1799a9ddee0fd07701ff6dbcf67c2a754e99e264b1edce29128a4fa36",
+      "rgb_sha256": "9823a9e1fcb29b82b9c5940a95e498668a7be990862080b634fe29777fbf7d0b"
+    },
+    {
+      "file": "B-previous/solar-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "1d178ecc0db02e7d09de698d2e30286d65e8beb6975b5d44904af32a3ae80126",
+      "rgb_sha256": "1714382e86b21e6a17746aaf9723ac4250d4be5b8f67e768545d4a1b04e81219"
+    },
+    {
+      "file": "B-previous/treatment-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b13ea37e8abbc406a9c76a2fc4dee7c6ec03cb667c1ed4b6ec62c85edd1e25f4",
+      "rgb_sha256": "bfaa3c2c775dddf1ca8fa47366cc725e7dc0fcaa22c7d752574068c0a4466b88"
+    },
+    {
+      "file": "B-previous/treatment-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "06c181f1318465b43b7cd5637f3a00806ad36a9a902e2c14384a400d41aecaba",
+      "rgb_sha256": "69e7f14c57abfe679e3a44acd13a77f4edaf05eae2f83a300126491c5c3650a8"
+    },
+    {
+      "file": "B-previous/treatment-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a1ce8c377ea12d9a481f866aa2010f421029119b6cffa0ffe009da39da6f3e34",
+      "rgb_sha256": "f664bbdf20a7bdf9e3b957ff81653c8005fc7926f01126280ec4813c0b430b8d"
+    },
+    {
+      "file": "B-previous/wetland-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "d14c05e464e069f4952d791316620a8a5949e9a1bf1a1a5d0babe0ce153f508c",
+      "rgb_sha256": "83c78a25c3bf3ba400a27ff24390aa40b8ef19d551baacd74304de8ccb16b889"
+    },
+    {
+      "file": "B-previous/wetland-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "495dd22fd8950d93f5fa1d31eb5488e8dda242fb4825fe1aeed7721703d7ee31",
+      "rgb_sha256": "c05b06c826327af79945c12fc46c93a2f84a90bcfede6466deeaf28f6b59ce4c"
+    },
+    {
+      "file": "B-previous/wetland-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "deb2b7950b869ea01b0039eb84322ed74806c0e68bb32a00c244fe498f7cdff9",
+      "rgb_sha256": "d602034544fa9df4b839446ee2242b9b1c1e4e6fe605894d1d3f7572dfc5927c"
+    },
+    {
+      "file": "B-previous/wood-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "38273f293862a299329fd4a97c0c1012bda4fcd886fa3ca0a958385b9421caf0",
+      "rgb_sha256": "80a3b45b90d3161095b1b2387ebc36faa828f6333651310468cfb6500113b092"
+    },
+    {
+      "file": "B-previous/wood-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "05256f4c09c0c4ff0e202667f5bb02aaecd988222eb8624d0cc83db6850af551",
+      "rgb_sha256": "d2abe36cc0b6678c716c02ca278edc81b20877a14dcca2f5b7b1a023aa7987b0"
+    },
+    {
+      "file": "B-previous/wood-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "cf0ef18f9d9c54777935b428cd13f030d5406c68616e429c55de1b3b9831b969",
+      "rgb_sha256": "7f290008f6cd65fcf0e7c1d3e73ed560ea0cc27631c7c529df2210f977c68278"
+    },
+    {
+      "file": "C-improved/assets/AQUA-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "d284cc1c8c3e495bff056b8ed37699442bd6c05d1a26b1145aefc8aac4d123e5",
+      "rgb_sha256": "5ed6f68a64000acecdc7990a7ee128191a6b90035b7b61acba75df8233ec9b66"
+    },
+    {
+      "file": "C-improved/assets/AQUA-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "6044cf4b3f8cadf762b488e693bcf4a3843a60dff26b1b61a94b4d0d0bf40621",
+      "rgb_sha256": "5ab22327819525c72182559885ca4a0814f96e91ff035764e7a83c144bafd248"
+    },
+    {
+      "file": "C-improved/assets/AQUA-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a61c41e25177029dae76ec93d7b695bd6649cf36cb9e4311da95617f59c5133c",
+      "rgb_sha256": "0ddcadf4bdc3bc9c4af757a3e4b1cda3ceea9554398b4723610abdb657670aa4"
+    },
+    {
+      "file": "C-improved/assets/AQUA-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b4ddc112e79b5d6fb4853afe983a99e601cf21e53dc69ac88711edd1bf733188",
+      "rgb_sha256": "2c915adc70c9f777865047bdabea32d54f6d75ec19e41bfe01b25a44042dcf13"
+    },
+    {
+      "file": "C-improved/assets/AQUA-027.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "31fdacd8e7fd8d6a8b1eb39aff483a9f2eed23b75adfe308e13522a5e569bfaf",
+      "rgb_sha256": "eb03eb1667edaebb77ef3f92718ed1ebc162ff63cf42c08de149d52445ec5299"
+    },
+    {
+      "file": "C-improved/assets/CYCLE-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "fb93cae6d26412ea3a9c9f09d8e91a33b2ebc1f87b736312862bdb6801a1484f",
+      "rgb_sha256": "c3d8ff53de70c0e9f0569c60d051352074683357db1597798f1ee67c76689ae1"
+    },
+    {
+      "file": "C-improved/assets/CYCLE-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "67c5ed1137776f7cc0cc2332ba69a63ddc21e366ed1fb65581856146ac5c654a",
+      "rgb_sha256": "21286f9062a504172384b1d0bb9f9154e1d3c7b1a23a15378c01378b32db9de8"
+    },
+    {
+      "file": "C-improved/assets/CYCLE-007.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "2510b4dedc5c6a6c8dc9c6083f27627ca3458cbf400a0648f0930d3fa820d30e",
+      "rgb_sha256": "3b7f0bff8b48d645348d19541226b1f586a6139663454b20fbfa8309d02fcfea"
+    },
+    {
+      "file": "C-improved/assets/CYCLE-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0b896d009a31bf8e54f8b90e842982e09c47cd3caecd6786b6d525e8e9822a3b",
+      "rgb_sha256": "40551944d07572ccd251da0600bfc9d78cd48247dc4d2eff9c511f50ba6c801d"
+    },
+    {
+      "file": "C-improved/assets/ENERGY-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "86d5fa2748f4d61d3e249013a0fe1651df74ef834b62cef5c6aa5b626b445342",
+      "rgb_sha256": "107d8500e1021c1f530276f04824d957bcb4413ddf4c93b30e905229bc568810"
+    },
+    {
+      "file": "C-improved/assets/ENERGY-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "62ef0f8494573ad9dae6f8a67cd8006295a466da071b7a9abbe93c89de880ee4",
+      "rgb_sha256": "20170f6846d6596b52b08ad2868bf6c1630cea51ee87413348a6e8ddd9311e95"
+    },
+    {
+      "file": "C-improved/assets/ENERGY-004.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e301f1cd8e2db8c7cf3da3bb3fa7129e3b1ec31ee23b8eeba1004705c2508019",
+      "rgb_sha256": "8cd9a3da476de3b2c96d7837f352f1810e9c283ef8d62922770c615b854880a1"
+    },
+    {
+      "file": "C-improved/assets/ENERGY-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "3620a7f67ddb53d4878df690ffeefa5d1e45382e80792ff90e03dc96cc253d85",
+      "rgb_sha256": "24dcd58397f471029b5b8da369bf9029de9e16388d901318559e97b68ac5bc06"
+    },
+    {
+      "file": "C-improved/assets/ENERGY-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "bb921ecd81f7c5b4ab9757e14093cc2a67feed803ce8239098a393701fe69fbb",
+      "rgb_sha256": "02665f2b97c4141df2fd5fb77e1a0388317a4c19bbb0619f12858d60bb433bb2"
+    },
+    {
+      "file": "C-improved/belt-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "cbae22520141521ff7220cf995309dd0b7b3db94623dfdfe9684f4f0c3429aec",
+      "rgb_sha256": "26f2f2f273ca92e392da8378fc2da8c374d8f30d79e60d9582fec128fb001f6b"
+    },
+    {
+      "file": "C-improved/belt-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e66ad2a6e1af1b9fee6c9df4becc77d9c6e5ea98cc6af0fadb840180ceec6134",
+      "rgb_sha256": "338cc59e3b2dd870d3769f7c90dbf41c2b27daf073fb8f83e2c6eeacc2e3f1ca"
+    },
+    {
+      "file": "C-improved/belt-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b01dfd4fed9d29621ee822d41c8bbd900dff0b320a134b4d6a523f4d4a2d5ebb",
+      "rgb_sha256": "b87d04a8e1e2adf5ed92d5b5ad519883dc9da2a89e217ba386a72934bb777400"
+    },
+    {
+      "file": "C-improved/containers-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "457d172f405a72b3364ed001323350d7ab12838e9f03e6f59f55e7f34bd5b905",
+      "rgb_sha256": "57f218f5a96d46e0e980e2993fb75a297208185b879961aeaee2485ea04b2926"
+    },
+    {
+      "file": "C-improved/containers-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "6f252c8b067de171b888fbed0d8220946443a70e5b97b42fad94925feaa372df",
+      "rgb_sha256": "1a681d2c1bd6f3c11c9e8563e1d7472a5239a6d6241ad2adad3d579163475b89"
+    },
+    {
+      "file": "C-improved/containers-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "8b8d4b7aaf901a3f8182d2b640c5022f902d891404862f32ed5635e888580a6c",
+      "rgb_sha256": "399d9cb771353ffbd9cb3c87ed41600515c56d27f21ac7af89b57900f194af59"
+    },
+    {
+      "file": "C-improved/pavement-metal-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f9fa6ac8feebb05b30be4adacce78c06f6011d91854badd3c99600980e23f5dd",
+      "rgb_sha256": "fc112af1b820a344a5f6b0d460626b3accdfdf3c31661b2f77108bdecb10fd9d"
+    },
+    {
+      "file": "C-improved/pavement-metal-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "9dc7fb167a62693f35a4697720c08878f785837dc17a48e515532f9e31417e78",
+      "rgb_sha256": "d0be8901a48a08b14b7e85c645e752b09d539d34c4b1b12d2763f9d987ed438a"
+    },
+    {
+      "file": "C-improved/pavement-metal-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "15b387f6b996cb8dba0697901166455fc94621834518185d0e14e7fb2c842646",
+      "rgb_sha256": "ac03f18553956d983a7f7f7ad463e7d1fe9718a2ad56c83c688fe5bbf1487a49"
+    },
+    {
+      "file": "C-improved/solar-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "4a40436118f1f48f6d7a0b37fffa233916416395ba6b59fc98366e5c7c6fe747",
+      "rgb_sha256": "a70a2f29b42ee73bd34794ddab1bfbc2094f9823dd5b3404bbf6b105eef58184"
+    },
+    {
+      "file": "C-improved/solar-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e0d89ca71eb8f88163cf58b495c0430ac253bd7595c920b3a262ffea610794ab",
+      "rgb_sha256": "8e92648c30db546c05e399cdcfa79ad64fd1e7ecd5bb106659d353359e7139df"
+    },
+    {
+      "file": "C-improved/solar-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "763b2493c22f9f89b108fd3b25fd0cd788dcbb87a022058e95c6789f43019dd8",
+      "rgb_sha256": "63daec2fb857a550b08c112ba58705aeec8ebc8ab00289b63f21bf323c5fc8e4"
+    },
+    {
+      "file": "C-improved/treatment-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f2264ca12f437d609befb503e974246831fd7d8322928b943d5f2a27227ec49f",
+      "rgb_sha256": "c44aafdbe301454ad46d9dbe87bb6a9138484913bc950ab543ed591147fea746"
+    },
+    {
+      "file": "C-improved/treatment-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "29aaa973f1a375ade6b1e821d2854dfa65b0dc0a8b23ec082503cd85e0533534",
+      "rgb_sha256": "041e9a3d75bbee980eaba170d27d296e7d75b218b7c3a142d520e0c8902a92ee"
+    },
+    {
+      "file": "C-improved/treatment-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b8c43affc93f738036e1a64352b9bd811087cd64d8142e58774bb9ab26900bf7",
+      "rgb_sha256": "a8b118c9fa6ec19787720179276aa7321aa4d3dda5acfd7d166c4b44bea1e330"
+    },
+    {
+      "file": "C-improved/wetland-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b5ee4c673f13a9c7850f63d81ecd6ad2e678ddfbed1c0eb921732af003578e3e",
+      "rgb_sha256": "3e52c8a3491ab15baa0889739bdf7bafb254c2024212939cb66ec6f9fc6ea5b0"
+    },
+    {
+      "file": "C-improved/wetland-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "9f6dc14d375707501e403aa71a793efe437a2a2ef931be605ee20f28db139461",
+      "rgb_sha256": "7a0baf6e53959a4b2a7b545745fcf8f03bc12c6b780128e8a918dc0713de68bd"
+    },
+    {
+      "file": "C-improved/wetland-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "441ca0c3922da8609a0c89aa5bdbfb2a28bed9169fb119a26282715a999b436a",
+      "rgb_sha256": "a142037310897581b91179a889c9548e504726f5e32d51e090737f7fdeeada4a"
+    },
+    {
+      "file": "C-improved/wood-close.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "81ee568530055f5b97cf80ad3a933e60dc09a4be98b05a704862a80e29898739",
+      "rgb_sha256": "972cda1e9ce7405419fdbbc9b35f562e2534589acc5de244d53026cfe5fb8822"
+    },
+    {
+      "file": "C-improved/wood-medium.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "67b28704c9fcabfb9e12ac8cf897f43f75fd35b4324b536729b9331e3c1187a5",
+      "rgb_sha256": "56c380cfe37c556ac506370d19703f2af31e9a70b548106f6a76bb8d64e1d9c8"
+    },
+    {
+      "file": "C-improved/wood-normal.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "40778c22f753190e17ddf95d395ffb827611f1e1b95fb792db246b4e017a1154",
+      "rgb_sha256": "c1dc4b7e0e76a10015625c6f79dec5c8d420e1a0b0cb07e1fbe9748b3c943883"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "regeneration_repeated_without_byte_changes": true,
+  "check_preserves_bytes_and_mtime": true,
+  "hashes": {
+    "assets/common/textures/presentation/water.png": "2e988a8161e52d4a5a034d481eb590404e01f912b1673d77120946fe4afb8bbd",
+    "assets/common/textures/presentation/wood.png": "7b4fc0f7c9fd9d6cb1d10e68fe5a7743227e0e27231f0f0767ad23a8c22408a1",
+    "assets/common/textures/presentation/concrete.png": "ee6e90ff804de5baeec69583cd055b45c4bbd229c1b9f82c282abf0ebb9795b6",
+    "assets/common/textures/presentation/belt.png": "21c1e6266ab842bbfa6760d6dc76c48c1cb7388925fea7b49b333886e4bba4f0",
+    "assets/common/textures/presentation/painted.png": "503cfb3a959c2ca14741e746771c9a1e2245549213b281c744aafb59b057b11d",
+    "assets/common/textures/presentation/metal.png": "7889fa430a9b1395ac415a23dfe60c2a57d2a38b54891d2de2da3bbaf1f70a2c",
+    "assets/common/textures/presentation/manifest.json": "58b27913761ca0f1d11741403f2c3f2bbdc1fbed7f000dc22399fad37bf01077",
+    "assets/installations/aquabio/models/AQUA-001.glb": "91f04219e991ea39ee76cc5316bfbbe18d72e436993304e4bc3358d8762d1f6d",
+    "assets/installations/aquabio/models/AQUA-003.glb": "b39ac0cc2a62c9b38885fc8448ba4b945ca7a7c8bc3d12a215454a176d2ba246",
+    "assets/installations/aquabio/models/AQUA-010.glb": "37b60e0e80dccf9a280d272ffa7db1071654fe776995f6ca046b3db326958929",
+    "assets/installations/aquabio/models/AQUA-023.glb": "1310fb8f7beb711989c4dc4a0adc6c1f1386816933d69a05a0f648c0787cf0d5",
+    "assets/installations/aquabio/models/AQUA-027.glb": "534f1ff5fb98ffd5d61337642ff6475124773b23649129dfe337d120aed9b78f",
+    "assets/installations/ecoenergy/models/ENERGY-001.glb": "a5707c13163db974df8d3cb77c70061ae88829fdba81a10fe1e3bf2e02518a64",
+    "assets/installations/ecoenergy/models/ENERGY-003.glb": "9e4319383efdd46b03ddb8eee8f9e36507d2dea92990859b0886b372f9f09dfb",
+    "assets/installations/ecoenergy/models/ENERGY-004.glb": "f5817117705d65120c87b5d9227326c7c868d335396436a7f82c1796977ae425",
+    "assets/installations/ecoenergy/models/ENERGY-005.glb": "7ee89d1ff50c2e7b229e6a18309b515ed4d61e1f953b1dbdf986f0144169a8bb",
+    "assets/installations/ecoenergy/models/ENERGY-010.glb": "b4d0ef0efcf5c955416045830a7a34b287f0a9095926d5d61d0e2f9d598a6a18",
+    "assets/installations/ecocycle/models/CYCLE-001.glb": "679d021f0a956655a94849d8c5b598c84642f4f0ab8d9e44c25602c2d2cd258b",
+    "assets/installations/ecocycle/models/CYCLE-005.glb": "23c64a06280ca3398facbf542ca8fa830db868e4cd7aa4ec2a23e536279e0f7e",
+    "assets/installations/ecocycle/models/CYCLE-007.glb": "6a4b4aae1d6ed4f057f079bf1541e970bb2520bf2fa2f66a5496feb241947e8b",
+    "assets/installations/ecocycle/models/CYCLE-023.glb": "704014d793950e35af7789ad088972459ca406ff99df55a618246b4a4901e7b0",
+    "docs/assets/AQUABIO_INVENTORY.csv": "d1f97b5a3c54eb275ef5852311e110ce9407616571593546a7f4f3f686a34c05",
+    "docs/assets/AQUABIO_EXPORT_REPORT.json": "fa29b549cd08ef65fdcb9c0acdc832880c299b57a0aeaa4712e5e7dfff5e3056",
+    "docs/assets/ECOENERGY_INVENTORY.csv": "f505f962af83aa740aebccc2be9d33838a2bbb6e518519d01bd934cb2ac5b974",
+    "docs/assets/ECOENERGY_EXPORT_REPORT.json": "703d7c5df340507272ddce37d7c9235b0a1f3fa66635017eb8acf8666c725eb8",
+    "docs/assets/ECOCYCLE_INVENTORY.csv": "378bf8b20677548c27b82e5b1bffb1e5d146873e92b5af53af098446a9f4cd2a",
+    "docs/assets/ECOCYCLE_EXPORT_REPORT.json": "4f95469094c125fc288779c082ac4d6e5703f9bee32454d4030925a361b1a658"
+  }
+}

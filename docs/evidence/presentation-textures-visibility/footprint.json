@@ -1,0 +1,10 @@
+{
+  "measurement": "after validation, before final Git commit",
+  "initial_allocated_bytes": 7341543424,
+  "allocated_bytes": 8363073536,
+  "growth_bytes": 1021530112,
+  "growth_gib": 0.9513740539550781,
+  "notice_threshold_bytes": 2147483648,
+  "threshold_exceeded": false,
+  "includes_existing_builds_and_preserved_raw_frames": true
+}

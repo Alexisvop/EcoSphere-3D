@@ -1,11 +1,12 @@
 {
+  "source_commit": "0732ad343434f2983f2d98a2454dc516b09488b2",
   "textures": {
-    "belt": "88703ddbfb7fa28b726dadc1b83c43a976f527b997ef95e8e9d887318a0bd7ef",
-    "concrete": "6bd0a3017fae5964d5d0de5ef9e955019a655a4885efeb2a3e543c08e7ce1ab1",
-    "metal": "2dc29297698731b3709cced308fc5a6bfc1d4d563930e3cb4bac32974e9a1fd3",
-    "painted": "9e022c10da93265364cd54dd299cfb2a6a62ab5cfb61022701afa1460d0b2b7e",
-    "water": "973c3ede94429eb03f854259019e45e3620ff5ce0713e6938a7b72b1fc6f130d",
-    "wood": "7be110c7fed426a7a1edd1757551f52a3cf7fad17d56f624cbb691529eeb4582"
+    "belt": "21c1e6266ab842bbfa6760d6dc76c48c1cb7388925fea7b49b333886e4bba4f0",
+    "concrete": "ee6e90ff804de5baeec69583cd055b45c4bbd229c1b9f82c282abf0ebb9795b6",
+    "metal": "7889fa430a9b1395ac415a23dfe60c2a57d2a38b54891d2de2da3bbaf1f70a2c",
+    "painted": "503cfb3a959c2ca14741e746771c9a1e2245549213b281c744aafb59b057b11d",
+    "water": "2e988a8161e52d4a5a034d481eb590404e01f912b1673d77120946fe4afb8bbd",
+    "wood": "7b4fc0f7c9fd9d6cb1d10e68fe5a7743227e0e27231f0f0767ad23a8c22408a1"
   },
   "models": {
     "assets/installations/aquabio/models/AQUA-001.glb": {
@@ -23,8 +24,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "fb15728fafd1070162d470356654abcb9944fce29aa161cea80e0dc27557dbd4",
-      "bytes_added": 1212
+      "sha256": "91f04219e991ea39ee76cc5316bfbbe18d72e436993304e4bc3358d8762d1f6d",
+      "bytes_added": 8048
     },
     "assets/installations/aquabio/models/AQUA-003.glb": {
       "materials": {
@@ -41,8 +42,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "83b1e7ee66684d40a0bf86671b1ac856cb0bf90372af69a5f967f57799a479ab",
-      "bytes_added": 1212
+      "sha256": "b39ac0cc2a62c9b38885fc8448ba4b945ca7a7c8bc3d12a215454a176d2ba246",
+      "bytes_added": 8048
     },
     "assets/installations/aquabio/models/AQUA-010.glb": {
       "materials": {
@@ -59,8 +60,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "570396cfccd6f84c78849076680aa794ef0fcbbc34dee7a16c0ccc48fd1e20fb",
-      "bytes_added": 3308
+      "sha256": "37b60e0e80dccf9a280d272ffa7db1071654fe776995f6ca046b3db326958929",
+      "bytes_added": 10508
     },
     "assets/installations/aquabio/models/AQUA-023.glb": {
       "materials": {
@@ -78,8 +79,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "8c836ff40195603947557115397f42ffa91a0f0690d287feacac24e8f14a9b69",
-      "bytes_added": 4476
+      "sha256": "1310fb8f7beb711989c4dc4a0adc6c1f1386816933d69a05a0f648c0787cf0d5",
+      "bytes_added": 18516
     },
     "assets/installations/aquabio/models/AQUA-027.glb": {
       "materials": {
@@ -96,8 +97,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "aeda2f8bdb3bcd30a67c59d5fbb64c79d6f92187516c52a3169a369999a9ca89",
-      "bytes_added": 1332
+      "sha256": "534f1ff5fb98ffd5d61337642ff6475124773b23649129dfe337d120aed9b78f",
+      "bytes_added": 14384
     },
     "assets/installations/ecoenergy/models/ENERGY-001.glb": {
       "materials": {
@@ -114,8 +115,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "ee2cecf1b274f2ba00f4d80e593266d9231771d9a943a836d2b44805efc3d057",
-      "bytes_added": 1208
+      "sha256": "a5707c13163db974df8d3cb77c70061ae88829fdba81a10fe1e3bf2e02518a64",
+      "bytes_added": 8048
     },
     "assets/installations/ecoenergy/models/ENERGY-003.glb": {
       "materials": {
@@ -132,8 +133,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "06e83e3ed53ad4876360ce953ccbb7aa7b949beaea848cfd691ebcfa96e365d7",
-      "bytes_added": 1208
+      "sha256": "9e4319383efdd46b03ddb8eee8f9e36507d2dea92990859b0886b372f9f09dfb",
+      "bytes_added": 8044
     },
     "assets/installations/ecoenergy/models/ENERGY-004.glb": {
       "materials": {
@@ -152,8 +153,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "feedd5a61bd40dd92bda4f3b7759e85f1dff412c4ae2c7d7764488e6b1924f90",
-      "bytes_added": 2128
+      "sha256": "f5817117705d65120c87b5d9227326c7c868d335396436a7f82c1796977ae425",
+      "bytes_added": 14224
     },
     "assets/installations/ecoenergy/models/ENERGY-005.glb": {
       "materials": {
@@ -170,8 +171,8 @@
         "textures": 1,
         "samplers": 1
       },
-      "sha256": "ea5b294213adf5cac5dec87545f899a409c1bfe1f6c1b6fdfd77324ae127689b",
-      "bytes_added": 888
+      "sha256": "7ee89d1ff50c2e7b229e6a18309b515ed4d61e1f953b1dbdf986f0144169a8bb",
+      "bytes_added": 6144
     },
     "assets/installations/ecoenergy/models/ENERGY-010.glb": {
       "materials": {
@@ -190,8 +191,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "4e37064448100e27f64761f083d757f1fcb7ab2866137a47c3767edac224549b",
-      "bytes_added": 3512
+      "sha256": "b4d0ef0efcf5c955416045830a7a34b287f0a9095926d5d61d0e2f9d598a6a18",
+      "bytes_added": 20664
     },
     "assets/installations/ecocycle/models/CYCLE-001.glb": {
       "materials": {
@@ -209,8 +210,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "f2ebac1c6a24634f1f4b1897d1d7b79e728ccd7744a5163f4500c80f63b06bfe",
-      "bytes_added": 1240
+      "sha256": "679d021f0a956655a94849d8c5b598c84642f4f0ab8d9e44c25602c2d2cd258b",
+      "bytes_added": 8076
     },
     "assets/installations/ecocycle/models/CYCLE-005.glb": {
       "materials": {
@@ -230,8 +231,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "75a76a49c3c01e1d7d0bde6e766f340e8de95491c5f2082e60b3f2ed0ed77d54",
-      "bytes_added": 2404
+      "sha256": "23c64a06280ca3398facbf542ca8fa830db868e4cd7aa4ec2a23e536279e0f7e",
+      "bytes_added": 12720
     },
     "assets/installations/ecocycle/models/CYCLE-007.glb": {
       "materials": {
@@ -249,8 +250,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "f3336747c5b7dee702c69aec15077d434d12ae79d81a97682bdcd1870413cd6e",
-      "bytes_added": 1844
+      "sha256": "6a4b4aae1d6ed4f057f079bf1541e970bb2520bf2fa2f66a5496feb241947e8b",
+      "bytes_added": 8324
     },
     "assets/installations/ecocycle/models/CYCLE-023.glb": {
       "materials": {
@@ -268,8 +269,8 @@
         "textures": null,
         "samplers": null
       },
-      "sha256": "ce98c19d2eba19188267217eea2c87d5bd52529ba7b4d525996c7d481f037fb1",
-      "bytes_added": 2224
+      "sha256": "704014d793950e35af7789ad088972459ca406ff99df55a618246b4a4901e7b0",
+      "bytes_added": 20532
     }
   }
 }

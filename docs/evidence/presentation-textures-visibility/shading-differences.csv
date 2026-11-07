@@ -1,0 +1,17 @@
+comparison,changed_pixels_rgb_sum_gt12,max_channel_delta
+reference-demo,0,0
+opaque-phong-vs-blinn,2254,28
+metal-normal-schlick-vs-F0,8421,91
+metal-normal-reflection-off,53596,227
+metal-grazing-schlick-vs-F0,8360,88
+metal-grazing-reflection-off,54206,219
+glass-normal-schlick-vs-F0,0,1
+glass-normal-reflection-off,0,1
+glass-grazing-schlick-vs-F0,479,9
+glass-grazing-reflection-off,969,10
+cubemap-all-off,901661,221
+skybox-only-off,891321,179
+reference-hub,0,0
+reference-ecoenergy,0,0
+reference-aquabio,0,0
+reference-ecocycle,0,0

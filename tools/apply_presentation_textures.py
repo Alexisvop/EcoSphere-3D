@@ -10,6 +10,7 @@ import json
 import math
 from pathlib import Path
 import struct
+import subprocess
 import sys
 import zlib
 
@@ -17,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TEXTURES = ROOT / 'assets/common/textures/presentation'
 MANIFEST = TEXTURES / 'manifest.json'
 SIZE = 128
+SOURCE_COMMIT = '0732ad343434f2983f2d98a2454dc516b09488b2'
 TARGETS = {
     'aquabio': {
         'AQUA-001': {'Aqua_stone': 'concrete'},
@@ -60,25 +62,32 @@ def png(kind):
             u, v = x / SIZE, y / SIZE
             a, b = math.tau * u, math.tau * v
             if kind == 'water':
-                wave = math.cos(3*b + .7*math.sin(2*a))
-                value = 235 + 8*math.sin(a + b) + 12*max(0, wave)**12
+                wave = math.sin(2*b + .8*math.sin(a) + .25*math.sin(3*a-b))
+                value = (224 + 13*math.sin(a+2*b) + 8*math.sin(3*a-b)
+                         + 24*math.exp(-((wave-.4)/.16)**2)
+                         - 28*math.exp(-((wave+.7)/.24)**2))
             elif kind == 'wood':
-                grain = math.sin(8*a + .7*math.sin(b) + .3*math.sin(3*b))
-                value = 240 + 8*grain - 22*max(0, grain)**14
+                flow = 32*a + .65*math.sin(b) + .25*math.sin(2*b+a)
+                value = (231 + 9*math.sin(flow) + 7*math.sin(2*a+b)
+                         - 65*max(0, math.sin(flow))**4
+                         - 18*max(0, math.sin(2*flow+.4*math.cos(b)))**14)
             elif kind == 'concrete':
-                value = 249 + 3*math.sin(a)*math.cos(2*b)
-                if x % 64 < 2 or y % 64 < 2:
-                    value -= 24
+                value = (237 + 9*math.sin(a)*math.cos(2*b) + 6*math.sin(3*a+2*b)
+                         + 3*math.cos(5*a-b)
+                         - 7*max(0, math.sin(7*a+2*b)*math.sin(8*b-a))**4)
+                if x < 2 or y < 2:
+                    value -= 14
             elif kind == 'metal':
-                value = 246 + 5*math.sin(24*b) + 3*math.sin(3*b)
+                value = 226 + 17*math.sin(6*b+.15*math.sin(a)) + 5*math.sin(18*b+3*a) + 4*math.cos(2*a-b)
             elif kind == 'painted':
-                value = 248 + 4*math.sin(2*a)*math.cos(3*b) - 7*max(0, math.cos(8*b))**16
+                value = (237 + 9*math.sin(2*a+.3*math.sin(b))*math.cos(3*b)
+                         + 5*math.cos(5*a-b) - 12*max(0, math.cos(8*b+.2*math.sin(a)))**6)
             elif kind == 'belt':
-                value = 243 + 4*math.cos(a) - 27*max(0, math.cos(8*b))**12
+                value = 244 + 5*math.cos(2*a) - 142*max(0, math.cos(6*b))**2 - 8*max(0, math.cos(12*b))**12
             else:
                 raise ValueError(kind)
             code = max(0, min(255, round(value)))
-            pixels.extend((code, code, code, 255))
+            pixels.extend((max(0, code-3), code, min(255, code+3), 255) if kind == 'water' else (code, code, code, 255))
     return (b'\x89PNG\r\n\x1a\n' + chunk(b'IHDR', struct.pack('>2I5B', SIZE, SIZE, 8, 6, 0, 0, 0))
             + chunk(b'IDAT', zlib.compress(pixels, 9)) + chunk(b'IEND', b''))
 
@@ -157,34 +166,41 @@ def apply(raw, mapping, images):
 
 
 def main():
-    assert sys.argv[1:] in ([], ['--check']), 'Usage: apply_presentation_textures.py [--check]'
-    check = '--check' in sys.argv
+    assert sys.argv[1:] in ([], ['--check'], ['--regenerate']), 'Usage: apply_presentation_textures.py [--check|--regenerate]'
+    regenerate = '--regenerate' in sys.argv
     images = {kind: png(kind) for models in TARGETS.values() for mapping in models.values() for kind in mapping.values()}
-    if check or MANIFEST.exists():
-        manifest = json.loads(MANIFEST.read_text())
-        assert manifest['textures'] == {k: sha(v) for k, v in sorted(images.items())}
-        expected_paths = {f'assets/installations/{z}/models/{mid}.glb': mapping
-                          for z, models in TARGETS.items() for mid, mapping in models.items()}
-        assert {p: r['materials'] for p, r in manifest['models'].items()} == expected_paths
-        for kind, raw in images.items():
-            assert (TEXTURES / (kind + '.png')).read_bytes() == raw
-        for path, record in manifest['models'].items():
-            raw = (ROOT / path).read_bytes()
-            assert sha(raw) == record['sha256']
-            verify(raw, record, images)
+    previous = json.loads(MANIFEST.read_text())
+    expected_paths = {f'assets/installations/{z}/models/{mid}.glb': mapping
+                      for z, models in TARGETS.items() for mid, mapping in models.items()}
+    assert {p: r['materials'] for p, r in previous['models'].items()} == expected_paths
+    existing_images = {k: (TEXTURES / (k + '.png')).read_bytes() for k in images}
+    assert previous['textures'] == {k: sha(v) for k, v in sorted(existing_images.items())}
+    for path, record in previous['models'].items():
+        raw = (ROOT / path).read_bytes()
+        assert sha(raw) == record['sha256']
+        verify(raw, record, existing_images)
+    if not regenerate:
+        assert existing_images == images, 'Run --regenerate after reviewing generator changes'
         print('PASS: 6 original textures, 14 GLB; geometry/UV/nodes/original materials/images preserved')
         return
-    TEXTURES.mkdir(parents=True, exist_ok=True)
-    for kind, raw in images.items():
-        (TEXTURES / (kind + '.png')).write_bytes(raw)
-    manifest = {'textures': {k: sha(v) for k, v in sorted(images.items())}, 'models': {}}
+    assert subprocess.check_output(['git', 'rev-parse', 'origin/main'], cwd=ROOT, text=True).strip() == SOURCE_COMMIT, 'Review changed main before regenerating'
+    originals = {path: subprocess.check_output(['git', 'show', SOURCE_COMMIT + ':' + path], cwd=ROOT)
+                 for path in expected_paths}
+    # Verify every input before writing any asset; never append to the current textured GLB.
+    assert all(sha(raw) == previous['models'][path]['original_sha256'] for path, raw in originals.items()), 'Original GLB hash mismatch'
+    manifest = {'source_commit': SOURCE_COMMIT, 'textures': {k: sha(v) for k, v in sorted(images.items())}, 'models': {}}
+    generated = {}
     for zone, models in TARGETS.items():
         for mid, mapping in models.items():
             relative = f'assets/installations/{zone}/models/{mid}.glb'
-            path = ROOT / relative
-            raw, record = apply(path.read_bytes(), mapping, images)
-            path.write_bytes(raw)
+            raw, record = apply(originals[relative], mapping, images)
+            generated[relative] = raw
             manifest['models'][relative] = record
+    for kind, raw in images.items():
+        (TEXTURES / (kind + '.png')).write_bytes(raw)
+    for path, raw in generated.items():
+        (ROOT / path).write_bytes(raw)
+    for zone, models in TARGETS.items():
         inventory = ROOT / f'docs/assets/{zone.upper()}_INVENTORY.csv'
         with inventory.open(newline='', encoding='utf-8') as stream:
             reader = csv.DictReader(stream)
@@ -194,8 +210,9 @@ def main():
         for row in rows:
             if row['model_id'] in models:
                 row['sha256'] = manifest['models'][row['glb_file']]['sha256']
-                row['provenance'] += '; base-color textures: tools/apply_presentation_textures.py'
-                row['evidence_file'] = f"docs/evidence/presentation-textures/after/{zone}/assets/{row['model_id']}.png"
+                if '; visibility polish' not in row['provenance']:
+                    row['provenance'] += '; visibility polish'
+                row['evidence_file'] = f"docs/evidence/presentation-textures-visibility/C-improved/assets/{row['model_id']}.png"
         for model in report['models']:
             if model['model_id'] in models:
                 path = ROOT / f"assets/installations/{zone}/models/{model['model_id']}.glb"

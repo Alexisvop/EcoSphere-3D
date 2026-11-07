@@ -1,0 +1,312 @@
+{
+  "source_commit": "0732ad343434f2983f2d98a2454dc516b09488b2",
+  "models": {
+    "assets/installations/aquabio/models/AQUA-001.glb": {
+      "main_sha256": "0c716eb610b6c405925a04ba5e680d5aa079324f34a3afdd8b949e90ac4724be",
+      "previous_sha256": "fb15728fafd1070162d470356654abcb9944fce29aa161cea80e0dc27557dbd4",
+      "current_sha256": "91f04219e991ea39ee76cc5316bfbbe18d72e436993304e4bc3358d8762d1f6d",
+      "added_to_main_bytes": 8048,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/aquabio/models/AQUA-003.glb": {
+      "main_sha256": "2b50af3fc53fcf34961c83bfc94181ba1737b807354f9f70da1f42ea17ea7c41",
+      "previous_sha256": "83b1e7ee66684d40a0bf86671b1ac856cb0bf90372af69a5f967f57799a479ab",
+      "current_sha256": "b39ac0cc2a62c9b38885fc8448ba4b945ca7a7c8bc3d12a215454a176d2ba246",
+      "added_to_main_bytes": 8048,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/aquabio/models/AQUA-010.glb": {
+      "main_sha256": "d0bf234ff2cf7b9b39f6c0d4b32da86f03ed024d9156be25104eb8ce2f0a52f3",
+      "previous_sha256": "570396cfccd6f84c78849076680aa794ef0fcbbc34dee7a16c0ccc48fd1e20fb",
+      "current_sha256": "37b60e0e80dccf9a280d272ffa7db1071654fe776995f6ca046b3db326958929",
+      "added_to_main_bytes": 10508,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/aquabio/models/AQUA-023.glb": {
+      "main_sha256": "5ecda2e982d74e4cea82b854eb8f8dc3836e356378e78e7c3e549de5ade5bb2d",
+      "previous_sha256": "8c836ff40195603947557115397f42ffa91a0f0690d287feacac24e8f14a9b69",
+      "current_sha256": "1310fb8f7beb711989c4dc4a0adc6c1f1386816933d69a05a0f648c0787cf0d5",
+      "added_to_main_bytes": 18516,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/aquabio/models/AQUA-027.glb": {
+      "main_sha256": "258b20d2a5fceb2121403c1500f65785012d48023833e6bcb13649858d67bf26",
+      "previous_sha256": "aeda2f8bdb3bcd30a67c59d5fbb64c79d6f92187516c52a3169a369999a9ca89",
+      "current_sha256": "534f1ff5fb98ffd5d61337642ff6475124773b23649129dfe337d120aed9b78f",
+      "added_to_main_bytes": 14384,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecoenergy/models/ENERGY-001.glb": {
+      "main_sha256": "ee2df18b082e0be3e05cceee81a727b877afd522d4aa3855184d0bd7f29eca49",
+      "previous_sha256": "ee2cecf1b274f2ba00f4d80e593266d9231771d9a943a836d2b44805efc3d057",
+      "current_sha256": "a5707c13163db974df8d3cb77c70061ae88829fdba81a10fe1e3bf2e02518a64",
+      "added_to_main_bytes": 8048,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecoenergy/models/ENERGY-003.glb": {
+      "main_sha256": "0426c521a5c155afb0ed32d94b1f5baa8d3ab9a090a198e265e9b5ddfc61fec4",
+      "previous_sha256": "06e83e3ed53ad4876360ce953ccbb7aa7b949beaea848cfd691ebcfa96e365d7",
+      "current_sha256": "9e4319383efdd46b03ddb8eee8f9e36507d2dea92990859b0886b372f9f09dfb",
+      "added_to_main_bytes": 8044,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecoenergy/models/ENERGY-004.glb": {
+      "main_sha256": "88323e3915ce815031802578394bec5f7fba6245ab74e12fbdffc6dea5db2bf3",
+      "previous_sha256": "feedd5a61bd40dd92bda4f3b7759e85f1dff412c4ae2c7d7764488e6b1924f90",
+      "current_sha256": "f5817117705d65120c87b5d9227326c7c868d335396436a7f82c1796977ae425",
+      "added_to_main_bytes": 14224,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecoenergy/models/ENERGY-005.glb": {
+      "main_sha256": "7c55134cec0dc030b55daed71b6021d9f4b393e0b4e58ea20feba1ce0cd5820c",
+      "previous_sha256": "ea5b294213adf5cac5dec87545f899a409c1bfe1f6c1b6fdfd77324ae127689b",
+      "current_sha256": "7ee89d1ff50c2e7b229e6a18309b515ed4d61e1f953b1dbdf986f0144169a8bb",
+      "added_to_main_bytes": 6144,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecoenergy/models/ENERGY-010.glb": {
+      "main_sha256": "4acf2c2b06bd51934dcd5830d421625a5a8938246040182c8d512867a8c17fd2",
+      "previous_sha256": "4e37064448100e27f64761f083d757f1fcb7ab2866137a47c3767edac224549b",
+      "current_sha256": "b4d0ef0efcf5c955416045830a7a34b287f0a9095926d5d61d0e2f9d598a6a18",
+      "added_to_main_bytes": 20664,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecocycle/models/CYCLE-001.glb": {
+      "main_sha256": "73ecaa31dffe75482b7c9c01d92774eb79220ab4011190c99365a70fe229533c",
+      "previous_sha256": "f2ebac1c6a24634f1f4b1897d1d7b79e728ccd7744a5163f4500c80f63b06bfe",
+      "current_sha256": "679d021f0a956655a94849d8c5b598c84642f4f0ab8d9e44c25602c2d2cd258b",
+      "added_to_main_bytes": 8076,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecocycle/models/CYCLE-005.glb": {
+      "main_sha256": "683b26e6e33bb5fe6aefd069e675c95751173c38e67d0af217296564a783ad26",
+      "previous_sha256": "75a76a49c3c01e1d7d0bde6e766f340e8de95491c5f2082e60b3f2ed0ed77d54",
+      "current_sha256": "23c64a06280ca3398facbf542ca8fa830db868e4cd7aa4ec2a23e536279e0f7e",
+      "added_to_main_bytes": 12720,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecocycle/models/CYCLE-007.glb": {
+      "main_sha256": "6c4807cc790046ac07eafeb825b8063b3c337b63fb9ee4202aaeae6f71c185af",
+      "previous_sha256": "f3336747c5b7dee702c69aec15077d434d12ae79d81a97682bdcd1870413cd6e",
+      "current_sha256": "6a4b4aae1d6ed4f057f079bf1541e970bb2520bf2fa2f66a5496feb241947e8b",
+      "added_to_main_bytes": 8324,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    },
+    "assets/installations/ecocycle/models/CYCLE-023.glb": {
+      "main_sha256": "2faf604d9269690f110d77f2d31831fad914679087351b372749cb1521ae0d28",
+      "previous_sha256": "ce98c19d2eba19188267217eea2c87d5bd52529ba7b4d525996c7d481f037fb1",
+      "current_sha256": "704014d793950e35af7789ad088972459ca406ff99df55a618246b4a4901e7b0",
+      "added_to_main_bytes": 20532,
+      "original_geometry_uv_nodes_materials_verified_by_manifest": true
+    }
+  },
+  "unchanged_protected_files": {
+    "assets/common/shaders/model.frag": "77bf0013340635032ff7c6acde2076687c90c321638d2e18ada035a1b6a30a6d",
+    "assets/common/shaders/model.vert": "69204efe3e692ee9d08bd2e6ec6e1b3f41e48e7cf115ac837b0d5ba8b2f26c96",
+    "assets/common/shaders/scene.frag": "6463ab6d6afc5f5a6af9e30c51dd57d2c7babedcca0fd415ece6eecc8c601c14",
+    "assets/common/shaders/scene.vert": "89f8b633601a77823b2fc074684ba9b2910c36d4ae2d01cd917c110e67ca11fa",
+    "assets/common/shaders/skybox.frag": "35a820c278807fd2556068eb4be81628625534bb9ba6d7b0daeed3b9fd507d86",
+    "assets/common/shaders/skybox.vert": "2e9b1bdd6b94daf34d46baa9a78f8ec7b7f78efc4c726795123d8c1c6b2b0b74",
+    "assets/installations/aquabio/sources/aquabio.blend": "c4258c8c73bda4e33057331f9d107b1f4736bfae5cd7e405a542633bb512261e",
+    "assets/installations/ecocycle/sources/ecocycle.blend": "131995a866683f770d86406aae8abeb7b7b156a13abe20d2cdcf61010bd00667",
+    "assets/installations/ecoenergy/sources/ecoenergy.blend": "08a6969de1946a5d7501b4c36564ea725da929b29a343fe4aad34b5ac7e9ca3c",
+    "assets/plaza/models/PLAZA-001.glb": "92b3fa1e9ec9100f07409172200e13e7c29e33e615ff301dc34476d914051bd2",
+    "assets/plaza/models/PLAZA-002.glb": "f7a2cdae3a8e59cf0cd23a46ee55fed35018d92f4b8e2848abe9e7992b08cb49",
+    "assets/plaza/models/PLAZA-003.glb": "e1b6f6412d8b4fb9618acb0ba912db43dd03c9a5b39a6144d346bea4f38c230f",
+    "assets/plaza/models/PLAZA-004.glb": "bdb9b41963d8d97336faf8d2c2b6c124b387db8ce69f14350adf1a0dc893088a",
+    "assets/plaza/models/PLAZA-005.glb": "500ca0a33fc18cad76e7ccb87614408bbf8af9f30265de6c9e97db5791aad750",
+    "assets/plaza/models/PLAZA-006.glb": "86aca19ae6e40e8937ac911cbabe4e17df31c8c8d4aa82dd4839f1d52060263c",
+    "assets/plaza/models/PLAZA-007.glb": "6ade88c1a9940a382282da24bee0b7a0e416a702c764e607f1e32ce65464b686",
+    "assets/plaza/models/PLAZA-008.glb": "d762cf5a3563ec986675c20f4ef22889166da239809b42f53f5bbfd9e6971427",
+    "assets/plaza/models/PLAZA-009.glb": "971af9b2fc4601d99d78a24e65ed59b5d8047c4d2632fed9a4b29e128ea66504",
+    "assets/plaza/models/PLAZA-010.glb": "71fed43534786f24fcadf97d2811d676a9d84b14ef4901f4fcb8d5298ba533a7",
+    "assets/plaza/models/PLAZA-011.glb": "7975091f60c208ccda2c413b158d275d8bb3c5a46d93847d81287da0ab9a951c",
+    "assets/plaza/models/PLAZA-012.glb": "0f035549f6957b6a88f219e3d3388e51900f5fea419945ac0b0418ea0a8839cd",
+    "assets/plaza/models/PLAZA-013.glb": "110dd8b1adca49b2a3e4754b87f880100ae6c55cd356285a36cb675a552ebb36",
+    "assets/plaza/models/PLAZA-014.glb": "cd8426b881da58a285beb4d42b015e0116df6c4660e9856682a71d4fd2722e12",
+    "assets/plaza/models/PLAZA-015.glb": "a3eb87e0225f3ee77873737dd0a9b81e6e1db2f1bcb9a71a17f35f0d75622835",
+    "assets/plaza/models/PLAZA-016.glb": "0d799818c9f5dd63b5fafc41304fc1f9ef47d62b7ca1495fdcec0525b08537ca",
+    "assets/plaza/models/PLAZA-017.glb": "5c260c56685d5ea6adfa45c03bfeb04a011467599b06234aa210555f98c80505",
+    "assets/plaza/models/PLAZA-018.glb": "e2ff7e5c4e920d221b29a9c2321dcacfcefc8bb926dfa05fd77f34b44e1cae6d",
+    "assets/plaza/models/PLAZA-019.glb": "33342d110a6af927e67167807b3677e027ccbb31ab23d95f28326fb3607649ab",
+    "assets/plaza/models/PLAZA-020.glb": "2979492448c1057c6615690e8b823d6ab62fa5af43a014bb72c3e5912e80a940",
+    "assets/plaza/models/PLAZA-021.glb": "08c1ecd2606314c342787cf199677a8886cc4823781c2d4dbdaa87b743652381",
+    "assets/plaza/models/PLAZA-022.glb": "be39f6d06f6b0a91490007e8d95496c8f176f136a4c680e1d11f96a1eb0461ad",
+    "assets/plaza/models/PLAZA-023.glb": "1a85e20ebe7157f94474b856a8859f678bdf14f34e687d1eaa6723c5a6e54c7c",
+    "assets/plaza/models/PLAZA-024.glb": "f9fb94ef52bc1e7bc6a6d2eae924d07e80baf35a7c0be0f3a67c91b40c62b361",
+    "assets/plaza/models/PLAZA-025.glb": "111e36a5cf6a3e159bd6d375392660163598e8405aa6503468242b94c349a5e6",
+    "assets/plaza/models/variants/PLAZA-008-aquabio.glb": "1f2a4a790ad3cebc8cc549f002ebf03a6e6b8a2d7ebc5aca555e29a82fd3a312",
+    "assets/plaza/models/variants/PLAZA-008-ecocycle.glb": "bd7c97a8fea255bf800dbde0ce774e694addf90f65dff7decb7da984f351fbe5",
+    "assets/plaza/sources/plaza.blend": "ca87daec8303a4712839a00e135b4d2703a140da7d9321514de769024831ab24",
+    "assets/plaza/textures/solar_cells.png": "3062a95357d9c0ac4cd11c5bf314451a1555376794ff5000871f743938530490",
+    "assets/shared/export-report.json": "71aadf889e422bea175a64a328dbb9a89687db6c814fa67226c58346b5e6ec31",
+    "assets/shared/models/SHARED-001.glb": "c42c9d4e016ca30f3c8300b4a822f3c0fd4f83cd40e33c359f6437a0a0cfff0c",
+    "assets/shared/models/SHARED-002.glb": "d13cbe9f179c2a6ae5bfec37c9d5c7917ca71d482bbb8565c5e100fd36e48c4e",
+    "assets/shared/models/SHARED-003.glb": "7c45e39e3ff4cc3f11a12340d4836a82941400e85b397c62e168dddc88757991",
+    "assets/shared/models/SHARED-004.glb": "af39999fc0ebfbf39ad79ffc97c8efcf7772d3bf13935ef6b40e3202ff60f96e",
+    "assets/shared/models/SHARED-005.glb": "89ac49018cfc27035d8a0f83387abaf0064c605dee35116cd9c8d05b9623a66a",
+    "assets/shared/sources/shared.blend": "87660fb39a05fbe7d95834f4a5e9d1aa13fe11735cde343c77d9444d08ccc337",
+    "include/ecosphere/core/ModuleSession.hpp": "4aa3b7026d4f2d0384cb93699d9e3543b8e4c64b628b0081c3d87e36ed3d597d",
+    "include/ecosphere/modules/Stubs.hpp": "6f6132b82ec5ab38983c96b01fcba6bdf7a61c2dc6d6aa7bcc0a4d1fc206ae74",
+    "include/ecosphere/sdk/Animation.hpp": "4af0c1d377942164b16c75b6f185720cbc0875cea0ced59c1527e7510bfa3c79",
+    "include/ecosphere/sdk/Bounds.hpp": "ace4e8c156b41143e91e6409136c297b2586a2be63742e412a26f99572e7e3e0",
+    "include/ecosphere/sdk/Content.hpp": "08f0f7b8f6dd29ab11d6f7d0b973afc74b195c3f9505717b0efd6b330cc0a922",
+    "include/ecosphere/sdk/IModule.hpp": "267a27938564d75bd310e3f020243b14d17dd67c5c401d65313792af9468079f",
+    "include/ecosphere/sdk/Lighting.hpp": "0d7652be1993e3da0582dcc1b508bbc385a429c86bf3763e28504bc40bfce84f",
+    "include/ecosphere/sdk/Material.hpp": "fbfc4558224f384ddc9da5e65b7fb36b9827ed68f1d653a05a6d9c9557fc26c7",
+    "include/ecosphere/sdk/ModuleServices.hpp": "20b5f0942af37ff33cd3c8effed6ebde37db7d436812151df392552f5051446e",
+    "src/app/AquaBioSmoke.hpp": "b6b32628d7499c5641176cd3b7da7e61565bc1ddd5ce9f3192a229db94906f2d",
+    "src/app/ContentSmoke.cpp": "35aad645e5f27769aaf39d94821efc064948431d9973a15337f1acd7e5c78e96",
+    "src/app/ContentSmoke.hpp": "f911804820b47f85c8c5be718d31ffcca3ed49e3d02f72a8a8e9fe519997a4fb",
+    "src/app/EcoCycleSmoke.hpp": "4533cbd979ecd8120e7627a869303468bc72e2bca4664ea8009e5391c145afd8",
+    "src/app/EcoEnergySmoke.cpp": "244da8e01e03f9d28688366ba927cfeac67c6c9d7fcd34d5084835cc106f7188",
+    "src/app/EcoEnergySmoke.hpp": "a8edba629d555f5c0a1eff965ed7f5f5414ec7108102cd088f36824347777600",
+    "src/app/FpsCounter.hpp": "de78afa2773048a3b13cc4bb54dea4ae435970451b554765de69b2ac984808f3",
+    "src/app/InteractionDemoInput.cpp": "5f6062848798a506ea6e411d24e659fc37c9960a17c82b4af1dc6f6331389e18",
+    "src/app/InteractionDemoInput.hpp": "2115eeb00b2c5c3a8833d202bc25f62dfd2cb75cf120b9773f2cba7aa3494b26",
+    "src/app/InteractionSmoke.cpp": "1582ef3c59700f0694c87e12028ce4bbbff66a1be6bc1fae77ce0df6be15942a",
+    "src/app/InteractionSmoke.hpp": "176a1335576aaeab19b46bda41d6c98fd0774eaee2d3344259ee8f2efef75d0a",
+    "src/app/LightingControls.hpp": "3e0db188f9276bb72b74d743d5c9771fa76a01416bd9f2978b14b0b30de4ee06",
+    "src/app/LightingSmoke.cpp": "9281ec5caecdd98e8dab7d78f083f72f45894c23962d8d0f07dfd89705fcbb82",
+    "src/app/LightingSmoke.hpp": "963ab55ba61ba7bc496abb67a7ef7a3d0dfa51b32e120990aa84b322f5090af5",
+    "src/app/NavigationHud.cpp": "890d7c095a5fec63e378cedbd89a03f5f5093d2012c29776f4ecfc1b602e0082",
+    "src/app/NavigationHud.hpp": "0b9ea41bcf465c25de1fd74d8b3856603b1f8773272f98f9986058272c39930e",
+    "src/app/NavigationHudLayout.cpp": "b55057b17a66180b89dd7f1ed49b504aa664fcd798965ad0ad23740af6109e9e",
+    "src/app/NavigationHudLayout.hpp": "1458dc40dc2d6eed5ff2257032d5357420bdc4f49ce527a2d57f10c3ef560ff9",
+    "src/app/NavigationSmoke.cpp": "7889929347b77dc86e43b2e416c56711777fc636c1215d64725e40f0e957149c",
+    "src/app/NavigationSmoke.hpp": "88b75ff2479edfc6debf73d05fb183f63494e3265a7075712db3216ea0fa1873",
+    "src/app/PlazaSmoke.cpp": "2fe1f2d7797736cf4dc7d0b8257786080e48d046bf975ee16cec50f5c37da10c",
+    "src/app/PlazaSmoke.hpp": "b3d241c24fe9401cc513eaf7270db8a181eec0ef6853f27bdcb3fb9fd2cfe045",
+    "src/app/SrgbFramebuffer.hpp": "da3fd87331e0bbca6f6a4924522876cd2ba80a4fc28a17516c4590d1b0fa9c63",
+    "src/app/main.cpp": "870461cc6e9b1c09a8fbbbce8b809348675c5e90ab4074507ee8946ee9b0eb15",
+    "src/engine/animation/Animation.cpp": "fb0a3cc4143cba7bb38de281ba43cd7e2e183928d2926a772ccf32ad4de2e931",
+    "src/engine/animation/Animation.hpp": "b1982d07fa1c6a3489780d3aa73181e2a1d42b19a97363c880f725e74825148b",
+    "src/engine/assets/AssetManager.cpp": "7a2f5cb7afddb6481ff405b788fdf2ff3bbd613918e199beff28b9eead3a7d2f",
+    "src/engine/assets/AssetManager.hpp": "b266df3bb0d67be6d5fa1f0c8d3c67b8911850bb1ffc087e4531af34046dcfd9",
+    "src/engine/assets/Material.hpp": "1ca4a62e223423571c06ddb09b739d3cf36668716074c0b67d7f056d194c3b79",
+    "src/engine/assets/Model.hpp": "74dc6b7d285e04f9e970ebdd24d0c960257c50ff90f42c4c2a4765cecd17db3f",
+    "src/engine/assets/ThirdParty.c": "d41937ba6ded1e930f8fa8bd262dd061ad96ae1e031d2ad1df5af2513aeb49f4",
+    "src/engine/camera/Camera.cpp": "0345bd2d3c4b9f8062653fb034053b0db05f9dc7aeb05b81547dce78afc8b240",
+    "src/engine/camera/Camera.hpp": "6398ae5d7776a90b582f477c36d65724a46b3fdaff9a9aadde9ff9865f4281ea",
+    "src/engine/content/ContentRegistry.cpp": "598a1aaa6ffe6479dc07905d100428ea4f21bcbf5e92a9691b1d03d4988dad82",
+    "src/engine/content/ContentRegistry.hpp": "0ab9addf47a61cf7e45bcf8965e6d257c839037cce6b8dcbb246fb1c09b0d684",
+    "src/engine/core/ModuleSession.cpp": "4d7f44b516adea96eb0c80fdd1d80d6bdf1beac6ebd0c6b04a1013ea0ce561ad",
+    "src/engine/graphics/Environment.cpp": "22277d64afccd20064ff27b3fd97fbbc7addc7c2b33af5cdba4a5f5ddf8d00b3",
+    "src/engine/graphics/Environment.hpp": "72253d0c0516f757b3a88ccfc5ac0087edb451bd2ad50c1388b6077f203faadc",
+    "src/engine/graphics/ModelRenderer.cpp": "add2e8502a668b6eb9031adbcae94d7031faf121ad300b37040bbf6ca237e038",
+    "src/engine/graphics/ModelRenderer.hpp": "3ac9c6982b95d592c8a4bc64f29ff817adad77cca998861df5e7d7385afb4aec",
+    "src/engine/graphics/RenderState.hpp": "78d755c8711603fd0bfd4f4b9e28bf7baac0e2495a35f9ab7c61fd93c6cdcc0c",
+    "src/engine/graphics/SceneRenderer.cpp": "efaa27c5ecd201c584dbb06b147fdc3eee3e4dc01762c1696d0eb6d655982be3",
+    "src/engine/graphics/SceneRenderer.hpp": "ff9ffef1f3d29c5adf913be5417d942fb213cc93db21a55ada6fb92b8c98c07f",
+    "src/engine/graphics/Shader.hpp": "cb26302316c7a485dd1fa50f3c5c09b26cd4ec7e05162a7c7ac0233bca4caf5f",
+    "src/engine/graphics/Shading.hpp": "ed9a0b5a1c538510a973fa343fe3415dc341231da2cf50944bb437fb0e82b34d",
+    "src/engine/graphics/Triangle.cpp": "a41353cd1cbc1e3d75cabd80026e8bbdee949c7564f553b6ee463f172019cf39",
+    "src/engine/graphics/Triangle.hpp": "768d3a8c7fc64b44dd170458a94e9a9a9966a1ae8b84960d86dea99fc4922a1b",
+    "src/engine/interaction/Interaction.cpp": "1157761b422c875abd92099191ddc9a5970f4a9427c80b42f09fef5d0736ed74",
+    "src/engine/interaction/Interaction.hpp": "2f8ececd11638400a97150f20908b2a44d0a1da17807be6b234075d74c659b02",
+    "src/engine/scene/Lighting.hpp": "5efdd4d8078227288cc767b20fc7baef00d7bce9a26ce64b9fab80d510d7b997",
+    "src/engine/scene/Scene.cpp": "d6824cc8e11dd587f2b43090ebf8d4f854dc29c2bad2e5484eb506376c110869",
+    "src/engine/scene/Scene.hpp": "70fff24c565697a5f7e63d801a0e8e8cd2893af0b60453d52637410b89d8aae1",
+    "src/engine/scene/Transform.hpp": "c5d464d93d94dceec7cc1f181d3d80885aa3bf2c80679b0e37c9829d49b272e4",
+    "src/modules/AquaBio/AquaBio.hpp": "a8aa38f046ca5f1ff3ebc10f97b7f5c3fdbd973fdc08a03b41ec2ba0a05dcbd1",
+    "src/modules/AquaBio/AquaBioSettings.hpp": "80122b8f39f71e8c02a90e127a0ba51d2521e4ccb2ed1f05a209da682f4e05c2",
+    "src/modules/AquaBio/Module.cpp": "6c7f98d11910f03aec120c3491ee6de9b4828f5ba5f236eca575a788b3e629a9",
+    "src/modules/EcoCycle/EcoCycle.hpp": "5aa02d5a5ac2e67806de4e4dbda777116d7873cf96c03fa2539b388859d82ecc",
+    "src/modules/EcoCycle/EcoCycleSettings.hpp": "d5f54c09c42642906cf3cdac071735e9920bc6633f81b4abf380cfe2b270a60c",
+    "src/modules/EcoCycle/Module.cpp": "46b73d841ac0f28e048637cebba89f3f78599e418afa7479e2c2813654f603be",
+    "src/modules/EcoEnergy/EcoEnergy.hpp": "279f344708a5d3232ab7c0e4642bb99a6748d67b04b1260bcddb94eded4f59dd",
+    "src/modules/EcoEnergy/EcoEnergySettings.hpp": "99e986e0f9caddd138d9394a42abfc715a7c77282295b8630e059b73fff99b6f",
+    "src/modules/EcoEnergy/Module.cpp": "38c84ea0d2f8a58d4d893f1816a477059c0af4798b5508b94cf1b9629e325a93",
+    "src/modules/StubModule.hpp": "9cf40ed44cd1a612a9dd0550e44fac254f8c8f0f861a02b6d60406c40d892ff7",
+    "src/shared/SharedResources.cpp": "3a914eeba5a5f274780d8a3d8aaa989584890e6c18428eb5c8b3fd5022d5fc01",
+    "src/shared/SharedResources.hpp": "4e011f5297b764504166dd54b1599fc50dc7a78b26411eaee3ada854dd3f7c69",
+    "src/world/DemoSceneSettings.hpp": "2740790d75b41325c2bfec070556dbd4f0e2f8dcbcf5209a42d64cecd250774f",
+    "src/world/InteractionAnimationDemo.cpp": "43af6ce3bdddd03b579984bf985a17eb18ce7ebc912ebeb309e7758fc95e1302",
+    "src/world/InteractionAnimationDemo.hpp": "9cb7e3756f31153376bdbd307bd32dd94106b513a7ac96ec4232704ee67c693d",
+    "src/world/InteractionAnimationDemoSettings.hpp": "74e95aac07c66aba81938588dd4ef4537bce146749ddda102346659aa5f644c8",
+    "src/world/LightingDemo.cpp": "45f5bb7e9a52b94ca0a58f9e28bae6eb77da533c957883f7083a5490327bc181",
+    "src/world/LightingDemo.hpp": "6abd6bff269842abca53b348e99e226b052031ffa03064b5d29f3c97698bd7db",
+    "src/world/LightingDemoSettings.hpp": "c6350d6b2d8ee17bae7a1dfd087bebdeeb2130d70ae138d60ac78f853633fc39",
+    "src/world/Plaza.cpp": "5417f56bcf412ed9a63fdbea5e224a4d781fdb21745f8842491c151f5062951d",
+    "src/world/Plaza.hpp": "164cb95855cbf09987bf523a9fefeaf31b69ea03b3ff8a7cb371ed507e8d6802",
+    "src/world/PlazaSettings.hpp": "c13a692b5cce9ea8bf3fa3307d9f987ce2c769ccc1bf2ae3ce4f964f61500c05",
+    "src/world/ZoneNavigator.cpp": "df269dd9151675e2774bee3124c863694605f8b4f6600168faf0f223d26cf947",
+    "src/world/ZoneNavigator.hpp": "b1a8917ddbf3573546fd0663541a37d388b767c0f05119a415495d137a362ab2",
+    "src/world/ZoneSettings.hpp": "2b533d893ee2e14e29ee27a29005e180b26dbf30dac66b705bf133019640399a"
+  },
+  "historical_evidence_unchanged": true,
+  "textures": {
+    "water": {
+      "sha256": "2e988a8161e52d4a5a034d481eb590404e01f912b1673d77120946fe4afb8bbd",
+      "size": [
+        128,
+        128
+      ],
+      "green_min": 175,
+      "green_max": 255,
+      "mean": 220.3536376953125,
+      "stdev": 17.384898089761457,
+      "bytes": 10226
+    },
+    "wood": {
+      "sha256": "7b4fc0f7c9fd9d6cb1d10e68fe5a7743227e0e27231f0f0767ad23a8c22408a1",
+      "size": [
+        128,
+        128
+      ],
+      "green_min": 168,
+      "green_max": 240,
+      "mean": 216.785888671875,
+      "stdev": 16.954728642221202,
+      "bytes": 14108
+    },
+    "concrete": {
+      "sha256": "ee6e90ff804de5baeec69583cd055b45c4bbd229c1b9f82c282abf0ebb9795b6",
+      "size": [
+        128,
+        128
+      ],
+      "green_min": 205,
+      "green_max": 251,
+      "mean": 236.0751953125,
+      "stdev": 7.0942290560252586,
+      "bytes": 7766
+    },
+    "belt": {
+      "sha256": "21c1e6266ab842bbfa6760d6dc76c48c1cb7388925fea7b49b333886e4bba4f0",
+      "size": [
+        128,
+        128
+      ],
+      "green_min": 89,
+      "green_max": 249,
+      "mean": 207.6015625,
+      "stdev": 50.98113006356954,
+      "bytes": 1898
+    },
+    "painted": {
+      "sha256": "503cfb3a959c2ca14741e746771c9a1e2245549213b281c744aafb59b057b11d",
+      "size": [
+        128,
+        128
+      ],
+      "green_min": 212,
+      "green_max": 251,
+      "mean": 235.12493896484375,
+      "stdev": 6.749092323317079,
+      "bytes": 6231
+    },
+    "metal": {
+      "sha256": "7889fa430a9b1395ac415a23dfe60c2a57d2a38b54891d2de2da3bbaf1f70a2c",
+      "size": [
+        128,
+        128
+      ],
+      "green_min": 200,
+      "green_max": 252,
+      "mean": 226,
+      "stdev": 12.847218585772758,
+      "bytes": 5908
+    }
+  }
+}

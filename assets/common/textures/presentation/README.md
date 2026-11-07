@@ -28,11 +28,21 @@ datos preservados y resultados. CTest comprueba este manifiesto y su reproducci�
 python3 -B tools/apply_presentation_textures.py --check
 ```
 
-El script aplica el postproceso una vez sobre los GLB originales y en ejecuciones
-posteriores comprueba el resultado. Los `.blend` permanecen como originales de
-modelado: una nueva exportación sobrescribiría este acabado. Para regenerarlo,
-trabajar sobre los GLB originales de main `0732ad343434f2983f2d98a2454dc516b09488b2`,
-con el script y sin el manifiesto de salida anterior. Coinciden byte a byte con
-los originales de `046dba7` usados en la implementación histórica; el manifiesto
-no necesita regenerarse al sincronizar Git. No reexportar los modelos antes de
-la exposición.
+La verificación es de solo lectura. Para regenerar tras un cambio revisado del
+generador, conservar el manifiesto y ejecutar:
+
+```bash
+python3 -B tools/apply_presentation_textures.py --regenerate
+python3 -B tools/apply_presentation_textures.py --check
+```
+
+`--regenerate` comprueba primero los recursos actuales y los 14 originales de
+Git, fija main en `0732ad343434f2983f2d98a2454dc516b09488b2` y coteja sus SHA-256
+con el manifiesto. Compone cada GLB desde esos originales en memoria; nunca
+incrusta sobre un GLB ya texturizado. Repetirlo produce los mismos bytes y no
+acumula imágenes. Si cambia main, se requiere revisar la procedencia antes de
+regenerar. La verificación y CTest no requieren consultar Git.
+
+Los `.blend` permanecen como originales de modelado: una nueva exportación
+sobrescribiría este acabado. Las comparaciones y límites de visibilidad del pulido
+se documentan en [PRESENTATION_TEXTURES_VISIBILITY.md](../../../../docs/PRESENTATION_TEXTURES_VISIBILITY.md).

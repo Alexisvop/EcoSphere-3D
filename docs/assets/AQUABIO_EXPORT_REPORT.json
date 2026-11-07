@@ -19,7 +19,7 @@
         "blue",
         "sand"
       ],
-      "bytes": 13896,
+      "bytes": 20732,
       "bounds": [
         [
           -24.0,
@@ -34,7 +34,7 @@
       ],
       "signs": [],
       "mechanism_bounds": null,
-      "sha256": "fb15728fafd1070162d470356654abcb9944fce29aa161cea80e0dc27557dbd4",
+      "sha256": "91f04219e991ea39ee76cc5316bfbbe18d72e436993304e4bc3358d8762d1f6d",
       "geometry_signature": "bbf5dd38320e5010cb2683c4fad3d04b057d4399612d770d574186e1c3fbe9d6"
     },
     {
@@ -134,7 +134,7 @@
         "blue",
         "steel"
       ],
-      "bytes": 25276,
+      "bytes": 32112,
       "bounds": [
         [
           -1.5600000619888306,
@@ -149,7 +149,7 @@
       ],
       "signs": [],
       "mechanism_bounds": null,
-      "sha256": "83b1e7ee66684d40a0bf86671b1ac856cb0bf90372af69a5f967f57799a479ab",
+      "sha256": "b39ac0cc2a62c9b38885fc8448ba4b945ca7a7c8bc3d12a215454a176d2ba246",
       "geometry_signature": "ab3f8a5bb6b5a19df06c8239e1b895756ca802bee37e22c62a8a9f13a0a409be"
     },
     {
@@ -515,7 +515,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 198888,
+      "bytes": 206088,
       "bounds": [
         [
           -5.800000190734863,
@@ -573,7 +573,7 @@
           1.65
         ]
       ],
-      "sha256": "570396cfccd6f84c78849076680aa794ef0fcbbc34dee7a16c0ccc48fd1e20fb",
+      "sha256": "37b60e0e80dccf9a280d272ffa7db1071654fe776995f6ca046b3db326958929",
       "geometry_signature": "326e6e9eebed325bdadd2e6a9c31510127a64eff36b40c6c7c5f1d1854b3e434"
     },
     {
@@ -1293,7 +1293,7 @@
         "letters",
         "steel"
       ],
-      "bytes": 183084,
+      "bytes": 197124,
       "bounds": [
         [
           -7.800000190734863,
@@ -1351,7 +1351,7 @@
           3.0
         ]
       ],
-      "sha256": "8c836ff40195603947557115397f42ffa91a0f0690d287feacac24e8f14a9b69",
+      "sha256": "1310fb8f7beb711989c4dc4a0adc6c1f1386816933d69a05a0f648c0787cf0d5",
       "geometry_signature": "563188b760cca44f8f163d79727ecf36b7442b671801a484893dca497c949a5f"
     },
     {
@@ -1476,7 +1476,7 @@
         "letters",
         "steel"
       ],
-      "bytes": 222488,
+      "bytes": 235540,
       "bounds": [
         [
           -1.4500000476837158,
@@ -1534,7 +1534,7 @@
           0.42
         ]
       ],
-      "sha256": "aeda2f8bdb3bcd30a67c59d5fbb64c79d6f92187516c52a3169a369999a9ca89",
+      "sha256": "534f1ff5fb98ffd5d61337642ff6475124773b23649129dfe337d120aed9b78f",
       "geometry_signature": "7a701648ee734a391137096375b05fe7d4ff6f490ec4ca568e612cd673423a9a"
     },
     {
