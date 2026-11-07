@@ -213,7 +213,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 172040,
+      "bytes": 180624,
       "bounds": [
         [
           -5.5,
@@ -271,7 +271,7 @@
           0.699999988079071
         ]
       ],
-      "sha256": "23c64a06280ca3398facbf542ca8fa830db868e4cd7aa4ec2a23e536279e0f7e",
+      "sha256": "3aa6c4edb9acf1779136803b42b8404399986411ffeec926f5ec8b149fc9e8d8",
       "geometry_signature": "f2b91dcf2a7f55a2a98ccabe7fb565054e8cfd5a4b24efc444c4b3da956168c3"
     },
     {
@@ -377,7 +377,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 165724,
+      "bytes": 174312,
       "bounds": [
         [
           -5.5,
@@ -435,7 +435,7 @@
           2.549999952316284
         ]
       ],
-      "sha256": "6a4b4aae1d6ed4f057f079bf1541e970bb2520bf2fa2f66a5496feb241947e8b",
+      "sha256": "bd64320f4f2fa39a6b008523489ea9c81c7a1dc00c49416cb25f221299216e8a",
       "geometry_signature": "b72d0865204549ee91d461c39a35072a006a0117fe4278e5e01d5d75b922dc8e"
     },
     {
@@ -1214,7 +1214,7 @@
         "turquoise",
         "letters"
       ],
-      "bytes": 170104,
+      "bytes": 178688,
       "bounds": [
         [
           -1.7000000476837158,
@@ -1272,7 +1272,7 @@
           0.800000011920929
         ]
       ],
-      "sha256": "704014d793950e35af7789ad088972459ca406ff99df55a618246b4a4901e7b0",
+      "sha256": "b24a55c0661936dd4021204c97205aaf22e5d71b622335119871c4dd7335b2bd",
       "geometry_signature": "30ea1f8ea696af876144f50604bcdd0f5880c77adfb8e213c49e82d5b8baccb6"
     },
     {

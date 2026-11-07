@@ -1,0 +1,30 @@
+{
+  "before": {
+    "sha256": "7889fa430a9b1395ac415a23dfe60c2a57d2a38b54891d2de2da3bbaf1f70a2c",
+    "range": [
+      200,
+      252
+    ],
+    "mean": 226,
+    "stdev": 12.847218585772758,
+    "dimensions": [
+      128,
+      128
+    ],
+    "bytes": 5908
+  },
+  "after": {
+    "sha256": "7dd0c8a743f5c46f543dea40bfc423c43510a5bd2a70c9a505a873ed40c14886",
+    "range": [
+      163,
+      255
+    ],
+    "mean": 209.99859619140625,
+    "stdev": 18.442539313502973,
+    "dimensions": [
+      128,
+      128
+    ],
+    "bytes": 14490
+  }
+}

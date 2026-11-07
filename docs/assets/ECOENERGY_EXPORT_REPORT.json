@@ -83,8 +83,8 @@
         "aluminum",
         "steel"
       ],
-      "bytes": 29228,
-      "sha256": "f5817117705d65120c87b5d9227326c7c868d335396436a7f82c1796977ae425",
+      "bytes": 37812,
+      "sha256": "d031bc819c79fdfddc97c3155308fa57e034a216a7e8904485bcce53a1b7b5c3",
       "geometry_signature": "90c37ecd0c6ad4f68d1860286ca82c9fb747a9c76c3b277bd2b5c0f0bca44f2a"
     },
     {
@@ -105,8 +105,8 @@
         "slate",
         "rubber"
       ],
-      "bytes": 43844,
-      "sha256": "7ee89d1ff50c2e7b229e6a18309b515ed4d61e1f953b1dbdf986f0144169a8bb",
+      "bytes": 52432,
+      "sha256": "f3297b76c9d0936c7858768c5162e1bf9d933863d28f7b94df869382d9d6768d",
       "geometry_signature": "856a447eb7e83b5e387fecd67396e8fac481bcab1b67cd7ac21cd3a8e9049b77"
     },
     {
@@ -224,8 +224,8 @@
         "screen",
         "unlit_gold"
       ],
-      "bytes": 58012,
-      "sha256": "b4d0ef0efcf5c955416045830a7a34b287f0a9095926d5d61d0e2f9d598a6a18",
+      "bytes": 66600,
+      "sha256": "15297c07c0ab20a1a0a14041897cdea5f220ae2465358db5b19af6c53c060b1a",
       "geometry_signature": "237039aa0512d5bc488431b02207af8c966644b403deea9e048a43d80bf89389"
     },
     {

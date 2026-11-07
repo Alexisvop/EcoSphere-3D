@@ -1,0 +1,59 @@
+{
+  "candidate": "R2, isolated staged copy only; metallic original",
+  "changes": {
+    "assets/installations/ecoenergy/models/ENERGY-004.glb": {
+      "Energy_aluminum": {
+        "roughnessFactor": [
+          0.23999999463558197,
+          0.5
+        ]
+      },
+      "Energy_steel": {
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.5
+        ]
+      }
+    },
+    "assets/installations/ecoenergy/models/ENERGY-005.glb": {
+      "Energy_aluminum": {
+        "roughnessFactor": [
+          0.23999999463558197,
+          0.5
+        ]
+      }
+    },
+    "assets/installations/ecoenergy/models/ENERGY-010.glb": {
+      "Energy_aluminum": {
+        "roughnessFactor": [
+          0.23999999463558197,
+          0.5
+        ]
+      }
+    },
+    "assets/installations/ecocycle/models/CYCLE-005.glb": {
+      "Cycle_steel": {
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.5
+        ]
+      }
+    },
+    "assets/installations/ecocycle/models/CYCLE-007.glb": {
+      "Cycle_steel": {
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.5
+        ]
+      }
+    },
+    "assets/installations/ecocycle/models/CYCLE-023.glb": {
+      "Cycle_steel": {
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.5
+        ]
+      }
+    }
+  }
+}

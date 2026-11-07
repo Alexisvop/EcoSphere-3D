@@ -1,0 +1,312 @@
+Native Wayland: no
+X11: yes
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=hub
+Requested swap interval: 0
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; F5 Phong/Blinn-Phong; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[zone] hub initialize: plaza GLB content registered
+Navigation: Enter near an access to enter; H return to plaza; ESC exit. Release Enter/H before another transition.
+Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.
+Shaders: /home/alexis/Documents/CG/EcoSphere-3D/build/linux-dev/shaders
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 953x1025
+Focus: active
+Framebuffer: 951x1023
+Framebuffer: 1280x720
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecoenergy; entities=63
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: aquabio; entities=55
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+Zone active: hub; entities=92
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+Zone active: ecocycle; entities=42
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+Zone active: hub; entities=92
+NAVIGATION GPU PASS: 4 zones, 72 transitions, exclusive resources released/shared incoming references retained, 12 shared-model framebuffer views, 1280x720 requested; actual 1280x720
+FPS observed: 5.91198; frames=120; seconds=20.2978; framebuffer=1280x720; requested swap interval=0; regression=0
+[zone] hub shutdown: session releases plaza content
+Clean exit

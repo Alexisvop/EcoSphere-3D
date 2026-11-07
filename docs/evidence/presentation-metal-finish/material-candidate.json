@@ -1,0 +1,87 @@
+{
+  "candidate": "R, isolated staged copy only; one variant after texture-only evaluation",
+  "changes": {
+    "assets/installations/ecoenergy/models/ENERGY-004.glb": {
+      "Energy_aluminum": {
+        "metallicFactor": [
+          0.8799999952316284,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.23999999463558197,
+          0.4
+        ]
+      },
+      "Energy_steel": {
+        "metallicFactor": [
+          0.8199999928474426,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.4
+        ]
+      }
+    },
+    "assets/installations/ecoenergy/models/ENERGY-005.glb": {
+      "Energy_aluminum": {
+        "metallicFactor": [
+          0.8799999952316284,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.23999999463558197,
+          0.4
+        ]
+      }
+    },
+    "assets/installations/ecoenergy/models/ENERGY-010.glb": {
+      "Energy_aluminum": {
+        "metallicFactor": [
+          0.8799999952316284,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.23999999463558197,
+          0.4
+        ]
+      }
+    },
+    "assets/installations/ecocycle/models/CYCLE-005.glb": {
+      "Cycle_steel": {
+        "metallicFactor": [
+          0.8199999928474426,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.4
+        ]
+      }
+    },
+    "assets/installations/ecocycle/models/CYCLE-007.glb": {
+      "Cycle_steel": {
+        "metallicFactor": [
+          0.8199999928474426,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.4
+        ]
+      }
+    },
+    "assets/installations/ecocycle/models/CYCLE-023.glb": {
+      "Cycle_steel": {
+        "metallicFactor": [
+          0.8199999928474426,
+          0.96
+        ],
+        "roughnessFactor": [
+          0.30000001192092896,
+          0.4
+        ]
+      }
+    }
+  }
+}

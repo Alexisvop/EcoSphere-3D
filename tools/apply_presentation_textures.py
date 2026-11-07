@@ -78,7 +78,8 @@ def png(kind):
                 if x < 2 or y < 2:
                     value -= 14
             elif kind == 'metal':
-                value = 226 + 17*math.sin(6*b+.15*math.sin(a)) + 5*math.sin(18*b+3*a) + 4*math.cos(2*a-b)
+                value = (210 + 20*math.sin(4*a+.2*math.sin(b)) + 10*math.sin(3*b+.2*math.sin(a))
+                         + 12*math.sin(24*a+2*math.sin(b)) + 6*math.sin(32*b+.4*math.sin(a)))
             elif kind == 'painted':
                 value = (237 + 9*math.sin(2*a+.3*math.sin(b))*math.cos(3*b)
                          + 5*math.cos(5*a-b) - 12*max(0, math.cos(8*b+.2*math.sin(a)))**6)
@@ -208,11 +209,11 @@ def main():
         report_path = ROOT / f'docs/assets/{zone.upper()}_EXPORT_REPORT.json'
         report = json.loads(report_path.read_text())
         for row in rows:
-            if row['model_id'] in models:
+            if row['model_id'] in models and manifest['models'][row['glb_file']]['sha256'] != previous['models'][row['glb_file']]['sha256']:
                 row['sha256'] = manifest['models'][row['glb_file']]['sha256']
-                if '; visibility polish' not in row['provenance']:
-                    row['provenance'] += '; visibility polish'
-                row['evidence_file'] = f"docs/evidence/presentation-textures-visibility/C-improved/assets/{row['model_id']}.png"
+                if '; metal finish' not in row['provenance']:
+                    row['provenance'] += '; metal finish'
+                row['evidence_file'] = f"docs/evidence/presentation-metal-finish/C-improved/assets/{row['model_id']}.png"
         for model in report['models']:
             if model['model_id'] in models:
                 path = ROOT / f"assets/installations/{zone}/models/{model['model_id']}.glb"

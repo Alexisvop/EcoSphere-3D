@@ -18,7 +18,7 @@ using namespace ecosphere;
 namespace {
 void require(bool ok, const char* message) { if (!ok) throw std::runtime_error(message); }
 struct View { const char* name; int zone; glm::vec3 target; std::array<glm::vec3,3> eyes; };
-const std::array<View,7> views{{
+const std::vector<View> textureViews{
     {"wetland",2,{14,.6f,5},{{{8.3f,1.7f,9},{11,2.5f,7.8f},{13.3f,1.8f,5.9f}}}},
     {"treatment",2,{-13.5f,.65f,-13},{{{-7.5f,1.7f,-17.5f},{-10.5f,2.6f,-16.2f},{-12.6f,1.7f,-14.6f}}}},
     {"wood",2,{18.8f,1.4f,14.5f},{{{16,1.7f,19},{17.3f,1.8f,17},{19.1f,1.8f,15.6f}}}},
@@ -26,7 +26,15 @@ const std::array<View,7> views{{
     {"pavement-metal",1,{-2.4f,.55f,1.4f},{{{0,1.7f,5},{-1.2f,1.7f,3},{-2.7f,1,.8f}}}},
     {"belt",3,{-15,1.27f,-8},{{{-10,1.7f,-2},{-11.8f,2.7f,-5.2f},{-14,2.4f,-6.7f}}}},
     {"containers",3,{-16,1,9},{{{-10,1.7f,14},{-13.5f,1.7f,12},{-15.5f,1.5f,10.8f}}}},
-}};
+};
+const std::vector<View> metalViews{
+    {"solar",1,{-9.2f,.8f,-9.2f},{{{-6.2f,2.3f,-3.5f},{-8.7f,1.7f,-5.8f},{-9.4f,.8f,-8.3f}}}},
+    {"support",1,{-2.4f,.55f,1.4f},{{{0,1.7f,5},{-1.2f,1.7f,3},{-2.7f,1,.8f}}}},
+    {"structures",1,{8.2f,1,1.2f},{{{6.8f,1.9f,5.4f},{7.2f,1.7f,3.6f},{7.5f,1.3f,2.3f}}}},
+    {"conveyor-frame",3,{-15,.6f,-8},{{{-10,1.7f,-2},{-12,1.7f,-5.4f},{-13.4f,1.1f,-6.7f}}}},
+    {"machinery",3,{16.7f,1.25f,12.15f},{{{12.2f,1.7f,15.5f},{15,1.7f,14},{16.3f,1.6f,12.95f}}}},
+    {"repair-bench",3,{16,1.5f,11.4f},{{{11,1.7f,16},{14,1.7f,14.5f},{15.7f,1.8f,12.6f}}}},
+};
 void look(Camera& c, glm::vec3 eye, glm::vec3 target) {
     c.position=eye; const auto d=target-eye;
     c.yawDegrees=glm::degrees(std::atan2(d.z,d.x));
@@ -45,7 +53,10 @@ void capture(const std::filesystem::path& path) {
 int main(int argc, char** argv) {
     GLFWwindow* window=nullptr;
     try {
-        require(argc==4,"Expected binary directory, historical stages root, output directory");
+        const bool preview=argc==5 && std::string(argv[4])=="--metal-preview";
+        const bool metal=preview || (argc==5 && std::string(argv[4])=="--metal");
+        require(argc==4 || metal,"Expected binary directory, stages root, output directory [--metal|--metal-preview]");
+        const auto& views=metal ? metalViews : textureViews;
         const std::filesystem::path binary=argv[1],stages=argv[2],output=argv[3];
         std::filesystem::create_directories(output);
         require(glfwInit(),"GLFW init");
@@ -64,11 +75,11 @@ int main(int argc, char** argv) {
             std::ofstream cameras(output/"cameras.csv"),performance(output/"performance.csv");
             cameras.exceptions(std::ios::badbit|std::ios::failbit);
             performance.exceptions(std::ios::badbit|std::ios::failbit);
-            cameras<<std::setprecision(9)<<"state,view,distance,width,height,time,camera_x,camera_y,camera_z,target_x,target_y,target_z,yaw,pitch,fov,shading\n";
+            cameras<<std::setprecision(9)<<"state,view,distance,width,height,time,camera_x,camera_y,camera_z,target_x,target_y,target_z,yaw,pitch,fov,shading,reflection,fresnel\n";
             performance<<"state,view,pass,width,height,frames,fps,frame_mean_ms,frame_p95_ms\n";
             std::map<int,std::vector<float>> referenceLights;
             std::map<std::string,std::array<float,16>> referencePoses;
-            const std::set<std::string> targets={"AQUA-001","AQUA-003","AQUA-010","AQUA-023","AQUA-027","ENERGY-001","ENERGY-003","ENERGY-004","ENERGY-005","ENERGY-010","CYCLE-001","CYCLE-005","CYCLE-007","CYCLE-023"};
+            const std::set<std::string> targets=metal ? std::set<std::string>{"ENERGY-004","ENERGY-005","ENERGY-010","CYCLE-005","CYCLE-007","CYCLE-023"} : std::set<std::string>{"AQUA-001","AQUA-003","AQUA-010","AQUA-023","AQUA-027","ENERGY-001","ENERGY-003","ENERGY-004","ENERGY-005","ENERGY-010","CYCLE-001","CYCLE-005","CYCLE-007","CYCLE-023"};
             const auto run=[&](const std::string& state,bool images,int pass) {
                 renderer.clear();
                 ZoneNavigator nav(state=="C-improved" ? binary/"assets" : stages/state/"assets");
@@ -102,24 +113,40 @@ int main(int argc, char** argv) {
                 };
                 std::filesystem::create_directories(output/state/"assets");
                 for(const auto& v:views) {
+                    if(preview && std::string(v.name)!="support" && std::string(v.name)!="machinery" && std::string(v.name)!="repair-bench") continue;
                     if(int(nav.active())!=v.zone) enter(v.zone);
                     if(images) for(int distance=0;distance<3;++distance) {
                         look(camera,v.eyes[distance],v.target);
                         for(int i=0;i<3;++i) {draw();glfwSwapBuffers(window);glfwPollEvents();}
                         draw(); const std::string label=std::array<const char*,3>{"normal","medium","close"}[distance];
                         capture(output/state/(std::string(v.name)+"-"+label+".ppm"));
-                        cameras<<state<<','<<v.name<<','<<label<<",1280,720,0,"<<camera.position.x<<','<<camera.position.y<<','<<camera.position.z<<','<<v.target.x<<','<<v.target.y<<','<<v.target.z<<','<<camera.yawDegrees<<','<<camera.pitchDegrees<<','<<camera.fovDegrees<<",BLINN-PHONG\n";
+                        cameras<<state<<','<<v.name<<','<<label<<",1280,720,0,"<<camera.position.x<<','<<camera.position.y<<','<<camera.position.z<<','<<v.target.x<<','<<v.target.y<<','<<v.target.z<<','<<camera.yawDegrees<<','<<camera.pitchDegrees<<','<<camera.fovDegrees<<",BLINN-PHONG,1,1\n";
                     }
                     if(!images) {
                         look(camera,v.eyes[0],v.target);
                         for(int i=0;i<30;++i) {draw();glfwSwapBuffers(window);glFinish();}
                         std::vector<double> times; const auto start=glfwGetTime();
-                        for(int i=0;i<200;++i) {const auto t=glfwGetTime();draw();glfwSwapBuffers(window);glFinish();times.push_back((glfwGetTime()-t)*1000);}
+                        const int frames=metal ? 100 : 200;
+                        for(int i=0;i<frames;++i) {const auto t=glfwGetTime();draw();glfwSwapBuffers(window);glFinish();times.push_back((glfwGetTime()-t)*1000);}
                         const auto elapsed=glfwGetTime()-start; std::sort(times.begin(),times.end());
-                        performance<<state<<','<<v.name<<','<<pass<<",1280,720,200,"<<200/elapsed<<','<<elapsed*5<<','<<times.at(189)<<'\n';
+                        performance<<state<<','<<v.name<<','<<pass<<",1280,720,"<<frames<<','<<frames/elapsed<<','<<elapsed*1000/frames<<','<<times.at(frames*95/100-1)<<'\n';
                     }
                 }
-                if(images) for(int zone:{1,2,3}) {
+                if(images && metal && !preview) {
+                    enter(3);
+                    const glm::vec3 target{16.7f,1.22f,12.3f};
+                    for(int angle=0;angle<2;++angle) for(int mode=0;mode<3;++mode) {
+                        look(camera,angle ? glm::vec3(18.1f,1.22f,12.5f) : glm::vec3(16.7f,1.22f,13.7f),target);
+                        const auto modeName=mode==1 ? "PHONG" : "BLINN-PHONG";
+                        lights=nav.lighting(); lights.environment.reflectionEnabled=mode!=2;
+                        renderer.setShadingModel(mode==1 ? ShadingModel::Phong : ShadingModel::BlinnPhong);
+                        draw(); const std::string label=angle ? "grazing" : "frontal";
+                        capture(output/state/("lighting-"+label+"-"+std::to_string(mode)+".ppm"));
+                        cameras<<state<<",lighting,"<<label<<'-'<<mode<<",1280,720,0,"<<camera.position.x<<','<<camera.position.y<<','<<camera.position.z<<','<<target.x<<','<<target.y<<','<<target.z<<','<<camera.yawDegrees<<','<<camera.pitchDegrees<<','<<camera.fovDegrees<<','<<modeName<<','<<(mode!=2)<<",1\n";
+                    }
+                    renderer.setShadingModel(ShadingModel::BlinnPhong); lights=nav.lighting();
+                }
+                if(images && !preview) for(int zone:{1,2,3}) {
                     enter(zone); std::set<std::string> seen;
                     for(const auto& p:nav.placements()) {
                         const auto id=p.id.substr(0,p.id.find('-',p.id.find('-')+1));
@@ -137,9 +164,9 @@ int main(int argc, char** argv) {
                 }
                 require(glGetError()==GL_NO_ERROR,"Texture visibility GL error");
             };
-            for(const auto* state:{"A-main","B-previous","C-improved"}) {run(state,true,0);std::cout<<"CAPTURES PASS "<<state<<std::endl;}
-            for(int pass=0;pass<3;++pass) for(const auto* state:(pass%2 ? std::array<const char*,2>{"C-improved","B-previous"} : std::array<const char*,2>{"B-previous","C-improved"})) run(state,false,pass);
+            for(const auto* state:{"A-main","B-previous","C-improved"}) {if(preview && std::string(state)=="A-main") continue;run(state,true,0);std::cout<<"CAPTURES PASS "<<state<<std::endl;}
+            if(!preview) for(int pass=0;pass<3;++pass) for(const auto* state:(pass%2 ? std::array<const char*,2>{"C-improved","B-previous"} : std::array<const char*,2>{"B-previous","C-improved"})) run(state,false,pass);
         }
-        glfwDestroyWindow(window);glfwTerminate();std::cout<<"TEXTURE VISIBILITY GPU PASS: 63 scene captures, 42 asset captures, paired B/C performance"<<std::endl;return 0;
+        glfwDestroyWindow(window);glfwTerminate();std::cout<<"TEXTURE VISIBILITY GPU PASS"<<std::endl;return 0;
     } catch(const std::exception& e) {std::cerr<<e.what()<<'\n';if(window)glfwDestroyWindow(window);glfwTerminate();return 1;}
 }

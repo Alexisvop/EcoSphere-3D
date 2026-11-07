@@ -1,0 +1,16 @@
+{
+  "five_other_textures_identical": true,
+  "other_eight_textured_glb_identical": true,
+  "all_material_parameters_identical_to_main_and_previous": true,
+  "changed_models": [
+    "assets/installations/ecoenergy/models/ENERGY-004.glb",
+    "assets/installations/ecoenergy/models/ENERGY-005.glb",
+    "assets/installations/ecoenergy/models/ENERGY-010.glb",
+    "assets/installations/ecocycle/models/CYCLE-005.glb",
+    "assets/installations/ecocycle/models/CYCLE-007.glb",
+    "assets/installations/ecocycle/models/CYCLE-023.glb"
+  ],
+  "material_candidate_1": "rejected: darker, no convincing improvement",
+  "material_candidate_2": "rejected: no convincing improvement",
+  "source_commit": "0732ad343434f2983f2d98a2454dc516b09488b2"
+}

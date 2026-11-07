@@ -98,6 +98,35 @@ class RegenerationTests(unittest.TestCase):
             self.run_tool('--regenerate')
         self.assertEqual(expected, self.hashes())
 
+    def test_metal_only_change_preserves_other_resources_and_materials(self):
+        previous_images = {p.stem: p.read_bytes() for p in textures.TEXTURES.glob('*.png')}
+        previous_images['metal'] = (ROOT / 'docs/evidence/presentation-metal-finish/metal-before.png').read_bytes()
+        manifest = {'source_commit': textures.SOURCE_COMMIT,
+                    'textures': {k: textures.sha(v) for k, v in sorted(previous_images.items())}, 'models': {}}
+        for zone, models in textures.TARGETS.items():
+            for mid, mapping in models.items():
+                path = f'assets/installations/{zone}/models/{mid}.glb'
+                raw, record = textures.apply(self.originals[path], mapping, previous_images)
+                (self.root / path).write_bytes(raw)
+                manifest['models'][path] = record
+        (textures.TEXTURES / 'metal.png').write_bytes(previous_images['metal'])
+        textures.MANIFEST.write_text(json.dumps(manifest))
+        before = self.hashes()
+        self.run_tool('--regenerate')
+        after = self.hashes()
+        for path, record in manifest['models'].items():
+            if 'metal' not in record['materials'].values():
+                self.assertEqual(before[path], after[path])
+            doc, _ = textures.unpack((self.root / path).read_bytes())
+            original, _ = textures.unpack(self.originals[path])
+            for actual, expected in zip(doc['materials'], original['materials']):
+                if actual['name'] in record['materials']:
+                    actual['pbrMetallicRoughness'].pop('baseColorTexture', None)
+                self.assertEqual(expected, actual)
+        for kind in ('water', 'wood', 'concrete', 'painted', 'belt'):
+            key = f'assets/common/textures/presentation/{kind}.png'
+            self.assertEqual(before[key], after[key])
+
 
 if __name__ == '__main__':
     unittest.main()

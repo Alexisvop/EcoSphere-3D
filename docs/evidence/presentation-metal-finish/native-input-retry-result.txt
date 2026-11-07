@@ -1,0 +1,1 @@
+SHADING NATIVE PASS: held F5 once, hidden selection, F3/F4, 0 resets Blinn, 1-6 preserved, regression independent
