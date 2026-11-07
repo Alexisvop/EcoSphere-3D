@@ -158,3 +158,28 @@ Windows mantiene pendiente la comprobación nativa; el test de teclado X11 no se
 presenta como prueba Windows. No se instala nada ni se limpian capturas.
 
 Resultados y límites: [HUD de iluminación](LIGHTING_STATUS_HUD.md).
+
+
+## Comparación Phong / Blinn-Phong / Fresnel
+
+F5 alterna el modelo especular directo sin reiniciar la escena; Blinn-Phong sigue
+siendo el inicial. 0 restaura los valores de la zona y Blinn-Phong, conservando la
+preferencia F4, FPS, cámara y animaciones. 4 continúa desactivando todas las
+reflexiones ambientales, mientras 5 solo oculta el cielo. No se cambia el SDK.
+
+La demo académica existente se abre ejecutando `./build/linux-dev/ecosphere` sin
+`--plaza`; los lanzadores abren Plaza. Prueba CPU `shading_cpu` incluida en CTest.
+La prueba gráfica y el benchmark opcionales se reproducen así:
+
+```bash
+env -u WAYLAND_DISPLAY ./build/linux-dev/shading_graphics_tests \
+  build/linux-dev build/linux-dev/phong-comparison \
+  docs/evidence/phong-fresnel/reference-model.frag
+python3 tests/shading_input.py build/linux-dev/ecosphere build/linux-dev/shading-input.log
+```
+
+El primer comando requiere contexto OpenGL real; el segundo requiere X11/xdotool
+y solo controla una ventana propia. No se instalan dependencias. El benchmark
+registra FPS/frametime serial y tiempo GPU separado; swap solicitado 0 no garantiza
+que el compositor elimine toda espera de presentación. Windows sigue pendiente
+hasta una ejecución nativa. [Fundamento, resultados y evidencias](PHONG_FRESNEL_COMPARISON.md).
