@@ -1,0 +1,19 @@
+Sequential route: ecoenergy before
+GPU PASS: --ecoenergy-smoke /home/alexis/Documents/CG/EcoSphere-3D/build/presentation-textures/routes/ecoenergy-before --benchmark-no-vsync cwd=/tmp; own PID
+ECOENERGY X11 PASS: controlled 600-frame benchmark separated from readback/video
+Sequential route: ecoenergy after
+GPU PASS: --ecoenergy-smoke /home/alexis/Documents/CG/EcoSphere-3D/build/presentation-textures/routes/ecoenergy-after --benchmark-no-vsync cwd=/tmp; own PID
+ECOENERGY X11 PASS: controlled 600-frame benchmark separated from readback/video
+Sequential route: aquabio before
+GPU PASS: --aquabio-smoke /home/alexis/Documents/CG/EcoSphere-3D/build/presentation-textures/routes/aquabio-before --benchmark-no-vsync cwd=/tmp; own PID
+AQUABIO X11 PASS: controlled 600-frame benchmark separated from readback/video
+Sequential route: aquabio after
+GPU PASS: --aquabio-smoke /home/alexis/Documents/CG/EcoSphere-3D/build/presentation-textures/routes/aquabio-after --benchmark-no-vsync cwd=/tmp; own PID
+AQUABIO X11 PASS: controlled 600-frame benchmark separated from readback/video
+Sequential route: ecocycle before
+GPU PASS: --ecocycle-smoke /home/alexis/Documents/CG/EcoSphere-3D/build/presentation-textures/routes/ecocycle-before --benchmark-no-vsync cwd=/tmp; own PID
+ECOCYCLE X11 PASS: controlled 600-frame benchmark separated from readback/video
+Sequential route: ecocycle after
+GPU PASS: --ecocycle-smoke /home/alexis/Documents/CG/EcoSphere-3D/build/presentation-textures/routes/ecocycle-after --benchmark-no-vsync cwd=/tmp; own PID
+ECOCYCLE X11 PASS: controlled 600-frame benchmark separated from readback/video
+ROUTES PASS: six sequential 600-frame runs at identical resolution

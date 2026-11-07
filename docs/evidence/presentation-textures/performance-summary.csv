@@ -1,0 +1,4 @@
+zone,width,height,frames_per_pass,passes,before_fps_median,after_fps_median,delta_percent
+ecoenergy,1280,720,300,3,394.266,398.395,1.0472625080529374
+aquabio,1280,720,300,3,492.847,477.204,-3.1740073491367427
+ecocycle,1280,720,300,3,593.398,573.382,-3.3731155143765346
