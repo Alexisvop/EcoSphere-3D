@@ -1,0 +1,81 @@
+Test project /home/alexis/Documents/CG/EcoSphere-3D/build/linux-dev
+      Start  1: shading_cpu
+ 1/38 Test  #1: shading_cpu ...........................   Passed    0.73 sec
+      Start  2: lighting_hud_cpu
+ 2/38 Test  #2: lighting_hud_cpu ......................   Passed    0.97 sec
+      Start  3: fps_cpu
+ 3/38 Test  #3: fps_cpu ...............................   Passed    0.00 sec
+      Start  4: presentation_textures_integrity
+ 4/38 Test  #4: presentation_textures_integrity .......   Passed    0.42 sec
+      Start  5: visitor_controls_cpu
+ 5/38 Test  #5: visitor_controls_cpu ..................   Passed    3.98 sec
+      Start  6: shared_resources_cpu
+ 6/38 Test  #6: shared_resources_cpu ..................   Passed   16.23 sec
+      Start  7: shared_inventory
+ 7/38 Test  #7: shared_inventory ......................   Passed    0.21 sec
+      Start  8: shared_spatial_layout
+ 8/38 Test  #8: shared_spatial_layout .................   Passed    0.26 sec
+      Start  9: zone_navigation_cpu
+ 9/38 Test  #9: zone_navigation_cpu ...................   Passed   21.19 sec
+      Start 10: cli_rejects_unscoped_benchmark
+10/38 Test #10: cli_rejects_unscoped_benchmark ........   Passed    0.00 sec
+      Start 11: plaza_assets_cpu
+11/38 Test #11: plaza_assets_cpu ......................   Passed    0.64 sec
+      Start 12: sdk_v1_cpu
+12/38 Test #12: sdk_v1_cpu ............................   Passed    0.02 sec
+      Start 13: sdk_external_consumer
+13/38 Test #13: sdk_external_consumer .................   Passed    0.12 sec
+      Start 14: plaza_inventory
+14/38 Test #14: plaza_inventory .......................   Passed    0.12 sec
+      Start 15: plaza_cli_rejects_module
+15/38 Test #15: plaza_cli_rejects_module ..............   Passed    0.00 sec
+      Start 16: ecoenergy_assets_cpu
+16/38 Test #16: ecoenergy_assets_cpu ..................   Passed    0.99 sec
+      Start 17: ecoenergy_inventory
+17/38 Test #17: ecoenergy_inventory ...................   Passed    0.12 sec
+      Start 18: aquabio_assets_cpu
+18/38 Test #18: aquabio_assets_cpu ....................   Passed    3.63 sec
+      Start 19: cli_rejects_aquabio_module
+19/38 Test #19: cli_rejects_aquabio_module ............   Passed    0.00 sec
+      Start 20: cli_rejects_two_installation_smokes
+20/38 Test #20: cli_rejects_two_installation_smokes ...   Passed    0.00 sec
+      Start 21: aquabio_inventory
+21/38 Test #21: aquabio_inventory .....................   Passed    0.17 sec
+      Start 22: aquabio_spatial_layout
+22/38 Test #22: aquabio_spatial_layout ................   Passed    0.67 sec
+      Start 23: ecocycle_assets_cpu
+23/38 Test #23: ecocycle_assets_cpu ...................   Passed    2.92 sec
+      Start 24: ecocycle_inventory
+24/38 Test #24: ecocycle_inventory ....................   Passed    0.12 sec
+      Start 25: ecocycle_spatial_layout
+25/38 Test #25: ecocycle_spatial_layout ...............   Passed    3.99 sec
+      Start 26: cli_rejects_ecocycle_module
+26/38 Test #26: cli_rejects_ecocycle_module ...........   Passed    0.00 sec
+      Start 27: cli_rejects_ecocycle_mixed
+27/38 Test #27: cli_rejects_ecocycle_mixed ............   Passed    0.00 sec
+      Start 28: content_registry_cpu
+28/38 Test #28: content_registry_cpu ..................   Passed    0.01 sec
+      Start 29: content_modules_integration_cpu
+29/38 Test #29: content_modules_integration_cpu .......   Passed    0.36 sec
+      Start 30: module_contract
+30/38 Test #30: module_contract .......................   Passed    0.00 sec
+      Start 31: graphics_failure_cleanup
+31/38 Test #31: graphics_failure_cleanup ..............   Passed    1.25 sec
+      Start 32: scene_camera_cpu
+32/38 Test #32: scene_camera_cpu ......................   Passed    0.00 sec
+      Start 33: assets_cpu
+33/38 Test #33: assets_cpu ............................   Passed    0.09 sec
+      Start 34: lighting_cpu
+34/38 Test #34: lighting_cpu ..........................   Passed    0.00 sec
+      Start 35: lighting_assets_cpu
+35/38 Test #35: lighting_assets_cpu ...................   Passed    0.01 sec
+      Start 36: interaction_animation_cpu
+36/38 Test #36: interaction_animation_cpu .............   Passed    0.01 sec
+      Start 37: cli_rejects_unknown_module
+37/38 Test #37: cli_rejects_unknown_module ............   Passed    0.00 sec
+      Start 38: cli_rejects_unknown_option
+38/38 Test #38: cli_rejects_unknown_option ............   Passed    0.00 sec
+
+100% tests passed out of 38
+
+Total Test time (real) =  59.30 sec

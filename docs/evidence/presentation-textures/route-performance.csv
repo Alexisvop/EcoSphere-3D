@@ -1,0 +1,7 @@
+zone,stage,width,height,frames,fps_mean,frame_p95_ms
+ecoenergy,before,1280,720,600,143.906,11.5114
+ecoenergy,after,1280,720,600,175.13,10.1891
+aquabio,before,1280,720,600,207.194709,8.776407
+aquabio,after,1280,720,600,222.409828,7.424369
+ecocycle,before,1280,720,600,246.162291,7.468018
+ecocycle,after,1280,720,600,282.700181,5.297106

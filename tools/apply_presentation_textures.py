@@ -195,6 +195,7 @@ def main():
             if row['model_id'] in models:
                 row['sha256'] = manifest['models'][row['glb_file']]['sha256']
                 row['provenance'] += '; base-color textures: tools/apply_presentation_textures.py'
+                row['evidence_file'] = f"docs/evidence/presentation-textures/after/{zone}/assets/{row['model_id']}.png"
         for model in report['models']:
             if model['model_id'] in models:
                 path = ROOT / f"assets/installations/{zone}/models/{model['model_id']}.glb"
