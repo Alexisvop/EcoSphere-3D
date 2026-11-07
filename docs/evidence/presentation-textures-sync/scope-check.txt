@@ -1,0 +1,9 @@
+PASS: main is parent of first texture cherry-pick.
+PASS: no old lighting cherry-picks reachable from new branch.
+PASS: old lighting commits remain reachable from historical texture branch.
+PASS: README, BUILD, PHONG_FRESNEL_COMPARISON, licenses and credits identical to main.
+PASS: all historical texture evidence unchanged byte for byte.
+PASS: transported diff limited to texture assets, supporting tests/statistics and documentation/evidence.
+PASS: no builds, Blender sources, credential files, internal directories or recognizable secret patterns in transported diff.
+PASS: final diff paths and text checked, including new synchronization documentation/evidence; no build artifacts or recognizable secret patterns.
+PASS: report links valid; local original branch refs and tags unchanged; pre-push remote original refs unchanged and destination absent.

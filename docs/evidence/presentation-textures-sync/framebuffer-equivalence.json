@@ -1,0 +1,38 @@
+[
+  {
+    "zone": "ecoenergy",
+    "mode": "BLINN-PHONG",
+    "rgb_sha256": "f993f63558255a385dc01ce2be2a980c20fcdfab9dcce0de820b0129eab22ae4",
+    "identical_to_historical_framebuffer": true
+  },
+  {
+    "zone": "ecoenergy",
+    "mode": "PHONG",
+    "rgb_sha256": "aa8003b96351d7ccafcbeb152bcbaa033a96675df6e520f02b5fe41669178e9f",
+    "identical_to_historical_framebuffer": true
+  },
+  {
+    "zone": "aquabio",
+    "mode": "BLINN-PHONG",
+    "rgb_sha256": "b10b158c5941930fe46ea51fc497708a6facd0a80855ef00d1ca06f1efe0aaa1",
+    "identical_to_historical_framebuffer": true
+  },
+  {
+    "zone": "aquabio",
+    "mode": "PHONG",
+    "rgb_sha256": "46e34686d2765826274fc167e1c8fbfa06a0a56889d7f9b9695d7341aaf3f838",
+    "identical_to_historical_framebuffer": true
+  },
+  {
+    "zone": "ecocycle",
+    "mode": "BLINN-PHONG",
+    "rgb_sha256": "93a76ad707e6bfcc0b9400bcbdbed0f796a1fc815664e0d4fd0a038151021e6c",
+    "identical_to_historical_framebuffer": true
+  },
+  {
+    "zone": "ecocycle",
+    "mode": "PHONG",
+    "rgb_sha256": "93470b719c19e437ae92e2b10865e93e7a32334d13cf9941a2e7c61d7dec520e",
+    "identical_to_historical_framebuffer": true
+  }
+]

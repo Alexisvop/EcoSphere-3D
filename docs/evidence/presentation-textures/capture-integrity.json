@@ -1,0 +1,389 @@
+{
+  "captures": [
+    {
+      "file": "after/aquabio/assets/AQUA-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "67e0cc0aaca8ef3162ccba109caa63eceeaa8c1200f1b32bc7970ff9c99c4034",
+      "rgb_sha256": "63e2ae4613471cabb3214d551386653a922db569c135709a2cc2856f9c85ce74",
+      "source_ppm": "build/presentation-textures/after/aquabio/assets/AQUA-001.ppm"
+    },
+    {
+      "file": "after/aquabio/assets/AQUA-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "66569399096883e7537f3cb1057a8116c6072788aa18a2fc93444d58e94d99c1",
+      "rgb_sha256": "4035220b8caf7dad110228f5aa2ff4252890d52f9841a36329be264d927f220c",
+      "source_ppm": "build/presentation-textures/after/aquabio/assets/AQUA-003.ppm"
+    },
+    {
+      "file": "after/aquabio/assets/AQUA-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "2ff0f06755111a48280b0bcede2216d898fcea4d8f2f2f10c4213207fa4c0d2f",
+      "rgb_sha256": "977351fdc76b006bc7f9da1510711d1a0b3b0b4d5992c6378ea974e0f6a397f4",
+      "source_ppm": "build/presentation-textures/after/aquabio/assets/AQUA-010.ppm"
+    },
+    {
+      "file": "after/aquabio/assets/AQUA-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "655e69ccf9e38de11f658451fcec9b505603e2129c455f83d130f4d2a56a197c",
+      "rgb_sha256": "a4ef4cd5fb609a41dff1b5d7473e5523ec765c44f362601674c19ea1e994f54f",
+      "source_ppm": "build/presentation-textures/after/aquabio/assets/AQUA-023.ppm"
+    },
+    {
+      "file": "after/aquabio/assets/AQUA-027.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "d62fac08c66a1aaa2bc74fc0f246f20f8aad55f480d46ecbe3f7f7426466ecea",
+      "rgb_sha256": "c9a92a003efe67b2f4dfbc5fd1696525ba69e46fb93e9e7e8ea6d97c4ca022dd",
+      "source_ppm": "build/presentation-textures/after/aquabio/assets/AQUA-027.ppm"
+    },
+    {
+      "file": "after/aquabio/biodiversity.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "1a82796e3e0a5b203f9b335c29b9e3febb8be24c400cbb7ab700fcfcd71ad9e9",
+      "rgb_sha256": "cb01358525a5474e966ec52ab8b004e69832854b9b6e2bc346c5b591af465251",
+      "source_ppm": "build/presentation-textures/after/aquabio/biodiversity.ppm"
+    },
+    {
+      "file": "after/aquabio/entry-BLINN-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e5be3b9eb525dcc59e816d65d2e41e277b94dbc35baaa6a9a6213742aafaedbb",
+      "rgb_sha256": "b10b158c5941930fe46ea51fc497708a6facd0a80855ef00d1ca06f1efe0aaa1",
+      "source_ppm": "build/presentation-textures/shading/aquabio-BLINN-PHONG.ppm"
+    },
+    {
+      "file": "after/aquabio/entry-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0fcfe8d1612572f19365b07740192d56ff82594c7666a4658f072de09d566cbf",
+      "rgb_sha256": "46e34686d2765826274fc167e1c8fbfa06a0a56889d7f9b9695d7341aaf3f838",
+      "source_ppm": "build/presentation-textures/shading/aquabio-PHONG.ppm"
+    },
+    {
+      "file": "after/aquabio/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f1393c0f78c22f7f7506d70ac7eef7dfe661624a90a83a65e3188607398c3775",
+      "rgb_sha256": "0eee64456d33060293a88931ea853f6de37df569311ec129ed1b27df60531109",
+      "source_ppm": "build/presentation-textures/performance-after/aquabio-1280x720.ppm"
+    },
+    {
+      "file": "after/aquabio/wetland.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "4e0a88b2d8c29bb8eaa01426bb70e22b7512c459db45c3a6aba0ada7e0f3c4a6",
+      "rgb_sha256": "eff8803ce56d40a56cf6892f54350cc7fa82904c5745306e6191df1f78389a36",
+      "source_ppm": "build/presentation-textures/after/aquabio/wetland.ppm"
+    },
+    {
+      "file": "after/ecocycle/assets/CYCLE-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "af5ac824bfd47cf1e11f7518073334aceb3bd1e6cf0a1c15dcdd7ed50691553c",
+      "rgb_sha256": "9eb093fb78287c88da59f134fb635586fbd481c6f2f6e3877c17b5702f3ace13",
+      "source_ppm": "build/presentation-textures/after/ecocycle/assets/CYCLE-001.ppm"
+    },
+    {
+      "file": "after/ecocycle/assets/CYCLE-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "12dfe427ec0c7b3456cbeec392bbf150cdc87a80fd55d8d59a60da6f05456fb1",
+      "rgb_sha256": "59499c6e654b780db8b8b67add828b141c5c1bc9933b2729bc11813168cf003f",
+      "source_ppm": "build/presentation-textures/after/ecocycle/assets/CYCLE-005.ppm"
+    },
+    {
+      "file": "after/ecocycle/assets/CYCLE-007.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "7727fee03ffadb97c454c2e41eb985dfd774c132f16c9bfca554f1499e23155e",
+      "rgb_sha256": "3bc1b755bbb7628d55ab9c62d08793965ef05497431058d7d065abdb6446beaa",
+      "source_ppm": "build/presentation-textures/after/ecocycle/assets/CYCLE-007.ppm"
+    },
+    {
+      "file": "after/ecocycle/assets/CYCLE-023.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "fd802e73fdc3db162fb1f6a003528ee8a30a2253a8cb2d57b3a9d33c19b58c77",
+      "rgb_sha256": "9a4a854b93cba54d54357c546362570c9f6bfe2542f29e4c39684c9a771e683c",
+      "source_ppm": "build/presentation-textures/after/ecocycle/assets/CYCLE-023.ppm"
+    },
+    {
+      "file": "after/ecocycle/classification.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "ed0bb0258dfb8b48793d73691506730630976bb52587fa1c0435cf45f9b90573",
+      "rgb_sha256": "e02ff50596dc66eac9ecdafb233311c808faac9172a24b5b2607873c496f415a",
+      "source_ppm": "build/presentation-textures/after/ecocycle/classification.ppm"
+    },
+    {
+      "file": "after/ecocycle/entry-BLINN-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "92adf429241ed14b9a0cb7a76e1971536860d775f0a6f7304bc1867796c24cf2",
+      "rgb_sha256": "93a76ad707e6bfcc0b9400bcbdbed0f796a1fc815664e0d4fd0a038151021e6c",
+      "source_ppm": "build/presentation-textures/shading/ecocycle-BLINN-PHONG.ppm"
+    },
+    {
+      "file": "after/ecocycle/entry-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "68949c747cca8d632f492bd1b0c000d97b0a8364cbfbfcb7af600d2437c43a37",
+      "rgb_sha256": "93470b719c19e437ae92e2b10865e93e7a32334d13cf9941a2e7c61d7dec520e",
+      "source_ppm": "build/presentation-textures/shading/ecocycle-PHONG.ppm"
+    },
+    {
+      "file": "after/ecocycle/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "61f0584522f6bded5d4ce88388087ca6906f5cd3941a67032ef975e430c0c8df",
+      "rgb_sha256": "70392ac7ff4430bd81764fbe701f4b73cc2187b5acabf4144bd081ccfbcabd4a",
+      "source_ppm": "build/presentation-textures/performance-after/ecocycle-1280x720.ppm"
+    },
+    {
+      "file": "after/ecocycle/feeding.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "bbea01af00937b761e5b1e2818d17de91f941cbe68c756e0d51e88e30857f9da",
+      "rgb_sha256": "b444dd7b01321c47432ef16b0235168ec10c47a8c13b7ed1f82a3744672aad3d",
+      "source_ppm": "build/presentation-textures/after/ecocycle/feeding.ppm"
+    },
+    {
+      "file": "after/ecocycle/workshop.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "a04fff53efbdb8e76bb6dff74b369fc84369aea3465d068bf37eb46b41e4ba6f",
+      "rgb_sha256": "727d12cc3a04bc4e794fe7a855dd7c09d78299e27931d82d372b873365afdc77",
+      "source_ppm": "build/presentation-textures/after/ecocycle/workshop.ppm"
+    },
+    {
+      "file": "after/ecoenergy/assets/ENERGY-001.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "bacd7b0a42e6cb6d48def997f4e691e85791ae7e20e69ed37777b1ad32d751a5",
+      "rgb_sha256": "72d9076eceed693c146c21c8c7c9f3a3fd1012eceab9d1f395592427d4145803",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/assets/ENERGY-001.ppm"
+    },
+    {
+      "file": "after/ecoenergy/assets/ENERGY-003.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "49e5130261b992236f142708b95817492b25e3dec91241e74f7600a0d95b0f07",
+      "rgb_sha256": "bcf8568efd8c29d1fd3ae26271ee9fb635b1a6bb563467203077d00c05e7ea1f",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/assets/ENERGY-003.ppm"
+    },
+    {
+      "file": "after/ecoenergy/assets/ENERGY-004.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b2cf2e59fed4abf702d5d82899701fe904c9cb6f3bd26a11f7d1965f8449ea31",
+      "rgb_sha256": "c5c8f52779754012aa9839935f2295907c7921ff6ac3f99ffd11ed67f229a075",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/assets/ENERGY-004.ppm"
+    },
+    {
+      "file": "after/ecoenergy/assets/ENERGY-005.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "80809da758463738b4e61e199f8be0aec039e4e4c90a0871071a913f4abe95e6",
+      "rgb_sha256": "9e14ccda6634ce2cdec945f679af7e934370aac8ec22283e94845e1c70af6964",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/assets/ENERGY-005.ppm"
+    },
+    {
+      "file": "after/ecoenergy/assets/ENERGY-010.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "098e14f989bf02871cc231e6da0b552e99ce557c86126d929fe899026d706135",
+      "rgb_sha256": "3efb20f552bf5c2a001bd71848e6bbf5275466422976bc3c514de74cdee53cba",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/assets/ENERGY-010.ppm"
+    },
+    {
+      "file": "after/ecoenergy/battery-zone.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "4c567648789efcead203242c7423c8929b20ec826f774f74320cfd77cd38c78a",
+      "rgb_sha256": "836fc2aad49a9ac466a55f44e0cf065744cd06c634c85f0f074696ee15ef66bf",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/battery-zone.ppm"
+    },
+    {
+      "file": "after/ecoenergy/entry-BLINN-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "10c63da6ad4af5ae365eb3a8ec85d67049250b2b6f5a2037d2ed2b13cca7e123",
+      "rgb_sha256": "f993f63558255a385dc01ce2be2a980c20fcdfab9dcce0de820b0129eab22ae4",
+      "source_ppm": "build/presentation-textures/shading/ecoenergy-BLINN-PHONG.ppm"
+    },
+    {
+      "file": "after/ecoenergy/entry-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "cb5937579a9e8d48b96f3f3a7a631b31ce5675bffc544bc9641874c4d51c666b",
+      "rgb_sha256": "aa8003b96351d7ccafcbeb152bcbaa033a96675df6e520f02b5fe41669178e9f",
+      "source_ppm": "build/presentation-textures/shading/ecoenergy-PHONG.ppm"
+    },
+    {
+      "file": "after/ecoenergy/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "eba88f30c70245ae914ca20c1151dc4234d3c77bf1888c28c14ba921f07e40cc",
+      "rgb_sha256": "94e1d2538f988a1a8e11a7ca2e8e849805793c1002aed15b86c8ed01c8bf7a96",
+      "source_ppm": "build/presentation-textures/performance-after/ecoenergy-1280x720.ppm"
+    },
+    {
+      "file": "after/ecoenergy/solar-zone.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "d5bc827dcad17706300ec9af77a1883875730b08fce6cd0d6e66cd87260e18e9",
+      "rgb_sha256": "7d961aefd22b366bf7bc83e30f0ce46ffddbb551910c255385f1d75ff5f4f522",
+      "source_ppm": "build/presentation-textures/after/ecoenergy-final/solar-zone.ppm"
+    },
+    {
+      "file": "after/hub/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "c9caa7d95fc60da7ecc96775b2d904ae870bd0f860cea05f7874d586627703c7",
+      "rgb_sha256": "9a444f12dea96c0ffdc19eb9e0327212892f98d6435900c27698867e5c9ec62d",
+      "source_ppm": "build/presentation-textures/performance-after/hub-1280x720.ppm"
+    },
+    {
+      "file": "before/aquabio/biodiversity.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "41fdb1d908c5a8f451ac4574e5fffad19483f38752238d021e7d0e57c0443a75",
+      "rgb_sha256": "e982bd4841e63274d0c804ea77e37d49c480b85c073f8da2202452bfb8048fce",
+      "source_ppm": "build/presentation-textures/before/aquabio/biodiversity.ppm"
+    },
+    {
+      "file": "before/aquabio/entry-BLINN-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "16bef9354bc102c5bd4cd5084a9f2dc7242db9d6436e1c6c3a0decfdd122a20c",
+      "rgb_sha256": "abc82c7fb26d97cc24a276dedfcb77e8283e3fc0637999bc6f5ff729e6e6a38c",
+      "source_ppm": "/tmp/ecosphere-textures-before/aquabio-BLINN-PHONG.ppm"
+    },
+    {
+      "file": "before/aquabio/entry-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "0337088ba836846aa756acd2693babb414eb83a418b3bf60e374a94ff839c745",
+      "rgb_sha256": "4f42029078cd0626d68df629a3f3b190119af12d5bcdfa65f6d6c8b92b7a4f9c",
+      "source_ppm": "/tmp/ecosphere-textures-before/aquabio-PHONG.ppm"
+    },
+    {
+      "file": "before/aquabio/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "d19657f990adad7e715385ecf69894c2810f05802eefe64d3b38a95ed6df6c19",
+      "rgb_sha256": "19e53a5d3b7972b888c741bfa48d624e598de5d1a4953a0ab428e665322befa3",
+      "source_ppm": "build/presentation-textures/performance-before/aquabio-1280x720.ppm"
+    },
+    {
+      "file": "before/aquabio/wetland.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "105d0310d198c9d278a835c18049f515ef84d1cc1b7755d5407fe20b6ec1812f",
+      "rgb_sha256": "43e7ece54554bfe558a9622a015f4136f4a22eff672a43f6437d012a4470a681",
+      "source_ppm": "build/presentation-textures/before/aquabio/wetland.ppm"
+    },
+    {
+      "file": "before/ecocycle/classification.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "fa2c8af2ee769c400de8317d699371ebbdcd319b742d86c1a098c57cdbad13b4",
+      "rgb_sha256": "0c360b02174f22d2b4c4536b6138e6d887d4e1052d8141401ba6756143bf0dd7",
+      "source_ppm": "build/presentation-textures/before/ecocycle/classification.ppm"
+    },
+    {
+      "file": "before/ecocycle/entry-BLINN-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "235c3430c2140fc5efdd65e33c1ba3230ba9dcb6734f00447b97a9560957f041",
+      "rgb_sha256": "e0b3cdf69a758eb21a01918ecbaaef28a345713fe933bbed0c05b7d697ba71fa",
+      "source_ppm": "/tmp/ecosphere-textures-before/ecocycle-BLINN-PHONG.ppm"
+    },
+    {
+      "file": "before/ecocycle/entry-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "1795d52fd9bf7e994dc7bc3de1b48ec179d437c5eafab14d936dd13f07b91b1d",
+      "rgb_sha256": "aa991b0a1cd1a1299bd6b07dcc7978270b96d9f14077dd7f613f84f547d3425d",
+      "source_ppm": "/tmp/ecosphere-textures-before/ecocycle-PHONG.ppm"
+    },
+    {
+      "file": "before/ecocycle/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "44d405ba4aa547ace262f4b452130465577dfda7eab235b421a9e28048cfa005",
+      "rgb_sha256": "c6509ff9e1a1581207a293b107539b93e61b23dc2942b04242f5f43eb8828cbe",
+      "source_ppm": "build/presentation-textures/performance-before/ecocycle-1280x720.ppm"
+    },
+    {
+      "file": "before/ecocycle/feeding.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "924a041bd64fd554b03f84586d7027ecc92af03dde1496d6afbc8175e89da728",
+      "rgb_sha256": "a620f4f98785f6d3d2d1359cd60e88239f18bdd914b5db5ec51f1ce854a65c99",
+      "source_ppm": "build/presentation-textures/before/ecocycle/feeding.ppm"
+    },
+    {
+      "file": "before/ecocycle/workshop.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "531d318c36a26cdc7e34ef6a3a16872281302d689cd20ec3ed8c1981b7eae428",
+      "rgb_sha256": "74071dda6c3451074369c9f09179d6db18b55232d16b55a7ab6b2e23be77d629",
+      "source_ppm": "build/presentation-textures/before/ecocycle/workshop.ppm"
+    },
+    {
+      "file": "before/ecoenergy/battery-zone.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "f6f8a616b52d52870ce6b12deac7f2b5a8a7cddf327133f876f9d52795dfe47a",
+      "rgb_sha256": "0f6fa60c376299f8c92ca4f613716d3da0821e512cc5a165292b4febea551d3a",
+      "source_ppm": "build/presentation-textures/before/ecoenergy/battery-zone.ppm"
+    },
+    {
+      "file": "before/ecoenergy/entry-BLINN-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "b8e408d7a6351073f2ad4449c71eee9e7f4b90d3dcc45a58233aa426732b5235",
+      "rgb_sha256": "f8491de61bdb6f357816cbd4e4c65b8c7b03066edaee5f0d64ea0d31800752af",
+      "source_ppm": "/tmp/ecosphere-textures-before/ecoenergy-BLINN-PHONG.ppm"
+    },
+    {
+      "file": "before/ecoenergy/entry-PHONG.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "69bac67d17b13e0f004ed720e5335384d69d1752b2b1120038023d60d8ab510a",
+      "rgb_sha256": "63fbe20641786c79c01661e744e5f42bded753e93a8bc498d90dcd664cd2c4a1",
+      "source_ppm": "/tmp/ecosphere-textures-before/ecoenergy-PHONG.ppm"
+    },
+    {
+      "file": "before/ecoenergy/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "8647189139df8e8885582f7e1c4ed004f797b05015a66bc66594496b42792f05",
+      "rgb_sha256": "aaa8ae6e43b1d487c39ec544a4130fdc3089ac75536c29f5551b3058455624ec",
+      "source_ppm": "build/presentation-textures/performance-before/ecoenergy-1280x720.ppm"
+    },
+    {
+      "file": "before/ecoenergy/solar-zone.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "04913d1d7dddc2eef0aaa8ef01abdcdc22dfbec03a4ffb863bbf74640f68248c",
+      "rgb_sha256": "33bdb25fc4af94a7524a7de52b01412fdcb989db332fffd3a74ef2f51fdf8741",
+      "source_ppm": "build/presentation-textures/before/ecoenergy/solar-zone.ppm"
+    },
+    {
+      "file": "before/hub/entry-hud.png",
+      "width": 1280,
+      "height": 720,
+      "png_sha256": "e32e75eb217a903cc0a64f6788ac3fc497a8b3eb53d04b3b7cfec964ba543e68",
+      "rgb_sha256": "9a444f12dea96c0ffdc19eb9e0327212892f98d6435900c27698867e5c9ec62d",
+      "source_ppm": "build/presentation-textures/performance-before/hub-1280x720.ppm"
+    }
+  ],
+  "verification": "Every PNG decoded to exactly the original glReadPixels PPM RGB bytes; no resizing or retouching."
+}

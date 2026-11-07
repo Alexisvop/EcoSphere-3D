@@ -1,0 +1,222 @@
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+GPU=Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2) GL=4.6 (Core Profile) Mesa 26.2.6-arch1.1
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+CAPTURES PASS A-main
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+CAPTURES PASS B-previous
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecocycle
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+CAPTURES PASS C-improved
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] aquabio
+[zone] shutdown content
+[zone] ecoenergy
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] hub initialize: plaza GLB content registered
+[zone] ecoenergy
+[zone] shutdown content
+[zone] ecocycle
+[zone] initialize content
+[zone] hub shutdown: session releases plaza content
+[zone] ecocycle
+[zone] shutdown content
+TEXTURE VISIBILITY GPU PASS: 63 scene captures, 42 asset captures, paired B/C performance

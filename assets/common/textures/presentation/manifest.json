@@ -1,0 +1,276 @@
+{
+  "source_commit": "0732ad343434f2983f2d98a2454dc516b09488b2",
+  "textures": {
+    "belt": "21c1e6266ab842bbfa6760d6dc76c48c1cb7388925fea7b49b333886e4bba4f0",
+    "concrete": "ee6e90ff804de5baeec69583cd055b45c4bbd229c1b9f82c282abf0ebb9795b6",
+    "metal": "7dd0c8a743f5c46f543dea40bfc423c43510a5bd2a70c9a505a873ed40c14886",
+    "painted": "503cfb3a959c2ca14741e746771c9a1e2245549213b281c744aafb59b057b11d",
+    "water": "2e988a8161e52d4a5a034d481eb590404e01f912b1673d77120946fe4afb8bbd",
+    "wood": "7b4fc0f7c9fd9d6cb1d10e68fe5a7743227e0e27231f0f0767ad23a8c22408a1"
+  },
+  "models": {
+    "assets/installations/aquabio/models/AQUA-001.glb": {
+      "materials": {
+        "Aqua_stone": "concrete"
+      },
+      "original_sha256": "0c716eb610b6c405925a04ba5e680d5aa079324f34a3afdd8b949e90ac4724be",
+      "original_bin_bytes": 8184,
+      "original_bin_sha256": "c634fb94ea87e849b3c9a14241ea0b06f949a5991423aedc65228836988f707a",
+      "original_buffer_length": 8184,
+      "original_document_sha256": "be534c1086461adcc0de680c7791e7c45a13728aacc5db98054899f49d0be110",
+      "original_array_counts": {
+        "bufferViews": 18,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "91f04219e991ea39ee76cc5316bfbbe18d72e436993304e4bc3358d8762d1f6d",
+      "bytes_added": 8048
+    },
+    "assets/installations/aquabio/models/AQUA-003.glb": {
+      "materials": {
+        "Aqua_stone": "concrete"
+      },
+      "original_sha256": "2b50af3fc53fcf34961c83bfc94181ba1737b807354f9f70da1f42ea17ea7c41",
+      "original_bin_bytes": 20160,
+      "original_bin_sha256": "71990893c4f3911d0b0ec243f5028eaf00bf740ba247ba781fcdee2879cbd556",
+      "original_buffer_length": 20160,
+      "original_document_sha256": "dd7fd1158bc21e775ca0297b5ae5d06009d26d1839f3af086de98c9ad078d9d1",
+      "original_array_counts": {
+        "bufferViews": 16,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "b39ac0cc2a62c9b38885fc8448ba4b945ca7a7c8bc3d12a215454a176d2ba246",
+      "bytes_added": 8048
+    },
+    "assets/installations/aquabio/models/AQUA-010.glb": {
+      "materials": {
+        "Aqua_water": "water"
+      },
+      "original_sha256": "d0bf234ff2cf7b9b39f6c0d4b32da86f03ed024d9156be25104eb8ce2f0a52f3",
+      "original_bin_bytes": 186992,
+      "original_bin_sha256": "b6238ba700fb79d7f1ee55c42b30bf9ebda726d73cbb06bac285436d9c52b8ca",
+      "original_buffer_length": 186992,
+      "original_document_sha256": "f5c552ca174ce23474465bef362b346198c469b5cb3c923401fb6de845902e17",
+      "original_array_counts": {
+        "bufferViews": 35,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "37b60e0e80dccf9a280d272ffa7db1071654fe776995f6ca046b3db326958929",
+      "bytes_added": 10508
+    },
+    "assets/installations/aquabio/models/AQUA-023.glb": {
+      "materials": {
+        "Aqua_water": "water",
+        "Aqua_stone": "concrete"
+      },
+      "original_sha256": "5ecda2e982d74e4cea82b854eb8f8dc3836e356378e78e7c3e549de5ade5bb2d",
+      "original_bin_bytes": 170744,
+      "original_bin_sha256": "12f25cd92967640a843674861e5087815a55bfdeb5c19b21dc9fe11fec21a928",
+      "original_buffer_length": 170744,
+      "original_document_sha256": "40076d3a471269dc25ae9a0f9db8b16779d899b777d957cabf5859b25a1159be",
+      "original_array_counts": {
+        "bufferViews": 31,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "1310fb8f7beb711989c4dc4a0adc6c1f1386816933d69a05a0f648c0787cf0d5",
+      "bytes_added": 18516
+    },
+    "assets/installations/aquabio/models/AQUA-027.glb": {
+      "materials": {
+        "Aqua_bark": "wood"
+      },
+      "original_sha256": "258b20d2a5fceb2121403c1500f65785012d48023833e6bcb13649858d67bf26",
+      "original_bin_bytes": 214624,
+      "original_bin_sha256": "858d684df10e7aa4afecba1adfd720feae069edd2340899407f1c48c22b5981e",
+      "original_buffer_length": 214624,
+      "original_document_sha256": "313ad014b6089d38ba4fab91786a7c302cb014e81f976cd7ffc9078f6a802ab7",
+      "original_array_counts": {
+        "bufferViews": 26,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "534f1ff5fb98ffd5d61337642ff6475124773b23649129dfe337d120aed9b78f",
+      "bytes_added": 14384
+    },
+    "assets/installations/ecoenergy/models/ENERGY-001.glb": {
+      "materials": {
+        "Energy_concrete": "concrete"
+      },
+      "original_sha256": "ee2df18b082e0be3e05cceee81a727b877afd522d4aa3855184d0bd7f29eca49",
+      "original_bin_bytes": 36816,
+      "original_bin_sha256": "8724714e18c4d1012e26d7e19b9019b8190e1b146ad91c5a6b46198f944defa0",
+      "original_buffer_length": 36816,
+      "original_document_sha256": "f5901b26871152a9c2ebeab312e989f4c5682c6ee354846e045294546da86d0f",
+      "original_array_counts": {
+        "bufferViews": 19,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "a5707c13163db974df8d3cb77c70061ae88829fdba81a10fe1e3bf2e02518a64",
+      "bytes_added": 8048
+    },
+    "assets/installations/ecoenergy/models/ENERGY-003.glb": {
+      "materials": {
+        "Energy_pavement": "concrete"
+      },
+      "original_sha256": "0426c521a5c155afb0ed32d94b1f5baa8d3ab9a090a198e265e9b5ddfc61fec4",
+      "original_bin_bytes": 8256,
+      "original_bin_sha256": "7ee91bffccc1e8d7b98ee498317ab943184b33a5b6578a224238f8a7333f4712",
+      "original_buffer_length": 8256,
+      "original_document_sha256": "f5f868b42cd863021321eea9b63490defaedb1eae5dc87151fd1d7b98906e577",
+      "original_array_counts": {
+        "bufferViews": 15,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "9e4319383efdd46b03ddb8eee8f9e36507d2dea92990859b0886b372f9f09dfb",
+      "bytes_added": 8044
+    },
+    "assets/installations/ecoenergy/models/ENERGY-004.glb": {
+      "materials": {
+        "Energy_aluminum": "metal",
+        "Energy_steel": "metal",
+        "Energy_concrete": "concrete"
+      },
+      "original_sha256": "88323e3915ce815031802578394bec5f7fba6245ab74e12fbdffc6dea5db2bf3",
+      "original_bin_bytes": 11936,
+      "original_bin_sha256": "4c1b0a8126155b7358a69e7a8b031ab7b2e84c821195c1e7becdd46afc6db467",
+      "original_buffer_length": 11936,
+      "original_document_sha256": "df797ef55efb7f8b146366f06b476eacea5b2acaa3911e84c797511850ed1aca",
+      "original_array_counts": {
+        "bufferViews": 12,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "d031bc819c79fdfddc97c3155308fa57e034a216a7e8904485bcce53a1b7b5c3",
+      "bytes_added": 22808
+    },
+    "assets/installations/ecoenergy/models/ENERGY-005.glb": {
+      "materials": {
+        "Energy_aluminum": "metal"
+      },
+      "original_sha256": "7c55134cec0dc030b55daed71b6021d9f4b393e0b4e58ea20feba1ce0cd5820c",
+      "original_bin_bytes": 32936,
+      "original_bin_sha256": "3b1007e1b911734abe1085bf3f7a5163d51ed76444d2a89dfdd7e78ed04c376d",
+      "original_buffer_length": 32936,
+      "original_document_sha256": "6ab71ec1fc100dc5bbe6a8f066f7ba9f2fb7f3a362263e10016b2ef7e0fea2f7",
+      "original_array_counts": {
+        "bufferViews": 18,
+        "images": 1,
+        "textures": 1,
+        "samplers": 1
+      },
+      "sha256": "f3297b76c9d0936c7858768c5162e1bf9d933863d28f7b94df869382d9d6768d",
+      "bytes_added": 14732
+    },
+    "assets/installations/ecoenergy/models/ENERGY-010.glb": {
+      "materials": {
+        "Energy_steel": "painted",
+        "Energy_aluminum": "metal",
+        "Energy_concrete": "concrete"
+      },
+      "original_sha256": "4acf2c2b06bd51934dcd5830d421625a5a8938246040182c8d512867a8c17fd2",
+      "original_bin_bytes": 30920,
+      "original_bin_sha256": "4f76f6bcdbc70037621d8ae3e6abaee9c0c83da2fa999ee452c3d7d78fcb51e3",
+      "original_buffer_length": 30920,
+      "original_document_sha256": "d63581cf69cbabc7411b4a2f6b80d89af138956e23a1d9dc9dc85624e2f17c67",
+      "original_array_counts": {
+        "bufferViews": 25,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "15297c07c0ab20a1a0a14041897cdea5f220ae2465358db5b19af6c53c060b1a",
+      "bytes_added": 29252
+    },
+    "assets/installations/ecocycle/models/CYCLE-001.glb": {
+      "materials": {
+        "Cycle_ground": "concrete",
+        "Cycle_stone": "concrete"
+      },
+      "original_sha256": "73ecaa31dffe75482b7c9c01d92774eb79220ab4011190c99365a70fe229533c",
+      "original_bin_bytes": 24216,
+      "original_bin_sha256": "1bc8d1f816378092e7b05057ccca0ffac33ac8a24920a8bb353ac1146a806b5c",
+      "original_buffer_length": 24216,
+      "original_document_sha256": "19a47d4df5ac19bd984294f27222ea7abe9d2467f6a03c79811f1af952625322",
+      "original_array_counts": {
+        "bufferViews": 19,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "679d021f0a956655a94849d8c5b598c84642f4f0ab8d9e44c25602c2d2cd258b",
+      "bytes_added": 8076
+    },
+    "assets/installations/ecocycle/models/CYCLE-005.glb": {
+      "materials": {
+        "Cycle_blue": "painted",
+        "Cycle_yellow": "painted",
+        "Cycle_white": "painted",
+        "Cycle_steel": "metal"
+      },
+      "original_sha256": "683b26e6e33bb5fe6aefd069e675c95751173c38e67d0af217296564a783ad26",
+      "original_bin_bytes": 149768,
+      "original_bin_sha256": "5a61a1d5c13a0f37e91fa09e616cb7f3e600ed94ea2deecc7a643f16a2ee4260",
+      "original_buffer_length": 149768,
+      "original_document_sha256": "e718658d66689897a2a2797031e3832a7edeb4114e4fc2a58dcf0102df05ce81",
+      "original_array_counts": {
+        "bufferViews": 37,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "3aa6c4edb9acf1779136803b42b8404399986411ffeec926f5ec8b149fc9e8d8",
+      "bytes_added": 21304
+    },
+    "assets/installations/ecocycle/models/CYCLE-007.glb": {
+      "materials": {
+        "Cycle_charcoal": "belt",
+        "Cycle_steel": "metal"
+      },
+      "original_sha256": "6c4807cc790046ac07eafeb825b8063b3c337b63fb9ee4202aaeae6f71c185af",
+      "original_bin_bytes": 150072,
+      "original_bin_sha256": "a49225bc4868ddf29ea49edae2f9b0ad2c50d56f4a068f5e01ef3bc1eaaf769a",
+      "original_buffer_length": 150072,
+      "original_document_sha256": "265296865fa9db0b64034a423f4c9c2ed4a59f7805543b4de42b76e6a453867f",
+      "original_array_counts": {
+        "bufferViews": 29,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "bd64320f4f2fa39a6b008523489ea9c81c7a1dc00c49416cb25f221299216e8a",
+      "bytes_added": 16912
+    },
+    "assets/installations/ecocycle/models/CYCLE-023.glb": {
+      "materials": {
+        "Cycle_wood": "wood",
+        "Cycle_steel": "metal"
+      },
+      "original_sha256": "2faf604d9269690f110d77f2d31831fad914679087351b372749cb1521ae0d28",
+      "original_bin_bytes": 142120,
+      "original_bin_sha256": "b5229d0049ef62b4f5bcd1371ca77f887eb1a9e2fa2fe63c7b6edf996254d933",
+      "original_buffer_length": 142120,
+      "original_document_sha256": "d88aa965e88837a0d566f6ff95f57b3d2af66c060b0975445165f8230e34d1b2",
+      "original_array_counts": {
+        "bufferViews": 30,
+        "images": null,
+        "textures": null,
+        "samplers": null
+      },
+      "sha256": "b24a55c0661936dd4021204c97205aaf22e5d71b622335119871c4dd7335b2bd",
+      "bytes_added": 29116
+    }
+  }
+}

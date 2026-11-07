@@ -1,0 +1,20 @@
+$ xdotool search --pid 149578 --name ^EcoSphere - Plaza Central$ exit= 1
+$ xdotool search --pid 149578 --name ^EcoSphere - Plaza Central$ exit= 0
+$ xdotool getwindowpid 10485767 exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl -j clients exit= 0
+$ hyprctl dispatch hl.dsp.window.float({window="address:0x559947819760",action="set"}) exit= 0
+$ xdotool windowsize 10485767 1280 720 exit= 0
+NAVIGATION HARNESS PASS: GPU only

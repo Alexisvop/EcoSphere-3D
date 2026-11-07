@@ -1,0 +1,113 @@
+{
+  "pwd": "/home/alexis/Documents/CG/EcoSphere-3D",
+  "local_main": "1e8e334f9482cfb78626a59179abd5e948d8c15c",
+  "local_textures": "74f3b2e6343aa55db621375a648fc93a7325c271",
+  "origin_main": "0732ad343434f2983f2d98a2454dc516b09488b2",
+  "origin_textures": "74f3b2e6343aa55db621375a648fc93a7325c271",
+  "merge_base": "f82c2881758555fb54bc9c4d41440bbee0b9bf95",
+  "divergence_main_textures": "1\t5",
+  "expected_commits": [
+    "a7a41feed1c0e4862d68ffe9cfd4f7ab32338aac",
+    "99048f08fbe266d1d1f484b6983ab954192617b1",
+    "046dba77cd27c5cd2374d477f71c41c7c5f83ee6",
+    "5ddf79d388ba742e7cb7cbda2382a691372ed952",
+    "74f3b2e6343aa55db621375a648fc93a7325c271"
+  ],
+  "tags": "",
+  "new_commits": [
+    "92a42d1349121c8b7e1cf5054f369a3f8a7e5914",
+    "8b4780d955166db58391b7957cabfa66e75fe89a"
+  ],
+  "original_tree": "e0239af7576486c7cce39401a21d4787704c7432",
+  "transferred_tree": "e0239af7576486c7cce39401a21d4787704c7432",
+  "main_tree_equals_original_lighting_base": true,
+  "protected_files_identical": 132,
+  "models": [
+    {
+      "path": "assets/installations/aquabio/models/AQUA-001.glb",
+      "sha256": "fb15728fafd1070162d470356654abcb9944fce29aa161cea80e0dc27557dbd4",
+      "original_main_sha256": "0c716eb610b6c405925a04ba5e680d5aa079324f34a3afdd8b949e90ac4724be",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/aquabio/models/AQUA-003.glb",
+      "sha256": "83b1e7ee66684d40a0bf86671b1ac856cb0bf90372af69a5f967f57799a479ab",
+      "original_main_sha256": "2b50af3fc53fcf34961c83bfc94181ba1737b807354f9f70da1f42ea17ea7c41",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/aquabio/models/AQUA-010.glb",
+      "sha256": "570396cfccd6f84c78849076680aa794ef0fcbbc34dee7a16c0ccc48fd1e20fb",
+      "original_main_sha256": "d0bf234ff2cf7b9b39f6c0d4b32da86f03ed024d9156be25104eb8ce2f0a52f3",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/aquabio/models/AQUA-023.glb",
+      "sha256": "8c836ff40195603947557115397f42ffa91a0f0690d287feacac24e8f14a9b69",
+      "original_main_sha256": "5ecda2e982d74e4cea82b854eb8f8dc3836e356378e78e7c3e549de5ade5bb2d",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/aquabio/models/AQUA-027.glb",
+      "sha256": "aeda2f8bdb3bcd30a67c59d5fbb64c79d6f92187516c52a3169a369999a9ca89",
+      "original_main_sha256": "258b20d2a5fceb2121403c1500f65785012d48023833e6bcb13649858d67bf26",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecoenergy/models/ENERGY-001.glb",
+      "sha256": "ee2cecf1b274f2ba00f4d80e593266d9231771d9a943a836d2b44805efc3d057",
+      "original_main_sha256": "ee2df18b082e0be3e05cceee81a727b877afd522d4aa3855184d0bd7f29eca49",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecoenergy/models/ENERGY-003.glb",
+      "sha256": "06e83e3ed53ad4876360ce953ccbb7aa7b949beaea848cfd691ebcfa96e365d7",
+      "original_main_sha256": "0426c521a5c155afb0ed32d94b1f5baa8d3ab9a090a198e265e9b5ddfc61fec4",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecoenergy/models/ENERGY-004.glb",
+      "sha256": "feedd5a61bd40dd92bda4f3b7759e85f1dff412c4ae2c7d7764488e6b1924f90",
+      "original_main_sha256": "88323e3915ce815031802578394bec5f7fba6245ab74e12fbdffc6dea5db2bf3",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecoenergy/models/ENERGY-005.glb",
+      "sha256": "ea5b294213adf5cac5dec87545f899a409c1bfe1f6c1b6fdfd77324ae127689b",
+      "original_main_sha256": "7c55134cec0dc030b55daed71b6021d9f4b393e0b4e58ea20feba1ce0cd5820c",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecoenergy/models/ENERGY-010.glb",
+      "sha256": "4e37064448100e27f64761f083d757f1fcb7ab2866137a47c3767edac224549b",
+      "original_main_sha256": "4acf2c2b06bd51934dcd5830d421625a5a8938246040182c8d512867a8c17fd2",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecocycle/models/CYCLE-001.glb",
+      "sha256": "f2ebac1c6a24634f1f4b1897d1d7b79e728ccd7744a5163f4500c80f63b06bfe",
+      "original_main_sha256": "73ecaa31dffe75482b7c9c01d92774eb79220ab4011190c99365a70fe229533c",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecocycle/models/CYCLE-005.glb",
+      "sha256": "75a76a49c3c01e1d7d0bde6e766f340e8de95491c5f2082e60b3f2ed0ed77d54",
+      "original_main_sha256": "683b26e6e33bb5fe6aefd069e675c95751173c38e67d0af217296564a783ad26",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecocycle/models/CYCLE-007.glb",
+      "sha256": "f3336747c5b7dee702c69aec15077d434d12ae79d81a97682bdcd1870413cd6e",
+      "original_main_sha256": "6c4807cc790046ac07eafeb825b8063b3c337b63fb9ee4202aaeae6f71c185af",
+      "identical_to_original_textures_branch": true
+    },
+    {
+      "path": "assets/installations/ecocycle/models/CYCLE-023.glb",
+      "sha256": "ce98c19d2eba19188267217eea2c87d5bd52529ba7b4d525996c7d481f037fb1",
+      "original_main_sha256": "2faf604d9269690f110d77f2d31831fad914679087351b372749cb1521ae0d28",
+      "identical_to_original_textures_branch": true
+    }
+  ],
+  "textures_identical": 6,
+  "conflicts": []
+}

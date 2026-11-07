@@ -1,0 +1,641 @@
+{
+  "states": {
+    "A-main": "0732ad343434f2983f2d98a2454dc516b09488b2",
+    "B-previous": "da1ed249f2c3fb64daed5228b8be45c0c0c92bfe",
+    "C-improved": "final metal texture, original material parameters"
+  },
+  "matched_camera_lighting_pose_and_resolution": true,
+  "conversion": "PNG decoded RGB exactly equals source glReadPixels PPM; no retouch",
+  "captures": [
+    {
+      "file": "A-main/assets/CYCLE-005.png",
+      "png_sha256": "a0b663e510a7dad344214adc4d5f5cf6cf9fc7af838a7eccdd4a71fbceac9dcf",
+      "rgb_sha256": "c52dcb82323ff13d5000588d1eaf56f44ffa83ba93bf82759f73990149af8047",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/assets/CYCLE-007.png",
+      "png_sha256": "e4579704aa166c09a24c4ce787b0f097d30b0d6a74bc45c6103c74bcfda627d6",
+      "rgb_sha256": "f25f190b6aac9e28afc6870b284178df06941dcedc490cadb7c248fffa00b8e5",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/assets/CYCLE-023.png",
+      "png_sha256": "05ed18bd8a3d241a57243031e14f5f3c954987e59230b5d5ea81878dde0c4fca",
+      "rgb_sha256": "86e2155b081591c267901d8e1fa57c9e12f82e93c95d2b0d7c0c160b426329dd",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/assets/ENERGY-004.png",
+      "png_sha256": "54a9ed52c696314229f5da971b7c4ebd66ee362f2dc4a2f9904fa044e5510d86",
+      "rgb_sha256": "45e5794a8fbf0958c96b0cf74ac98c1a1c899bb225b9d941bb0cb88b22142275",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/assets/ENERGY-005.png",
+      "png_sha256": "d53a26d469e1046cc108968199337995ca880681f01d2d83e9d1f78229c58663",
+      "rgb_sha256": "a68d927557eec1af120e7a5d73f716fb296636f51b96150458fe4336ab859995",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/assets/ENERGY-010.png",
+      "png_sha256": "512ff680e37e029c4a88406237123f6542e6ffb6d843c62485d9da27fcf43981",
+      "rgb_sha256": "c48ec0e0c6439a15ecbb2e291ca6b40f1fef7093d00d591dd0bc2cef86e2b9e1",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/conveyor-frame-close.png",
+      "png_sha256": "d611b2201b61d0745d250d82364ccbd1ceed38f0baf54e12c383ddf563f53d25",
+      "rgb_sha256": "deb342bb9a8a513ae412dfea81fadc034d5e640c22a8c8e00bfd5aae1b0ee57b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/conveyor-frame-medium.png",
+      "png_sha256": "5a9362b8dd2b1f9e50730b652c0097ddff0a68fa426a084005c0599057c8c5a6",
+      "rgb_sha256": "d5b974bc4bcdf81e1fad6ddd9c44e75fce378cf41c9e2ee318848943dc2cb28a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/conveyor-frame-normal.png",
+      "png_sha256": "25b1264767f28868e16ff71eb29ee8944dc5cfc4ed744968427d35306a403bdc",
+      "rgb_sha256": "50838357c8b8a54a56826c56d5624e10925ac8f31d6dd0065ecd57a7ba4af19c",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/lighting-frontal-0.png",
+      "png_sha256": "fd5e03e38da39ccd43b210a46e0f0fee7b09d86161e866de19ba673bc90a65a4",
+      "rgb_sha256": "b05549516b4462404956e895dab677c2e4785e43b7169167362ec681e26f425f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/lighting-frontal-1.png",
+      "png_sha256": "c806e276a12b0303dba26f356e7cfab22f7c8636207adf20121bea45f4cf294f",
+      "rgb_sha256": "5ef6c55bd9321017ccff9efef3110c9d725a92fb4e7d996325581e996cffa9de",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/lighting-frontal-2.png",
+      "png_sha256": "0e52420af13517c04af83c9b36d49115f0c2f9f9a8d4cfdaef73bb27abf169d5",
+      "rgb_sha256": "041b374e58a7e7120254ba0a1f7520ce50f0c0e1929b90a211a408520fb6767b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/lighting-grazing-0.png",
+      "png_sha256": "48d1d783ac4dd38297fef993cf279d9841fd03ddd69fee3f29bd83b1ad118b2f",
+      "rgb_sha256": "c669adf1116cb7a4fb3c51b909b89a54994d98e4c354191f335b1eb543115018",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/lighting-grazing-1.png",
+      "png_sha256": "09eb86d80b84890780bb16d122849ca68eb606bffd9657db52fa78dcde7ef4bd",
+      "rgb_sha256": "81144ef8ebed6c463abb95b784660d21c2221c7b008076e2d2c078820fc41640",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/lighting-grazing-2.png",
+      "png_sha256": "eaadecbfc110df51a54de35c35add77739982cce9f3746c6e75efb67133a9162",
+      "rgb_sha256": "52798dab038677dd89b685cb276c39995dad42dcfab2bec6ecad41430088485c",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/machinery-close.png",
+      "png_sha256": "3817fb3f7f20bb717474601e8d893be7f29e411aa2c5795c7f05f32fa51bd586",
+      "rgb_sha256": "eff7fc8f55bb00d8ae51d8d81b866eab4d188b5882d0e201541b5a18e9043abc",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/machinery-medium.png",
+      "png_sha256": "69e28770a2fc14a0b417400a8d1a8bde702966d58cf5b973aa85968e0cb34d63",
+      "rgb_sha256": "e55c9117392b171566923488e2e62b99ad988c5ff5ca439a5f83bb6a5fd90a41",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/machinery-normal.png",
+      "png_sha256": "e1af31909366c13fa6a1566dc0e940496ea19a80931f2d164afd2feec348a051",
+      "rgb_sha256": "e04ec509de56d985bf952fbf07b13b6550f481a2ca9f06f86d549255fff83b11",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/repair-bench-close.png",
+      "png_sha256": "580da8243fee46a9d2170aeb2297986a100d6650c155cf0ef1d7b88a3ff4dd40",
+      "rgb_sha256": "65d6dbc49da7fd3708994392bcdf79f8f20d23d0652799449ee82f77065b3fef",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/repair-bench-medium.png",
+      "png_sha256": "bec802493c61ed968ef6f9676b811d775ab8b1c07094034e94f60311e24beab6",
+      "rgb_sha256": "d256182efce3b6635d481bfbb9be751f92b453a6e2bc588e219d9434dd98f169",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/repair-bench-normal.png",
+      "png_sha256": "47f3b1b9ded906c07c0c32b38d5cd551f1a1a3f667179a70c9f37ca8b29f00ca",
+      "rgb_sha256": "c83f87f66f470f2a9543a03aa8ee43b43a8857ee01b820d5f600635307557be7",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/solar-close.png",
+      "png_sha256": "2864fb336d52b4138f5b23027db272f5982d1397f73cbea392c7cbd2afc86e73",
+      "rgb_sha256": "d0a24db465c64e65dc85147336650e8ca71031c54fe53cb1d55f0fb5873ae5c0",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/solar-medium.png",
+      "png_sha256": "27dbf13ac3eb5c345391cf0d94ab8d12efe382de45a83605c8eba5a839fd8335",
+      "rgb_sha256": "75390055a5eb1b0357b538a02b75a7a9336d8b1a14b6cafc2dac55d614131089",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/solar-normal.png",
+      "png_sha256": "e696c3a2ba7259df34cbffeab0956fd9b3b8a0b3631b22281f75e9a534533f02",
+      "rgb_sha256": "4af8e76fc2bbb665a4e404c2ee67e046ca878fd2c7c93e5f5086125b75c39d51",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/structures-close.png",
+      "png_sha256": "a03edb45c031bb4b36615e531583a466b7f3787c141a66ababb8088cfaf1ab6f",
+      "rgb_sha256": "3c6551ff27b264d81bf4f0df80157eb30b0c1fbf1f53476a56b1f1593d8072d8",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/structures-medium.png",
+      "png_sha256": "a529c3c345115dece76c8845ce91179d93867adfa385d6f3245ba222ea91d037",
+      "rgb_sha256": "f73e9fec87f401895ab6572f08f5acdcb2f8ef091d63a802c2edf4de01f68cfe",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/structures-normal.png",
+      "png_sha256": "3db303aabdab7ae60a949e535a6c2f536ac0b0fadd14b6d20bdf159d4f9df133",
+      "rgb_sha256": "c768a47f1eb2ab807c5a0656b1b9c8d4a8dd1f69547ed00a3427567414c62357",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/support-close.png",
+      "png_sha256": "bd8c2a0143f2cf08290c8ea1fa64df3f2f238de51f9e40128ad2edf6afd85aca",
+      "rgb_sha256": "bef0d911959817030e05e7e42225ed5e32369ddfb70ec94942c5f3e505b3d5d5",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/support-medium.png",
+      "png_sha256": "872017a87366df4172f7459605c04b485130bc058ee0504bec93f6a579000125",
+      "rgb_sha256": "ac4a4e2da1bc38fff5387738fc7093b2b59cde5b7c3923117d77d3344ff39121",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "A-main/support-normal.png",
+      "png_sha256": "b71ac43b3b79cb2ec32c78470743bc1278bc0412fa54e88f15e1c23ec170fdf7",
+      "rgb_sha256": "75a3ba5a9dbd5e25a4cc430ecf5b04af33f80fcf352ec141a6155a6145297dbe",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/assets/CYCLE-005.png",
+      "png_sha256": "edc548e6c4442e0921659d48bee631333779a9fcfeba54b373b6ceae6abdfb34",
+      "rgb_sha256": "21286f9062a504172384b1d0bb9f9154e1d3c7b1a23a15378c01378b32db9de8",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/assets/CYCLE-007.png",
+      "png_sha256": "ac8897705acb57b61acca013d305325bacb14d23407ac735e04ca05e26aa53b1",
+      "rgb_sha256": "3b7f0bff8b48d645348d19541226b1f586a6139663454b20fbfa8309d02fcfea",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/assets/CYCLE-023.png",
+      "png_sha256": "6d576338c2aa3ed79197875989e8e77d1638e73419a2ea4c4b10a6d9774d0265",
+      "rgb_sha256": "40551944d07572ccd251da0600bfc9d78cd48247dc4d2eff9c511f50ba6c801d",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/assets/ENERGY-004.png",
+      "png_sha256": "066c7b6a5c48c22fc2ef0585acf42bc62e326abec0acd6b1ba995884aebdcc88",
+      "rgb_sha256": "8cd9a3da476de3b2c96d7837f352f1810e9c283ef8d62922770c615b854880a1",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/assets/ENERGY-005.png",
+      "png_sha256": "2358fa95c2a48f542e7f517db34bb0bb855fe560570e733fdce259fc651b53d2",
+      "rgb_sha256": "24dcd58397f471029b5b8da369bf9029de9e16388d901318559e97b68ac5bc06",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/assets/ENERGY-010.png",
+      "png_sha256": "e2365096fa705caff0c86d83c2be4efcfce3e67b4d66d112196c2dab1cfae6e8",
+      "rgb_sha256": "02665f2b97c4141df2fd5fb77e1a0388317a4c19bbb0619f12858d60bb433bb2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/conveyor-frame-close.png",
+      "png_sha256": "c0e3f7c7a582a1dc6f9257fd1c727482524b75a8a671eb8791dcf4d38fe6ca8e",
+      "rgb_sha256": "f1ddcf87ec028329caa16ab727a27c9dc1a8d4778948b5212cd44be150c42028",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/conveyor-frame-medium.png",
+      "png_sha256": "d58d71b6f6b395703c33fa1222e1fa5947306b7cc2809f75c4260532c76120f6",
+      "rgb_sha256": "061ae3ef417b4e643f9f2810aa5c5be790f23ec538c7e05d384d4a43c7fd8182",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/conveyor-frame-normal.png",
+      "png_sha256": "1e33a927b3549bc28f5a6d431c18a231e0ff86dcff1ce4405595b32aba6c2f96",
+      "rgb_sha256": "5c97b7f8b1211937468f6e9691bd971fe3a836a506895cf1701b4d1d7c572400",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/lighting-frontal-0.png",
+      "png_sha256": "c9864035c907ef93dc84ec7e3c85b48c54ba00073d8ca60a9ee7409b805a6b3c",
+      "rgb_sha256": "8d960f2cdeff5c3de80e7a40073022cd01e00cd49c2b4c2595282872b302c679",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/lighting-frontal-1.png",
+      "png_sha256": "6b3d28db0f5e51bb0c2c1f6a60144d211dc5ae59432915cfe67e8b80bf8a3f46",
+      "rgb_sha256": "eff971199469029eeb542895cd7dcd9cd1435a9848b2e1d43ccb52b1ea083c8d",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/lighting-frontal-2.png",
+      "png_sha256": "223dc8e8a31a979b73acfe9b01e45eb433713f959b3c014bfc311f36a44dada4",
+      "rgb_sha256": "fcdf20b849aee5a27132ee8f53a70fed4dc5abbbdfa75dd2a819aafd68d7289b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/lighting-grazing-0.png",
+      "png_sha256": "6afb296c5a45a20aa1fd7d5752c574c1acb45a3a4bede5c5c19c6f6e0417fe15",
+      "rgb_sha256": "01c058a5e78a0bfb01e7c91803f3b7b533d0780964afd95c64396ce3ff2bc6fd",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/lighting-grazing-1.png",
+      "png_sha256": "204b0162d91823396aa36d288ab8224dd7d8b540df566353bcbeea7aa9c8eb88",
+      "rgb_sha256": "919d126de0bf6fa27b9df939effe0a29b22fe1430a4e1e96f820f57c1444ea8a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/lighting-grazing-2.png",
+      "png_sha256": "8f2fd7a8824e4e2469b8ba5ba07779693fc668d23b4b111a139abbf059039c4c",
+      "rgb_sha256": "a7c14899b6505011428d2766a3fb885e1b1decd77201ee4fb253f0ca0d169caa",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/machinery-close.png",
+      "png_sha256": "80c1cfc2a6b585e30f8c6e711ec1d222d7d6b4b9e131b44daae0fcc7b5d18a3b",
+      "rgb_sha256": "ecda66f4fbb790d1d54164b1d41fccd52398a8ad241f13432ceffa5878fc27a0",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/machinery-medium.png",
+      "png_sha256": "e04d140f640d41189b68ec1308fe444d5e44305088b060652f994869ae4c123b",
+      "rgb_sha256": "cea3461ae6a37c708c56d55c39f1a18b4afe57575058112bc406c2f5b59d9fe6",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/machinery-normal.png",
+      "png_sha256": "e36a06bdeee5bcdf926d933d3accbda0da40fd95187dad445a5fb3d75d876b22",
+      "rgb_sha256": "34b0ebb56387bcd56784b9df6d0959095e3840c07b18a3ecac31e952f023f6fd",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/repair-bench-close.png",
+      "png_sha256": "b74ed1b988d525ca63d60d8adc62d214545ca9459497cbb081b98d959e5b263b",
+      "rgb_sha256": "0424416450ccce65b372013d403e2285fbbf33bdf0574484d32cbeca729dd413",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/repair-bench-medium.png",
+      "png_sha256": "c87da29b291bb905850d6cc4ff2bafc525a375fae3664961f2a680bda2b67c7a",
+      "rgb_sha256": "c874c760e64a8734211de8bf2e995456e345b67b05ee40427a18c4ed97499131",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/repair-bench-normal.png",
+      "png_sha256": "b50647d3b78cca58b8e52366451ccdf092b1e0af3003cb0552868fb1caf8cd33",
+      "rgb_sha256": "b3457f6868d488e4e4e7bf39882c8ac9ff1a15fe8cfd881836d78afdfaab1e1f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/solar-close.png",
+      "png_sha256": "1be515ff879821057096e933b6f60d9e8b8c6959fc7435895cc05a9e475ebf5a",
+      "rgb_sha256": "a70a2f29b42ee73bd34794ddab1bfbc2094f9823dd5b3404bbf6b105eef58184",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/solar-medium.png",
+      "png_sha256": "3a2f5f8b2e193d2b41696a612ea4cd0cf50f1f028d5f5c96af49585971079c5e",
+      "rgb_sha256": "8e92648c30db546c05e399cdcfa79ad64fd1e7ecd5bb106659d353359e7139df",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/solar-normal.png",
+      "png_sha256": "ee7cc58a0bc2fd6e9738d7bb8c6f08058fc6ff0e5e32acacd1b12b39ac2359b8",
+      "rgb_sha256": "63daec2fb857a550b08c112ba58705aeec8ebc8ab00289b63f21bf323c5fc8e4",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/structures-close.png",
+      "png_sha256": "fbbd60a389dbf69d0716d3850665430efa8ccf7dc009bf8a7d41c6b1868cf7d9",
+      "rgb_sha256": "2a1cb1ce7521ff836be6b0f65153d776757af20722d66c90e6d691aff23b643e",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/structures-medium.png",
+      "png_sha256": "88d8d472fe906df9b72b80ea92d389791bbc8383907ed8320e09dad3c2b2d885",
+      "rgb_sha256": "e25b5036e457da506c46b54aecf8cce48ca0de2511700b7c72b97211d252b784",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/structures-normal.png",
+      "png_sha256": "484c3cfe3fbf8e2b990022a1d56a7832334a392658ffecb8eb6c3808510044e1",
+      "rgb_sha256": "bfde92b8391e738efde79afe285bc1d06d6bdca7eccb339729bea6fff82bb863",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/support-close.png",
+      "png_sha256": "ad2da68e880fff2d39ac16a98c31a800ee359a253372b0cd7ec656cccda42772",
+      "rgb_sha256": "fc112af1b820a344a5f6b0d460626b3accdfdf3c31661b2f77108bdecb10fd9d",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/support-medium.png",
+      "png_sha256": "7c2ea380d33da47025301623eaf4fb9bed8f98b51f60f30bc4d173596239c099",
+      "rgb_sha256": "d0be8901a48a08b14b7e85c645e752b09d539d34c4b1b12d2763f9d987ed438a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "B-previous/support-normal.png",
+      "png_sha256": "a4088f76b52bfb3e4c1fecebc2ed9c21af346b73e0a22d6a51f6de3d9de6573a",
+      "rgb_sha256": "ac03f18553956d983a7f7f7ad463e7d1fe9718a2ad56c83c688fe5bbf1487a49",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/assets/CYCLE-005.png",
+      "png_sha256": "ea5aef55f1adcff59a232ca5d793b1ea6f2a78f56f4c3a220a7b0e20e6e4199a",
+      "rgb_sha256": "e6c4f5668d274256c2f2f731e6166cbaffb9b880f9637bb3b816197ab7970670",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/assets/CYCLE-007.png",
+      "png_sha256": "77290f3eca5a281ec31d78eddb429954dde310f13b24375f6043fc17cfe14f72",
+      "rgb_sha256": "ffb955b3f99ee5602d4cb3b6997e1b17b23135a47fcc0fc18c7c2af3434991e2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/assets/CYCLE-023.png",
+      "png_sha256": "ad93b1889b2ced833abd5b6c8104f3b598769b01e9aac15dae180c92aec9bac2",
+      "rgb_sha256": "c5db86764f65c0d19f70e4e650a4312c3faf407ed2388d38b451320c25d40816",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/assets/ENERGY-004.png",
+      "png_sha256": "2ea3073c851f7d72d41019fb5d3484749b5bed5d80b2452450183f9680e56e50",
+      "rgb_sha256": "08f3a6e137ac2177cbb6b1b3269df9d8990e92d91c7a8ccd305fa7819bc36c5b",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/assets/ENERGY-005.png",
+      "png_sha256": "95b7c6f791d8aa3d023697d0609f1b4749354b95d246b7c4fb188df784a5f5cc",
+      "rgb_sha256": "237e962fc00eb41b49a2b2c149b841aabfb4a8077c856db070ee945154480fc5",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/assets/ENERGY-010.png",
+      "png_sha256": "157f661b1c9bf9daeb5e0f456e8b57b481c8ddb082ca5bac0bc4c42179adbe8c",
+      "rgb_sha256": "eb6c9f699d03b59a3dffeef2e48ed078ad786da338a67c5395ff144052d9e4a9",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/conveyor-frame-close.png",
+      "png_sha256": "d79f949e914eab1521a292b7205b089b53efe2b4bb42febd4e88f990ce2e3c8a",
+      "rgb_sha256": "42da094c4b0c8ae61fa0196b61f8a214e8f3aa7e6f2b8586c96ae429e35a63e2",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/conveyor-frame-medium.png",
+      "png_sha256": "b48ef718a13b53a0bff4e0704d075c06b0d96d9536ad84a09a5c0e3cd638f7a8",
+      "rgb_sha256": "74b06ee1c85e258ee0845ab327e854905232adb1cc699dfccae134616bee8072",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/conveyor-frame-normal.png",
+      "png_sha256": "0eafd3e63b1cecfae149531005cef370d559e12ece0b4dc45356e70cd2c676de",
+      "rgb_sha256": "86a0e8e3540bdb618d6845ab8690dad5533f6ba10208cee8593f7b0ec876c494",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/lighting-frontal-0.png",
+      "png_sha256": "e9e1085e062dac85ad460c813e665ebb2a4dbe3b9dd9c97a7cb725388ef03bb5",
+      "rgb_sha256": "59a99db210cfe087ee2a93e96deea6e9c44c33c4b1574d7b32f1ae53bb328062",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/lighting-frontal-1.png",
+      "png_sha256": "7ddb063047fc20d726ccced1fe2546be65b8bf46cac113cf0430e19e7222075e",
+      "rgb_sha256": "4065c373c995254d9792a915fa43b01e7e589ec8c3f3fd19cdbd1db0f90bc95a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/lighting-frontal-2.png",
+      "png_sha256": "76cf55aeb7ce0e5513b6d9ad860692e3d0b8181a86b39abf95a5a91240853d98",
+      "rgb_sha256": "0d6c99c82e7c32ad6f38068db8a0b3178ae54ee3a8e271c3a5084e885934d703",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/lighting-grazing-0.png",
+      "png_sha256": "6654029f20e700b071e7333933c85a6f3a49404cfea7b5081f4afe4a36febba6",
+      "rgb_sha256": "e68fc5f6a46f2d0c12af8f6a9a411d73caa66f4fbec18d6b1c5f4da078686a73",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/lighting-grazing-1.png",
+      "png_sha256": "7c002af3d9ad5dd72bad95fff8ec23fa90bf20fa5553744f29df5804093f7342",
+      "rgb_sha256": "30704f6e2bc1da0765e2907db59b865cab48cba5b7f58fc51ca628472f390607",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/lighting-grazing-2.png",
+      "png_sha256": "fb2866913511a43422488013876b7d2e4e905566f6d4d06c27ac48637c5f804d",
+      "rgb_sha256": "63e96cf9e48590cbe576fb56b47f1b25faf2c36079f7b932254c4688da4b8e93",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/machinery-close.png",
+      "png_sha256": "a6bccfb9c79a01e5f62b522e9a40de7c6d861cd23f72433d25241dfa3c4f545e",
+      "rgb_sha256": "0b81fd0aaa3725c78a9047254beeab0e301237978d16fdeec23c36e789953108",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/machinery-medium.png",
+      "png_sha256": "d9d804fb1af6f1db2d8b270515dad3bd0919205ae88a7bebc885b770abf27d55",
+      "rgb_sha256": "f7bf312b6f0bb67d96846c49bde1940dac54d616fca507eddad19c951cbd8187",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/machinery-normal.png",
+      "png_sha256": "8753256c4023fddab29208ac7488b3a64399a0969e1134e0d8a00fc7833e5655",
+      "rgb_sha256": "b74c65172b90b99f8f3d95bf304413ca42f9fa3155b1b30ba5a6046f1f60196a",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/repair-bench-close.png",
+      "png_sha256": "574cca70f047ccb1eee915cbd5e534a938d70a97fd996914582d057a3ffb8934",
+      "rgb_sha256": "248030b6be89d9c451de67d92df09365cbba1504e100fdaa31f76d2dd773a263",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/repair-bench-medium.png",
+      "png_sha256": "c0b903233f1bf0836c5f8ba461f4a5e577c9104971bb411d88f400cea5f25701",
+      "rgb_sha256": "d73b4de6b36fc90cf765710eb633ee695c79a3bb7515b33439808ee234ede54e",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/repair-bench-normal.png",
+      "png_sha256": "5a2a481ebbbdc1ad6b30509453c21912943d40e8f3b5049745422f9dae06d890",
+      "rgb_sha256": "c3390147529a0be2a8f52691847392a3e11ce054aa479517df744c04d820492f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/solar-close.png",
+      "png_sha256": "b13f705c286b4dc772833dfd26a22fcff51aafea242e432fb0ffada67cc75968",
+      "rgb_sha256": "9d1557f1bbb9552d17c140a0f4074749686818506197564969670ec5aeaca640",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/solar-medium.png",
+      "png_sha256": "98f68d840118519595490fe42e330bd5df758c62292d3ffbcaa9f651f4728219",
+      "rgb_sha256": "e3ca7802b56e6bf91c1451be9e387d89a368ebcd2f0cac5bd9c51f0665aabd69",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/solar-normal.png",
+      "png_sha256": "6cafaf42d820f23311bc59e688bcf7d861bbac8a4c63b8c430084743189499bd",
+      "rgb_sha256": "af30c80c6a4150925347dd6d7115c2e1af87a38ff84eac73ce26a8956e452638",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/structures-close.png",
+      "png_sha256": "5a67ef70e88cf320a86c4a4f0112698cd0dcf6a26d624930f8728ab483168692",
+      "rgb_sha256": "dac17e547a99ab9a91c31c7facfe54e0aa17ea61f2b9431850275e3ac844cc7d",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/structures-medium.png",
+      "png_sha256": "edac90904874eb4aef2d456e46d4372d71c00dd518eab2836960bf3b80b0a4f1",
+      "rgb_sha256": "126a490cf85c9ae96b8fd946f90cafd0c1507af51b7136778e276d1c8c25e5a9",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/structures-normal.png",
+      "png_sha256": "40c6951a25beadc95df566b431507e23f011438829a7267682d2a049970793ee",
+      "rgb_sha256": "41f806b0f63d8a8f7f3a347fd8b356ea70307fb623b88ae05444d11d7fbea682",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/support-close.png",
+      "png_sha256": "a0bb599113d659e74deeeb0b9cc0ac6380be023709873c77b5db59e41928ab4b",
+      "rgb_sha256": "c5c98d131c441f6f72586b5b3f306555d99af655c469ec8151c2d915d7fe6d8f",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/support-medium.png",
+      "png_sha256": "8eb90d8817f0f7bdf4bde1bdb2ea3622885dd3ab07e4b3d3ce27571da3ae89c4",
+      "rgb_sha256": "a2e156d6279a84d1c5ecc14326008dbe26fdbe402b5066e08921aacecc0d5ff9",
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "C-improved/support-normal.png",
+      "png_sha256": "5258e450ecf9a42346785c2ff67b10bd8c5a1b6dde3f8dbf04b6f07fd416cab4",
+      "rgb_sha256": "8a705a295926a95f3835f6ce9e42fc641fd4394dc2343463044783152997afdc",
+      "width": 1280,
+      "height": 720
+    }
+  ]
+}

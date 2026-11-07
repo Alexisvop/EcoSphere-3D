@@ -1,0 +1,38 @@
+Native Wayland: no
+X11: yes
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=ecoenergy
+Requested swap interval: 1
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; F5 Phong/Blinn-Phong; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[module] ecoenergy
+[module] initialize stub
+Shaders: /home/alexis/Documents/CG/EcoSphere-3D/build/linux-dev/shaders
+Asset notice: Phase 3: metallic/roughness approximated by Blinn-Phong + static environment; not full glTF PBR
+Imported model: 2 primitives, 4 nodes, 1 textures
+Interaction controls: Space center ray; Tab next; Backspace deselect; J/L X, U/O Y, I/K Z; Z/X rotate; C/V scale; G take/drop; P pause/resume; R restart animations. Cursor released.
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 953x1025
+Focus: active
+Framebuffer: 951x1023
+Interaction state: selected=none held=0 playing=1 time=0
+Interaction state: selected=simple-rotation held=0 playing=1 time=0 world=-2,0.7,2 offset=0,0,0 scale=1 quaternion=1,0,0,0
+Interaction changed pixels=2084
+Interaction state: selected=simple-rotation held=0 playing=1 time=0 world=-1.65,0.9,2 offset=0.35,0.2,0 scale=1.25 quaternion=0.976296,0,0.21644,0
+Interaction changed pixels=32726
+Interaction state: selected=simple-rotation held=1 playing=1 time=0 world=-1.19209e-07,1.26856,3.93017 offset=2,0.568564,1.93017 scale=1.25 quaternion=0.976296,0,0.21644,0
+Interaction changed pixels=89628
+Interaction state: selected=none held=0 playing=1 time=0.5
+Interaction state: selected=none held=0 playing=1 time=1
+Interaction changed pixels=112832
+Interaction state: selected=none held=0 playing=1 time=2
+Interaction changed pixels=109658
+Interaction state: selected=imported held=0 playing=1 time=0 world=-2.7,1.8,-4 offset=0.6,0,0 scale=1.1 quaternion=1,0,0,0
+INTERACTION SMOKE PASS: scripted CPU actions, real OpenGL captures; no OS input injection
+[module] ecoenergy
+[module] shutdown stub
+Clean exit

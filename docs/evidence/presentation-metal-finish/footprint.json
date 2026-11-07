@@ -1,0 +1,9 @@
+{
+  "initial_allocated_bytes": 8379842560,
+  "before_commit_allocated_bytes": 9212293120,
+  "growth_bytes": 832450560,
+  "growth_gib": 0.7752799987792969,
+  "notice_threshold_bytes": 1073741824,
+  "threshold_exceeded": false,
+  "includes_preserved_builds_and_raw_framebuffers": true
+}

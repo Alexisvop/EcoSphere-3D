@@ -69,14 +69,14 @@ void checkEcoCycleFramebuffer(const std::filesystem::path& directory,int width,i
     for(const auto* name:{"assets","interactions","animations","panels","tour"})std::filesystem::create_directories(directory/name);
     const auto placements=registry.placements();std::map<std::string,ContentPlacement> unique;
     std::map<std::string,unsigned> counts;std::set<const Model*> resources;
-    std::size_t sourceTriangles=0,sceneTriangles=0,geometries=0,cpuBytes=0;
+    std::size_t sourceTriangles=0,sceneTriangles=0,geometries=0,cpuBytes=0,textureCount=0;
     for(const auto& p:placements) {
         unique.emplace(p.id.substr(0,p.id.rfind("SHARED-",0)==0?10:9),p);counts[p.id.substr(0,p.id.rfind("SHARED-",0)==0?10:9)]++;resources.insert(p.resource.get());sceneTriangles+=triangles(*p.model);
         if(p.model!=p.resource)throw std::runtime_error("EcoCycle unexpectedly duplicated visual resources");
     }
     if(placements.size()!=42 || unique.size()!=28 || resources.size()!=28)throw std::runtime_error("EcoCycle count mismatch");
     for(const auto* model:resources) {
-        sourceTriangles+=triangles(*model);geometries+=model->meshes.size();
+        sourceTriangles+=triangles(*model);geometries+=model->meshes.size();textureCount+=model->textures.size();
         for(const auto& mesh:model->meshes)cpuBytes+=mesh.vertices.size()*sizeof(Vertex)+mesh.indices.size()*sizeof(std::uint32_t);
     }
     std::ofstream views(directory/"views.csv");views.exceptions(std::ios::badbit|std::ios::failbit);
@@ -93,7 +93,7 @@ void checkEcoCycleFramebuffer(const std::filesystem::path& directory,int width,i
         render(lighting,false,{});const auto background=capture(directory/"background.ppm",width,height);
         render(lighting,true,p.id);const auto pixels=shot("assets/"+id,0);const auto count=changed(background,pixels);
         if(count<30)throw std::runtime_error("EcoCycle missing visible model: "+id);
-        usage<<id<<','<<p.id<<','<<counts[id]<<','<<triangles(*p.model)<<','<<p.model->meshes.size()<<",0,"<<count<<'\n';
+        usage<<id<<','<<p.id<<','<<counts[id]<<','<<triangles(*p.model)<<','<<p.model->meshes.size()<<','<<p.model->textures.size()<<','<<count<<'\n';
         std::cout<<"ECOCYCLE MODEL PASS "<<id<<" pixels="<<count<<'\n';
     }
     usage.close();
@@ -203,7 +203,7 @@ void checkEcoCycleFramebuffer(const std::filesystem::path& directory,int width,i
     std::sort(durations.begin(),durations.end());
     std::ofstream metrics(directory/"metrics.csv");metrics.exceptions(std::ios::badbit|std::ios::failbit);
     metrics<<std::setprecision(9)<<"metric,value\nunique_models,24\nmodel_resources,24\ninstances,38\ninteractive_objects,7\nanimated_entities,8\nsource_triangles,"<<sourceTriangles
-            <<"\nscene_triangles,"<<sceneTriangles<<"\nsource_geometries,"<<geometries<<"\nsource_textures,0\nwidth,"<<width<<"\nheight,"<<height
+            <<"\nscene_triangles,"<<sceneTriangles<<"\nsource_geometries,"<<geometries<<"\nsource_textures,"<<textureCount<<"\nwidth,"<<width<<"\nheight,"<<height
             <<"\ncpu_geometry_bytes_lower_bound,"<<cpuBytes<<"\ncpu_load_seconds,"<<loadSeconds<<"\nframes,600\nseconds,"<<seconds<<"\nfps_mean,"<<600/seconds
             <<"\nframe_p50_ms,"<<durations[299]*1000<<"\nframe_p95_ms,"<<durations[569]*1000<<"\nframe_p99_ms,"<<durations[593]*1000<<"\nrecording_seconds,"<<recordingSeconds<<'\n';
 #if defined(__linux__)

@@ -19,8 +19,8 @@
         "slate",
         "solar_gold"
       ],
-      "bytes": 41536,
-      "sha256": "ee2df18b082e0be3e05cceee81a727b877afd522d4aa3855184d0bd7f29eca49",
+      "bytes": 49584,
+      "sha256": "a5707c13163db974df8d3cb77c70061ae88829fdba81a10fe1e3bf2e02518a64",
       "geometry_signature": "794e7c4c58b77248f4eb66add572d8381fd25027ec3baeb2ada125aaa85324e4"
     },
     {
@@ -63,8 +63,8 @@
         "amber",
         "slate"
       ],
-      "bytes": 12092,
-      "sha256": "0426c521a5c155afb0ed32d94b1f5baa8d3ab9a090a198e265e9b5ddfc61fec4",
+      "bytes": 20136,
+      "sha256": "9e4319383efdd46b03ddb8eee8f9e36507d2dea92990859b0886b372f9f09dfb",
       "geometry_signature": "9a1897214c20c3db33ccb095675f01594f79866843e0df0852893ddce4a96dd3"
     },
     {
@@ -83,8 +83,8 @@
         "aluminum",
         "steel"
       ],
-      "bytes": 15004,
-      "sha256": "88323e3915ce815031802578394bec5f7fba6245ab74e12fbdffc6dea5db2bf3",
+      "bytes": 37812,
+      "sha256": "d031bc819c79fdfddc97c3155308fa57e034a216a7e8904485bcce53a1b7b5c3",
       "geometry_signature": "90c37ecd0c6ad4f68d1860286ca82c9fb747a9c76c3b277bd2b5c0f0bca44f2a"
     },
     {
@@ -105,8 +105,8 @@
         "slate",
         "rubber"
       ],
-      "bytes": 37700,
-      "sha256": "7c55134cec0dc030b55daed71b6021d9f4b393e0b4e58ea20feba1ce0cd5820c",
+      "bytes": 52432,
+      "sha256": "f3297b76c9d0936c7858768c5162e1bf9d933863d28f7b94df869382d9d6768d",
       "geometry_signature": "856a447eb7e83b5e387fecd67396e8fac481bcab1b67cd7ac21cd3a8e9049b77"
     },
     {
@@ -224,8 +224,8 @@
         "screen",
         "unlit_gold"
       ],
-      "bytes": 37348,
-      "sha256": "4acf2c2b06bd51934dcd5830d421625a5a8938246040182c8d512867a8c17fd2",
+      "bytes": 66600,
+      "sha256": "15297c07c0ab20a1a0a14041897cdea5f220ae2465358db5b19af6c53c060b1a",
       "geometry_signature": "237039aa0512d5bc488431b02207af8c966644b403deea9e048a43d80bf89389"
     },
     {

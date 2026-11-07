@@ -1,0 +1,69 @@
+Native Wayland: no
+X11: yes
+GLFW: 3.5.1 Wayland X11 GLX Null EGL OSMesa monotonic shared
+OpenGL: 4.6 (Core Profile) Mesa 26.2.6-arch1.1
+Vendor: Intel
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (ADL GT2)
+GLSL: 4.60
+Core profile verified; selected=ecocycle
+Requested swap interval: 0
+Camera mode: first-person
+Controls: F1 first-person; F2 free; F3 FPS; F4 lighting HUD; 0 restore zone lighting; F5 Phong/Blinn-Phong; WASD move; Q/E descend/ascend (free); arrows look; ESC exit; 1 direct, 2 directional, 3 point, 4 reflection, 5 skybox, 6 regression. Cursor stays released.
+[module] ecocycle
+[module] initialize content
+Content controls: Space select; Tab next; Backspace deselect; J/L, U/O, I/K translate; Z/X rotate; C/V scale; G take/drop.
+Shaders: /home/alexis/Documents/CG/EcoSphere-3D/build/linux-dev/shaders
+Asset notice: Phase 3: metallic/roughness approximated by Blinn-Phong + static environment; not full glTF PBR
+Imported model: 2 primitives, 4 nodes, 1 textures
+sRGB: encoding=35904 query_error=0 probe_error=0 linear=64 encoded=137
+Framebuffer: 953x1025
+Focus: active
+Framebuffer: 951x1023
+Framebuffer: 1280x720
+ECOCYCLE MODEL PASS CYCLE-001 pixels=95239
+ECOCYCLE MODEL PASS CYCLE-002 pixels=36052
+ECOCYCLE MODEL PASS CYCLE-003 pixels=38217
+ECOCYCLE MODEL PASS CYCLE-004 pixels=122023
+ECOCYCLE MODEL PASS CYCLE-005 pixels=33689
+ECOCYCLE MODEL PASS CYCLE-006 pixels=40671
+ECOCYCLE MODEL PASS CYCLE-007 pixels=48533
+ECOCYCLE MODEL PASS CYCLE-008 pixels=23548
+ECOCYCLE MODEL PASS CYCLE-009 pixels=105748
+ECOCYCLE MODEL PASS CYCLE-010 pixels=71663
+ECOCYCLE MODEL PASS CYCLE-011 pixels=58759
+ECOCYCLE MODEL PASS CYCLE-012 pixels=55129
+ECOCYCLE MODEL PASS CYCLE-013 pixels=94682
+ECOCYCLE MODEL PASS CYCLE-014 pixels=194320
+ECOCYCLE MODEL PASS CYCLE-015 pixels=51748
+ECOCYCLE MODEL PASS CYCLE-016 pixels=52604
+ECOCYCLE MODEL PASS CYCLE-017 pixels=40794
+ECOCYCLE MODEL PASS CYCLE-018 pixels=31096
+ECOCYCLE MODEL PASS CYCLE-019 pixels=195509
+ECOCYCLE MODEL PASS CYCLE-020 pixels=47134
+ECOCYCLE MODEL PASS CYCLE-021 pixels=131857
+ECOCYCLE MODEL PASS CYCLE-022 pixels=162876
+ECOCYCLE MODEL PASS CYCLE-023 pixels=31671
+ECOCYCLE MODEL PASS CYCLE-024 pixels=94064
+ECOCYCLE MODEL PASS SHARED-001 pixels=79463
+ECOCYCLE MODEL PASS SHARED-002 pixels=59649
+ECOCYCLE MODEL PASS SHARED-004 pixels=147151
+ECOCYCLE MODEL PASS SHARED-005 pixels=99618
+ECOCYCLE INTERACTION PASS INT-CYCLE-001 select/TRS/take/follow/drop
+ECOCYCLE INTERACTION PASS INT-CYCLE-002 select/TRS/take/follow/drop
+ECOCYCLE INTERACTION PASS INT-CYCLE-003 select/TRS/take/follow/drop
+ECOCYCLE INTERACTION PASS INT-CYCLE-004 select/TRS/take/follow/drop
+ECOCYCLE INTERACTION PASS INT-CYCLE-005 select/TRS/take/follow/drop
+ECOCYCLE INTERACTION PASS INT-CYCLE-006 select/TRS/take/follow/drop
+ECOCYCLE INTERACTION PASS INT-CYCLE-007 select/TRS/take/follow/drop
+ECOCYCLE ANIMATION PASS CYCLE-008-main pixels=17225
+ECOCYCLE ANIMATION PASS CYCLE-011-main pixels=36640
+ECOCYCLE ANIMATION PASS CYCLE-016-main pixels=29601
+ECOCYCLE ANIMATION PASS CYCLE-022-main pixels=62726
+ECOCYCLE ANIMATION PASS CYCLE-010-main pixels=61439
+ECOCYCLE ANIMATION PASS CYCLE-013-main pixels=82246
+ECOCYCLE ANIMATION PASS CYCLE-006-main pixels=4652
+ECOCYCLE ANIMATION PASS CYCLE-009-main pixels=8937
+ECOCYCLE SMOKE PASS: 24 models; 38 instances; 7 interactions; 8 animations; frames=600 seconds=1.97588 fps_mean=303.662 framebuffer=1280x720
+[module] ecocycle
+[module] shutdown content
+Clean exit
