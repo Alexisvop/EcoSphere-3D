@@ -1,0 +1,709 @@
+{
+  "base_commit": "c42f8a9ac361b7eda3ab60b9769c897152ee6f1b",
+  "branch": "fix/aquabio-scale-limit",
+  "cause": {
+    "first_rejected_draw": "selection outline, Z-axis bar",
+    "error": "Singular/ill-conditioned normal transform",
+    "native_application_exit_before": 1,
+    "fixed_step_delta_seconds": 0.016666666666666666,
+    "frame": 275,
+    "previous_manipulation_scale": 0.0408982113,
+    "committed_scale_before_render_rejection": 0.04042383656,
+    "rejected_determinant": 9.908408316e-09,
+    "normal_matrix_cutoff_unchanged": 1e-08,
+    "world_matrix_rows": [
+      [
+        0.04042383656,
+        0,
+        0,
+        -9.5
+      ],
+      [
+        0,
+        0.04042383656,
+        0,
+        0.4399999976
+      ],
+      [
+        0,
+        0,
+        0.04042383656,
+        -5.5
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "rejected_matrix_rows": [
+      [
+        0.001010595937,
+        0,
+        0,
+        -9.517382622
+      ],
+      [
+        0,
+        0.001010595937,
+        0,
+        0.4226177335
+      ],
+      [
+        0,
+        0,
+        0.00970172137,
+        -5.49676609
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "selection": "AQUA-009-demo",
+    "last_input": "C held, animations paused",
+    "gdb_trace_type": "CPU diagnostic reproduction",
+    "gdb_trace": [
+      "__cxa_throw",
+      "ecosphere::normalMatrix at include/ecosphere/sdk/Lighting.hpp:56",
+      "diagnostic outline-matrix validation"
+    ]
+  },
+  "before_x11": {
+    "os_input": "real X11/XTEST key events, own PID/focus verified each 0.2 seconds",
+    "selected": "aquabio/AQUA-009-demo",
+    "held_key": "C",
+    "elapsed_wall_seconds": 4.728312302999257,
+    "application_exit_code": 1,
+    "failure_reproduced": true,
+    "diagnostic": "Singular/ill-conditioned normal transform",
+    "product_files_modified": false
+  },
+  "fix": {
+    "scope": "internal input adapter only; strict SDK and mathematical validators unchanged",
+    "determinant_margin": 1e-07,
+    "pose_component_margin": 0.00011,
+    "outline_width_unchanged": 0.025,
+    "aqua009_minimum_relative_scale": 0.0873581,
+    "accounts_for": [
+      "entity world transform",
+      "interactive ancestors and descendants",
+      "GLB node hierarchy",
+      "selection outline"
+    ],
+    "enlargement_and_TR_unchanged": true
+  },
+  "automated_regression": {
+    "failed_before_fix": true,
+    "ctest_exit_before": 8,
+    "message_before": "Singular/ill-conditioned normal transform",
+    "ctest_after": "40/40 PASS",
+    "all_39_original_test_names_retained": true,
+    "new_test": "interaction_scale_limits_cpu",
+    "new_test_seconds": 8.93,
+    "total_ctest_seconds": 48.86,
+    "educational_objects": 20,
+    "hold_seconds": [
+      5,
+      10,
+      20
+    ],
+    "original_case_update_rates_Hz": [
+      30,
+      60,
+      144
+    ],
+    "recovery": [
+      "V",
+      "translation",
+      "rotation",
+      "deselect",
+      "Plaza/EcoEnergy/AquaBio reentry"
+    ],
+    "other_cases": [
+      "nonuniform parent/child",
+      "transformed GLB nodes with mesh-determined limit",
+      "original interaction demo",
+      "strict API rejection"
+    ],
+    "samples": [
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 30,
+        "seconds": 5,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 30,
+        "seconds": 10,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 30,
+        "seconds": 20,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 144,
+        "seconds": 5,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 144,
+        "seconds": 10,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-009-demo",
+        "hz": 144,
+        "seconds": 20,
+        "scale": 0.0873581
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-006-cistern",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0407758
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-006-cistern",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0407758
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-006-cistern",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0407758
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-013-carbon",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0497423
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-013-carbon",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0497423
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-013-carbon",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0497423
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-018-manual",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0605707
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-018-manual",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0605707
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-018-manual",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0605707
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-020-sampling",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0542884
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-020-sampling",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0542884
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-020-sampling",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0542884
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-028-demo",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0713766
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-028-demo",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0713766
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-028-demo",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0713766
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-014-demo",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0666667
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-014-demo",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0666667
+      },
+      {
+        "owner": "aquabio",
+        "id": "AQUA-014-demo",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0666667
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-005-panel-adjustable",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0984009
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-005-panel-adjustable",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0984009
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-005-panel-adjustable",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0984009
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-019-blade-demo",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0623532
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-019-blade-demo",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0623532
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-019-blade-demo",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0623532
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-023-generator-coil",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0648873
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-023-generator-coil",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0648873
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-023-generator-coil",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0648873
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-011-battery-module",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0711083
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-011-battery-module",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0711083
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-011-battery-module",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0711083
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-026-ev-interactive",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0482996
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-026-ev-interactive",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0482996
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-026-ev-interactive",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0482996
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-027-charge-connector",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0763143
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-027-charge-connector",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0763143
+      },
+      {
+        "owner": "ecoenergy",
+        "id": "ENERGY-027-charge-connector",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0763143
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-005-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0485286
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-005-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0485286
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-005-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0485286
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-014-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.053455
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-014-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.053455
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-014-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.053455
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-017-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0423265
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-017-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0423265
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-017-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0423265
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-019-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0497423
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-019-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0497423
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-019-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0497423
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-021-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0525907
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-021-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0525907
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-021-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0525907
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-023-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0464159
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-023-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0464159
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-023-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0464159
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-024-main",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.0487031
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-024-main",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.0487031
+      },
+      {
+        "owner": "ecocycle",
+        "id": "CYCLE-024-main",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.0487031
+      },
+      {
+        "owner": "probe",
+        "id": "nested",
+        "hz": 60,
+        "seconds": 5,
+        "scale": 0.050685
+      },
+      {
+        "owner": "probe",
+        "id": "nested",
+        "hz": 60,
+        "seconds": 10,
+        "scale": 0.050685
+      },
+      {
+        "owner": "probe",
+        "id": "nested",
+        "hz": 60,
+        "seconds": 20,
+        "scale": 0.050685
+      }
+    ],
+    "hierarchy_cases_actually_shrink_then_grow_and_shrink_child": true
+  },
+  "after_real_x11": [
+    {
+      "held_C_seconds": 5,
+      "selection": "aquabio/AQUA-009-demo",
+      "real_X11_input": true,
+      "own_PID_and_focus_verified": true,
+      "after_C_alive": true,
+      "V_translation_rotation_take_drop_deselect": true,
+      "exit_code": 0
+    },
+    {
+      "held_C_seconds": 10,
+      "selection": "aquabio/AQUA-009-demo",
+      "real_X11_input": true,
+      "own_PID_and_focus_verified": true,
+      "after_C_alive": true,
+      "V_translation_rotation_take_drop_deselect": true,
+      "exit_code": 0
+    },
+    {
+      "held_C_seconds": 20,
+      "selection": "aquabio/AQUA-009-demo",
+      "real_X11_input": true,
+      "own_PID_and_focus_verified": true,
+      "after_C_alive": true,
+      "V_translation_rotation_take_drop_deselect": true,
+      "exit_code": 0
+    }
+  ],
+  "gpu": {
+    "renderer": "Mesa Intel Iris Xe Graphics (ADL GT2)",
+    "driver": "Mesa 26.2.6-arch1.1",
+    "context": "OpenGL 3.3 Core / GLSL 3.30",
+    "window_backend": "X11",
+    "passed_groups": [
+      "after-x11",
+      "native-tour",
+      "shading",
+      "hud",
+      "fps",
+      "navigation",
+      "native-lighting",
+      "interaction"
+    ],
+    "native_four_zone_tour_after_20s_C": true,
+    "unchanged_captures_compared": 29,
+    "framebuffer_comparison": "29/29 byte-identical to pre-fix audit; 1280x720",
+    "controls_and_rendering": [
+      "Phong",
+      "Blinn-Phong",
+      "Fresnel",
+      "transparent/opaque materials",
+      "cubemap",
+      "HUD",
+      "FPS",
+      "navigation",
+      "interactions",
+      "animations"
+    ]
+  },
+  "integrity": {
+    "existing_tracked_files_checked": 1550,
+    "only_changed_existing_files": [
+      "CMakeLists.txt",
+      "src/app/InteractionDemoInput.cpp",
+      "src/app/InteractionDemoInput.hpp",
+      "src/world/InteractionAnimationDemo.cpp",
+      "src/world/InteractionAnimationDemo.hpp"
+    ],
+    "all_GLB_PNG_shaders_and_public_SDK_identical_to_base": true,
+    "no_geometry_material_or_texture_changes": true,
+    "source_sha256": {
+      "CMakeLists.txt": "ced25ab9fac74f15fecbd1cac1459d76bc105739aeba74ca4791d0e07d267e31",
+      "src/app/InteractionDemoInput.cpp": "e363dddc7cd85bfce36359b5e1f1521449098cc18f0ac945e3ebfeff862d9cfb",
+      "src/app/InteractionDemoInput.hpp": "8b8ef96b9ae898d31e7b4447e364080f7588a449237488617e1d5f5fd4d3cd82",
+      "src/world/InteractionAnimationDemo.cpp": "d53fcec7c4f31c1afced67ebd28cd9a655d4f757f83c51d4b421b0abfeba6f9a",
+      "src/world/InteractionAnimationDemo.hpp": "cba9e6a265e1e990d29710e3477db380ca9740aaaf3a7d2de17c70f8328d791c",
+      "tests/interaction_scale_tests.cpp": "654dec385bf60efa7e870fa1f5d6e24867d4db67f20b6b6d8e51d0290b49def2"
+    }
+  },
+  "commands": [
+    "cmake --preset linux-dev",
+    "cmake --build --preset linux-dev",
+    "ctest --preset linux-dev --output-on-failure"
+  ],
+  "limitations": [
+    "Linux/Intel validated; no new native Windows test or installer rebuild.",
+    "Arbitrary invalid SDK transforms remain subject to strict rejection."
+  ],
+  "local_artifacts": "build/aquabio-scale-fix/ (ignored; raw logs and temporary instrumentation not published)"
+}

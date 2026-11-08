@@ -5,6 +5,8 @@
 #include "DemoSceneSettings.hpp"
 #include <glm/gtc/constants.hpp>
 #include <limits>
+#include <algorithm>
+#include <cmath>
 
 namespace ecosphere {
 namespace {
@@ -24,6 +26,10 @@ InteractionAnimationDemo::InteractionAnimationDemo(const Model& imported)
     : cubes(std::make_shared<Model>()), outline(std::make_shared<Model>()),
       player_(interactionDemo::duration), track_(interactionDemo::keyframes) {
     using namespace interactionDemo;
+    imported.forEach([&](std::size_t,const glm::mat4& matrix) {
+        importedMeshDeterminant=std::min(importedMeshDeterminant,
+            std::abs(glm::determinant(glm::dmat3(matrix))));
+    });
     player_.setSpeed(playbackSpeed);
     validateSeconds(sineFrequency); validateSeconds(orbitFrequency);
     for (std::size_t i=0; i<ids.size(); ++i) {

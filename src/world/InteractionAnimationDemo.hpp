@@ -17,6 +17,7 @@ public:
     void synchronize();
     InteractionSystem interaction;
     std::shared_ptr<Model> cubes, outline;
+    double importedMeshDeterminant = 1;
 private:
     AnimationPlayer player_;
     KeyframeTrack track_;
