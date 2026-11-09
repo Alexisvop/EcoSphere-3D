@@ -101,7 +101,7 @@ std::vector<EntityDescriptor> makeEcoCycleInstances(const ecocycle::Settings& s)
         add(n,"main",s.positions[n-1],std::move(anim),interactive,0,n==3?glm::vec3(s.mainPathWidth/3.8f,1,1):glm::vec3(1));
     }
     for(std::size_t i=0;i<s.extraPaths.size();++i)
-        add(3,"path-"+std::to_string(i),s.extraPaths[i],std::nullopt,false,i<3?0:90,{(i<3?s.mainPathWidth:s.secondaryPathWidth)/3.8f,1,i<3?1:1.8f});
+        add(3,"path-"+std::to_string(i),s.extraPaths[i],std::nullopt,false,i<3?0.0f:90.0f,{(i<3?s.mainPathWidth:s.secondaryPathWidth)/3.8f,1,i<3?1:1.8f});
     const auto extras=[&](int n,const auto& positions) {for(std::size_t i=0;i<positions.size();++i)add(n,"stock-"+std::to_string(i),positions[i]);};
     extras(4,s.extraKiosks);extras(14,s.extraBales);extras(19,s.extraSpools);extras(24,s.extraChairs);
     return result;

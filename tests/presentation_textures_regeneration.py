@@ -59,7 +59,7 @@ class RegenerationTests(unittest.TestCase):
         patch.object(textures, 'MANIFEST', self.root / manifest_path).start()
 
     def hashes(self):
-        return {str(p.relative_to(self.root)): hashlib.sha256(p.read_bytes()).hexdigest()
+        return {p.relative_to(self.root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest()
                 for p in self.root.rglob('*') if p.is_file()}
 
     def run_tool(self, option):
