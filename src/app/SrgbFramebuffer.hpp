@@ -4,6 +4,7 @@
 #include <cmath>
 #include <iostream>
 #include <stdexcept>
+#include <string>
 
 namespace ecosphere {
 // Run once at startup, before drawing content, on the window's back buffer.

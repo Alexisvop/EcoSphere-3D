@@ -22,6 +22,11 @@ def confined(root,name):
     return path
 
 
+def source_digest(raw):
+    # Git autocrlf changes checkout line endings, not renderer/shader content.
+    return hashlib.sha256(raw.replace(b'\r\n',b'\n')).hexdigest()
+
+
 def validate(root,catalog,instances,imports,usage,require_definitive=False):
     expected={f'PLAZA-{i:03}' for i in range(1,26)}
     require(len(catalog)==25 and {r['model_id'] for r in catalog}==expected,'IDs de modelos vacíos/duplicados/incompletos')
@@ -98,8 +103,12 @@ def main():
     count=validate(root,catalog,instances,imports,usage,args.require_definitive)
     for line in (root/'docs/assets/PLAZA_RENDER_BASELINE.sha256').read_text().splitlines():
         digest,name=line.split(maxsplit=1)
-        require(hashlib.sha256(confined(root,name).read_bytes()).hexdigest()==digest,'Renderer/shader modificado: '+name)
+        require(source_digest(confined(root,name).read_bytes())==digest,'Renderer/shader modificado: '+name)
     if args.self_test:
+        require(source_digest(b'void main() {\n}\n')==source_digest(b'void main() {\r\n}\r\n'),
+                'LF/CRLF deben conservar el hash fuente')
+        require(source_digest(b'void main() {\n}\n')!=source_digest(b'void main() { discard;\n}\n'),
+                'Un cambio de código debe cambiar el hash fuente')
         mutations=[
             ('modelo duplicado',lambda c,i:c[1].update(model_id=c[0]['model_id'])),
             ('definitivo sin validar',lambda c,i:c[0].update(status='definitive',validated='false')),
